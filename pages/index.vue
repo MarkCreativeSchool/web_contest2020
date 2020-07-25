@@ -6,7 +6,7 @@
         web_contest2020
       </h1>
       <h2 class="subtitle">
-        My legendary Nuxt.js project
+        My Nuxt.js. 
       </h2>
       <div class="links">
         <a
