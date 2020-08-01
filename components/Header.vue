@@ -5,7 +5,8 @@
     </div>
     <div class="toggle">
         <a class="bar">トップ</a>
-        <a class="bar">歴史
+        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
+          <span @click="toggleDropDown(1)">歴史</span>
         <ul class="sub">
               <li><a>メニュー.1</a></li>
               <li><a>メニュー.2</a></li>
@@ -13,7 +14,15 @@
               <li><a>メニュー.4</a></li>
             </ul>
         </a>
-        <a class="bar">現問題</a>
+         <a class="bar" :class="{ 'active': activeIndex === 1 }">
+          <span @click="toggleDropDown(2)">現問題</span> 
+        <ul class="sub">
+              <li><a>メニュー.1</a></li>
+              <li><a>メニュー.2</a></li>
+              <li><a>メニュー.3</a></li>
+              <li><a>メニュー.4</a></li>
+            </ul>
+        </a>
         <a class="bar">社会影響</a>
         <a class="bar">スポーツ</a>
         <a class="bar">組織</a>
@@ -29,7 +38,18 @@
 <script>
 export default {
     name: "Header",
+  data(){
+    return {
+      activeIndex: null, 
+    }
+  },
+  methods: {
+    toggleDropDown(num){
+       this.activeIndex = num
+    }
+  }
 }
+
 
 </script>
 
@@ -60,6 +80,9 @@ h1{
 .bar:hover{
   color: #f6d405; 
 }
+.bar.active.sub{
+  display: block; 
+}
 
 .menu{
     width: 100%; 
@@ -72,12 +95,14 @@ h1{
 
 .sub{
   background-color: red; 
-  width: 100px; 
+  width: 100%; 
   position: absolute; 
   top: 100%; 
   left: 0; 
   z-index: 10; 
+  display: none; 
 }
+
 
 
 </style>
