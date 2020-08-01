@@ -5,7 +5,14 @@
     </div>
     <div class="toggle">
         <a class="bar">トップ</a>
-        <a class="bar">歴史</a>
+        <a class="bar">歴史
+        <ul class="sub">
+              <li><a>メニュー.1</a></li>
+              <li><a>メニュー.2</a></li>
+              <li><a>メニュー.3</a></li>
+              <li><a>メニュー.4</a></li>
+            </ul>
+        </a>
         <a class="bar">現問題</a>
         <a class="bar">社会影響</a>
         <a class="bar">スポーツ</a>
@@ -47,6 +54,7 @@ h1{
   padding: 17px 40px;
   text-decoration: none;
   font-size: 17px;
+  position: relative; 
 }
 
 .bar:hover{
@@ -62,8 +70,14 @@ background-color: #333;
   overflow: hidden;
 }
 
-
-
+.sub{
+  background-color: red; 
+  width: 100px; 
+  position: absolute; 
+  top: 100%; 
+  left: 0; 
+  z-index: 10; 
+}
 
 
 </style>
