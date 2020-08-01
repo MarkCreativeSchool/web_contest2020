@@ -48,13 +48,13 @@ h1{
 }
 
 .bar{
-  float: left;
   color: #ffffff;
   text-align: center;
   padding: 17px 40px;
   text-decoration: none;
   font-size: 17px;
   position: relative; 
+  flex: 1; 
 }
 
 .bar:hover{
@@ -66,8 +66,8 @@ h1{
 }
 
 .toggle{
-background-color: #333;
-  overflow: hidden;
+  background-color: #333;
+  display: flex; 
 }
 
 .sub{
