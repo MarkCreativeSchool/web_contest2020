@@ -37,6 +37,7 @@ export default {
 h1{
     font-size: 50px; 
     font-family: "Rockwell"; 
+    text-shadow: 1px 1px #f6d405;
 }
 
 .bar{
@@ -47,6 +48,11 @@ h1{
   text-decoration: none;
   font-size: 17px;
 }
+
+.bar:hover{
+  color: #f6d405; 
+}
+
 .menu{
     width: 100%; 
 }

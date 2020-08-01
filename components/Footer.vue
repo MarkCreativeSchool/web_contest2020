@@ -1,9 +1,9 @@
 <template>
   <div class="full">
     <ul class="down">
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a class="subpage">Home</a></li>
+        <li><a class="subpage">About</a></li>
+        <li><a class="subpage">Contact</a></li>
     </ul>
   </div>
 </template>
@@ -33,6 +33,14 @@ export default {
 
 li{
     padding-top: 5px; 
+}
+
+.subpage{
+    color: #fff; 
+}
+
+.subpage:hover{
+    color: #f6d405;
 }
 
 </style>
