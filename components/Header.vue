@@ -5,30 +5,43 @@
     </div>
     <div class="toggle">
         <a class="bar">トップ</a>
-        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
-          <span @click="toggleDropDown(1)">歴史</span>
-        <ul class="sub">
-              <li><a>メニュー.1</a></li>
-              <li><a>メニュー.2</a></li>
-              <li><a>メニュー.3</a></li>
-              <li><a>メニュー.4</a></li>
-            </ul>
-        </a>
-         <a class="bar" :class="{ 'active': activeIndex === 1 }">
-          <span @click="toggleDropDown(2)">現問題</span> 
-        <ul class="sub">
-              <li><a>メニュー.1</a></li>
-              <li><a>メニュー.2</a></li>
-              <li><a>メニュー.3</a></li>
-              <li><a>メニュー.4</a></li>
-            </ul>
-        </a>
+        <a class="bar">歴史</a>
+        <a class="bar">現問題</a>
         <a class="bar">社会影響</a>
-        <a class="bar">スポーツ</a>
+        
+        <a class="bar" :class="{ 'active': activeIndex === 1 }">
+         <span @click="toggleDropDown(1)">スポーツ</span>
+         <ul class="sub">
+              <li><a class="subpage">野球</a></li>
+              <li><a class="subpage">バスケ</a></li>
+              <li><a class="subpage">サッカー</a></li>
+              <li><a class="subpage">クリケット</a></li>
+            </ul>
+         </a>
+        
         <a class="bar">組織</a>
-        <a class="bar">他国での差別</a>
-        <a class="bar">他の差別</a>
-        <a class="bar">その他</a>
+        
+        <a class="bar" :class="{ 'active': activeIndex === 2 }">
+         <span @click="toggleDropDown(2)">他の差別</span>
+         <ul class="sub">
+              <li><a class="subpage">性差別</a></li>
+              <li><a class="subpage">障害者差別</a></li>
+              <li><a class="subpage">アジア人差別</a></li>
+              <li><a class="subpage">LGBTQ+差別</a></li>
+              <li><a class="subpage">宗教差別</a></li>
+              <li><a class="subpage">等</a></li>
+            </ul>
+        </a>
+        
+        <a class="bar" :class="{ 'active': activeIndex === 3 }"> 
+        <span @click="toggleDropDown(3)">その他</span> 
+        <ul class="sub">
+              <li><a class="subpage">何故？</a></li>
+              <li><a class="subpage">サイトマップ</a></li>
+              <li><a class="subpage">製作者紹介</a></li>
+              <li><a class="subpage">参考文献</a></li>
+            </ul>
+        </a>
         <a class="bar">ENGLISH VERSION</a>
   </div> 
            
@@ -45,7 +58,11 @@ export default {
   },
   methods: {
     toggleDropDown(num){
-       this.activeIndex = num
+       if (this.activeIndex === num){
+       this.activeIndex = null
+       } else{
+         this.activeIndex = num
+       }
     }
   }
 }
@@ -54,33 +71,38 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .up{
-    padding-top: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
     text-align: center; 
     background-color: #000000;
     color: #ffffff; 
 }
 h1{
     font-size: 50px; 
-    font-family: "Rockwell"; 
+    font-family: "Noto Sans JP"; 
     text-shadow: 1px 1px #f6d405;
 }
 
 .bar{
   color: #ffffff;
   text-align: center;
-  padding: 17px 40px;
+  padding-left: 30px; 
+  padding-right: 30px; 
+  padding-top: 7px; 
+  padding-bottom: 7px;
   text-decoration: none;
   font-size: 17px;
   position: relative; 
   flex: 1; 
+  font-family: "Noto Sans JP"; 
 }
 
 .bar:hover{
   color: #f6d405; 
 }
-.bar.active.sub{
+.bar.active .sub{
   display: block; 
 }
 
@@ -94,7 +116,7 @@ h1{
 }
 
 .sub{
-  background-color: red; 
+  background-color: #333; 
   width: 100%; 
   position: absolute; 
   top: 100%; 
@@ -103,6 +125,11 @@ h1{
   display: none; 
 }
 
+.subpage{
+  color: #f6d405; 
+  font-family: "Rockwell"; 
+  padding: 5px; 
+}
 
 
 </style>
