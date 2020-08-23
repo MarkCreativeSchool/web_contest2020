@@ -43,4 +43,9 @@ li{
     color: #f6d405;
 }
 
+.full{
+    clear: both;
+    position: relative;
+    height: 200px;
+}
 </style>

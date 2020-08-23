@@ -4,39 +4,17 @@
    <h1> 高校生の高校生による高校生のための黒人差別問題</h1>
     </div>
     <div class="toggle">
-        <a class="bar">トップ</a>
+        <a class="bar" href="/">トップ</a>
         <a class="bar">歴史</a>
         <a class="bar">現問題</a>
-        <a class="bar">社会影響</a>
-        
-        <a class="bar" :class="{ 'active': activeIndex === 1 }">
-         <span @click="toggleDropDown(1)">スポーツ</span>
-         <ul class="sub">
-              <li><a class="subpage">野球</a></li>
-              <li><a class="subpage">バスケ</a></li>
-              <li><a class="subpage">サッカー</a></li>
-              <li><a class="subpage">クリケット</a></li>
-            </ul>
-         </a>
-        
+        <a class="bar">スポーツ</a>
         <a class="bar">組織</a>
+        <a class="bar">他の差別</a>
         
-        <a class="bar" :class="{ 'active': activeIndex === 2 }">
-         <span @click="toggleDropDown(2)">他の差別</span>
-         <ul class="sub">
-              <li><a class="subpage">性差別</a></li>
-              <li><a class="subpage">障害者差別</a></li>
-              <li><a class="subpage">アジア人差別</a></li>
-              <li><a class="subpage">LGBTQ+差別</a></li>
-              <li><a class="subpage">宗教差別</a></li>
-              <li><a class="subpage">等</a></li>
-            </ul>
-        </a>
-        
-        <a class="bar" :class="{ 'active': activeIndex === 3 }"> 
-        <span @click="toggleDropDown(3)">その他</span> 
+        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
+        <span @click="toggleDropDown(1)">その他</span> 
         <ul class="sub">
-              <li><a class="subpage">何故？</a></li>
+              <li><a class="subpage"　href="/others/why">何故？</a></li>
               <li><a class="subpage">サイトマップ</a></li>
               <li><a class="subpage">製作者紹介</a></li>
               <li><a class="subpage">参考文献</a></li>
