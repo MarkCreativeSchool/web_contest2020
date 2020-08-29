@@ -9,7 +9,7 @@
         <a class="bar">現問題</a>
         <a class="bar">スポーツ</a>
         <a class="bar">組織</a>
-        <a class="bar">他の差別</a>
+        <a class="bar" href="/otherdiscrimination">他の差別</a>
         
         <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">その他</span> 
