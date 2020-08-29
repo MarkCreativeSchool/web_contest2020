@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>名前</strong> <br></br>
+              <b>名前</b> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>名前</strong> <br></br>
+              <b>名前</b> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>名前</strong> <br></br>
+             <b>名前</b> <br></br>
               説明
             </div>
       </div>
@@ -110,5 +110,9 @@ export default {
   text-align: center; 
 }
 
+.content{ 
+  font-size: 14px; 
+  color: #f6d405;
+}
 
 </style>

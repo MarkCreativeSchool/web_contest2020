@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>Black Lives Matter (BLM)</strong> <br></br>
+              <b>Black Lives Matter (BLM)</b> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>Black Alliance for Just Immigration</strong> <br></br>
+              <b>Black Alliance for Just Immigration</b> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>Color Of Change</strong> <br></br>
+             <b>Color Of Change</b> <br></br>
               説明
             </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="content">
-              <strong>The Movement for Black Lives</strong> <br></br>
+              <b>The Movement for Black Lives</b> <br></br>
               説明
               
          </div>
@@ -68,7 +68,7 @@
         </div>
 
             <div class="content">
-              <strong>NAACP Legal Defense and Educational Fund, Inc.</strong> <br></br>
+              <b>NAACP Legal Defense and Educational Fund, Inc.</b> <br></br>
               説明
             </div>
       </div>
@@ -80,7 +80,7 @@
         </div>
 
             <div class="content">
-             <strong>UndocuBlack Network</strong> <br></br>
+             <b>UndocuBlack Network</b> <br></br>
               説明
             </div>
       </div>

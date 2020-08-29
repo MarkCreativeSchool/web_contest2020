@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>性差別</strong> <br></br>
+              <b>性差別</b> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>障害者差別</strong> <br></br>
+              <b>障害者差別</b> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>アジア人差別</strong> <br></br>
+             <b>アジア人差別</b> <br></br>
               説明
             </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="content">
-              <strong>LGBTQ+差別</strong> <br></br>
+              <b>LGBTQ+差別</b> <br></br>
               説明
               
          </div>
@@ -68,7 +68,7 @@
         </div>
 
             <div class="content">
-              <strong>宗教的差別</strong> <br></br>
+              <b>宗教的差別</b> <br></br>
               説明
             </div>
       </div>
@@ -80,7 +80,7 @@
         </div>
 
             <div class="content">
-             <strong>身近な差別</strong> <br></br>
+             <b>身近な差別</b> <br></br>
               説明
             </div>
       </div>

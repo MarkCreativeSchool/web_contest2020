@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>ブラック・ライヴズ・マター・プラザ</strong> <br></br>
+              <b>ブラック・ライヴズ・マター・プラザ</b> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>Protests embrace ‘Black Lives Matter’ movement.</strong> <br></br>
+              <b>Protests embrace ‘Black Lives Matter’ movement.</b> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>Protest in Philadelphia</strong> <br></br>
+             <b>Protest in Philadelphia</b> <br></br>
               説明
             </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="content">
-              <strong>Tear gas</strong> <br></br>
+              <b>Tear gas</b> <br></br>
               説明
               
          </div>
@@ -68,7 +68,7 @@
         </div>
 
             <div class="content">
-              <strong>Chicago Illinois</strong> <br></br>
+              <b>Chicago Illinois</b> <br></br>
               説明
             </div>
       </div>
