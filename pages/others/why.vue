@@ -75,7 +75,7 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
-  margin-top: 15px; 
+  margin-top: 45px; 
 }
 
 </style>

@@ -16,7 +16,7 @@
         <ul class="sub">
               <li><a class="subpage"　href="/others/why">何故？</a></li>
               <li><a class="subpage">サイトマップ</a></li>
-              <li><a class="subpage">製作者紹介</a></li>
+              <li><a class="subpage" href="/others/profile">製作者紹介</a></li>
               <li><a class="subpage">参考文献</a></li>
             </ul>
         </a>
