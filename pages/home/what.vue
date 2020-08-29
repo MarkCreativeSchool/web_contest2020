@@ -41,6 +41,7 @@ export default {
   width: 87%; 
   margin: 0 auto;
   padding-top: 20px; 
+  font-size: 18px; 
 }
 
 
