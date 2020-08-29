@@ -4,15 +4,23 @@
    <h1> 高校生の高校生による高校生のための黒人差別問題</h1>
     </div>
     <div class="toggle">
-        <a class="bar" href="/">トップ</a>
+        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
+        <span @click="toggleDropDown(1)">トップ</span> 
+        <ul class="sub">
+              <li><a class="subpage" href="/">ホーム</a></li>
+              <li><a class="subpage" href="/home/what">差別とは？</a></li>
+              <li><a class="subpage">黒人差別とは？</a></li>
+            </ul>
+        </a>
         <a class="bar">歴史</a>
         <a class="bar">現問題</a>
         <a class="bar">スポーツ</a>
-        <a class="bar">組織</a>
+        <a class="bar" href="/movement">反対運動</a>
+        <a class="bar" href="/organization">組織</a>
         <a class="bar" href="/otherdiscrimination">他の差別</a>
         
-        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
-        <span @click="toggleDropDown(1)">その他</span> 
+        <a class="bar" :class="{ 'active': activeIndex === 2 }"> 
+        <span @click="toggleDropDown(2)">その他</span> 
         <ul class="sub">
               <li><a class="subpage"　href="/others/why">何故？</a></li>
               <li><a class="subpage">サイトマップ</a></li>

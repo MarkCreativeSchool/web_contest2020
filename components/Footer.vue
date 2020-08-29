@@ -1,7 +1,7 @@
 <template>
   <div class="full">
     <ul class="down">
-        <li><a class="subpage">Home</a></li>
+        <li><a class="subpage" href="/">Home</a></li>
         <li><a class="subpage">About</a></li>
         <li><a class="subpage">Contact</a></li>
     </ul>

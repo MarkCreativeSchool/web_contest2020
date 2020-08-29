@@ -3,7 +3,7 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">他の差別</h3>
+    <h3 class="start">反対運動</h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>性差別</strong> <br></br>
+              <strong>ブラック・ライヴズ・マター・プラザ</strong> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>障害者差別</strong> <br></br>
+              <strong>Protests embrace ‘Black Lives Matter’ movement.</strong> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>アジア人差別</strong> <br></br>
+             <strong>Protest in Philadelphia</strong> <br></br>
               説明
             </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="content">
-              <strong>LGBTQ+差別</strong> <br></br>
+              <strong>Tear gas</strong> <br></br>
               説明
               
          </div>
@@ -68,19 +68,7 @@
         </div>
 
             <div class="content">
-              <strong>宗教的差別</strong> <br></br>
-              説明
-            </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-          </figure>
-        </div>
-
-            <div class="content">
-             <strong>身近な差別</strong> <br></br>
+              <strong>Chicago Illinois</strong> <br></br>
               説明
             </div>
       </div>
@@ -155,7 +143,5 @@ export default {
   font-size: 14px; 
   color: #f6d405;
 }
-
-
 
 </style>

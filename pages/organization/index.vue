@@ -3,7 +3,7 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">他の差別</h3>
+    <h3 class="start">黒人差別に関する組織</h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <strong>性差別</strong> <br></br>
+              <strong>Black Lives Matter (BLM)</strong> <br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-              <strong>障害者差別</strong> <br></br>
+              <strong>Black Alliance for Just Immigration</strong> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
             <div class="content">
-             <strong>アジア人差別</strong> <br></br>
+             <strong>Color Of Change</strong> <br></br>
               説明
             </div>
       </div>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="content">
-              <strong>LGBTQ+差別</strong> <br></br>
+              <strong>The Movement for Black Lives</strong> <br></br>
               説明
               
          </div>
@@ -68,7 +68,7 @@
         </div>
 
             <div class="content">
-              <strong>宗教的差別</strong> <br></br>
+              <strong>NAACP Legal Defense and Educational Fund, Inc.</strong> <br></br>
               説明
             </div>
       </div>
@@ -80,7 +80,7 @@
         </div>
 
             <div class="content">
-             <strong>身近な差別</strong> <br></br>
+             <strong>UndocuBlack Network</strong> <br></br>
               説明
             </div>
       </div>
@@ -155,7 +155,5 @@ export default {
   font-size: 14px; 
   color: #f6d405;
 }
-
-
 
 </style>
