@@ -4,31 +4,31 @@
    <h1> 高校生の高校生による高校生のための黒人差別問題</h1>
     </div>
     <div class="toggle">
-        <a class="bar" :class="{ 'active': activeIndex === 1 }"> 
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
         <ul class="sub">
-              <li><a class="subpage" href="/">ホーム</a></li>
-              <li><a class="subpage" href="/home/what">差別とは？</a></li>
-              <li><a class="subpage">黒人差別とは？</a></li>
+              <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
+              <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
+              <li><nuxt-link to="" class="subpage">黒人差別とは？</nuxt-link></li>
             </ul>
-        </a>
-        <a class="bar">歴史</a>
-        <a class="bar">現問題</a>
-        <a class="bar">スポーツ</a>
-        <a class="bar" href="/movement">反対運動</a>
-        <a class="bar" href="/organization">組織</a>
-        <a class="bar" href="/otherdiscrimination">他の差別</a>
+        </nuxt-link>
+        <nuxt-link to="" class="bar">歴史</nuxt-link>
+        <nuxt-link to="" class="bar">現問題</nuxt-link>
+        <nuxt-link to="" class="bar">スポーツ</nuxt-link>
+        <nuxt-link to="/movement" class="bar">反対運動</nuxt-link>
+        <nuxt-link to="/organization" class="bar">組織</nuxt-link>
+        <nuxt-link to="/otherdiscrimination" class="bar">他の差別</nuxt-link>
         
-        <a class="bar" :class="{ 'active': activeIndex === 2 }"> 
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
         <span @click="toggleDropDown(2)">その他</span> 
         <ul class="sub">
-              <li><a class="subpage"　href="/others/why">何故？</a></li>
-              <li><a class="subpage">サイトマップ</a></li>
-              <li><a class="subpage" href="/others/profile">製作者紹介</a></li>
-              <li><a class="subpage">参考文献</a></li>
+              <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>
+              <li><nuxt-link to="" class="subpage">サイトマップ</nuxt-link></li>
+              <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
+              <li><nuxt-link to="" class="subpage">参考文献</nuxt-link></li>
             </ul>
-        </a>
-        <a class="bar">ENGLISH VERSION</a>
+        </nuxt-link>
+        <nuxt-link to="" class="bar">ENGLISH VERSION</nuxt-link>
   </div> 
            
   </div>
