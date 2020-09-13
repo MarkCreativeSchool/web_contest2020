@@ -13,8 +13,7 @@
         </div>
 
         <div class="content">
-              <b>Black Lives Matter (BLM)</b> <br></br>
-              説明
+             <nuxt-link to="/organization/organization/BLM" class="bar"><b>Black Lives Matter (BLM)</b></nuxt-link> <br><br>
               
          </div>
       </div>
@@ -26,8 +25,7 @@
         </div>
 
             <div class="content">
-              <b>Black Alliance for Just Immigration</b> <br></br>
-              説明
+              <nuxt-link to="/organization/organization/BAJI" class="bar"><b>Black Alliance for Just Immigration</b> </nuxt-link><br><br>
             </div>
       </div>
       <div class="card">
@@ -38,8 +36,7 @@
         </div>
 
             <div class="content">
-             <b>Color Of Change</b> <br></br>
-              説明
+            <nuxt-link to="/organization/organization/ColorOfChange" class="bar"> <b>Color Of Change</b> </nuxt-link><br><br>
             </div>
       </div>
 
@@ -58,23 +55,13 @@
         </div>
 
         <div class="content">
-              <b>The Movement for Black Lives</b> <br></br>
-              説明
+              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br><br>
               
          </div>
       </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-          </figure>
-        </div>
 
-            <div class="content">
-              <b>NAACP Legal Defense and Educational Fund, Inc.</b> <br></br>
-              説明
-            </div>
-      </div>
+
+
       <h3 class="start">他</h3>
             <ul class="other" style="list-style: none;">
                 <li>UndocuBlack Network ==> <a href="https://undocublack.org/" target="_blank">https://undocublack.org/</a></li>

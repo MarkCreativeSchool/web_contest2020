@@ -9,7 +9,7 @@
         <ul class="sub">
               <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="" class="subpage">黒人差別とは？</nuxt-link></li>
+              <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">黒人差別とは？</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>
@@ -22,9 +22,9 @@
         <span @click="toggleDropDown(2)">その他</span> 
         <ul class="sub">
               <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>
-              <li><nuxt-link to="" class="subpage">サイトマップ</nuxt-link></li>
+              <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>
               <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
-              <li><nuxt-link to="" class="subpage">参考文献</nuxt-link></li>
+              <li><nuxt-link to="/others/references" class="subpage">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="" class="bar">ENGLISH VERSION</nuxt-link>
