@@ -14,7 +14,6 @@
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>
         <nuxt-link to="/currentproblems" class="bar">現問題</nuxt-link>
-        <nuxt-link to="/movement" class="bar">反対運動</nuxt-link>
         <nuxt-link to="/organization" class="bar">組織</nuxt-link>
         <nuxt-link to="/otherdiscrimination" class="bar">他の差別</nuxt-link>
         

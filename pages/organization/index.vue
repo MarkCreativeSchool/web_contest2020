@@ -140,4 +140,25 @@ export default {
   color: #f6d405;
 }
 
+.bar{
+  color: #ffffff;
+  text-align: center;
+  padding-left: 30px; 
+  padding-right: 30px; 
+  padding-top: 7px; 
+  padding-bottom: 7px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative; 
+  flex: 1; 
+  font-family: "Noto Sans JP"; 
+}
+
+.bar:hover{
+  color: #f6d405; 
+}
+.bar.active .sub{
+  display: block; 
+}
+
 </style>

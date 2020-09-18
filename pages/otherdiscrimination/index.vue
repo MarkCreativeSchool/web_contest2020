@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-              <b>性差別</b> <br></br>
+              <nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="bar"><b>性差別</b> </nuxt-link><br></br>
               説明
               
          </div>
@@ -26,7 +26,7 @@
         </div>
 
             <div class="content">
-             <b>アジア人差別</b> <br></br>
+             <nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="bar"><b>アジア人差別</b></nuxt-link> <br></br>
               説明
             </div>
       </div>
@@ -38,7 +38,7 @@
         </div>
 
         <div class="content">
-              <b>LGBTQ+差別</b> <br></br>
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="bar">  <b>性的指向の差別</b> </nuxt-link><br></br>
               説明
               
          </div>
@@ -57,7 +57,7 @@
         </div>
 
             <div class="content">
-              <b>宗教的差別</b> <br></br>
+              <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="bar"><b>宗教的差別</b> </nuxt-link><br></br>
               説明
             </div>
       </div>
@@ -69,7 +69,7 @@
         </div>
 
             <div class="content">
-             <b>身近な差別</b> <br></br>
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>身近な差別</b> </nuxt-link><br></br>
               説明
             </div>
       </div>
@@ -144,7 +144,26 @@ export default {
   font-size: 14px; 
   color: #f6d405;
 }
+.bar{
+  color: #ffffff;
+  text-align: center;
+  padding-left: 30px; 
+  padding-right: 30px; 
+  padding-top: 7px; 
+  padding-bottom: 7px;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative; 
+  flex: 1; 
+  font-family: "Noto Sans JP"; 
+}
 
+.bar:hover{
+  color: #f6d405; 
+}
+.bar.active .sub{
+  display: block; 
+}
 
 
 </style>
