@@ -3,31 +3,29 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">黒人差別とは？</h3>
-    <div class="activity">
-            <h6 class="program">米国での黒人差別</h6>
-            <hr>
-            <p class="campaign"></p>
-            <br></br>
-            <h6 class="program">黒人に対する嫌がらせ</h6>
-            <hr>
-            <p class="campaign"></p>
-            <br></br>
-            <h6 class="program">黒人に対する雇用差別</h6>
-            <hr>
-            <p class="campaign"></p>
-            <br></br>
-            <h6 class="program">黒人に対する警察の残虐行為</h6>
-            <hr>
-            <p class="campaign"> </p>
-            <br></br>
-            <h6 class="program">知らないところでも差別</h6>
-            <hr>
-            <p class="campaign"> </p>
-            <br></br>
-        </div>
-    </div> 
+    <h3 class="start">他にもある組織</h3>
+
     
+    <div class="activity">
+            <h6 class="program">UndocuBlack Network</h6>
+            <hr>
+            <p class="campaign"></p>
+            <br></br>
+            <h6 class="program">NAACP Legal Defense and Educational Fund, Inc.</h6>
+            <hr>
+            <p class="campaign">1940年創立。現在、シェリリンイフィルが今組織を率いていて、サーグッドマーシャルによって設立された非営利組織。人種的正義、平等、そして包摂的な社会を実現する事を目標としている組織です。本社はニューヨークにあります。公民権擁護コミュニティのための詳細な調査レポート、ブログ投稿、情報チラシを提供しています。リンク＝＞<a href="https://www.naacpldf.org/" target="_blank">https://www.naacpldf.org/ </a></p>
+            <br></br>
+            <h6 class="program">Defund-the-police</h6>
+            <hr>
+            <p class="campaign"></p>
+            <br></br>
+            <h6 class="program">The Breathe Act</h6>
+            <hr>
+            <p class="campaign"> </p>
+        <br></br>
+        </div>
+
+</div>
      <Footer></Footer>
   </div>
 </template>
@@ -86,5 +84,4 @@ export default {
   margin: 0 auto;
   font-size: 15px; 
 }
-
 </style>

@@ -8,7 +8,7 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/gender.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -20,7 +20,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/asiandiscriminationimg.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -31,7 +31,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/orientationimg.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -60,12 +60,12 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/other2.jpg" alt="Placeholder image">
           </figure>
         </div>
 
             <div class="content">
-            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>身近な差別</b> </nuxt-link><br></br>
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>他</b> </nuxt-link><br></br>
             </div>
       </div>
 </div>
@@ -133,6 +133,7 @@ export default {
   display: block; 
   width: 100%; 
   text-align: center; 
+  margin: 0, auto; 
 }
 
 .content{ 
@@ -160,5 +161,8 @@ export default {
   display: block; 
 }
 
+.card-image{
+  width: 100%;
+}
 
 </style>

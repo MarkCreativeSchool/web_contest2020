@@ -8,7 +8,7 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/saryu.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -33,13 +33,13 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/kanaprofile.jpg" alt="Placeholder image">
           </figure>
         </div>
 
             <div class="content">
              <b>ミケケ</b> <br></br>
-              音楽好き。最近テイラースイフトが出したアルバム、フォークロアに大夢中。ポッターヘッドである（ハリーポッターファン）。マーベル映画も好き。猫派。返信が遅い事が多い。
+              音楽好き。最近テイラースイフトが出したアルバム、フォークロアに大夢中。ポッターヘッドである。マーベル映画も好き。返信が遅い事が多い。
             </div>
       </div>
       </div>
@@ -96,7 +96,7 @@ export default {
 }
 
 .card{
-  width: 25%;
+  width: 24%;
   display: inline-block;
   margin: 20px; 
   padding: 1px; 

@@ -8,7 +8,7 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/blm.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -20,7 +20,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/baji.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -31,7 +31,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/colorofchange.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -39,34 +39,33 @@
             <nuxt-link to="/organization/organization/ColorOfChange" class="bar"> <b>Color Of Change</b> </nuxt-link><br><br>
             </div>
       </div>
-
-
-
       </div>
-</div>
-
 
 <div class="profile">
-     <div class="card">
+      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+            <img src="~/assets/m4bl.jpg" alt="Placeholder image">
           </figure>
         </div>
 
-        <div class="content">
-              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br><br>
-              
-         </div>
+            <div class="content">
+              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
+            </div>
       </div>
+      <div class="card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="~/assets/other2.jpg" alt="Placeholder image">
+          </figure>
+        </div>
 
+            <div class="content">
+            <nuxt-link to="/organization/organization/other" class="bar"> <b>他</b> </nuxt-link><br></br>
+            </div>
+      </div>
+</div>
 
-
-      <h3 class="start">他</h3>
-            <ul class="other" style="list-style: none;">
-                <li>UndocuBlack Network ==> <a href="https://undocublack.org/" target="_blank">https://undocublack.org/</a></li>
-                <li></li>
-            </ul>
 
 </div>
      <Footer></Footer>
@@ -133,6 +132,7 @@ export default {
   display: block; 
   width: 100%; 
   text-align: center; 
+  margin: 0, auto; 
 }
 
 .content{ 

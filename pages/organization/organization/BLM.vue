@@ -33,7 +33,6 @@
             <p class="campaign"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
             <br></br>      
         </div>
-        
 
     </div> 
     
@@ -96,5 +95,6 @@ export default {
   margin: 0 auto;
   font-size: 15px; 
 }
+
 
 </style>
