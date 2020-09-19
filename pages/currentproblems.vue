@@ -3,7 +3,7 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">現問題</h3>
+    <h3 class="start">現問題・抗議活動・出来事</h3>
     <p class="two">下にある地図は２００６年から現在まで米国で起こった様々の黒人差別問題を紹介しています。
 
     </p>
@@ -28,7 +28,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 87%; 
+  width: 83%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
@@ -40,7 +40,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 90%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -53,7 +53,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 90%; 
+  width: 73%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 

@@ -14,7 +14,6 @@
 
         <div class="content">
               <nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="bar"><b>性差別</b> </nuxt-link><br></br>
-              説明
               
          </div>
       </div>
@@ -27,7 +26,6 @@
 
             <div class="content">
              <nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="bar"><b>アジア人差別</b></nuxt-link> <br></br>
-              説明
             </div>
       </div>
       <div class="card">
@@ -39,7 +37,6 @@
 
         <div class="content">
             <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="bar">  <b>性的指向の差別</b> </nuxt-link><br></br>
-              説明
               
          </div>
       </div>
@@ -58,7 +55,6 @@
 
             <div class="content">
               <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="bar"><b>宗教的差別</b> </nuxt-link><br></br>
-              説明
             </div>
       </div>
       <div class="card">
@@ -70,7 +66,6 @@
 
             <div class="content">
             <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>身近な差別</b> </nuxt-link><br></br>
-              説明
             </div>
       </div>
 </div>

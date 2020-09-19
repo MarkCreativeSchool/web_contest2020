@@ -3,43 +3,23 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">Color Of Change</h3>
+    <h3 class="start">性差別</h3>
     <p class="two">
-        アメリカ最大のオンライン人種的正義組織。会員数は170万人。２００５年、カリフォルニアオークランドで創立。
-創立者はヴァンジョーンズ（Van Jones）とジェームズラッカー(James Rucker)。
-<br></br>モットー：民主主義の色を変える
-
+       性差別とは人が実力ではなく、その人の性で差別される事を指します。AAU (American Association of University Women)によると、米国のほとんどの州では賃金格差があると示しています。性差別の主な原因として、家庭内での教育、生物学的役割の違い、宗教、伝統的な社会構造などが挙げられます。性差別は現社会で起きている様々な問題に繋がっていきます。セクハラ・モラハラ問題や、ジェンダーと社会的役割に関する偏見などの問題が現在取り上げられています。
+<br></br>
     </p>
 
-    <h3 class="start">活動・プログラム</h3>
-       
-       <div class="campaign">
-       <article class="message">
-            <div class="message-header">
-               <p>Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.</p>
-            </div>
-            <div class="message-body">このキャンペーンは、警察によってウィスコンシン州で合計7回撃たれたジェイコブブレイクに正義を要求しています。彼の怪我のたせいで腰が麻痺してしまいました。回復中、彼の家族や友人や他の抗議者たちが正当な対応（警官の逮捕）を求めいている。
-            <br></br><a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">リンク </a>
-            </div>
-        </article>
-         <article class="message">
-            <div class="message-header">
-               <p> ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.</p>
-            </div>
-            <div class="message-body">2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。
-             <br></br><a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">リンク </a>
-            </div>
-        </article>
-         <article class="message">
-            <div class="message-header">
-               <p>Tell Twitter Black organizers should not become enemies of the state for protesting.</p>
-            </div>
-            <div class="message-body">  現在、ツイッターでは、黒の主催者や活動家が狙われている。これは、活動家/抗議者の名前や場所などの情報を収集するDataminrと呼ばれる人工知能会社によるものです。このキャンペーンは、抗議者の安全のためにDataminrとの提携をやめる様Twitterに要求しています。
-   <br></br><a href="https://act.colorofchange.org/sign/twittersurveillance?source=coc_main_website" target="_blank"> リンク</a>
-            </div>
-        </article>
-       
-       </div>
+    <h3 class="start">現代ニュース</h3>
+        <div class="activity">
+            <h6 class="program">大相撲・救命女性が降りた土俵に「大量の塩」「めちゃくちゃ失礼」と非難の声：2018年4月五日 (日本)</h6>
+            <hr>
+            <p class="campaign">２０１８年、４月４日、京都府舞鶴市での大相撲の春巡業で多々見良三市長が挨拶をしている間に意識不明になり、土俵上倒れてしまいました。その時、看護資格を取得していた女性が土俵上に上がり、緊急処置を行い、他に、二人の女性も助けるために土俵に上がろうとすると、女性は土俵から降りてくださいというアナウンスが繰り返し流れ、批判になっています。土俵には「女人禁制」と相撲界側は主張しましたが、場違いだと批判されました。その後、相撲界の八角理事長はアナウンスを不適切だと言い、謝罪した。また、その後、女性が救助し終わった所を降りたさい塩を巻かれたことが発覚した。このことに対し、インターネット上で大炎上となり、またもや相撲界は批判を受けた。この問題に対し、理事長はコメントをした物の、説明不足だと炎上になり、批判を受けた。</p>
+            <br></br>
+            <h6 class="program">2018年グラミー賞でジェンダーの不平等（アメリカ）</h6>
+            <hr>
+            <p class="campaign">2018年1月29日、2018年グラミー賞授賞式が行われました。しかし、グラミー賞は今年男性が優勢であり、男女平等に欠けていた。レコーディングアカデミーのニールポートナウ校長が候補者の不均衡について質問されたとき、彼は女性が指名されて賞を獲得するために「ステップアップ」する必要があるとコメントしました。このコメントは、一般の人々や音楽アーティストから激しい批判を受けました。 Halseyは次のようにコメントしています。「2017年には女性アーティストは音楽界にインパクトを残しました。しかし、候補者はピアと音楽に対する彼らの意見によって選ばれます。つまり、それは全産業が女性が支持することを期待する基準についての会話であることを意味します。」また、アネンバーグインクルージョンイニシアチブ（不平等に取り組むための研究ベースのソリューションを目指すイニシアチブ）は、「アーティストの22％、ライターの12％、プロデューサーの2％だけが女性である場合、女性は音楽をどのように「ステップアップ」するのですか？ 」さらに、「あなたのメンバーシップの構成はどのようなものであり、あなたはどのようにカウンターバイアスにステップアップしていますか？」と問い詰めました。その後、ニール・ポートナウは謝罪し、彼のコメントは文脈から外されたと主張した。</p>
+            <br></br>  
+        </div>
 
     </div> 
     
@@ -61,7 +41,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 87%; 
+  width: 73%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
@@ -73,7 +53,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 90%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -81,39 +61,25 @@ export default {
   text-align: center; 
 }
 
-.more{
-  font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 90%; 
-  margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-  margin-top: 45px; 
+.activity{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px; 
+    font-family: "Noto Sans JP"; 
 }
 
-.message{
-  width: 29%; 
-  font-family: "Courier New", Courier, monospace;
-  margin-left: 7px; 
-  margin-right: 7px; 
-  margin-top: 7px; 
-  display: inline-block; 
-  height: 400px; 
+.program{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 21px; 
+    font-weight: bold; 
 }
 
-.message-header{
-  background-color: black;
-}
 
 .campaign{
-  margin-top: 10px;
-  display: block; 
-  width: 100%; 
-  text-align: center; 
+  width: 90%; 
+  margin: 0 auto;
+  font-size: 15px; 
 }
 
 </style>

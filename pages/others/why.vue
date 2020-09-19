@@ -45,7 +45,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 87%; 
+  width: 73%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
@@ -57,7 +57,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 90%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -70,7 +70,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 90%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
