@@ -6,9 +6,9 @@
     <h3 class="start">宗教差別</h3>
     <p class="two">
        宗教差別は人を考えやその人の宗教をきっかけにその人に対し、嫌がらせなどをする事です。人の考えを馬鹿にしたり、また、学校や仕事場での嫌がらせなどが見られます。他にも、会話やサークルでの場で入れてもらえなかったりする事が多々あります。
-    <br></br>
 
     </p>
+    <img class="drawing3" src="~/assets/religiousdiscrimination.jpg">
 
     <h3 class="start">活動・プログラム</h3>
        <div class="activity">
@@ -80,5 +80,15 @@ export default {
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.drawing3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 370px; 
+  margin-bottom: 20px; 
+  margin-top: 0px; 
 }
 </style>

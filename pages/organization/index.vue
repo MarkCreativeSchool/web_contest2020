@@ -105,20 +105,6 @@ export default {
   text-align: center; 
 }
 
-.more{
-  font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
-  margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-  margin-top: 45px; 
-}
-
 .card{
   width: 25%;
   display: inline-block;

@@ -3,7 +3,7 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">Black Lives Matter</h3>
+    <h3 class="start">The Movement for Black Lives</h3>
     <p class="two">
         ２０１４年１２月に創立。廃止論者組織である。
 <br></br>黒人コミュニティに暴力を与える刑務所や警察を廃止し、代わりに黒人コミュニティとその権利を保護する機関を設立するべきだと考える組織。

@@ -6,7 +6,7 @@
     <h3 class="start">性差別</h3>
     <p class="two">
        性差別とは人が実力ではなく、その人の性で差別される事を指します。AAU (American Association of University Women)によると、米国のほとんどの州では賃金格差があると示しています。性差別の主な原因として、家庭内での教育、生物学的役割の違い、宗教、伝統的な社会構造などが挙げられます。性差別は現社会で起きている様々な問題に繋がっていきます。セクハラ・モラハラ問題や、ジェンダーと社会的役割に関する偏見などの問題が現在取り上げられています。
-<br></br>
+<img class="drawing4" src="~/assets/equality.jpg">
     </p>
 
     <h3 class="start">現代ニュース</h3>
@@ -80,6 +80,16 @@ export default {
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.drawing4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  height: 370px; 
+  margin-bottom: 20px; 
+  margin-top: 0px; 
 }
 
 </style>

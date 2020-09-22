@@ -60,8 +60,10 @@ export default {
     padding-top: 5px; 
     padding-bottom: 5px;
     text-align: center; 
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
     color: #ffffff; 
+    box-shadow: $stripe;
+    
 }
 h1{
     font-size: 50px; 
@@ -95,7 +97,7 @@ h1{
 }
 
 .toggle{
-  background-color: #333;
+  background-image: linear-gradient(to top, #333333, #343434, #353535, #363636, #373737, #373737, #373737, #373737, #363636, #353535, #343434, #333333);
   display: flex; 
 }
 

@@ -23,7 +23,7 @@ export default {
     list-style: none; 
     color: #fff; 
     text-align: center; 
-    background-color: #000000; 
+    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
     position: absolute;
     bottom: 0;
     width: 100%;

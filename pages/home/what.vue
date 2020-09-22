@@ -7,7 +7,8 @@
     <p class="two">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
   <br></br>
     </p>
-
+    <img class="drawing3" src="~/assets/discrimination2.jpg">
+ 
     <h3 class="start">差別と区別</h3>
     <p class="two">
     <b>差別</b> <br></br>
@@ -58,5 +59,13 @@ export default {
   text-align: center; 
 }
 
+.drawing3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 370px; 
+  margin-top: 0px; 
+}
 
 </style>
