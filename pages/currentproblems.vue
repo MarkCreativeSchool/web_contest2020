@@ -8,6 +8,7 @@
 
     </p>
 
+<img class="map" src="~/assets/usmap.png">
     </div> 
     
      <Footer></Footer>
@@ -60,6 +61,13 @@ export default {
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
   margin-top: 45px; 
+}
+
+.map{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; 
+  display: block;
 }
 
 </style>
