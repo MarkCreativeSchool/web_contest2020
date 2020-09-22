@@ -1,7 +1,8 @@
 <template>
   <div class="full">
    <div class="up">
-   <h1> 高校生の高校生による高校生のための黒人差別問題</h1>
+   <img class="logo" src="~/assets/logo2.png">
+   <img class="title" src="~/assets/title5.png">
     </div>
     <div class="toggle">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
@@ -59,16 +60,35 @@ export default {
 .up{
     padding-top: 5px; 
     padding-bottom: 5px;
-    text-align: center; 
     background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
     color: #ffffff; 
     box-shadow: $stripe;
-    
+    display: inline-block; 
+    width: 100%;
+    text-align: center; 
 }
+
+.logo{
+  display: inline-block;
+  width: 75px; 
+  height: 75x;
+  float: left; 
+  margin-left: 20px; 
+  margin-top: 5px; 
+}
+
 h1{
     font-size: 50px; 
     font-family: "Noto Sans JP"; 
     text-shadow: 1px 1px #f6d405;
+    display: inline-block; 
+
+}
+
+.title{
+  display: inline-block;
+  width: 89%;
+
 }
 
 .bar{
