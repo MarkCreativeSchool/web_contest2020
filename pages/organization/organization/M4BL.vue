@@ -4,13 +4,15 @@
    <div class="info">
     
     <h3 class="start">The Movement for Black Lives</h3>
-    <p class="two">
+    <div class="briefinfo">
+    <p class="three">
         ２０１４年１２月に創立。廃止論者組織である。
 <br></br>黒人コミュニティに暴力を与える刑務所や警察を廃止し、代わりに黒人コミュニティとその権利を保護する機関を設立するべきだと考える組織。
 <br></br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br></br>
     </p>
-
+    <img class="drawing3" src="~/assets/m4bl.png">
+  </div>
     <h3 class="start">活動・プログラム</h3>
 
     
@@ -54,7 +56,7 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+.three{
   font-family: "Noto Sans JP"; 
   width: 73%; 
   margin: 0 auto;
@@ -95,5 +97,9 @@ export default {
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.briefinfo{
+    display: inline-block; 
 }
 </style>

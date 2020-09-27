@@ -10,7 +10,7 @@
         <ul class="sub">
               <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">黒人差別とは？</nuxt-link></li>
+              <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">比率</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>
