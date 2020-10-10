@@ -99,33 +99,39 @@ export default {
 }
 .timeline{
   border: solid 5px black;
+  height: 500px;
   width: 1000px;
   margin: 0 auto;
 }
 .line{
   position: relative;
-  height: 20px;
+  height: 45px;
 }
 .timeline .line .linebar{
-  height: 5px;
-  top: 3px;
+  height: 20px;
+  top: 20px;
   background: black;
+  border-radius: 10px;
 }
 .line1{
+  width: 20px;
   position: absolute;
-  left: 20px;
+  left: 172px;
 }
 .line2{
   position: absolute;
-  left: 60px;
+  width: 177px;
+  left: 370px;
 }
 .line3{
   position: absolute;
-  left: 100px;
+  left: 547px;
+  width: 38px;
 }
 .line4{
   position: absolute;
-  left: 140px
+  left: 633px;
+  width: 15px;
 }
 .line5{
   position: absolute;
