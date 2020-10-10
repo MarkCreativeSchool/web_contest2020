@@ -39,6 +39,8 @@
     <mn v-if="locationName==='mn'" @onClose="locationName=null"></mn>
     <il v-if="locationName==='il'" @onClose="locationName=null"></il>
     <ga v-if="locationName==='ga'" @onClose="locationName=null"></ga>
+    <mo v-if="locationName==='mo'" @onClose="locationName=null"></mo>
+    <oh v-if="locationName==='oh'" @onClose="locationName=null"></oh>
   </div>
 </template>
 
@@ -54,10 +56,12 @@ import ny from "~/components/map/ny"
 import mn from "~/components/map/mn"
 import il from "~/components/map/il"
 import ga from "~/components/map/ga"
+import mo from "~/components/map/mo"
+import oh from "~/components/map/oh"
 
 export default {
   name: "Index",
-  components: { Header, Footer, sample, or, ca, fl, ky, ny, mn, il, ga},
+  components: { Header, Footer, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh},
   data(){
     return{
       locationName:null
