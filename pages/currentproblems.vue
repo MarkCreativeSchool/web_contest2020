@@ -35,6 +35,9 @@
     <ca v-if="locationName==='ca'" @onClose="locationName=null"></ca>
     <fl v-if="locationName==='fl'" @onClose="locationName=null"></fl>
     <ky v-if="locationName==='ky'" @onClose="locationName=null"></ky>
+    <ny v-if="locationName==='ny'" @onClose="locationName=null"></ny>
+    <mn v-if="locationName==='mn'" @onClose="locationName=null"></mn>
+    <il v-if="locationName==='il'" @onClose="locationName=null"></il>
   </div>
 </template>
 
@@ -46,9 +49,13 @@ import or from "~/components/map/or"
 import ca from "~/components/map/ca"
 import fl from "~/components/map/fl"
 import ky from "~/components/map/ky"
+import ny from "~/components/map/ny"
+import mn from "~/components/map/mn"
+import il from "~/components/map/il"
+
 export default {
   name: "Index",
-  components: { Header, Footer, sample, or, ca, fl, ky},
+  components: { Header, Footer, sample, or, ca, fl, ky, ny, mn, il},
   data(){
     return{
       locationName:null
