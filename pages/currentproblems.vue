@@ -34,6 +34,7 @@
     <or v-if="locationName==='or'" @onClose="locationName=null"></or>
     <ca v-if="locationName==='ca'" @onClose="locationName=null"></ca>
     <fl v-if="locationName==='fl'" @onClose="locationName=null"></fl>
+    <ky v-if="locationName==='ky'" @onClose="locationName=null"></ky>
   </div>
 </template>
 
@@ -44,9 +45,10 @@ import sample from "~/components/map/sample"
 import or from "~/components/map/or"
 import ca from "~/components/map/ca"
 import fl from "~/components/map/fl"
+import ky from "~/components/map/ky"
 export default {
   name: "Index",
-  components: { Header, Footer, sample, or, ca, fl},
+  components: { Header, Footer, sample, or, ca, fl, ky},
   data(){
     return{
       locationName:null

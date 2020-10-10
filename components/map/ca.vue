@@ -2,7 +2,7 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="map-content">
-      <h6 class="title">カルフォルニア</h6>
+      <h6 class="title">カルフォルニア州</h6>
       <hr>
       <p class="context"><b>オスカー・グラント事件</b>
       <br>サンフランシスコとベイエリアの各地をつなぐ公営高速鉄道システムの駅内で喧嘩をしていたと通報を受けた鉄道警察官らに電車から降ろされ、押さえつけられた状態で撃たれ死亡した事件。

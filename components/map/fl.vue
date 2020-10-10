@@ -2,10 +2,14 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="map-content">
-      <h6 class="title">フロリダ</h6>
+      <h6 class="title">フロリダ州</h6>
       <hr>
       <p class="context"><b>トレイボン・マーティン射殺事件</b>
       <br>フロリダ州でランニング中だった17歳の黒人がヒスパニック系自警団院に「怪しい」という理由だけで射殺された。しかし、この自警団員は「無罪」の判決を下された。
+      </p>
+      <hr>
+      <p class="context"><b>女の子殺人事件</b>
+      <br>6月に１９歳の女の子のOluwatoyin “Toyin” Salau さんが殺されたニュースが発覚した。6月6日にtwitterで性的暴行を受けた事を明かした。その後、その子が亡くなっていることがわかった。
       </p>
       <br>
     </div>
