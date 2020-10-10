@@ -2,19 +2,18 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="map-content">
-      <h6 class="title">オレゴン</h6>
+      <h6 class="title">カルフォルニア</h6>
       <hr>
-      <p class="context"><b>催涙ガス</b>
-      <br>六月二十六日にアメリカのポートランドで他の反対運動と比べ非常的に暴力的な黒人差別反対運動がありました。抗議者側は警察の管区に火をつけました。警察側はこの事に対し、催涙ガスを使い抗議者を解散させました。これによって、視聴はポートランドでの催涙ガスの使用を禁じました。また、警察側もセキュリティレベルを上げることを決定しました。
+      <p class="context"><b>オスカー・グラント事件</b>
+      <br>サンフランシスコとベイエリアの各地をつなぐ公営高速鉄道システムの駅内で喧嘩をしていたと通報を受けた鉄道警察官らに電車から降ろされ、押さえつけられた状態で撃たれ死亡した事件。
       </p>
-      <br>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "or.vue",
+  name: "ca.vue",
   methods:{
     onClose(){
       this.$emit("onClose")
@@ -53,4 +52,5 @@ export default {
   top: 20px;
   font-size: 50px;
 }
+
 </style>

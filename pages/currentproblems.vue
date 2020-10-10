@@ -32,6 +32,8 @@
     </div>
     <sample v-if="locationName==='sample'" @onClose="locationName=null"></sample>
     <or v-if="locationName==='or'" @onClose="locationName=null"></or>
+    <ca v-if="locationName==='ca'" @onClose="locationName=null"></ca>
+    <fl v-if="locationName==='fl'" @onClose="locationName=null"></fl>
   </div>
 </template>
 
@@ -40,9 +42,11 @@ import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 import sample from "~/components/map/sample"
 import or from "~/components/map/or"
+import ca from "~/components/map/ca"
+import fl from "~/components/map/fl"
 export default {
   name: "Index",
-  components: { Header, Footer, sample, or},
+  components: { Header, Footer, sample, or, ca, fl},
   data(){
     return{
       locationName:null
@@ -115,80 +119,80 @@ export default {
     z-index: 10;
   }
   .or{
-    top: 450px;
+    top: 442px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
   .ca{
-    top: 534px;
+    top: 526px;
     left: 49px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
   .mn{
-    top: 423px;
+    top: 415px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
   .mo{
-    top: 629px;
+    top: 621px;
     left: 539px;
     width: 91px;
     height: 80px;
   }
   .il{
-    top: 563px;
+    top: 558px;
     left: 633px;
     width: 50px;
     height: 107px;
   }
   .ky{
-    top: 625px;
+    top: 617px;
     left: 686px;
     width: 104px;
     height: 55px;
   }
   .oh{
-    top: 531px;
+    top: 523px;
     left: 746px;
     width: 63px;
     height: 64px;
   }
   .ny{
-    top: 435px;
+    top: 427px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
   .ma{
-    top: 432px;
+    top: 424px;
     left: 934px;
     width: 44px;
     height: 15px;
   }
   .pa{
-    top: 520px;
+    top: 512px;
     left: 817px;
     width: 84px;
     height: 53px;
   }
   .md{
-    top: 593px;
+    top: 585px;
     left: 863px;
     width: 68px;
     height: 55px;
   }
   .ga{
-    top: 748px;
+    top: 740px;
     left: 733px;
     width: 81px;
     height: 86px;
   }
   .fl{
-    top: 845px;
+    top: 837px;
     left: 720px;
     width: 140px;
     height: 110px;
