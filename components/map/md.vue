@@ -15,7 +15,7 @@
 <script>
 export default {
   name: "md.vue",
-  method:{
+  methods:{
     onClose(){
       this.$emit("onClose")
     }
