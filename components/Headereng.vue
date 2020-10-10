@@ -8,13 +8,13 @@
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">Top</span> 
         <ul class="sub">
-              <li><nuxt-link to="/homeeng" class="subpage">Home</nuxt-link></li>
-              <li><nuxt-link to="/homeeng/whateng" class="subpage">What?</nuxt-link></li>
+              <li><nuxt-link to="/en/homeeng" class="subpage">Home</nuxt-link></li>
+              <li><nuxt-link to="/en/homeeng/whateng" class="subpage">What?</nuxt-link></li>
               <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">Current Statistics</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar">History</nuxt-link>
-        <nuxt-link to="/currentproblems" class="bar">Current Problems</nuxt-link>
+        <nuxt-link to="/en/currentproblems" class="bar">Current Problems</nuxt-link>
         <nuxt-link to="/organization" class="bar">Organizations</nuxt-link>
         <nuxt-link to="/otherdiscrimination" class="bar">Other Discrimination</nuxt-link>
         
