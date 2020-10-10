@@ -8,8 +8,8 @@
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">Top</span> 
         <ul class="sub">
-              <li><nuxt-link to="/" class="subpage">Home</nuxt-link></li>
-              <li><nuxt-link to="/home/what" class="subpage">What?</nuxt-link></li>
+              <li><nuxt-link to="/homeeng" class="subpage">Home</nuxt-link></li>
+              <li><nuxt-link to="/homeeng/whateng" class="subpage">What?</nuxt-link></li>
               <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">Current Statistics</nuxt-link></li>
             </ul>
         </nuxt-link>
