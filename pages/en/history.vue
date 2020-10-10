@@ -1,0 +1,65 @@
+<template>
+  <div class="full">
+  <Headereng></Headereng>
+   <div class="info">
+    
+    <h3 class="start">History Summarized</h3>
+    <p class="two">Below, the timeline summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
+
+    </p>
+
+    </div> 
+    
+     <Footer></Footer>
+  </div>
+</template>
+
+<script>
+import Headereng from "~/components/Headereng"
+import Footer from "~/components/Footer"
+export default {
+  name: "Index",
+  components: { Headereng, Footer },
+}　
+</script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+.two{
+  font-family: "Noto Sans JP"; 
+  width: 83%; 
+  margin: 0 auto;
+  padding-top: 20px; 
+  font-size: 18px; 
+}
+
+
+.start{
+  font-family: "Noto Sans JP"; 
+  color: #ffffff;
+  background-color: #000000;
+  background-position: center center;
+  width: 73%; 
+  margin: 0 auto;
+  font-size: 30px; 
+  border-radius: 3px; 
+  text-shadow: 0.5px 0.5px #f6d405;
+  text-align: center; 
+}
+
+.more{
+  font-family: "Noto Sans JP"; 
+  color: #ffffff;
+  background-color: #000000;
+  background-position: center center;
+  width: 83%; 
+  margin: 0 auto;
+  font-size: 30px; 
+  border-radius: 3px; 
+  text-shadow: 0.5px 0.5px #f6d405;
+  text-align: center; 
+  margin-top: 45px; 
+}
+
+</style>

@@ -1,56 +1,65 @@
 <template>
   <div class="full">
-  <Header></Header>
+  <Headereng></Headereng>
    <div class="info">
     
-    <h3 class="start">黒人差別に関する組織</h3>
+    <h3 class="start">Other Discrimination</h3>
+    <p class="differentdiscrimination">
+    There are several forms of discrimination besides racism against black people that are happening. Below are some forms of discrimination that we would like to address, to increase awareness of discrimination issues occurring currently. To understand discrimination, it is important to understand other forms as well to recognize the different forms. 
+     <br></br>
+    </p>
+
     <div class="profile">
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/blm.jpg" alt="Placeholder image">
+            <img src="~/assets/gender.jpg" alt="Placeholder image">
           </figure>
         </div>
 
         <div class="content">
-             <nuxt-link to="/organization/organization/BLM" class="bar"><b>Black Lives Matter (BLM)</b></nuxt-link> <br><br>
+              <nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="bar"><b>Gender Discrimination</b> </nuxt-link><br></br>
               
          </div>
       </div>
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/baji.jpg" alt="Placeholder image">
+            <img src="~/assets/asiandiscriminationimg.jpg" alt="Placeholder image">
           </figure>
         </div>
 
             <div class="content">
-              <nuxt-link to="/organization/organization/BAJI" class="bar"><b>Black Alliance for Just Immigration</b> </nuxt-link><br><br>
+             <nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="bar"><b>Asian Discrimination</b></nuxt-link> <br></br>
             </div>
       </div>
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/colorofchange.jpg" alt="Placeholder image">
+            <img src="~/assets/orientationimg.jpg" alt="Placeholder image">
           </figure>
         </div>
 
-            <div class="content">
-            <nuxt-link to="/organization/organization/ColorOfChange" class="bar"> <b>Color Of Change</b> </nuxt-link><br><br>
-            </div>
+        <div class="content">
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="bar">  <b>Sexual Orientation Discrimination</b> </nuxt-link><br></br>
+              
+         </div>
       </div>
       </div>
+      
+</div>
+
 
 <div class="profile">
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/m4bl.jpg" alt="Placeholder image">
+            <img src="~/assets/religion3.jpg" alt="Placeholder image">
           </figure>
         </div>
 
             <div class="content">
-              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
+              <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="bar"><b>Discrimination based on Religion</b> </nuxt-link><br></br>
             </div>
       </div>
       <div class="card">
@@ -61,23 +70,20 @@
         </div>
 
             <div class="content">
-            <nuxt-link to="/organization/organization/other" class="bar"> <b>他</b> </nuxt-link><br></br>
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>Others</b> </nuxt-link><br></br>
             </div>
       </div>
-</div>
-
-
 </div>
      <Footer></Footer>
   </div>
 </template>
 
 <script>
-import Header from "~/components/Header"
+import Headereng from "~/components/Headereng"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Headereng, Footer },
 }　
 </script>
 
@@ -86,9 +92,17 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 73%; 
+  width: 87%; 
   margin: 0 auto;
   padding-top: 20px; 
+}
+
+.differentdiscrimination{
+  font-family: "Noto Sans JP"; 
+  width: 80%; 
+  margin: 0 auto;
+  text-align: center; 
+  padding-top: 15px; 
 }
 
 
@@ -97,7 +111,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 90%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -126,7 +140,6 @@ export default {
   font-size: 14px; 
   color: #f6d405;
 }
-
 .bar{
   color: #ffffff;
   text-align: center;
@@ -146,6 +159,10 @@ export default {
 }
 .bar.active .sub{
   display: block; 
+}
+
+.card-image{
+  width: 100%;
 }
 
 </style>

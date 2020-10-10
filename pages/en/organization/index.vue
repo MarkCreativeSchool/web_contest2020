@@ -1,9 +1,9 @@
 <template>
   <div class="full">
-  <Header></Header>
+  <Headereng></Headereng>
    <div class="info">
     
-    <h3 class="start">黒人差別に関する組織</h3>
+    <h3 class="start">Organization</h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -73,11 +73,11 @@
 </template>
 
 <script>
-import Header from "~/components/Header"
+import Headereng from "~/components/Headereng"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Headereng, Footer },
 }　
 </script>
 
