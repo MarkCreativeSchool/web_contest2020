@@ -30,15 +30,29 @@
 
        <Footer></Footer>
     </div>
+    <sample v-if="locationName==='sample'" @onClose="locationName=null"></sample>
+    <or v-if="locationName==='or'" @onClose="locationName=null"></or>
   </div>
 </template>
 
 <script>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
+import sample from "~/components/map/sample"
+import or from "~/components/map/or"
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Header, Footer, sample, or},
+  data(){
+    return{
+      locationName:null
+    }
+  },
+  methods:{
+    onClick(locationName){
+      this.locationName=locationName
+    }
+  }
 }　
 </script>
 
