@@ -29,15 +29,7 @@
         <div class="line">
           <div class="linebar line8"></div>
         </div>
-        <div class="line">
-          <div class="linebar line9"></div>
-        </div>
-        <div class="line">
-          <div class="linebar line10"></div>
-        </div>
         <div class="year">
-          <h6>1400</h6>
-          <h6>1500</h6>
           <h6>1600</h6>
           <h6>1700</h6>
           <h6>1800</h6>
@@ -105,55 +97,50 @@ export default {
 }
 .line{
   position: relative;
-  height: 45px;
+  height: 55px;
 }
 .timeline .line .linebar{
   height: 20px;
   top: 20px;
   background: black;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 .line1{
-  width: 20px;
-  position: absolute;
-  left: 172px;
-}
-.line2{
   position: absolute;
   width: 177px;
   left: 370px;
 }
-.line3{
+.line2{
   position: absolute;
   left: 547px;
   width: 38px;
 }
-.line4{
+.line3{
   position: absolute;
   left: 633px;
-  width: 15px;
+  width: 40px;
+}
+.line4{
+  position: absolute;
+  left: 675px;
+  width:30px;
 }
 .line5{
   position: absolute;
-  left: 160px
+  left: 781px;
+  width: 20px;
 }
 .line6{
   position: absolute;
-  left: 180px
+  left: 835px;
+  width: 20px;
 }
 .line7{
   position: absolute;
-  left: 200px;
+  left: 875px;
+  width: 35px;
 }
 .line8{
-  position: absolute;
-  left: 220px;
-}
-.line9{
-  position: absolute;
-  left: 250px;
-}
-.line10{
   position: absolute;
   left: 20px;
   width: calc(100% - 40px);
