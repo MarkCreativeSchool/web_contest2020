@@ -61,8 +61,7 @@ export default {
     padding-top: 5px; 
     padding-bottom: 5px;
     background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
-    color: #ffffff; 
-    box-shadow: $stripe;
+    color: #ffffff;
     display: inline-block; 
     width: 100%;
     text-align: center; 
@@ -71,7 +70,7 @@ export default {
 .logo{
   display: inline-block;
   width: 75px; 
-  height: 75x;
+  height: 75px;
   float: left; 
   margin-left: 20px; 
   margin-top: 5px; 
