@@ -10,6 +10,8 @@
 <br></br><b>ケルビンサールズ（Kelvin Sauls):</b> 南アフリカの移民
 <br></br><b>フィリップローソン：</b>移民の権利のためのカリフォルニア宗教信仰連合の公民権指導者/共同創設者/共同議長
 <br></br>
+<img class="baji" src="~/assets/baji.png">
+<br></br>
     </p>
 
     <h3 class="start">活動・プログラム</h3>
@@ -114,6 +116,15 @@ export default {
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.baji{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 370px; 
+  margin-top: 0px; 
 }
 
 </style>

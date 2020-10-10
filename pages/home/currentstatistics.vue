@@ -3,9 +3,9 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">比率で見た黒人差別</h3>
+    <h3 class="start">米国での黒人差別の現状</h3>
     <div class="activity">
-            <h6 class="program">嫌がらせ</h6>
+            <h6 class="program">日常生活での差別</h6>
             <hr>
             <p class="campaign"></p>
             <br></br>
@@ -13,11 +13,11 @@
             <hr>
             <p class="campaign"></p>
             <br></br>
-            <h6 class="program">黒人に対する警察の残虐行為の比率</h6>
+            <h6 class="program">黒人に対する警察の残虐行為</h6>
             <hr>
             <p class="campaign"> </p>
             <br></br>
-            <h6 class="program">知らないところでも差別</h6>
+            <h6 class="program">コロナの上での格差</h6>
             <hr>
             <p class="campaign"> </p>
             <br></br>

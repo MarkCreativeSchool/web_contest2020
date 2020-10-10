@@ -4,6 +4,11 @@
    <div class="info">
     
     <h3 class="start">他の差別</h3>
+    <p class="differentdiscrimination">
+    私たちがこのサイトで取り上げた黒人差別意外にも差別は起きています。下に取り上げられている差別（全てではない）は真剣で大切な問題です。これをきっかけに、他の差別に対する意識や興味を深めてほしいと考えています。
+     <br></br>
+    </p>
+
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -90,6 +95,14 @@ export default {
   width: 87%; 
   margin: 0 auto;
   padding-top: 20px; 
+}
+
+.differentdiscrimination{
+  font-family: "Noto Sans JP"; 
+  width: 80%; 
+  margin: 0 auto;
+  text-align: center; 
+  padding-top: 15px; 
 }
 
 

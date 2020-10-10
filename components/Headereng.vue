@@ -1,33 +1,33 @@
 <template>
   <div class="full">
    <div class="up">
-   <img class="logo" src="~/assets/logo2.png">
-   <img class="title" src="~/assets/title5.png">
+   <img class="logo" src="~/assets/Englishlogo.png">
+   <img class="titleeng" src="~/assets/engtitle2.png">
     </div>
     <div class="toggle">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
-        <span @click="toggleDropDown(1)">トップ</span> 
+        <span @click="toggleDropDown(1)">Top</span> 
         <ul class="sub">
-              <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
-              <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="/home/currentstatistics" class="subpage">現状</nuxt-link></li>
+              <li><nuxt-link to="/" class="subpage">Home</nuxt-link></li>
+              <li><nuxt-link to="/home/what" class="subpage">What?</nuxt-link></li>
+              <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">Current Statistics</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/history" class="bar">歴史</nuxt-link>
-        <nuxt-link to="/currentproblems" class="bar">現問題</nuxt-link>
-        <nuxt-link to="/organization" class="bar">組織</nuxt-link>
-        <nuxt-link to="/otherdiscrimination" class="bar">他の差別</nuxt-link>
+        <nuxt-link to="/history" class="bar">History</nuxt-link>
+        <nuxt-link to="/currentproblems" class="bar">Current Problems</nuxt-link>
+        <nuxt-link to="/organization" class="bar">Organizations</nuxt-link>
+        <nuxt-link to="/otherdiscrimination" class="bar">Other Discrimination</nuxt-link>
         
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
-        <span @click="toggleDropDown(2)">その他</span> 
+        <span @click="toggleDropDown(2)">Others</span> 
         <ul class="sub">
-              <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>
-              <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>
-              <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
-              <li><nuxt-link to="/others/references" class="subpage">参考文献</nuxt-link></li>
+              <li><nuxt-link to="/others/why" class="subpage">Why?</nuxt-link></li>
+              <li><nuxt-link to="/others/sitemap" class="subpage">Site Map</nuxt-link></li>
+              <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">Creator Introduction</nuxt-link></li>
+              <li><nuxt-link to="/others/references" class="subpage">References</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/en/homeeng/" class="bar">ENGLISH VERSION</nuxt-link>
+        <nuxt-link to="/" class="bar">日本語版サイト</nuxt-link>
   </div> 
            
   </div>
@@ -35,7 +35,7 @@
 
 <script>
 export default {
-    name: "Header",
+    name: "Headereng",
   data(){
     return {
       activeIndex: null, 
@@ -85,9 +85,11 @@ h1{
 
 }
 
-.title{
+.titleeng{
   display: inline-block;
   width: 89%;
+  margin-top: 12px; 
+
 }
 
 .bar{

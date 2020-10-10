@@ -7,6 +7,10 @@
     <p class="two">
        性的指向の差別は、自分の性別によって行われる差別です。この差別行為はLGBTQ +コミュニティ（L =レズビアン、G =ゲイ、B =バイセクシュアル、T =トランスジェンダー、Q =クィア、+ =パンセクシュアル、アセクシュアル、オムニセクシャルなどのその他の性的アイデンティティ）を対象としています。差別の種類には、直接的および間接的な差別のほか、嫌がらせが含まれます。
     <br></br>
+    <div class="logoimage">
+    <img class="sexualorientation" src="~/assets/gendersign.png">
+    <img class="sexualorientation" src="~/assets/heart.png">
+    </div>
     </p>
 
     <h3 class="start">活動・プログラム</h3>
@@ -82,5 +86,18 @@ export default {
   margin: 0 auto;
   font-size: 15px; 
 }
+
+.sexualorientation{
+    width: 325px; 
+    height: 350px; 
+    display: inline-block; 
+    margin: 0 auto; 
+}
+
+.logoimage{
+    text-align: center; 
+}
+
+
 
 </style>

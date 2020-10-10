@@ -7,7 +7,7 @@
     <h3 class="start">Black Lives Matter</h3>
     
     
-    <p class="two">
+    <p class="paragraph">
         ブラックライブスマターズは２０１３年7月13日に設立された組織的な社会運動。
 <br></br>グローバル組織だが、本拠地・主要地はアメリカ合衆国
 <br></br>ミッション：白人覇権を根絶し、黒人に対しての暴力行為を阻止する事。
@@ -16,6 +16,7 @@
 <br></br>サイトへのリンク＝＞<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     <br></br>
     </p>
+    <img class="logoblm" src="~/assets/blmlogo.jpg">
 
     <h3 class="start">活動・プログラム</h3>
         
@@ -52,12 +53,14 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+.paragraph{
   font-family: "Noto Sans JP"; 
-  width: 73%; 
+  width: 60%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
+  display: inline-block; 
+  margin-left: 140px; 
 }
 
 
@@ -94,6 +97,14 @@ export default {
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.logoblm{
+    height: 300px; 
+    width: 20%; 
+    display: inline-block;
+    margin-right: 20px;  
+    margin-bottom: 20px; 
 }
 
 
