@@ -35,6 +35,11 @@
             <br></br>      
         </div>
 
+        <div class="nextback">
+            <nuxt-link to="/organization"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+            <nuxt-link to="/organization/organization/BAJI"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+        </div>
+
     </div> 
     
      <Footer></Footer>
@@ -106,6 +111,27 @@ export default {
     margin-right: 20px;  
     margin-bottom: 20px; 
 }
+.next{
+    display: inline-block;
+    float: right; 
+    margin-left: auto;
+    margin-right: 40px;
+    width: 100px; 
+}
+
+.back{
+    display: inline-block;
+    margin-left: 40px;
+    float: left; 
+    margin-right: auto;
+    width: 100px; 
+}
+
+.nextback{
+    text-align: center; 
+}
+
+
 
 
 </style>

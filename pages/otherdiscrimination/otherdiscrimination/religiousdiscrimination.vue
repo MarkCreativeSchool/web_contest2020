@@ -22,6 +22,10 @@
             <br></br>  
         </div>
     </div> 
+    <div class="nextback">
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+        </div>
     
      <Footer></Footer>
   </div>
@@ -91,4 +95,25 @@ export default {
   margin-bottom: 20px; 
   margin-top: 0px; 
 }
+
+.next{
+    display: inline-block;
+    float: right; 
+    margin-left: auto;
+    margin-right: 40px;
+    width: 100px; 
+}
+
+.back{
+    display: inline-block;
+    margin-left: 40px;
+    float: left; 
+    margin-right: auto;
+    width: 100px; 
+}
+
+.nextback{
+    text-align: center; 
+}
+
 </style>

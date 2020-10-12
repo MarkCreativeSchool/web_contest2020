@@ -11,7 +11,7 @@
 <br></br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br></br>
     </p>
-    <img class="drawing3" src="~/assets/m4bl.png">
+    <img class="logom4bl" src="~/assets/m4bl.png">
   </div>
     <h3 class="start">活動・プログラム</h3>
 
@@ -40,6 +40,10 @@
         </div>
 
 </div>
+<div class="nextback">
+            <nuxt-link to="/organization/organization/ColorOfChange"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+            <nuxt-link to="/organization/organization/other"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+        </div>
      <Footer></Footer>
   </div>
 </template>
@@ -101,5 +105,31 @@ export default {
 
 .briefinfo{
     display: inline-block; 
+}
+
+.logom4bl{
+    width: 40%; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.next{
+    display: inline-block;
+    float: right; 
+    margin-left: auto;
+    margin-right: 40px;
+    width: 100px; 
+}
+
+.back{
+    display: inline-block;
+    margin-left: 40px;
+    float: left; 
+    margin-right: auto;
+    width: 100px; 
+}
+
+.nextback{
+    text-align: center; 
 }
 </style>
