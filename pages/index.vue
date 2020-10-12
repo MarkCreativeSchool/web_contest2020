@@ -11,6 +11,10 @@
       <b>*私たちがこのサイトで取り上げている黒人差別問題は繊細な課題です。バイアスは断じて禁じるように気遣っています。その為、意見や個人の考えなどは控えています。ご了承ください。</b>
     </p>
 
+    <div class="nextbutton">
+    <img class="next" src="~/assets/tugi.png">
+    </div>
+
     </div> 
 
   <Footer></Footer>
@@ -66,6 +70,17 @@ export default {
   height: 500px; 
   margin-top: 0px; 
   margin-bottom: 30px;
+}
+
+.next{
+  width: 100px; 
+  height: 60px; 
+  margin: 0 auto; 
+  float: center; 
+}
+
+.nextbutton{
+  margin: 0 auto;
 }
 
 </style>
