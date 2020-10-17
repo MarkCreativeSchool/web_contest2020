@@ -53,17 +53,7 @@
               <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
             </div>
       </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="~/assets/other2.jpg" alt="Placeholder image">
-          </figure>
-        </div>
 
-            <div class="content">
-            <nuxt-link to="/organization/organization/other" class="bar"> <b>他</b> </nuxt-link><br></br>
-            </div>
-      </div>
 </div>
 
 <div class="nextback">

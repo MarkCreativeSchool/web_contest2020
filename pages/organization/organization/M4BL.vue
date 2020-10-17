@@ -42,7 +42,6 @@
 </div>
 <div class="nextback">
             <nuxt-link to="/organization/organization/ColorOfChange"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/organization/organization/other"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
      <Footer></Footer>
   </div>

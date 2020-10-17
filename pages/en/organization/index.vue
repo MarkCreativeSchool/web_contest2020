@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     
-    <h3 class="start">Organization</h3>
+    <h3 class="start">Organizations</h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -13,7 +13,7 @@
         </div>
 
         <div class="content">
-             <nuxt-link to="/organization/organization/BLM" class="bar"><b>Black Lives Matter (BLM)</b></nuxt-link> <br><br>
+             <nuxt-link to="/en/organization/BLM" class="bar"><b>Black Lives Matter (BLM)</b></nuxt-link> <br><br>
               
          </div>
       </div>
@@ -25,7 +25,7 @@
         </div>
 
             <div class="content">
-              <nuxt-link to="/organization/organization/BAJI" class="bar"><b>Black Alliance for Just Immigration</b> </nuxt-link><br><br>
+              <nuxt-link to="/en/organization/BAJI" class="bar"><b>Black Alliance for Just Immigration</b> </nuxt-link><br><br>
             </div>
       </div>
       <div class="card">
@@ -36,7 +36,7 @@
         </div>
 
             <div class="content">
-            <nuxt-link to="/organization/organization/ColorOfChange" class="bar"> <b>Color Of Change</b> </nuxt-link><br><br>
+            <nuxt-link to="/en/organization/ColorOfChange" class="bar"> <b>Color Of Change</b> </nuxt-link><br><br>
             </div>
       </div>
       </div>
@@ -50,18 +50,7 @@
         </div>
 
             <div class="content">
-              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
-            </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="~/assets/other2.jpg" alt="Placeholder image">
-          </figure>
-        </div>
-
-            <div class="content">
-            <nuxt-link to="/organization/organization/other" class="bar"> <b>他</b> </nuxt-link><br></br>
+              <nuxt-link to="/en/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
             </div>
       </div>
 </div>
