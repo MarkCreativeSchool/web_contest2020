@@ -4,8 +4,12 @@
     <div class="test">
       <div class="linebar"></div>
       <div class="year">
-        <h6>1619</h6>
-        <h6>1774</h6>
+        <h6>
+          <div class="timelineFirst">1619</div>
+        </h6>
+        <h6>
+          <div class="timelineLast">1774</div>
+        </h6>
       </div>
     </div>
   </div>
@@ -37,7 +41,7 @@ export default {
 }
 .test .linebar{
   position: relative;
-  top: calc(50% - 20px);
+  top: calc(85% - 20px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -46,15 +50,25 @@ export default {
   border-radius: 7px;
 }
 .year{
+  position: relative;
   display: flex;
   align-content: space-between;
   width: 100%;
   text-align: center;
+  top: 83%;
 }
 .year h6{
   flex: 1;
   font-size:17px;
   font-weight: bold;
+}
+.year h6 .timelineFirst{
+  text-align: left;
+  padding-left: 50px;
+}
+.year h6 .timelineLast{
+  text-align: right;
+  padding-right: 50px;
 }
 .layer{
   position: fixed;
