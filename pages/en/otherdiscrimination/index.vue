@@ -18,7 +18,7 @@
         </div>
 
         <div class="content">
-              <nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="bar"><b>Gender Discrimination</b> </nuxt-link><br></br>
+              <nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="bar"><b>Gender Discrimination</b> </nuxt-link><br></br>
               
          </div>
       </div>
@@ -30,7 +30,7 @@
         </div>
 
             <div class="content">
-             <nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="bar"><b>Asian Discrimination</b></nuxt-link> <br></br>
+             <nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="bar"><b>Asian Discrimination</b></nuxt-link> <br></br>
             </div>
       </div>
       <div class="card">
@@ -41,7 +41,7 @@
         </div>
 
         <div class="content">
-            <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="bar">  <b>Sexual Orientation Discrimination</b> </nuxt-link><br></br>
+            <nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="bar">  <b>Sexual Orientation Discrimination</b> </nuxt-link><br></br>
               
          </div>
       </div>
@@ -59,7 +59,7 @@
         </div>
 
             <div class="content">
-              <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="bar"><b>Discrimination based on Religion</b> </nuxt-link><br></br>
+              <nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="bar"><b>Discrimination based on Religion</b> </nuxt-link><br></br>
             </div>
       </div>
       <div class="card">
@@ -70,7 +70,7 @@
         </div>
 
             <div class="content">
-            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>Others</b> </nuxt-link><br></br>
+            <nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination" class="bar"> <b>Others</b> </nuxt-link><br></br>
             </div>
       </div>
 </div>

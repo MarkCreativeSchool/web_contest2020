@@ -3,7 +3,7 @@
     <ul class="down">
         <li><a class="subpage" href="/">Home</a></li>
         <li><a class="subpage">About</a></li>
-        <li><a class="subpage">Contact</a></li>
+        <li class="statement">第23回全国中学高校WEBコンテスト参加作品</li>
     </ul>
   </div>
 </template>
@@ -48,4 +48,9 @@ li{
     position: relative;
     height: 200px;
 }
+
+.statement{
+    color: #f6d405;
+}
+
 </style>

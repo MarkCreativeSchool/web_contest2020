@@ -13,7 +13,7 @@
     </div>
     </p>
 
-    <h3 class="start">活動・プログラム</h3>
+    <h3 class="start">事件</h3>
        
          <div class="activity">
             <h6 class="program">オーランド銃乱射事件（アメリカ）</h6>
