@@ -1,7 +1,7 @@
 
 <template>
     <div>
-      <div class="layer vvvvvvv" v-if="true" @click="onClose"></div>
+      <div class="layer" v-if="true" @click="onClose"></div>
       <div class="map-content">
         <h6 class="title">カリフォルニア州</h6>
         <hr>

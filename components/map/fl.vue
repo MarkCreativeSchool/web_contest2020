@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="layer" @click="onClose"></div>
+    <div class="layer" v-if="true" @click="onClose"></div>
     <div class="map-content">
       <h6 class="title">フロリダ州</h6>
       <hr>
@@ -28,14 +28,25 @@ export default {
 </script>
 
 <style scoped>
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
 .layer{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
   z-index: 1000;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
 }
 .map-content{
   position: fixed;
