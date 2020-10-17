@@ -4,30 +4,31 @@
     <div class="info">
       <h3 class="start">ざっくり出来事（歴史）</h3>
       <p class="two">下にあるタイムラインは米国の歴史、また黒人差別に関する歴史が表記されています。</p>
+      <br>
       <div class="timeline">
         <div class="line">
-          <div class="linebar line1"></div>
+          <div class="linebar line1" @click="onClick('line1')"></div>
         </div>
         <div class="line">
-          <div class="linebar line2"></div>
+          <div class="linebar line2" @click="onClick('line2')"></div>
         </div>
         <div class="line">
-          <div class="linebar line3"></div>
+          <div class="linebar line3" @click="onClick('line3')"></div>
         </div>
         <div class="line">
-          <div class="linebar line4"></div>
+          <div class="linebar line4" @click="onClick('line4')"></div>
         </div>
         <div class="line">
-          <div class="linebar line5"></div>
+          <div class="linebar line5" @click="onClick('line5')"></div>
         </div>
         <div class="line">
-          <div class="linebar line6"></div>
+          <div class="linebar line6" @click="onClick('line6')"></div>
         </div>
         <div class="line">
-          <div class="linebar line7"></div>
+          <div class="linebar line7" @click="onClick('line7')"></div>
         </div>
         <div class="line">
-          <div class="linebar line8"></div>
+          <div class="linebar line8" @click="onClick('line8')"></div>
         </div>
         <div class="year">
           <h6>1600</h6>
@@ -52,7 +53,12 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
-}　
+  methods:{
+    onClick(locationName){
+      alert(locationName)
+    }
+  }
+}
 </script>
 
 <style>
