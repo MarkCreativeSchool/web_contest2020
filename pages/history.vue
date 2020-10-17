@@ -44,18 +44,28 @@
             <nuxt-link to="/currentproblems"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
      <Footer></Footer>
+
+    <line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>
+
   </div>
 </template>
 
 <script>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
+import line1 from "~/components/timeline/line1"
+
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Header, Footer, line1},
+  data(){
+    return{
+      locationName:null
+    }
+  },
   methods:{
     onClick(locationName){
-      alert(locationName)
+      this.locationName=locationName
     }
   }
 }
@@ -113,6 +123,7 @@ export default {
   height: 20px;
   top: 20px;
   background: black;
+  cursor: pointer;
   border-radius: 7px;
 }
 .line1{
@@ -164,6 +175,7 @@ export default {
 .year h6{
   flex: 1;
   font-size: 17px;
+  font-weight: bold;
 }
 
 .next{
