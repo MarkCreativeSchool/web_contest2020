@@ -21,12 +21,15 @@ export default {
 <style scoped>
 .event .title{
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
+  top: 50%;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  background: #ffffff;
   z-index: 2001;
-  color: #fff;
+  border-radius: 15px;
+  border: solid 5px burlywood;
 }
 .event .layer {
   position: fixed;
