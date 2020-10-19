@@ -1,8 +1,11 @@
 <template>
   <div class="event">
     <div class="layer" @click="onClose"></div>
-    <div class="title">
-      <h6>イベント1</h6>
+    <div class="border">
+      <h6 class="title"><b>2-1: 奴隷輸入</b></h6>
+      <hr>
+      <p class="context">アフリカから黒人奴隷を載せた船が始めてイギリス領アメリカに到着。黒人奴隷たちは、過酷な労働を強いられた。その後、イギリスによる三角貿易によって黒人奴隷の輸入は広がっていった。
+      </p>
       <h6 class="xButton" @click="onClose">x</h6>
     </div>
   </div>
@@ -20,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-.event .title{
+.event .border{
   position: fixed;
   top: 50%;
   left: 50%;
@@ -32,12 +35,25 @@ export default {
   border-radius: 15px;
   border: solid 5px burlywood;
 }
-.event .title .xButton{
+.event .border .xButton{
   position: fixed;
-  right: 15px;
+  right: 20px;
   top: -5px;
+  font-size: 40px;
   cursor: pointer;
-  font-family: "Comic Sans MS"
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.event .border .title{
+  position: relative;
+  top: 20px;
+  font-size: 50px;
+}
+.event .border .context{
+  position: fixed;
+  top: 35%;
+  font-size: 40px;
+  font-weight: normal;
 }
 .event .layer {
   position: fixed;
