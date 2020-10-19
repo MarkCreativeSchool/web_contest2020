@@ -2,6 +2,8 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="test">
+      <!--イベント-->
+      <div class="event1" @click="onClick('event1')"></div>
       <div class="linebar"></div>
       <div class="year">
         <h6>
@@ -12,15 +14,27 @@
         </h6>
       </div>
     </div>
+<!--    <event1 v-if="locationName==='event1'"></event1>-->
   </div>
 </template>
 
 <script>
+import event1 from "~/components/events/event1"
+
 export default {
   name: "line1.vue",
+  components: {event1,},
+  data(){
+    return{
+      locationName:null
+    }
+  },
   methods:{
     onClose(){
       this.$emit("onClose")
+    },
+    onClick(locationName2){
+      this.locationName2=locationName2
     }
   }
 }
@@ -44,6 +58,16 @@ export default {
   top: calc(85% - 20px);
   width: 90%;
   margin: 0 auto;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event1{
+  position:relative;
+  top: 10%;
+  left: 60px;
+  width: 20px;
   height: 20px;
   background: black;
   cursor: pointer;
