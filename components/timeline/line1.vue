@@ -14,7 +14,7 @@
         </h6>
       </div>
     </div>
-<!--    <event1 v-if="locationName==='event1'"></event1>-->
+    <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
   </div>
 </template>
 
@@ -34,7 +34,7 @@ export default {
       this.$emit("onClose")
     },
     onClick(locationName2){
-      this.locationName2=locationName2
+      this.locationName=locationName2
     }
   }
 }
