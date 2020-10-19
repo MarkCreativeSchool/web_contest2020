@@ -2,6 +2,7 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="test">
+      <div class="title">第2章:13の植民地(13 colonies)の誕生</div>
       <!--イベント-->
       <div class="event1" @click="onClick('event1')"></div>
       <div class="linebar"></div>
@@ -53,9 +54,13 @@ export default {
   border-radius: 15px;
   border: solid 5px burlywood;
 }
+.test .title{
+  position: relative;
+  left: 20px;
+}
 .test .linebar{
   position: relative;
-  top: calc(85% - 20px);
+  top: calc(85% - 100px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -65,7 +70,7 @@ export default {
 }
 .test .event1{
   position:relative;
-  top: 10%;
+  top: calc(10% - 40px);
   left: 60px;
   width: 20px;
   height: 20px;
@@ -79,11 +84,9 @@ export default {
   align-content: space-between;
   width: 100%;
   text-align: center;
-  top: 83%;
-}
-.year h6{
+  top: calc(83% - 85px);
   flex: 1;
-  font-size:17px;
+  font-size: 17px;
   font-weight: bold;
 }
 .year h6 .timelineFirst{
