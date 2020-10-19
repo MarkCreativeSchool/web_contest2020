@@ -3,6 +3,7 @@
     <div class="layer" @click="onClose"></div>
     <div class="title">
       <h6>イベント1</h6>
+      <h6 class="xButton" @click="onClose">x</h6>
     </div>
   </div>
 </template>
@@ -31,6 +32,13 @@ export default {
   border-radius: 15px;
   border: solid 5px burlywood;
 }
+.event .title .xButton{
+  position: fixed;
+  right: 15px;
+  top: -5px;
+  cursor: pointer;
+  font-family: "Comic Sans MS"
+}
 .event .layer {
   position: fixed;
   top: 0;
@@ -38,7 +46,6 @@ export default {
   width: 100%;
   height: 100vh;
   z-index: 2000;
-  background-color: orangered;
   opacity: 0.2;
 }
 </style>
