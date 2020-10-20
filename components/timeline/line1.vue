@@ -72,7 +72,7 @@ export default {
 .test .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 260px);
+  bottom: calc(1% - 230px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -136,7 +136,7 @@ export default {
   width: 100%;
   text-align: center;
   /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 265px);
+  bottom: calc(1% - 235px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
