@@ -5,6 +5,8 @@
       <div class="title">第2章:13の植民地(13 colonies)の誕生</div>
       <!--イベント-->
       <div class="event1" @click="onClick('event1')"></div>
+      <div class="event2" @click="onClick('event2')"></div>
+      <div class="event3" @click="onClick('event3')"></div>
       <div class="linebar"></div>
       <div class="year">
         <h6>
@@ -16,15 +18,17 @@
       </div>
     </div>
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
+    <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
   </div>
 </template>
 
 <script>
 import event1 from "~/components/events/event1"
+import event2 from "~/components/events/event2"
 
 export default {
   name: "line1.vue",
-  components: {event1,},
+  components: {event1, event2, },
   data(){
     return{
       locationName:null
@@ -72,6 +76,26 @@ export default {
   position:relative;
   top: calc(10% - 40px);
   left: 60px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event2{
+    position:relative;
+  top: calc(10% - 25px);
+  left: 700px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event3{
+      position:relative;
+  top: calc(10% - 15px);
+  left: 750px;
   width: 20px;
   height: 20px;
   background: black;
