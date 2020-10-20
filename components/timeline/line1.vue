@@ -19,16 +19,18 @@
     </div>
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
+    <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
   </div>
 </template>
 
 <script>
 import event1 from "~/components/events/event1"
 import event2 from "~/components/events/event2"
+import event3 from "~/components/events/event3"
 
 export default {
   name: "line1.vue",
-  components: {event1, event2, },
+  components: {event1, event2, event3, },
   data(){
     return{
       locationName:null
@@ -93,10 +95,10 @@ export default {
   border-radius: 7px;
 }
 .test .event3{
-      position:relative;
+  position:relative;
   top: calc(10% - 15px);
-  left: 750px;
-  width: 20px;
+  left: 710px;
+  width: 90px;
   height: 20px;
   background: black;
   cursor: pointer;
