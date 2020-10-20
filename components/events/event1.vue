@@ -54,6 +54,7 @@ export default {
   top: 35%;
   font-size: 40px;
   font-weight: normal;
+  text-align: center;
 }
 .event .layer {
   position: fixed;

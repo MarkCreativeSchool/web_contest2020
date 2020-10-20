@@ -7,6 +7,9 @@
       <div class="event1" @click="onClick('event1')"></div>
       <div class="event2" @click="onClick('event2')"></div>
       <div class="event3" @click="onClick('event3')"></div>
+      <div class="event4" @click="onClick('event4')"></div>
+      <div class="event5" @click="onClick('event5')"></div>
+
       <div class="linebar"></div>
       <div class="year">
         <h6>
@@ -20,6 +23,7 @@
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
     <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
+    <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
   </div>
 </template>
 
@@ -27,10 +31,11 @@
 import event1 from "~/components/events/event1"
 import event2 from "~/components/events/event2"
 import event3 from "~/components/events/event3"
+import event4 from "~/components/events/event4"
 
 export default {
   name: "line1.vue",
-  components: {event1, event2, event3, },
+  components: {event1, event2, event3, event4, },
   data(){
     return{
       locationName:null
@@ -67,7 +72,7 @@ export default {
 .test .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 270px);
+  bottom: calc(1% - 260px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -104,6 +109,26 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
+.test .event4{
+  position:relative;
+  top: calc(10% - 10px);
+  left: 798px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event5{
+    position:relative;
+  top: calc(10% - 5px);
+  left: 815px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
 .year{
   position: relative;
   display: flex;
@@ -111,7 +136,7 @@ export default {
   width: 100%;
   text-align: center;
   /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 280px);
+  bottom: calc(1% - 265px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
