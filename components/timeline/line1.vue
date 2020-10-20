@@ -64,12 +64,12 @@ export default {
 }
 .test .linebar{
   position: relative;
-  top: calc(85% - 100px);
+  /*top: calc(85% - 110px);*/
+  bottom: calc(1% - 270px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
   background: black;
-  cursor: pointer;
   border-radius: 7px;
 }
 .test .event1{
@@ -108,7 +108,8 @@ export default {
   align-content: space-between;
   width: 100%;
   text-align: center;
-  top: calc(83% - 85px);
+  /*top: calc(83% - 95px);*/
+  bottom: calc(1% - 280px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
