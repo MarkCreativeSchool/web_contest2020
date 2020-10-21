@@ -30,6 +30,12 @@
         <div class="line">
           <div class="linebar line8" @click="onClick('line8')"></div>
         </div>
+        <div class="line">
+          <div class="linebar lastLine" @click="onClick('lastLine')"></div>
+        </div>
+<!--        <div class="line">-->
+<!--          <div class="linebar line9" @click="onClick('line9')"></div>-->
+<!--        </div>-->
         <div class="year">
           <h6>1600</h6>
           <h6>1700</h6>
@@ -162,6 +168,11 @@ export default {
   width: 35px;
 }
 .line8{
+  position:absolute;
+  left: 800px;
+  width: 80px;
+}
+.lastLine{
   position: absolute;
   left: 20px;
   width: calc(100% - 40px);

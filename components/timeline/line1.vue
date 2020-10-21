@@ -2,7 +2,7 @@
   <div>
     <div class="layer" @click="onClose"></div>
     <div class="test">
-      <div class="title">第2章:13の植民地(13 colonies)の誕生</div>
+      <div class="title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
       <!--イベント-->
       <div class="event1" @click="onClick('event1')"></div>
       <div class="event2" @click="onClick('event2')"></div>
@@ -13,7 +13,7 @@
       <div class="linebar"></div>
       <div class="year">
         <h6>
-          <div class="timelineFirst">1619</div>
+          <div class="timelineFirst">1500</div>
         </h6>
         <h6>
           <div class="timelineLast">1774</div>
@@ -82,7 +82,7 @@ export default {
 .test .event1{
   position:relative;
   top: calc(10% - 40px);
-  left: 60px;
+  left: 300px;
   width: 20px;
   height: 20px;
   background: black;
