@@ -4,6 +4,7 @@
     <div class="test">
       <div class="title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
       <!--イベント-->
+      <div class="event0" @click="onClick('event0')"></div>
       <div class="event1" @click="onClick('event1')"></div>
       <div class="event2" @click="onClick('event2')"></div>
       <div class="event3" @click="onClick('event3')"></div>
@@ -20,6 +21,7 @@
         </h6>
       </div>
     </div>
+    <event0 v-if="locationName==='event0'" @onClose="locationName=null"></event0>
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
     <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
@@ -28,6 +30,7 @@
 </template>
 
 <script>
+import event0 from "~/components/events/event0"
 import event1 from "~/components/events/event1"
 import event2 from "~/components/events/event2"
 import event3 from "~/components/events/event3"
@@ -35,7 +38,7 @@ import event4 from "~/components/events/event4"
 
 export default {
   name: "line1.vue",
-  components: {event1, event2, event3, event4, },
+  components: {event1, event2, event3, event4, event0, },
   data(){
     return{
       locationName:null
@@ -72,11 +75,21 @@ export default {
 .test .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 230px);
+  bottom: calc(1% - 220px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
   background: black;
+  border-radius: 7px;
+}
+.test .event0{
+  position:relative;
+  top: calc(10% - 35px);
+  left: 65px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
   border-radius: 7px;
 }
 .test .event1{
@@ -136,7 +149,7 @@ export default {
   width: 100%;
   text-align: center;
   /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 235px);
+  bottom: calc(1% - 225px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
