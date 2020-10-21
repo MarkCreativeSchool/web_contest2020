@@ -10,6 +10,9 @@
       <div class="event3" @click="onClick('event3')"></div>
       <div class="event4" @click="onClick('event4')"></div>
       <div class="event5" @click="onClick('event5')"></div>
+      <div class="event6" @click="onClick('event6')"></div>
+      <div class="event7" @click="onClick('event7')"></div>
+
 
       <div class="linebar"></div>
       <div class="year">
@@ -26,6 +29,9 @@
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
     <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
     <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
+    <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
+    <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
+    <event7 v-if="locationName==='event7'" @onClose="locationName=null"></event7>
   </div>
 </template>
 
@@ -35,10 +41,13 @@ import event1 from "~/components/events/event1"
 import event2 from "~/components/events/event2"
 import event3 from "~/components/events/event3"
 import event4 from "~/components/events/event4"
+import event5 from "~/components/events/event5"
+import event6 from "~/components/events/event6"
+import event7 from "~/components/events/event7"
 
 export default {
   name: "line1.vue",
-  components: {event1, event2, event3, event4, event0, },
+  components: {event1, event2, event3, event4, event0,event5, event6, event7, },
   data(){
     return{
       locationName:null
@@ -75,7 +84,7 @@ export default {
 .test .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 220px);
+  bottom: calc(1% - 180px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -133,9 +142,29 @@ export default {
   border-radius: 7px;
 }
 .test .event5{
-    position:relative;
+  position:relative;
   top: calc(10% - 5px);
   left: 815px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event6{
+  position:relative;
+  top: 10%;
+  left: 830px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event7{
+  position:relative;
+  top: calc(10% + 20px);
+  left: 900px;
   width: 20px;
   height: 20px;
   background: black;
@@ -149,7 +178,7 @@ export default {
   width: 100%;
   text-align: center;
   /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 225px);
+  bottom: calc(1% - 185px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
