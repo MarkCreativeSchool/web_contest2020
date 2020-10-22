@@ -2,9 +2,9 @@
   <div class="event">
     <div class="layer" @click="onClose"></div>
     <div class="border">
-      <h6 class="title"><b>七年戦争(1756年~1763年)</b></h6>
+      <h6 class="title"><b>第二回大陸会議(1775年5月)</b></h6>
       <hr>
-      <p class="context">オーストリアで起こった戦争であり、後にアメリカ・インド・アフリカなど世界を巻き込む戦争へと発展していった。七年戦争へと参戦することになったアメリカの中で、アメリカを舞台として起こった戦争をフレンチ・インディアン戦争(イギリス VS フランス)と呼ぶ。フレンチ・インディアン戦争で勝利したイギリスは、アメリカの植民地に対して過酷な重税をかけることになる。
+      <p class="context">フィラデルフィアで開催された第二回大陸会議では、ワシントンを総司令官として、13の植民地の団結力を高め、イギリス本国と戦い独立を勝ち取ろうとした。
       </p>
       <h6 class="xButton" @click="onClose">x</h6>
     </div>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "event3.vue",
+  name: "event2.vue",
   methods:{
     onClose(){
       this.$emit("onClose")
@@ -52,7 +52,7 @@ export default {
 .event .border .context{
   position: fixed;
   top: auto;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: normal;
   text-align: center;
 }

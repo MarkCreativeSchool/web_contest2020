@@ -5,6 +5,7 @@
         <div class="title">第2章:独立戦争の開幕</div>
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
+        <div class="event2" @click="onClick('event2')"></div>
 
         <div class="linebar"></div>
         <div class="year">
@@ -16,13 +17,16 @@
           </h6>
         </div>
       </div>
+    <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     </div>
 </template>
 
 <script>
+import event1 from "~/components/events/2nd/event1"
+
 export default {
   name: "line2.vue",
-  components:{},
+  components:{event1, },
   data(){
     return{
       locationName:null
@@ -70,6 +74,16 @@ export default {
   position:relative;
   top: calc(10% - 35px);
   left: 55px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event2 {
+  position: relative;
+  top: calc(10% - 30px);
+  left: 57px;
   width: 20px;
   height: 20px;
   background: black;
