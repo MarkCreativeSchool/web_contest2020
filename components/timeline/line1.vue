@@ -12,6 +12,7 @@
       <div class="event5" @click="onClick('event5')"></div>
       <div class="event6" @click="onClick('event6')"></div>
       <div class="event7" @click="onClick('event7')"></div>
+      <div class="event8" @click="onClick('event8')"></div>
 
 
       <div class="linebar"></div>
@@ -32,6 +33,7 @@
     <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
     <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
     <event7 v-if="locationName==='event7'" @onClose="locationName=null"></event7>
+    <event8 v-if="locationName==='event8'" @onClose="locationName=null"></event8>
   </div>
 </template>
 
@@ -44,10 +46,11 @@ import event4 from "~/components/events/event4"
 import event5 from "~/components/events/event5"
 import event6 from "~/components/events/event6"
 import event7 from "~/components/events/event7"
+import event8 from "~/components/events/event8"
 
 export default {
   name: "line1.vue",
-  components: {event1, event2, event3, event4, event0,event5, event6, event7, },
+  components: {event1, event2, event3, event4, event0,event5, event6, event7, event8, },
   data(){
     return{
       locationName:null
@@ -84,7 +87,7 @@ export default {
 .test .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 180px);
+  bottom: calc(1% - 155px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -171,6 +174,16 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
+.test .event8{
+  position:relative;
+  top: calc(10% + 40px);
+  left: 920px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
 .year{
   position: relative;
   display: flex;
@@ -178,7 +191,7 @@ export default {
   width: 100%;
   text-align: center;
   /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 185px);
+  bottom: calc(1% - 160px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
