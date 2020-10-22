@@ -18,15 +18,17 @@
         </div>
       </div>
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
-    </div>
+    <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
+  </div>
 </template>
 
 <script>
 import event1 from "~/components/events/2nd/event1"
+import event2 from "~/components/events/2nd/event2"
 
 export default {
   name: "line2.vue",
-  components:{event1, },
+  components:{event1, event2, },
   data(){
     return{
       locationName:null
