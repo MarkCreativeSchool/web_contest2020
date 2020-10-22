@@ -52,6 +52,7 @@
      <Footer></Footer>
 
     <line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>
+    <line2 v-if="locationName==='line2'" @onClose="locationName=null"></line2>
 
   </div>
 </template>
@@ -60,10 +61,11 @@
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 import line1 from "~/components/timeline/line1"
+import line2 from "~/components/timeline/line2"
 
 export default {
   name: "Index",
-  components: { Header, Footer, line1},
+  components: { Header, Footer, line1, line2, },
   data(){
     return{
       locationName:null

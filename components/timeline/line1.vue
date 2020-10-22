@@ -38,15 +38,15 @@
 </template>
 
 <script>
-import event0 from "~/components/events/event0"
-import event1 from "~/components/events/event1"
-import event2 from "~/components/events/event2"
-import event3 from "~/components/events/event3"
-import event4 from "~/components/events/event4"
-import event5 from "~/components/events/event5"
-import event6 from "~/components/events/event6"
-import event7 from "~/components/events/event7"
-import event8 from "~/components/events/event8"
+import event0 from "@/components/events/1st/event0"
+import event1 from "@/components/events/1st/event1"
+import event2 from "@/components/events/1st/event2"
+import event3 from "@/components/events/1st/event3"
+import event4 from "@/components/events/1st/event4"
+import event5 from "@/components/events/1st/event5"
+import event6 from "@/components/events/1st/event6"
+import event7 from "@/components/events/1st/event7"
+import event8 from "@/components/events/1st/event8"
 
 export default {
   name: "line1.vue",
