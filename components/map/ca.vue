@@ -1,4 +1,3 @@
-
 <template>
     <div>
       <div class="layer" v-if="true" @click="onClose"></div>
@@ -39,12 +38,13 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
   z-index: 1000;
   animation-name: fadeIn;
   animation-duration: 0.5s;
   animation-timing-function: linear;
 }
+
 .map-content{
   position: fixed;
   top: 50%;
@@ -56,6 +56,7 @@ export default {
   border-radius: 8px;
   border: solid 5px burlywood;
 }
+
 .context{
   font-size: 30px;
 }
