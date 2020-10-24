@@ -23,6 +23,7 @@
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
     <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
     <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
+    <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
   </div>
 </template>
 
