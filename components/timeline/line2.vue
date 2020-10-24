@@ -6,6 +6,8 @@
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
         <div class="event2" @click="onClick('event2')"></div>
+        <div class="event3" @click="onClick('event3')"></div>
+        <div class="event4" @click="onClick('event4')"></div>
 
         <div class="linebar"></div>
         <div class="year">
@@ -19,16 +21,20 @@
       </div>
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
+    <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
+    <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
   </div>
 </template>
 
 <script>
 import event1 from "~/components/events/2nd/event1"
 import event2 from "~/components/events/2nd/event2"
+import event3 from "~/components/events/2nd/event3"
+import event4 from "~/components/events/2nd/event4"
 
 export default {
   name: "line2.vue",
-  components:{event1, event2, },
+  components:{event1, event2, event3, event4, },
   data(){
     return{
       locationName:null
@@ -86,6 +92,26 @@ export default {
   position: relative;
   top: calc(10% - 30px);
   left: 57px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event3{
+  position: relative;
+  top: calc(10% - 25px);
+  left: 65px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.test .event4{
+  position: relative;
+  top: calc(10% - 20px);
+  left: 75px;
   width: 20px;
   height: 20px;
   background: black;
