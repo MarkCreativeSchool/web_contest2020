@@ -15,11 +15,30 @@
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>
         <nuxt-link to="/currentproblems" class="bar">現問題</nuxt-link>
-        <nuxt-link to="/organization" class="bar">組織</nuxt-link>
-        <nuxt-link to="/otherdiscrimination" class="bar">他の差別</nuxt-link>
         
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
-        <span @click="toggleDropDown(2)">その他</span> 
+        <span @click="toggleDropDown(2)">現状</span> 
+        <ul class="sub">
+              <li><nuxt-link to="/current/statistics/work" class="subpage">雇用</nuxt-link></li>
+              <li><nuxt-link to="/current/statistics/education" class="subpage">教育</nuxt-link></li>
+              <li><nuxt-link to="/current/statistics/policebrutality" class="subpage">逮捕率など</nuxt-link></li>
+              <li><nuxt-link to="/current/organization" class="subpage">組織</nuxt-link></li>
+            </ul>
+        </nuxt-link>
+
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 3 }"> 
+        <span @click="toggleDropDown(3)">他の差別</span> 
+        <ul class="sub">
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="subpage">性差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="subpage">アジア人差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="subpage">性的指向</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="subpage">宗教差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="subpage">他</nuxt-link></li>
+            </ul>
+        </nuxt-link>
+        
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 4 }"> 
+        <span @click="toggleDropDown(4)">その他</span> 
         <ul class="sub">
               <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>
               <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>

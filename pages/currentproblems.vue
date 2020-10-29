@@ -27,10 +27,6 @@
 
       <img class="map" src="~/assets/usmap.png">
       </div>
-      <div class="nextback">
-            <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/organization"><img class="next" src="~/assets/tugi.png"></nuxt-link>
-        </div>
 
        <Footer></Footer>
     </div>

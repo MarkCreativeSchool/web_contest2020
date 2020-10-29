@@ -27,7 +27,7 @@
 
     </div> 
     <div class="nextback">
-            <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+           <!-- <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>-->
             <nuxt-link to="/others/sitemap"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
     

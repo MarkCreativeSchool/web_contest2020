@@ -23,7 +23,7 @@
 
     </div> 
     <div class="nextback">
-            <nuxt-link to="/en/otherdiscrimination"><img class="back" src="~/assets/back2.png"></nuxt-link>
+           <!-- <nuxt-link to="/en/otherdiscrimination"><img class="back" src="~/assets/back2.png"></nuxt-link>-->
             <nuxt-link to="/en/otherdiscrimination/asiandiscrimination"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
     
@@ -32,11 +32,11 @@
 </template>
 
 <script>
-import Header from "~/components/Header"
+import Headereng from "~/components/Headereng"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Headereng, Footer },
 }　
 </script>
 

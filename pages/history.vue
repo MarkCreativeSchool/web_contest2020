@@ -45,10 +45,6 @@
         </div>
       </div>
    </div>
-   <div class="nextback">
-            <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/currentproblems"><img class="next" src="~/assets/tugi.png"></nuxt-link>
-        </div>
      <Footer></Footer>
 
     <line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>

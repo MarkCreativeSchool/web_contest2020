@@ -1,6 +1,6 @@
 <template>
   <div class="full">
-  <Header></Header>
+  <Headereng></Headereng>
    <div class="info">
     
     <h3 class="start">Discrimination against Asians</h3>
@@ -36,11 +36,11 @@
 </template>
 
 <script>
-import Header from "~/components/Header"
+import Headereng from "~/components/Headereng"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
-  components: { Header, Footer },
+  components: { Headereng, Footer },
 }　
 </script>
 

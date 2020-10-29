@@ -15,11 +15,29 @@
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar">History</nuxt-link>
         <nuxt-link to="/en/currentproblems" class="bar">Current Problems</nuxt-link>
-        <nuxt-link to="/en/organization" class="bar">Organizations</nuxt-link>
-        <nuxt-link to="/en/otherdiscrimination" class="bar">Other Discrimination</nuxt-link>
+       <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
+        <span @click="toggleDropDown(2)">Statistics</span> 
+        <ul class="sub">
+              <li><nuxt-link to="/en/current/statistics/work" class="subpage">Work</nuxt-link></li>
+              <li><nuxt-link to="/en/current/statistics/education" class="subpage">Education</nuxt-link></li>
+              <li><nuxt-link to="/en/current/statistics/policebrutality" class="subpage">Police Brutality, etc.</nuxt-link></li>
+              <li><nuxt-link to="/en/current/organization" class="subpage">Organization</nuxt-link></li>
+            </ul>
+        </nuxt-link>
+
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 3 }"> 
+        <span @click="toggleDropDown(3)">Other Discrimination</span> 
+        <ul class="sub">
+              <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="subpage">Gender</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="subpage">Asian</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="subpage">Sexual Orientation</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="subpage">Religious</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination" class="subpage">Others</nuxt-link></li>
+            </ul>
+        </nuxt-link>
         
-        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
-        <span @click="toggleDropDown(2)">Others</span> 
+        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 4 }"> 
+        <span @click="toggleDropDown(4)">Others</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>
               <li><nuxt-link to="/en/others/sitemap" class="subpage">Site Map</nuxt-link></li>

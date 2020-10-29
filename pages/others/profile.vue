@@ -44,6 +44,9 @@
       </div>
       </div>
 </div>
+
+<h3 class="start">活動記録</h3>
+
 <div class="nextback">
             <nuxt-link to="/others/sitemap"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
             <nuxt-link to="/others/references"><img class="next" src="~/assets/tugi.png"></nuxt-link>
