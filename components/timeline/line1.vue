@@ -72,7 +72,7 @@ export default {
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 50%;
+  height: 65%;
   transform: translate(-50%, -50%);
   width: 1000px;
   background: #ffffff;

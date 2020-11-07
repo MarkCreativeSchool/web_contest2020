@@ -53,6 +53,8 @@ export default {
   position: fixed;
   top: auto;
   font-size: 30px;
+  height: 600px;
+  overflow-y: auto;
   font-weight: normal;
   text-align: center;
 }
