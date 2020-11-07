@@ -145,7 +145,7 @@ export default {
 
 .note-content-sub{
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 6%;
   margin: 0 auto;
   width: 90%;

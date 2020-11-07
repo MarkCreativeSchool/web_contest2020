@@ -100,7 +100,7 @@ export default {
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
+    /* text-shadow: 0.5px 0.5px #f6d405; */
     text-align: center;
   }
 
@@ -113,7 +113,7 @@ export default {
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
+    /* text-shadow: 0.5px 0.5px #f6d405; */
     text-align: center;
     margin-top: 45px;
   }
@@ -132,8 +132,8 @@ export default {
   }
   .box{
     position:absolute;
-    background-color: #4CAF50;
-    opacity: 0.2;
+    /* background-color: #4CAF50; */
+    opacity: 0;
     cursor: pointer;
     z-index: 10;
   }

@@ -1,23 +1,39 @@
 <template>
   <div>
-    <div class="layer" v-if="true" @click="onClose"></div>
-    <div class="map-content">
-      <h6 class="title">ケンタッキー州</h6>
-      <hr>
-      <p class="context"><b>ブリオナ・テイラー死亡事件</b>
-      <br>ルイスヴィル在住のブリオナ・テイラーが薬物捜査のため彼女の自宅に誤って強制的に侵入した警官に射殺された事件。彼女の死後、ルイスヴィル市は無断の家宅捜査を禁止する“ブリオナ法”を成立させた。しかし、彼女の死に関わった3人の警官はいまだ解雇も、殺人で逮捕も起訴もされていない。この事件がきっかけて、ルイスヴィル市では、無断で家宅捜索を禁止する「ブリオナ法」を制定した。
-      </p>
-      <br>
+    <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
+      <div class="image-wrapper">
+        <img class="note" src="~/assets/note.png">
+        <div class="note-content">ブリオナ・テイラー死亡事件</div>
+        <div class="note-content-sub">
+          <br>ルイスヴィル在住のブリオナ・テイラーが薬物捜査のため彼女の自宅に誤って強制的に侵入した警官に射殺された事件。彼女の死後、ルイスヴィル市は無断の家宅捜査を禁止する“ブリオナ法”を成立させた。しかし、彼女の死に関わった3人の警官はいまだ解雇も、殺人で逮捕も起訴もされていない。この事件がきっかけて、ルイスヴィル市では、無断で家宅捜索を禁止する「ブリオナ法」を制定した。
+        </div>
+        <div class="year">(ケンタッキー州・2020年)</div>
+      </div>
+      <div class="map-wrapper">
+        <img class="map" src="~/assets/note2.png">
+        <div class="map2-wrapper">
+          <img class="map2" src="~/assets/ken.png">
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ky.vue",
-  methods: {
+  name: "mn.vue",
+  data(){
+    return{
+      isRemove: false
+    }
+  },
+  methods:{
     onClose(){
-      this.$emit("onClose")
+      // this.$emit("onClose")
+      this.isRemove= true
+      setTimeout(() => {
+        this.$emit("onClose")
+      }, 500)
     }
   }
 }
@@ -32,36 +48,111 @@ export default {
     opacity: 1;
   }
 }
+
+@keyframes fadeOut{
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
 .layer{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.7);
+  height:100%;
+  background: rgba(0,0,0,0.9);
   z-index: 1000;
   animation-name: fadeIn;
   animation-duration: 0.5s;
   animation-timing-function: linear;
 }
-.map-content{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  background: #ffffff;
-  z-index: 1001;
-  border-radius: 15px;
-  border: solid 5px burlywood;
-}
-.context{
-  font-size: 30px;
+
+.layer.isRemove{
+  animation-name: fadeOut;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
 }
 
-.title{
+
+.image-wrapper{
   position: relative;
-  top: 20px;
-  font-size: 50px;
+  top: 10%;
+  left: 10%;
+  width: 700px;
+  height: 550px;
+  z-index: 1;
 }
+
+.map-wrapper{
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+  transform: rotate(10deg);
+}
+
+.map2-wrapper{
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  width: 500px;
+  height: 350px;
+  transform: rotate(-10deg);
+}
+
+.image-wrapper img{
+  width: 100%;
+  height:100%;
+  border-radius: 10px;
+}
+
+.map-wrapper img{
+  width: 100%;
+  height:100%;
+}
+
+.map2-wrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+.note-content{
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  /* left: 13%; */
+  width: 100%;
+  /* margin: 0 auto; */
+  font-size: 37px;
+  font-weight: 700;
+  color: black;
+  /*background: linear-gradient(transparent 50%, #cd853f 50%);*/
+}
+
+.year{
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.note-content-sub{
+  position: absolute;
+  top: 27%;
+  left: 6%;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 23px;
+  color: black;
+}
+
+
 </style>
