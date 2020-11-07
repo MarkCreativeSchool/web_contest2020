@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="layer" @click="onClose"></div>
-      <div class="test">
-        <div class="title">第2章:独立戦争の開幕</div>
+      <div class="event-modal">
+        <div class="event-title">第2章:独立戦争の開幕</div>
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
         <div class="event2" @click="onClick('event2')"></div>
@@ -58,33 +58,7 @@ export default {
 </script>
 
 <style scoped>
-.test{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  height: 65%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  background: #ffffff;
-  z-index: 1001;
-  border-radius: 15px;
-  border: solid 5px burlywood;
-}
-.test .title{
-  position: relative;
-  left: 20px;
-}
-.test .linebar{
-  position: relative;
-  /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 155px);
-  width: 90%;
-  margin: 0 auto;
-  height: 20px;
-  background: black;
-  border-radius: 7px;
-}
-.test .event1{
+.event-modal .event1{
   position:relative;
   top: calc(10% - 35px);
   left: 55px;
@@ -94,7 +68,7 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
-.test .event2 {
+.event-modal .event2 {
   position: relative;
   top: calc(10% - 30px);
   left: 80px;
@@ -104,7 +78,7 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
-.test .event3{
+.event-modal .event3{
   position: relative;
   top: calc(10% - 25px);
   left: 130px;
@@ -114,7 +88,7 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
-.test .event4{
+.event-modal .event4{
   position: relative;
   top: calc(10% - 20px);
   left: 200px;
@@ -124,7 +98,7 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
-.test .event5{
+.event-modal .event5{
   position: relative;
   top: calc(10% - 15px);
   left: 850px;
@@ -134,7 +108,7 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
-.test .event6{
+.event-modal .event6{
   position: relative;
   top: calc(10% - 10px);
   left: 900px;
@@ -143,34 +117,5 @@ export default {
   background: black;
   cursor: pointer;
   border-radius: 7px;
-}
-.year{
-  position: relative;
-  display: flex;
-  align-content: space-between;
-  width: 100%;
-  text-align: center;
-  /*top: calc(83% - 95px);*/
-  bottom: calc(1% - 160px);
-  flex: 1;
-  font-size: 17px;
-  font-weight: bold;
-}
-.year h6 .timelineFirst{
-  text-align: left;
-  padding-left: 50px;
-}
-.year h6 .timelineLast{
-  text-align: right;
-  padding-right: 50px;
-}
-.layer{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.7);
-  z-index: 1000;
 }
 </style>
