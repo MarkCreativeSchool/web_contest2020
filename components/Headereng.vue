@@ -10,7 +10,6 @@
         <ul class="sub">
               <li><nuxt-link to="/en/homeeng" class="subpage">Home</nuxt-link></li>
               <li><nuxt-link to="/en/homeeng/whateng" class="subpage">What?</nuxt-link></li>
-              <li><nuxt-link to="/home/whatisblackdiscrimination" class="subpage">Current Statistics</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar">History</nuxt-link>

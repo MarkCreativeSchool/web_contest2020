@@ -2,7 +2,7 @@
   <div class="full">
    <div class="up">
    <img class="logo" src="~/assets/logo2.png">
-   <img class="title" src="~/assets/title5.png">
+   <img class="title" src="~/assets/t.png">
     </div>
     <div class="toggle">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
@@ -10,7 +10,6 @@
         <ul class="sub">
               <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="/home/currentstatistics" class="subpage">現状</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>

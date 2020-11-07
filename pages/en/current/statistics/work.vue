@@ -5,8 +5,16 @@
     
     <h3 class="start">Work Discrimination</h3>
     <p class="two">
-        アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。
+        The employment environment for black people living in the United States has improved since the 1960s and 1970s. Compared to 1965 where there were only 280 black public officials, it surged to more than 7,000 by 1990. It has also been confirmed that the number of black mayors among public officials has increased. In 1990, a total of 318 black mayors, compared to 3 in 1965. In addition, in 1990, a black woman was elected mayor of Washington City, making her the first black woman to be elected as mayor in a metropolis for the first time.
 <br></br>
+    </p>
+ <img class="bargraph" src="~/assets/workgrapheng.png">
+        <p class="two">
+                However, even today, work disparities against black discrimination are still a problem in the United States. The table on the left shows the unemployment rate for 2018 by major racial and democratic groups in the United States. The unemployment rate for blacks is about double that of 4.3% for whites, compared to 4.3% for whites. Compared to 1983, when the unemployment rate in the United States was reported to be 8.4% for whites and 19.5% for blacks (so about 2.3 times), it can be seen that the low unemployment rate for whites is almost unchanged. Also, according to the US Bureau of Labor Statistics, the median weekly income of workers is $ 965 (about 101,612 yen) for whites, and $ 237 (about 76,551 yen) for blacks, which is lower than $ 238 (about 25060 yen). Has been done. In addition, the median household income in the United States is reported to be $ 76,057 for whites compared to $ 45,438 for blacks (according to the United States Census Bureau). It is said that such disparities are influenced by differences in the level of education (see the education page for details). Such disparities can lead to discrimination.
+        </p>
+    <p class="two">
+    In addition, disparities in other situations due to income disparities have also been reported. The poverty rate in the United States is 18.8% for black people compared to 7.3% for whites, which is about twice as high (according to the United States Census Bureau). In addition, home ownership for blacks are reported to be 44% (according to the United States Census Bureau), compared to total average of 73.7%  in the United States as a whole. As one of the reasons, low incomes of black people have been reported, and it can be seen that such disparities are also affected in other situations.
+    <br></br> 
     </p>
 
 
@@ -14,7 +22,7 @@
     </div> 
     <div class="nextback">
           <!--<nuxt-link to="/en/current/statistics/education"><img class="back" src="~/assets/next.png"></nuxt-link>-->
-            <nuxt-link to="/en/currnet/statistics/education"><img class="next" src="~/assets/next.png"></nuxt-link>
+            <nuxt-link to="/en/current/statistics/education"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
      <Footer></Footer>
   </div>
@@ -94,5 +102,13 @@ export default {
 .nextback{
     text-align: center; 
 }
+
+.bargraph{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 </style>

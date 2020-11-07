@@ -5,9 +5,21 @@
     
     <h3 class="start">Arrest/Shooting Rates and Racism</h3>
     <p class="two">
-        アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。
+        It has been investigated that the fatal shooting rate by police is disportionate based on race. Though the percentage for the overall fatal shootings of Black Americans are approximately 26% (1345 out of 5109 people) in 2020, it is disproportionate whilst taking the population of Black Americans in regard. Black Americans take up approximately 12~15% of the American population, which indicates the disproportionate rate of shooting kills though 50% of those that were shot by the police were white. It is shown on the graph that 30% per million of Black Americans are shot, a significant amount compared to 12% per million for White Americans. This signifies that if the population were to be the same for both Black and White Americans, there will be a 18% difference in fatal police shootings. 
+
 <br></br>
     </p>
+
+    <img class="bargraph" src="~/assets/policegraph.png">
+    <p class="two">
+    Another investigation reports that though the marujuana usage between black and white people over 12 are nearly the same, white being 16.5% and blacks being 17.8%, it was reported that the arrest rates per 100k in the US is 3 times more for black people than it is for white people, shown and comprared in the two graphs above. This could suggest that the police have a tendency to discriminate against certain races among others, causing the disparity in the arrest rates even though the usage rate is nearly the same. 
+    </p>
+  <div class="bardata">
+    <img class="bargraph2" src="~/assets/usage.png">
+    <img class="bargraph2" src="~/assets/arrestrate.png">
+    </div>
+    <br></br>
+
         
 
     </div> 
@@ -93,5 +105,24 @@ export default {
 .nextback{
     text-align: center; 
 }
+
+.bargraph{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bargraph2{
+    width: 325px; 
+    height: 350px; 
+    display: inline-block; 
+    margin: 0 auto; 
+}
+
+.bardata{
+    text-align: center; 
+}
+
 
 </style>
