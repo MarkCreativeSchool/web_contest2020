@@ -54,7 +54,7 @@ export default {
   top: 35%;
   height: 600px;
   overflow-y: auto;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
 }
