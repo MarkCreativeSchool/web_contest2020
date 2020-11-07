@@ -104,17 +104,23 @@ export default {
     text-align: center; 
 }
 
+.bargraph{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 .bargraph2{
-    margin:5px;
-    width: 500px; 
+    width: 325px; 
+    height: 350px; 
+    display: inline-block; 
+    margin: 0 auto; 
 }
 
 .bardata{
-    width: 50%;
-    text-align: center;
-    position:relative;
-    margin-left: 15%;
-    display: flex;
+    text-align: center; 
 }
 
 </style>
