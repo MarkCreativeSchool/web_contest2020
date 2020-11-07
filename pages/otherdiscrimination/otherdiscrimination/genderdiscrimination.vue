@@ -95,8 +95,7 @@ export default {
   margin-bottom: 20px; 
   margin-top: 0px; 
 }
-
- .next{
+.next{
     display: inline-block;
     float: right; 
     margin-left: auto;
@@ -115,5 +114,6 @@ export default {
 .nextback{
     text-align: center; 
 }
+
 
 </style>

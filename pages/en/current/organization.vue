@@ -3,11 +3,93 @@
   <Headereng></Headereng>
    <div class="info">
     
-    <h3 class="start">Organization</h3>
+    <h3 class="start">Organizations</h3>
     <p class="two">
-        アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。
+
+    </p>
+    <h3 class="start">Black Lives Matter</h3>
+    
+    
+    <p class="paragraph">
+        Founded in 2013 July 13. Was a response to the murder of Trayvon Martin
+<br></br>Is a global organization: UK, US, and Canada. 
+<br></br>Mission: Demolish/Eradicate white supremacy (白人覇権) and prevent violence amongst Black communities. 
+<br></br>Original Organizers:  Alicia Garza, Patrisse Cullors, and Opal Tometi
+<br></br>Created a movement called #BlackLives Matter due to Trayvon Martin’s murder in 2013. The organization itself was formed in 2014. Alicia Garza is an activist who was one of the people that posted #BlackLivesMattter on Facebook. 
+<br></br>Link to official site<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
+    <br></br>
+    </p>
+    <img class="logoblm" src="~/assets/blmlogo.jpg">
+
+        
+         <div class="activity">
+            <h6 class="program">2018 June: Action at the San Diego Border</h6>
+            <hr>
+            <p class="campaign">In June 2018, BLM global activists gathered at the San Diego Border to protest against the President’s administration’s immigration policies, which resulted in separation between parents and children. The president had just recently signed an order that declared children would be separated from their parents once their parents are arrested within the U.S-Mexican border. Activists furthermore demanded for humane treatment for the immigrants that are seeking for jobs, and asylum in the U.S. </p>
+            <br></br>
+            <h6 class="program">BLM’S #WhatMatters2020</h6>
+            <hr> BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
+            <br></br>      
+        </div>
+
+    <h3 class="start">Color of Change</h3>
+
+      <p class="paragraph">
+        US’s largest online racial justice organization. Has 1.7 million members. Found in 2005, Oakland, California. 
+<br></br>Founders: Van Jones, James Rucker
+<br></br>Motto: “Changing the color of democracy”. 
+<br></br>Link to site=><a href="https://colorofchange.org/" target="_blank"> https://colorofchange.org/</a>
+    <br></br>
+    </p>
+    <img class="logoblm" src="~/assets/colorofchange.jpg">
+
+        
+         <div class="activity">
+            <h6 class="program">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.</h6>
+            <hr>
+            <p class="campaign">This campaign is demanding justice for Jacob Blake, who was shot 7 times in total in Wisconsin by the police. Due to his injuries, he is now paralyzed waist down. While recovering, his family and friends are demanding justice as well as other protesters. 
+            => <a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">Link</a></p>
+            <br></br>
+            <h6 class="program">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.</h6>
+            <hr>
+            <p class="campaign">Breonna Taylor was shot on March 13, 2020 at her home by the police. Since then, demand for #JusticeforBre has spread. In June, Brett Hankison, the officer that shot her during her sleep was fired. However, Jonathan Mattingly and Myles Cosgrove, who were also officers that intruded her home and contributed to her death are still not dismissed at this point. This campaign demands #JusticeforBre while also demanding the dismissal of the other two officers (has changed through the months). 
+             => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">Link </a></p>
+            <br></br>      
+        </div>
+
+ <h3 class="start">The Movement for Black Lives</h3>
+    <p class="paragraph2">
+        Founded in December 2014. 
+<br></br>Are Abolitionists (abolitionism: movement to end slavery). Organization that believes that prisons and police that inflict violence amongst Black communities should be abolished and instead, form institutions that protect Black communities and their rights. 
+<br></br>Link to Official Site<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br></br>
     </p>
+    <img class="logom4bl" src="~/assets/m4bl.png">
+
+
+    
+    <div class="activity">
+            <h6 class="program">Amnesty-for-protestors</h6>
+            <hr>
+            <p class="campaign">The campaign for Amnesty-for-Protestors is to demand justice for the political black activists that have been arrested in uprisings and demos. They also demand a reinvestigation for all the allegations of the police, as well as calling off of militarization of the police. 
+            => <a href="https://m4bl.org/amnesty-for-protestors/" target="_blank">Link to campaign</a></p>
+            <br></br>
+            <h6 class="program">Freedom-summer</h6>
+            <hr>
+            <p class="campaign">This campaign fights Black voter suppression which originated from Mississippi but is currently spread throughout the US. States participating in this campaign include North Carolina, Florida, Michigan, Georgia, Kentucky, Mississippi, Texas, and Illinois. 
+             => <a href="https://m4bl.org/freedom-summer/" target="_blank">Link to campaign</a></p>
+            <br></br>
+            <h6 class="program">Defund-the-police</h6>
+            <hr>
+            <p class="campaign">This campaign protests against the brutal and militarized policing the US has. This has spread due to the recent deaths of George Floyd, Breonna Taylor, Tony McDade, etc. Their aim is to abolish discriminatory policing and vision a safe community. 
+   => <a href="https://m4bl.org/defund-the-police/" target="_blank">Link to campaign</a></p>
+            <br></br>
+            <h6 class="program">The Breathe Act</h6>
+            <hr>
+            <p class="campaign"> This campaign was created to honor several deaths of black people caused by the police and to achieve a society where all can BREATHE free. This act uprises against the criminal-legal system which has failed to protect the lives of black people as well as envisioning/creating solutions for a better and safer environment. 
+   => <a href="https://breatheact.org/" target="_blank"> Link to campaign</a></p>
+        <br></br>
+        </div>
 
 
     </div> 

@@ -100,4 +100,11 @@ export default {
     text-align: center; 
 }
 
+.bargraph{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 </style>
