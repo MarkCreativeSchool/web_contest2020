@@ -1,14 +1,22 @@
 <template>
-    <div>
-      <div class="layer" v-if="true" @click="onClose"></div>
-      <div class="map-content">
-        <h6 class="title">カリフォルニア州</h6>
-        <hr>
-        <p class="context"><b>オスカー・グラント事件</b>
-        <br>サンフランシスコとベイエリアの各地をつなぐ公営高速鉄道システムの駅内で喧嘩をしていたと通報を受けた鉄道警察官らに電車から降ろされ、押さえつけられた状態で撃たれ死亡した事件。
-        </p>
+  <div>
+    <div class="layer" v-if="true" @click="onClose">
+      <div class="image-wrapper">
+        <img class="note" src="~/assets/note.png">
+        <div class="note-content">オスカー・グラント事件</div>
+        <div class="note-content-sub">
+          <br>サンフランシスコとベイエリアの各地をつなぐ公営高速鉄道システムの駅内で喧嘩をしていたと通報を受けた鉄道警察官らに電車から降ろされ、押さえつけられた状態で撃たれ死亡した事件。
+        </div>
+        <div class="year">(2009年)</div>
+      </div>
+      <div class="map-wrapper">
+        <img class="map" src="~/assets/note2.png">
+        <div class="map2-wrapper">
+          <img class="map2" src="~/assets/kari.png">
+        </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -23,7 +31,7 @@ export default {
 </script>
 
 <style scoped>
-@keyframes fadeIn{
+@keyframes fadeInDown{
   0% {
     opacity: 0;
   }
@@ -32,40 +40,102 @@ export default {
   }
 }
 
+@keyframes fadeOutUp{
+  0% {
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
 .layer{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
+  height:100%;
+  background: rgba(0,0,0,0.9);
   z-index: 1000;
-  animation-name: fadeIn;
+  animation-name: fadeInDown;
   animation-duration: 0.5s;
   animation-timing-function: linear;
 }
 
-.map-content{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 1000px;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
-  z-index: 1001;
-  border-radius: 8px;
-  border: solid 5px burlywood;
-}
 
-.context{
-  font-size: 30px;
-}
-
-.title{
+.image-wrapper{
   position: relative;
-  top: 20px;
-  font-size: 50px;
+  top: 4%;
+  left: 10%;
+  width: 700px;
+  height: 550px;
+  z-index: 1;
 }
+
+.map-wrapper{
+  position: absolute;
+  top: 10%;
+  right: 8%;
+  width: 500px;
+  height: 500px;
+  z-index: 0;
+  transform: rotate(10deg);
+}
+
+.map2-wrapper{
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  width: 500px;
+  height: 350px;
+  transform: rotate(-10deg);
+}
+
+.image-wrapper img{
+  width: 100%;
+  height:100%;
+}
+
+.map-wrapper img{
+  width: 100%;
+  height:100%;
+}
+
+.map2-wrapper img{
+  width: 100%;
+  height: 100%;
+}
+
+.note-content{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  /*background: linear-gradient(transparent 50%, #cd853f 50%);*/
+}
+
+.year{
+  position: absolute;
+  top: 23%;
+  left: 75%;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+
+.note-content-sub{
+  position: absolute;
+  top: 30%;
+  left: 6%;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 30px;
+  color: black;
+}
+
 
 </style>
-
