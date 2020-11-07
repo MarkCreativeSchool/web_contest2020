@@ -52,6 +52,8 @@ export default {
 .event .border .context{
   position: fixed;
   top: 35%;
+  height: 600px;
+  overflow-y: auto;
   font-size: 40px;
   font-weight: normal;
   text-align: center;

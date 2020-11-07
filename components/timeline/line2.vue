@@ -62,7 +62,7 @@ export default {
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 50%;
+  height: 65%;
   transform: translate(-50%, -50%);
   width: 1000px;
   background: #ffffff;
@@ -97,7 +97,7 @@ export default {
 .test .event2 {
   position: relative;
   top: calc(10% - 30px);
-  left: 57px;
+  left: 80px;
   width: 20px;
   height: 20px;
   background: black;
@@ -107,7 +107,7 @@ export default {
 .test .event3{
   position: relative;
   top: calc(10% - 25px);
-  left: 65px;
+  left: 130px;
   width: 20px;
   height: 20px;
   background: black;
@@ -117,7 +117,7 @@ export default {
 .test .event4{
   position: relative;
   top: calc(10% - 20px);
-  left: 75px;
+  left: 200px;
   width: 20px;
   height: 20px;
   background: black;
@@ -127,7 +127,7 @@ export default {
 .test .event5{
   position: relative;
   top: calc(10% - 15px);
-  left: 95px;
+  left: 850px;
   width: 20px;
   height: 20px;
   background: black;
@@ -137,7 +137,7 @@ export default {
 .test .event6{
   position: relative;
   top: calc(10% - 10px);
-  left: 110px;
+  left: 900px;
   width: 20px;
   height: 20px;
   background: black;
