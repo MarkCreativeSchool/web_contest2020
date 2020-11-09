@@ -1,5 +1,5 @@
 <template>
-  <div class="event-sub-modalt">
+  <div class="event-sub-modal">
     <div class="sublayer" @click="onClose"></div>
     <div class="border">
       <h6 class="title"><b>印紙法(1765年)</b></h6>
