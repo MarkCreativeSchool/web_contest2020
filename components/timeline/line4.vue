@@ -2,7 +2,7 @@
   <div>
     <div class="layer" @click="onClose"></div>
       <div class="event-modal">
-        <div class="event-title">第2章:独立戦争の開幕</div>
+        <div class="event-title">第4章:南北戦争</div>
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
 
@@ -22,7 +22,8 @@
 
 <script>
 export default {
-  name: "line4.vue"
+  name: "line4.vue",
+  components:{}
 }
 </script>
 
