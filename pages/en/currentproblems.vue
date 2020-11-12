@@ -100,7 +100,7 @@ export default {
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
+    /* text-shadow: 0.5px 0.5px #f6d405; */
     text-align: center;
   }
 
@@ -113,7 +113,7 @@ export default {
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
+    /* text-shadow: 0.5px 0.5px #f6d405; */
     text-align: center;
     margin-top: 45px;
   }
@@ -132,86 +132,86 @@ export default {
   }
   .box{
     position:absolute;
-    background-color: #4CAF50;
-    opacity: 0.2;
+    /* background-color: #4CAF50; */
+    opacity: 0;
     cursor: pointer;
     z-index: 10;
   }
   .or{
-    top: 442px;
+    top: 470px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
   .ca{
-    top: 526px;
-    left: 49px;
+    top: 545px;
+    left: 35px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
   .mn{
-    top: 415px;
+    top: 450px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
   .mo{
-    top: 621px;
+    top: 650px;
     left: 539px;
     width: 91px;
     height: 80px;
   }
   .il{
-    top: 558px;
+    top: 580px;
     left: 633px;
     width: 50px;
     height: 107px;
   }
   .ky{
-    top: 617px;
+    top: 640px;
     left: 686px;
     width: 104px;
     height: 55px;
   }
   .oh{
-    top: 523px;
+    top: 550px;
     left: 746px;
     width: 63px;
     height: 64px;
   }
   .ny{
-    top: 427px;
+    top: 460px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
   .ma{
-    top: 424px;
+    top: 450px;
     left: 934px;
     width: 44px;
     height: 15px;
   }
   .pa{
-    top: 512px;
+    top: 540px;
     left: 817px;
     width: 84px;
     height: 53px;
   }
   .md{
-    top: 585px;
+    top: 600px;
     left: 863px;
     width: 68px;
     height: 55px;
   }
   .ga{
-    top: 740px;
+    top: 765px;
     left: 733px;
     width: 81px;
     height: 86px;
   }
   .fl{
-    top: 837px;
+    top: 865px;
     left: 720px;
     width: 140px;
     height: 110px;
