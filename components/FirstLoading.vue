@@ -2,9 +2,9 @@
     <div class = "first-loading-contener">
         <div class = "first-loading-content">
             このサイトで扱われているテーマは繊細なテーマであるため、思想の偏りがないよう十分配慮しています。
-            <!-- <div class = "first-loading-button-wrapper">
+            <div class = "first-loading-button-wrapper">
                 <button class="button is-primary" @click="close">OK</button>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>
@@ -98,8 +98,8 @@ to {
     animation: typing 1.5s steps(15, end), cursor 0.8s step-end infinite; */
 }
 
-/* .first-loading-button-wrapper{
+.first-loading-button-wrapper{
     margin-top: 10px;
-} */
+}
 
 </style>
