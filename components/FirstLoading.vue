@@ -1,6 +1,5 @@
 <template>
     <div class = "first-loading-contener">
-        <!-- <img class="hand" src="~/assets/hand.png"> -->
         <div class = "first-loading-content">
             <br>このサイトで扱われているテーマは繊細なテーマであるため、思想の偏りがないよう十分配慮しています。
             <br>The themes dealt with on this site are delicate themes, so we take great care not to bias our ideas.
@@ -85,7 +84,8 @@ to {
     height: 100vh;
     position: fixed;
     z-index: 1000;
-    background-color: black;
+    background-image: url(/hand.png);
+    background-size: cover;
 }
 
 .first-loading-content{
