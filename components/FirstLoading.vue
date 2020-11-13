@@ -1,10 +1,12 @@
 <template>
     <div class = "first-loading-contener">
+        <!-- <img class="hand" src="~/assets/hand.png"> -->
         <div class = "first-loading-content">
-            このサイトで扱われているテーマは繊細なテーマであるため、思想の偏りがないよう十分配慮しています。
-            <div class = "first-loading-button-wrapper">
+            <br>このサイトで扱われているテーマは繊細なテーマであるため、思想の偏りがないよう十分配慮しています。
+            <br>The themes dealt with on this site are delicate themes, so we take great care not to bias our ideas.
+            <!-- <div class = "first-loading-button-wrapper">
                 <button class="button is-primary" @click="close">OK</button>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
@@ -14,6 +16,11 @@
 
 export default {
     name: "FirstLoading",
+    mounted(){
+        setTimeout(() => {
+            this.close();
+        }, 5000)
+    },
     methods: {
         close(){
             this.$emit("close");
@@ -24,8 +31,12 @@ export default {
 </script>
 
 <style scoped>
+*{
+  font-family: Rockwell, "Courier New", Courier, Georgia,
+                 Times, "Times New Roman", serif;
+}
 
-@keyframes typing {
+/* @keyframes typing {
   0% {
     width: 0;
   }
@@ -55,11 +66,11 @@ to {
     opacity: 1;
     transform: translateY(0);
 }
-}
+} */
 
 @keyframes blink {
     0% {
-        opacity: 0.3;
+        opacity: 0;
     }
     100%{
         opacity: 1;
@@ -74,7 +85,7 @@ to {
     height: 100vh;
     position: fixed;
     z-index: 1000;
-    background-color: white;
+    background-color: black;
 }
 
 .first-loading-content{
@@ -90,7 +101,8 @@ to {
     align-items: center;
     height: 100%;
     font-weight: 70;
-    color: black;
+    color: white;
+    font-size: 25px;
     /* width: 15em;
     border-right: 0.1em solid #000;
     white-space: nowrap;
@@ -98,8 +110,8 @@ to {
     animation: typing 1.5s steps(15, end), cursor 0.8s step-end infinite; */
 }
 
-.first-loading-button-wrapper{
+/* .first-loading-button-wrapper{
     margin-top: 10px;
-}
+} */
 
 </style>

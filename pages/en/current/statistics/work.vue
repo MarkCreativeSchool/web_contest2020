@@ -6,7 +6,7 @@
     <h3 class="start">Work Discrimination</h3>
     <p class="two">
         The employment environment for black people living in the United States has improved since the 1960s and 1970s. Compared to 1965 where there were only 280 black public officials, it surged to more than 7,000 by 1990. It has also been confirmed that the number of black mayors among public officials has increased. In 1990, a total of 318 black mayors, compared to 3 in 1965. In addition, in 1990, a black woman was elected mayor of Washington City, making her the first black woman to be elected as mayor in a metropolis for the first time.
-<br></br>
+<br>
     </p>
  <img class="bargraph" src="~/assets/workgrapheng.png">
         <p class="two">
@@ -14,7 +14,7 @@
         </p>
     <p class="two">
     In addition, disparities in other situations due to income disparities have also been reported. The poverty rate in the United States is 18.8% for black people compared to 7.3% for whites, which is about twice as high (according to the United States Census Bureau). In addition, home ownership for blacks are reported to be 44% (according to the United States Census Bureau), compared to total average of 73.7%  in the United States as a whole. As one of the reasons, low incomes of black people have been reported, and it can be seen that such disparities are also affected in other situations.
-    <br></br> 
+    <br>
     </p>
 
 
