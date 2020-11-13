@@ -1,8 +1,28 @@
 <template>
   <div>
     <nuxt />
+    <FirstLoading v-if="showFirstLoading" @close="closeFirstLoading"></FirstLoading>
   </div>
 </template>
+
+<script>
+import FirstLoading from "~/components/FirstLoading"
+export default {
+  components: {
+    FirstLoading
+  },
+  data(){
+    return{
+      showFirstLoading: true,
+    }
+  },
+  methods: {
+    closeFirstLoading(){
+      this.showFirstLoading = false
+    },
+  }
+}
+</script>
 
 <style>
 html {
