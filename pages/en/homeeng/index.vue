@@ -5,10 +5,65 @@
     
     <img class="drawing" src="~/assets/title.jpg">
     <h3 class="start">Introduction</h3>
-    <p class="two">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
-      <br></br>このwebpageを通し、私たち同様この課題に対する理解を深めてみませんか？問題は理解してこそ解決できるものだと私たちは考えます。次世代の若者として、私たちの周りで起こっている現在の問題を認識することは重要です。<br></br>
-      <img class="drawing1" src="~/assets/What.jpg">
-      <b>*私たちがこのサイトで取り上げている黒人差別問題は繊細な課題です。バイアスは断じて禁じるように気遣っています。その為、意見や個人の考えなどは控えています。ご了承ください。</b>
+    <p class="two">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
+         <br></br>
+        We took a questionnaire about discrimination awareness at an international school (Grade 10~12) and a prefectural high school in Japan (Grade 10~11). The difference in nationality between the schools are shown below. 
+
+        <div class="logograph">
+       <figure>
+        <img class="graphimage" src="~/assets/nationalityjap.png">
+        <img class="graphimage" src="~/assets/nationalityinter.png">
+        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
+        </figure>
+
+        </div>
+    </p>
+    <p class="two">The variety of nationalities in International schools was shown to affect the awareness of the topic of discrimination when looking at the data collected for the other questions.
+    <br></br>According to the results of the question that questioned their level of concern regarding racism, most of the international school students chose 4-5, and none of them chose 1. However, although few Japanese high school students answered 1, there were still people that chose 1 (no concern). In addition, when calculating the average of their level of concern, the international school students resulted to 4.02, Japanese high school students’ average was 3.45, 0.57 lower compared to international school students. From this questionnaire, it was found that Japanese high school students are less conscious of discrimination against black people compared to international school students. 
+    
+    <div class="logograph">
+    <figure>
+        <img class="graphimage" src="~/assets/concernengjap.png">
+        <img class="graphimage" src="~/assets/concernenginter.png">
+        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
+        </figure>
+    </div>
+    </p>
+
+     <p class="two">We believe that some of the reasons for the low level of concern against racism amongst Japanese school students may be due to their experiences with discrimination. In fact, 28.5% of Japanese high schools answered that they had seen discrimination, while 73.6% of international school students answered that they had seen discrimination in real life. 
+    
+    <div class="logograph">
+    <figure>
+        <img class="graphimage" src="~/assets/sawengjap.png">
+        <img class="graphimage" src="~/assets/sawenginter.png">
+        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
+        </figure>
+    </div>
+    </p>
+
+    <p class="two">In addition, about 58% of international school students said they had been discriminated against before. On the other hand, only 3.3% of Japanese high school students responded that they had. Moreover, when asked if they were discriminated against in Japan or abroad, most of the students in the Japanese high school answered that they were discriminated broad. On the contrary, most of the international school students were discriminated inside Japan. For this reason, it can be suggested that not only does Japanese high school students have less concern regarding discrimination due to inexperiences with discrimination, they also seem to regard discrimination as a problem that mostly occurrs outside of Japan. 
+    
+    <div class="logograph">
+    <figure>
+        <img class="graphimage" src="~/assets/experiencengjap.png">
+        <img class="graphimage" src="~/assets/yesengjap.png">
+        <figcaption>Japanese High School Results</figcaption>
+        </figure>
+    </div>
+    <div class="logograph">
+    <figure>
+        <img class="graphimage" src="~/assets/experienceenginter.png">
+        <img class="graphimage" src="~/assets/yesenginter.png">
+        <figcaption>International School Results</figcaption>
+        </figure>
+    </div>
+    </p> 
+             
+      <p class="two">
+      <br></br>However, although it is perceived that racism is not a problem in Japan by most Japanese high school students, as shown by the responses of international school students, most of the discrimination that international school students experienced were in Japan (75%). Therefore, understanding of discrimination becomes more important as we gain more knowledge about how discrimination affects other people lives. However, it is difficult to understand discrimination in Japan, where it is still not as known. <br></br>
+      This website will introduce discrimination against black people in the US, including the history and current events that are occurring, and what aspects are affected by racism. We hope this website would be a good introductory site for many who are still unaware/uncertain about the topic of discrimination, and an opportunity to further dive into this topic in other regions. 
+      <br></br>
+      <b>*The issue of racism that we are addressing on this site is a very serious and delicate. Therefore, we are refraining from any bias. We hope you kindly understand. </b>
     </p>
 
     </div> 

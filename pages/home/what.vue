@@ -69,4 +69,14 @@ export default {
   margin-top: 0px; 
 }
 
+.drawing1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 73%;
+  height: 500px; 
+  margin-top: 0px; 
+  margin-bottom: 30px;
+}
+
 </style>

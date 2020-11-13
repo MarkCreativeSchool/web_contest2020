@@ -4,6 +4,7 @@
    <div class="info">
     
     <h3 class="start">What is discrimination?</h3>
+    <img class="drawing1" src="~/assets/What.jpg">
     <p class="two">Discrimination is the act of ignoring one’s individuality and grouping them into different categories while marginalising individuals based on their group. While in reality, distinction should be done clearly, the problem that is being addressed these days are social discrimination, not distinction, which causes unequal treatment amongst people. Even within social discrimination though, there is no clear line on what is categorised as distinction and what is categorised as discrimination. Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. Therefore, as our awareness increases, what we once did not consider as discrimination could be considered as discrimination now or in the future. 
   <br></br>
     </p>
@@ -66,6 +67,16 @@ export default {
   width: 40%;
   height: 370px; 
   margin-top: 0px; 
+}
+
+.drawing1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 73%;
+  height: 500px; 
+  margin-top: 0px; 
+  margin-bottom: 30px;
 }
 
 </style>
