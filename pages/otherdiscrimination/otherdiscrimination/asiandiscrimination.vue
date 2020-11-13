@@ -110,4 +110,12 @@ export default {
     text-align: center; 
 }
 
+.drawings{
+    width: 300px; 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 </style>

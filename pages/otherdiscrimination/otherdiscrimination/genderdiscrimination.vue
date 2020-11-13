@@ -23,7 +23,7 @@
 
     </div> 
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+           <!-- <nuxt-link to="/otherdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>-->
             <nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
     

@@ -31,7 +31,7 @@
     </div> 
     <div class="nextback">
             <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/others/why"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <!--<nuxt-link to="/others/why"><img class="next" src="~/assets/tugi.png"></nuxt-link>-->
         </div>
     
      <Footer></Footer>
