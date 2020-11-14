@@ -2,6 +2,11 @@
   <div class="full">
   <Header></Header>
     <div class="info">
+      <div class="test">
+        <video id="video" width="768" height="432" loop autoplay muted>
+          <source src="~/assets/douga.mp4" type="video/mp4" />
+        </video>
+      </div>
       <p class="two">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
         <br>
         この機会に、私たちはインターナショナルスクール（高1〜3）と日本の県立高校（高1〜2）で差別の意識に関するアンケートを取って見ました。国籍の違いはこのようになりました。
@@ -55,7 +60,7 @@
 
     <p class="two">
         <br>しかし、差別とは縁がない、程遠い問題と意識されているが、インター生のアンケート結果が見せるように、日本でもある問題です。また、しかし、差別という物を身近でまず見つけるのは難しいことです。その為、今問題になっている米国の黒人差別の教材により、差別の意識をより深く理解して欲しいと思っています。問題は理解しなければ解決できません。曖昧な理解では通用しない場合が多いです。今話題になってるからこそ知る機会にする事を願います。
-        <br></br>
+        <br>
         <b>*私たちがこのサイトで取り上げている黒人差別問題は繊細な課題です。バイアスは断じて禁じるように気遣っています。その為、意見や個人の考えなどは控えています。ご了承ください。</b>
       </p>
     </div> 
@@ -67,6 +72,10 @@
 <script>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
+var v = document.getElementById("video");
+
+// v.onplay = true;
+// v.onplay();
 export default {
   name: "Index",
   components: { Header, Footer },
@@ -83,9 +92,11 @@ export default {
 </script>
 
 <style>
-
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
+.test{
+  text-align: center;
+}
 
 .two{
   font-family: "Noto Sans JP"; 

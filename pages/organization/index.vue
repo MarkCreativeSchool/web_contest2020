@@ -50,7 +50,7 @@
         </div>
 
             <div class="content">
-              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br></br>
+              <nuxt-link to="/organization/organization/M4BL" class="bar"><b>The Movement for Black Lives</b> </nuxt-link><br>
             </div>
       </div>
 
