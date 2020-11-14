@@ -4,7 +4,7 @@
    <div class="info">
     
     <h3 class="start">差別とは何か？</h3>
-    <img class="drawing1" src="~/assets/What.jpg">
+    <img class="drawing1" src="~/assets/what.jpg">
     <p class="two">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
   <br></br>
     </p>
@@ -32,6 +32,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "差別とは？-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "差別とは何かが解説されています。" }
+      ]
+    }
+  },
 }　
 </script>
 

@@ -78,6 +78,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Headereng, Footer },
+  head() {
+    return {
+      title: "Home-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "A site regarding discrimination against black people in America based for high school students (especially Japanese). Since this is a very sensitive topic, we are refraining from voicing our opinion about this too much to prevent bias. Please understand. Thank you." }
+      ]
+    }
+  },
 }　
 </script>
 
@@ -113,14 +121,30 @@ export default {
   margin-top: 0px; 
 }
 
-.drawing1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 83%;
-  height: 500px; 
-  margin-top: 0px; 
-  margin-bottom: 30px;
+
+.graphimage{
+    width: 35%; 
+    height: 2%; 
+    display: inline-block; 
+    margin: 0 auto; 
 }
+
+.logograph{
+    text-align: center; 
+}
+
+figure {
+  padding: 2px;
+  margin: auto;
+}
+
+figcaption {
+  font-family: "Noto Sans JP"; 
+  text-align: center;
+  font-weight: bold; 
+  font-size: 12px; 
+}
+
+
 
 </style>

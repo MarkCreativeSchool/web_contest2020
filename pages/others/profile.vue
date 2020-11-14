@@ -21,7 +21,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/Matoilogo.jpg" alt="Placeholder image">
+            <img src="~/assets/matoilogo.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -61,6 +61,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "製作者紹介-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "このサイトを作成した人を紹介しています。" }
+      ]
+    }
+  },
 }　
 </script>
 

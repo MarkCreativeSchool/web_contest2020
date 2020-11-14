@@ -41,6 +41,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "何故-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "何故私たちがこの問題についてサイトを作成しようと思ったかが書いてあります。" }
+      ]
+    }
+  },
 }　
 </script>
 

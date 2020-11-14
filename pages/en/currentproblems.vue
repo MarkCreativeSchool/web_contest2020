@@ -66,6 +66,14 @@ import md from "~/components/map_eng/md"
 export default {
   name: "Index",
   components: { Headereng, Footer, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
+  head() {
+    return {
+      title: "Current Problems-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "An outline of events from 2006 to present are represented in the US map. By clicking on the yellow colored states, the event that occur will pop up. Furthemore, an explanation of how these events influence people's awareness of discrimination is written below." }
+      ]
+    }
+  },
   data(){
     return{
       locationName:null

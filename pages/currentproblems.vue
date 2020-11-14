@@ -66,6 +66,15 @@ import md from "~/components/map/md"
 export default {
   name: "Index",
   components: { Header, Footer, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
+
+  head() {
+    return {
+      title: "現問題-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "2006年から現在まで米国で起こってる様々な黒人差別の事件をマップで紹介しています。色づいている州にクリックするとその週で起きた事件が解説されています。また、この事件がどのように米国での黒人差別の意識などを影響したことも解説しています。" }
+      ]
+    }
+  },
   data(){
     return{
       locationName:null

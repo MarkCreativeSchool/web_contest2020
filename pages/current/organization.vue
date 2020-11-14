@@ -110,6 +110,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "組織-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "今現在黒人差別反対運動、黒人差別廃止などに取り組んでる組織、そしてその影響を解説しています。" }
+      ]
+    }
+  },
 }　
 </script>
 

@@ -41,6 +41,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "アジア人差別-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "アジア人差別を紹介しています。また、過去に起こった事件などを取り上げています。" }
+      ]
+    }
+  },
 }　
 </script>
 

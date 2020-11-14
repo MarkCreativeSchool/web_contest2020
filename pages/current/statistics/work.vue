@@ -3,7 +3,7 @@
   <Header></Header>
    <div class="info">
     
-    <h3 class="start">雇用差別</h3>
+    <h3 class="start">雇用</h3>
     <p class="two">
         1960〜1970年代以降米国に住んでる黒人の雇用環境が改善されてきた。1965年には黒人公職者が280人しかいなかったのに対し、1990年には7000人以上に急増しました。公職者のうち、黒人市長が特に増えていることが確認されている。1965年には3人いなかったのが1990には合計318人の黒人市長が当選した。更に、1990年には黒人女性が初めて大都市の市長に当選された。　
 <br></br>
@@ -33,6 +33,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "雇用-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "米国の仕事場で未だにある格差などを紹介、解説しています。" }
+      ]
+    }
+  },
 }　
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="full">
    <div class="up">
-   <img class="logo" src="~/assets/Englishlogo.png">
+   <img class="logo" src="~/assets/englishlogo.png">
    <img class="titleeng" src="~/assets/engtitle2.png">
     </div>
     <div class="toggle">

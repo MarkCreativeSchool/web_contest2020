@@ -32,6 +32,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "教育-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "米国の教育の場での格差などを紹介、解説しています。" }
+      ]
+    }
+  },
 }　
 </script>
 

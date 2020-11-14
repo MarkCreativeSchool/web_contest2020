@@ -1,10 +1,13 @@
 <template>
   <div class="full">
+   <div class="toggle">
    <div class="up">
    <img class="logo" src="~/assets/logo2.png">
-   <img class="title" src="~/assets/t.png">
-    </div>
-    <div class="toggle">
+
+   <!-- </div>
+    <div class="toggle">-->
+
+    <div class="uppersub">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
         <ul class="sub">
@@ -45,8 +48,10 @@
               <li><nuxt-link to="/others/references" class="subpage">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/en/homeeng/" class="bar">ENGLISH VERSION</nuxt-link>
+        <nuxt-link to="/en/homeeng/" class="bar">ENGLISH</nuxt-link>
+        </div>
   </div> 
+  </div>
            
   </div>
 </template>
@@ -84,6 +89,18 @@ export default {
     width: 100%;
     text-align: center; 
 }
+.toggle{
+  display: inline-block; 
+}
+
+.uppersub{
+  display:flex; 
+  margin: 0 auto; 
+  padding-top: 15px;
+  width: 75%;
+  float: right;
+}
+
 
 .logo{
   display: inline-block;
@@ -119,6 +136,7 @@ h1{
   position: relative; 
   flex: 1; 
   font-family: "Noto Sans JP"; 
+  margin: 0 auto;
 }
 
 .bar:hover{
@@ -130,11 +148,6 @@ h1{
 
 .menu{
     width: 100%; 
-}
-
-.toggle{
-  background-image: linear-gradient(to top, #333333, #343434, #353535, #363636, #373737, #373737, #373737, #373737, #363636, #353535, #343434, #333333);
-  display: flex; 
 }
 
 .sub{
