@@ -10,8 +10,7 @@
         <div class="event4" @click="onClick('event4')"></div>
         <div class="event5" @click="onClick('event5')"></div>
         <div class="event6" @click="onClick('event6')"></div>
-
-
+        <div class="event7" @click="onClick('event7')"></div>
 
         <div class="linebar"></div>
         <div class="year">
@@ -29,6 +28,7 @@
     <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
     <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
     <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
+    <event7 v-if="locationName==='event7'" @onClose="locationName=null"></event7>
 
   </div>
 </template>
@@ -40,11 +40,12 @@ import event3 from "~/components/events/4rth/event3"
 import event4 from "~/components/events/4rth/event4"
 import event5 from "~/components/events/4rth/event5"
 import event6 from "~/components/events/4rth/event6"
+import event7 from "~/components/events/4rth/event7"
 
 
 export default {
   name: "line4.vue",
-  components:{event1, event2, event3, event4, event5, event6, },
+  components:{event1, event2, event3, event4, event5, event6, event7, },
   data(){
     return{
       locationName:null
@@ -75,7 +76,7 @@ export default {
 .event-modal .event2{
   position:relative;
   top: calc(10% - 25px);
-  left:500px;
+  left:250px;
   width: 20px;
   height: 20px;
   background: black;
@@ -85,7 +86,7 @@ export default {
 .event-modal .event3{
   position:relative;
   top: calc(10% - 15px);
-  left:510px;
+  left:450px;
   width: 20px;
   height: 20px;
   background: black;
@@ -95,7 +96,7 @@ export default {
 .event-modal .event4{
   position:relative;
   top: calc(10% - 5px);
-  left:515px;
+  left:550px;
   width: 20px;
   height: 20px;
   background: black;
@@ -105,7 +106,7 @@ export default {
 .event-modal .event5{
   position:relative;
   top: calc(10% + 5px);
-  left:517px;
+  left:650px;
   width: 20px;
   height: 20px;
   background: black;
@@ -115,7 +116,17 @@ export default {
 .event-modal .event6{
   position:relative;
   top: calc(10% + 15px);
-  left:520px;
+  left:800px;
+  width: 20px;
+  height: 20px;
+  background: black;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.event-modal .event7{
+  position:relative;
+  top: calc(10% + 25px);
+  left:910px;
   width: 20px;
   height: 20px;
   background: black;
