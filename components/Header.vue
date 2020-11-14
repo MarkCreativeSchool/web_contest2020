@@ -2,7 +2,7 @@
   <div class="full">
    <div class="up">
    <img class="logo" src="~/assets/logo2.png">
-   <img class="title" src="~/assets/t.png">
+   <!-- <img class="title" src="~/assets/t.png"> -->
     </div>
     <div class="toggle">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
