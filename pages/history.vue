@@ -36,7 +36,7 @@
 <!--        <div class="line">-->
 <!--          <div class="linebar line9" @click="onClick('line9')"></div>-->
 <!--        </div>-->
-        <div class="year">
+        <div class="year-main">
           <h6>1600</h6>
           <h6>1700</h6>
           <h6>1800</h6>
@@ -94,15 +94,10 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 73%; 
+  width: 68%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
-}
-
-.info1{
-  width: 75%;
-  margin: 0 auto; 
 }
 
 
@@ -111,7 +106,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 100%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -194,13 +189,13 @@ export default {
   left: 20px;
   width: calc(100% - 40px);
 }
-.year{
+.year-main{
   display: flex;
   align-content: space-between;
   width: 100%;
   text-align: center;
 }
-.year h6{
+.year-main h6{
   flex: 1;
   font-size: 17px;
   font-weight: bold;

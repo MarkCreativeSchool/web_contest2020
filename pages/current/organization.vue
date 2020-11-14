@@ -9,7 +9,6 @@
     </p>
     <h3 class="start">Black Lives Matter</h3>
     
-    
     <p class="paragraph">
         ブラックライブスマターズは２０１３年7月13日に設立された組織的な社会運動。
 <br>グローバル組織だが、本拠地・主要地はアメリカ合衆国
@@ -21,7 +20,6 @@
     </p>
     <img class="logoblm" src="~/assets/blmlogo.jpg">
 
-        
          <div class="activity">
             <h6 class="program">２０１８年６月：サンディエゴボーダーでの抗議</h6>
             <hr>
@@ -124,14 +122,16 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
 .paragraph{
   font-family: "Noto Sans JP"; 
-  width: 60%; 
+  width: 50%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
   display: inline-block; 
-  margin-left: 140px; 
+  float: left;
+  margin-left: 200px;
 }
 
 .paragraph2{
@@ -139,17 +139,17 @@ export default {
   width: 60%;  
   font-size: 18px; 
   display: inline-block; 
-  margin-left: 140px; 
+  margin-left: 160px; 
   padding-top: 25px; 
+  float: left;
 }
-
 
 .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 30%; 
+  width: 80%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
@@ -159,14 +159,14 @@ export default {
 
 
 .activity{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 30px; 
     font-family: "Noto Sans JP"; 
 }
 
 .program{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
@@ -183,6 +183,7 @@ export default {
     height: 300px; 
     width: 20%; 
     display: inline-block;
+    margin-top: 10px;
     margin-right: 20px;  
     margin-bottom: 20px; 
 }

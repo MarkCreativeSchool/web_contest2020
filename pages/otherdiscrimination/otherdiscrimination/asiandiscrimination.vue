@@ -57,7 +57,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 73%; 
+  width: 68%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
@@ -78,7 +78,7 @@ export default {
 }
 
 .activity{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 30px; 
     font-family: "Noto Sans JP"; 

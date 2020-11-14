@@ -19,13 +19,13 @@
   font-family: "Comic Sans MS";
   font-weight: bold;
 }
-.event-sub-modal .border .double .title{
+.event-sub-modal .border .title{
   position: relative;
   top: 20px;
   padding-left: 40px;
   font-size: 20px;
 }
-.event-sub-modal .border .double .context{
+.event-sub-modal .border .context{
   position: fixed;
   top: auto;
   padding-left: 40px;
