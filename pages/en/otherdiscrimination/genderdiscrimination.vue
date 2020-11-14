@@ -37,6 +37,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Headereng, Footer },
+  head() {
+    return {
+      title: "Gender Discrimination-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "A brief introduction of gender discrimination and some events/incidents that have occurred are explained." }
+      ]
+    }
+  },
 }　
 </script>
 

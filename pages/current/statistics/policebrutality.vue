@@ -35,6 +35,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Header, Footer },
+  head() {
+    return {
+      title: "逮捕率など-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "米国で起きてる警察の黒人に対する不行為、差別意識などを紹介しています。" }
+      ]
+    }
+  },
 }　
 </script>
 

@@ -22,7 +22,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/Matoilogo.jpg" alt="Placeholder image">
+            <img src="~/assets/matoilogo.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -55,6 +55,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Headereng, Footer },
+  head() {
+    return {
+      title: "Profile-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "A description of the creaters are written." }
+      ]
+    }
+  },
 }　
 </script>
 

@@ -107,6 +107,14 @@ import Footer from "~/components/Footer"
 export default {
   name: "Index",
   components: { Headereng, Footer },
+  head() {
+    return {
+      title: "Organizations-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "Some organizations to prevent discrimination against black people are listed as well as how they affect our awareness and our next step to prevent discrimination is explained." }
+      ]
+    }
+  },
 }　
 </script>
 

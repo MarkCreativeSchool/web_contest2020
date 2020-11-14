@@ -1,8 +1,8 @@
 <template>
   <div class="full">
   <Header></Header>
-    <div class="info">
-      <h3 class="start">ざっくり出来事（歴史）</h3>
+    <div class="info1">
+      <h3 class="start1">ざっくり出来事（歴史）</h3>
       <p class="two">下にあるタイムラインは米国の歴史、また黒人差別に関する歴史が表記されています。</p>
       <br>
       <div class="timeline">
@@ -66,6 +66,16 @@ import line4 from "~/components/timeline/line4"
 export default {
   name: "Index",
   components: { Header, Footer, line1, line2, line3, line4},
+
+  head() {
+    return {
+      title: "歴史-高校生による高校生のため黒人差別",
+      meta: [
+        { hid: "description", name: "description", content: "米国の歴史、また黒人差別の歴史を表記しています。" }
+      ]
+    }
+  },
+
   data(){
     return{
       locationName:null
@@ -84,19 +94,24 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 83%; 
+  width: 73%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
 }
 
+.info1{
+  width: 75%;
+  margin: 0 auto; 
+}
 
-.start{
+
+.start1{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 73%; 
+  width: 100%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
