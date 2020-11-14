@@ -36,7 +36,7 @@
 <!--        <div class="line">-->
 <!--          <div class="linebar line9" @click="onClick('line9')"></div>-->
 <!--        </div>-->
-        <div class="year">
+        <div class="year-main">
           <h6>1600</h6>
           <h6>1700</h6>
           <h6>1800</h6>
@@ -189,13 +189,13 @@ export default {
   left: 20px;
   width: calc(100% - 40px);
 }
-.year{
+.year-main{
   display: flex;
   align-content: space-between;
   width: 100%;
   text-align: center;
 }
-.year h6{
+.year-main h6{
   flex: 1;
   font-size: 17px;
   font-weight: bold;
