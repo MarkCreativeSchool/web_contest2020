@@ -11,6 +11,8 @@
         <div class="event5" @click="onClick('event5')"></div>
         <div class="event6" @click="onClick('event6')"></div>
 
+
+
         <div class="linebar"></div>
         <div class="year">
           <h6>
@@ -27,6 +29,7 @@
     <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
     <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
     <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
+
   </div>
 </template>
 
@@ -37,6 +40,7 @@ import event3 from "~/components/events/4rth/event3"
 import event4 from "~/components/events/4rth/event4"
 import event5 from "~/components/events/4rth/event5"
 import event6 from "~/components/events/4rth/event6"
+
 
 export default {
   name: "line4.vue",
@@ -118,4 +122,5 @@ export default {
   cursor: pointer;
   border-radius: 7px;
 }
+
 </style>

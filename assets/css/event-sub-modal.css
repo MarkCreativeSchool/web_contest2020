@@ -19,19 +19,40 @@
   font-family: "Comic Sans MS";
   font-weight: bold;
 }
-.event-sub-modal .border .title{
+.event-sub-modal .border .double .title{
   position: relative;
   top: 20px;
   padding-left: 40px;
   font-size: 20px;
 }
-.event-sub-modal .border .context{
+.event-sub-modal .border .double .context{
   position: fixed;
   top: auto;
   padding-left: 40px;
   font-size: 20px;
-  height: 600px;
+  height: 60%;
   overflow-y: auto;
+  font-weight: normal;
+  text-align: left;
+}
+.event-sub-modal .border .double{
+  overflow: auto;
+  height: 110%;
+}
+.event-sub-modal .border .double .double-title{
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #ddd;
+  border-top: solid 1px #ddd;
+}
+.event-sub-modal .border .double .double-context{
+  padding-left: 40px;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: normal;
   text-align: left;
 }
