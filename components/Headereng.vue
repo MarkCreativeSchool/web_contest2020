@@ -1,10 +1,13 @@
 <template>
   <div class="full">
+   <div class="toggle">
    <div class="up">
-   <img class="logo" src="~/assets/englishlogo.png">
-   <img class="titleeng" src="~/assets/engtitle2.png">
-    </div>
-    <div class="toggle">
+   <img class="logo" src="~/assets/newlogoeng.png">
+  
+  
+  <!--  </div>
+    <div class="toggle">-->
+    <div class="uppersub">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">Top</span> 
         <ul class="sub">
@@ -13,7 +16,7 @@
             </ul>
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar">History</nuxt-link>
-        <nuxt-link to="/en/currentproblems" class="bar">Current Problems</nuxt-link>
+        <nuxt-link to="/en/currentproblems" class="bar">Incidents</nuxt-link>
        <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 2 }"> 
         <span @click="toggleDropDown(2)">Statistics</span> 
         <ul class="sub">
@@ -25,7 +28,7 @@
         </nuxt-link>
 
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 3 }"> 
-        <span @click="toggleDropDown(3)">Other Discrimination</span> 
+        <span @click="toggleDropDown(3)">Other</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="subpage">Gender</nuxt-link></li>
               <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="subpage">Asian</nuxt-link></li>
@@ -38,14 +41,16 @@
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 4 }"> 
         <span @click="toggleDropDown(4)">Others</span> 
         <ul class="sub">
-              <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>
+            <!--  <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>-->
               <li><nuxt-link to="/en/others/sitemap" class="subpage">Site Map</nuxt-link></li>
               <li><nuxt-link to="/en/others/profile" class="subpage" href="/others/profile">Profile</nuxt-link></li>
               <li><nuxt-link to="/en/others/references" class="subpage">References</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/" class="bar">日本語版サイト</nuxt-link>
+        <nuxt-link to="/" class="bar">日本語</nuxt-link>
+   </div>
   </div> 
+  </div>
            
   </div>
 </template>
@@ -94,19 +99,11 @@ export default {
   margin-top: 5px; 
 }
 
-h1{
-    font-size: 50px; 
-    font-family: "Noto Sans JP"; 
-    text-shadow: 1px 1px #f6d405;
-    display: inline-block; 
 
-}
 
-.titleeng{
-  display: inline-block;
-  width: 89%;
-  margin-top: 12px; 
-
+.toggle{
+  display: inline-block; 
+  width: 100%;
 }
 
 .bar{
@@ -132,11 +129,6 @@ h1{
 
 .menu{
     width: 100%; 
-}
-
-.toggle{
-  background-image: linear-gradient(to top, #333333, #343434, #353535, #363636, #373737, #373737, #373737, #373737, #363636, #353535, #343434, #333333);
-  display: flex; 
 }
 
 .sub{

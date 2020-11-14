@@ -2,7 +2,7 @@
   <div class="full">
    <div class="toggle">
    <div class="up">
-   <img class="logo" src="~/assets/logo2.png">
+   <img class="logo" src="~/assets/newlogo.png">
 
    <!-- </div>
     <div class="toggle">-->
@@ -13,6 +13,7 @@
         <ul class="sub">
               <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
+              <li><nuxt-link to="/home/survey" class="subpage">アンケート結果</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar">歴史</nuxt-link>
@@ -42,7 +43,7 @@
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 4 }"> 
         <span @click="toggleDropDown(4)">その他</span> 
         <ul class="sub">
-              <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>
+            <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
               <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>
               <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
               <li><nuxt-link to="/others/references" class="subpage">参考文献</nuxt-link></li>
@@ -80,6 +81,7 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
 .up{
     padding-top: 5px; 
     padding-bottom: 5px;
@@ -91,6 +93,8 @@ export default {
 }
 .toggle{
   display: inline-block; 
+  width:100%;
+  margin-bottom: 0px;
 }
 
 .uppersub{
@@ -98,7 +102,7 @@ export default {
   margin: 0 auto; 
   padding-top: 15px;
   width: 75%;
-  float: right;
+  float:right; 
 }
 
 
@@ -109,19 +113,6 @@ export default {
   float: left; 
   margin-left: 20px; 
   margin-top: 5px; 
-}
-
-h1{
-    font-size: 50px; 
-    font-family: "Noto Sans JP"; 
-    text-shadow: 1px 1px #f6d405;
-    display: inline-block; 
-
-}
-
-.title{
-  display: inline-block;
-  width: 89%;
 }
 
 .bar{
@@ -146,9 +137,6 @@ h1{
   display: block; 
 }
 
-.menu{
-    width: 100%; 
-}
 
 .sub{
   background-color: #333; 
