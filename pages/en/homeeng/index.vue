@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
      <div class="test">
-        <video id="video" width="768" height="432" loop autoplay muted>
+        <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
       </div>
