@@ -24,7 +24,8 @@ export default {
   */
   css: [
       "@/assets/css/event-modal.css",
-      "@/assets/css/event-sub-modal.css"
+      "@/assets/css/event-sub-modal.css",
+      "@/assets/css/style.css"
   ],
   /*
   ** Plugins to load before mounting the App
