@@ -84,7 +84,7 @@ export default {
 
 .fullhead{
   height: 30%;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .up{

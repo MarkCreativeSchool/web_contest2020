@@ -3,7 +3,7 @@
   <Header></Header>
     <div class="info1">
       
-      <ol class="breadcrumb">
+      <ol class="bread">
          <li class="breadcrumb-item"> <a href="#">ホーム</a></li>
          <li class="breadcrumb-item"> <a href="#">歴史</a></li>
      </ol>
@@ -228,10 +228,11 @@ export default {
     text-align: center; 
 }
 
-.breadcrumb{
-  padding: 7;
+.bread{
+  padding: 7px;
   list-style: none;
   margin-left: 150px;
+  height: 30px;
   }
  
   
@@ -244,7 +245,7 @@ export default {
 .breadcrumb li+li:before{
   padding: 5px;
   color: black;
-  content: ">";
+  content: ">>";
 }
 
 .breadcrumb-item a{
