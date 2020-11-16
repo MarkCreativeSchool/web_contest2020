@@ -228,33 +228,5 @@ export default {
     text-align: center; 
 }
 
-.bread{
-  padding: 7px;
-  list-style: none;
-  margin-left: 150px;
-  height: 30px;
-  }
- 
-  
-.breadcrumb-item{
-  display: inline;
-  margin: 0 auto;
-  font-size: 13px;
-  }
-
-.breadcrumb li+li:before{
-  padding: 5px;
-  color: black;
-  content: ">>";
-}
-
-.breadcrumb-item a{
-  color: #2e4053;
-  text-decoration: none;
-}
-
-.breadcrumb-item a:hover{
-  color: yellow;
-}
 
 </style>

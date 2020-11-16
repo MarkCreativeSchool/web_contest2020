@@ -13,11 +13,11 @@
     font-size: 13px;
     }
   
-  .breadcrumb li+li:before{
-    padding: 5px;
-    color: black;
-    content: ">>";
-  }
+  .bread li+li:before{
+        padding: 5px;
+        color: black;
+        content: ">>";
+      }
   
   .breadcrumb-item a{
     color: #2e4053;
