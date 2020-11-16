@@ -1,5 +1,5 @@
 <template>
-  <div class="full">
+  <div class="fullhead">
    <div class="toggle">
    <div class="up">
    <img class="logo" src="~/assets/newlogoeng.png">
@@ -88,6 +88,11 @@ export default {
     display: inline-block; 
     width: 100%;
     text-align: center; 
+}
+
+.fullhead{
+  height: 30%;
+  margin-bottom: 100px;
 }
 
 .logo{

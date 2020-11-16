@@ -7,64 +7,18 @@
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
       </div>
-    <!-- <img class="drawing" src="~/assets/title.jpg"> -->
-    <h3 class="start">Introduction</h3>
+    <!-- <img class="drawing" src="~/assets/title.jpg"> 
+    <h3 class="start">Introduction</h3>-->
     <p class="two">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
-         <br>
-        We took a questionnaire about discrimination awareness at an international school (Grade 10~12) and a prefectural high school in Japan (Grade 10~11). The difference in nationality between the schools are shown below. 
-
-        <div class="logograph">
-       <figure>
-        <img class="graphimage" src="~/assets/nationalityjap.png">
-        <img class="graphimage" src="~/assets/nationalityinter.png">
-        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
-        </figure>
-
-        </div>
-    <p class="two">The variety of nationalities in International schools was shown to affect the awareness of the topic of discrimination when looking at the data collected for the other questions.
-    <br>According to the results of the question that questioned their level of concern regarding racism, most of the international school students chose 4-5, and none of them chose 1. However, although few Japanese high school students answered 1, there were still people that chose 1 (no concern). In addition, when calculating the average of their level of concern, the international school students resulted to 4.02, Japanese high school students’ average was 3.45, 0.57 lower compared to international school students. From this questionnaire, it was found that Japanese high school students are less conscious of discrimination against black people compared to international school students. 
-    
-    <div class="logograph">
-    <figure>
-        <img class="graphimage" src="~/assets/concernengjap.png">
-        <img class="graphimage" src="~/assets/concernenginter.png">
-        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
-        </figure>
-    </div>
-
-     <p class="two">We believe that some of the reasons for the low level of concern against racism amongst Japanese school students may be due to their experiences with discrimination. In fact, 28.5% of Japanese high schools answered that they had seen discrimination, while 73.6% of international school students answered that they had seen discrimination in real life. 
-    
-    <div class="logograph">
-    <figure>
-        <img class="graphimage" src="~/assets/sawengjap.png">
-        <img class="graphimage" src="~/assets/sawenginter.png">
-        <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
-        </figure>
-    </div>
-
-    <p class="two">In addition, about 58% of international school students said they had been discriminated against before. On the other hand, only 3.3% of Japanese high school students responded that they had. Moreover, when asked if they were discriminated against in Japan or abroad, most of the students in the Japanese high school answered that they were discriminated broad. On the contrary, most of the international school students were discriminated inside Japan. For this reason, it can be suggested that not only does Japanese high school students have less concern regarding discrimination due to inexperiences with discrimination, they also seem to regard discrimination as a problem that mostly occurrs outside of Japan. 
-    
-    <div class="logograph">
-    <figure>
-        <img class="graphimage" src="~/assets/experiencengjap.png">
-        <img class="graphimage" src="~/assets/yesengjap.png">
-        <figcaption>Japanese High School Results</figcaption>
-        </figure>
-    </div>
-    <div class="logograph">
-    <figure>
-        <img class="graphimage" src="~/assets/experienceenginter.png">
-        <img class="graphimage" src="~/assets/yesenginter.png">
-        <figcaption>International School Results</figcaption>
-        </figure>
-    </div>
-             
-      <p class="two">
-      <br>However, although it is perceived that racism is not a problem in Japan by most Japanese high school students, as shown by the responses of international school students, most of the discrimination that international school students experienced were in Japan (75%). Therefore, understanding of discrimination becomes more important as we gain more knowledge about how discrimination affects other people lives. However, it is difficult to understand discrimination in Japan, where it is still not as known. <br>
-      This website will introduce discrimination against black people in the US, including the history and current events that are occurring, and what aspects are affected by racism. We hope this website would be a good introductory site for many who are still unaware/uncertain about the topic of discrimination, and an opportunity to further dive into this topic in other regions. 
-      <br>
-      <b>*The issue of racism that we are addressing on this site is a very serious and delicate. Therefore, we are refraining from any bias. We hope you kindly understand. </b>
-    </p>
+      <br></br>
+      Have you ever been conscious regarding the topic of discrimination? In addition, have you ever been in a situation where you have been/felt as a subject of discrimination? As students that attend different schools, one being International, we believe that our knowledge and consciousness about discrimination are far more significant compared to others. One key factor that made us consider discussing/research discrimination is due to our friend feeling discriminated against due to her looks. Just by her appearance, she felt looks given by strangers. 
+      <br></br>
+      As mentioned previously, George Floyd’s death that occurred in the US was widely discussed. This incident was the first reason why we focused on the topic of discrimination of black communities in America. Of course, there are several cases of discrimination against black communities in other countries, and different histories related to this topic. So, we thought that by creating a teaching material site on discrimination against black communities in America (which was our interest), it would interest viewers of the site to investigate further on discrimination within other countries. Therefore, we decided to focus just on discrimination within America. 
+      <br></br>
+      In our daily life, there are several situations and cases of discrimination around us that we do/do not realise. Discrimination against black communities that is widely talked about today is also discrimination. What we focused on is that while we are expected to understand current topics that are being discussed, not many seem to understand/digest the concept of discrimination against black communities although there has been several incidents relating racial injustice occurring recently. Furthermore, we realised that we are still lacking understanding of discrimination although it is a widely discussed topic. What we question/don’t know might apply to other people as well. With these reasons, we decided to create an informational site regarding discrimination against black communities for we wanted more people to get a clearer understanding regarding this topic. Therefore, we decided to focus on discrimination against black communities for these reasons: one, it is a topic widely discussed, and two, many people seem to lack understanding even though it is a problem being raised by many today.
+      <br></br>
+      <b>As racism is a very sensitive and delicate topic, we are refraining to include most of our opinions to prevent bias within the website. Please understand. Thank you.</b>
+       </p>
 
     </div> 
 

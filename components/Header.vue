@@ -1,5 +1,5 @@
 <template>
-  <div class="full">
+  <div class="fullhead">
    <div class="toggle">
    <div class="up">
    <img class="logo" src="~/assets/newlogo.png">
@@ -81,6 +81,11 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.fullhead{
+  height: 30%;
+  margin-bottom: 100px;
+}
 
 .up{
     padding-top: 5px; 
