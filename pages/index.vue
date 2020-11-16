@@ -108,6 +108,7 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
+
 .test{
   text-align: center;
 }

@@ -19,6 +19,10 @@
     <div class="full">
     <Header></Header>
      <div class="info">
+      <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/currentproblems">現問題</nuxt-link></li>
+     </ol>
 
       <h3 class="start">現問題・抗議活動・出来事</h3>
       <p class="two">下にある地図は２００６年から現在まで米国で起こった様々の黒人差別問題を紹介しています。

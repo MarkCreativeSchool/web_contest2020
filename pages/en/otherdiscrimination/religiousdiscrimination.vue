@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Other Discrimination</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/religiousdiscrimination">Religious</nuxt-link></li>
+     </ol>
     <h3 class="start">Religious Discrimination</h3>
     <p class="two">
        Treating a person/group of people based on their beliefs and religion is called religious discrimination. Forms of discrimination seen includes harrassment of one’s religion, practices, and beliefs as well as mistreatment in work/educational situations. It also includes exclusion, where a person/group is excluded from a discussion/circle because of their beliefs. 

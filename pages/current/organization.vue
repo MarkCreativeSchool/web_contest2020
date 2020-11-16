@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 現状</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/organization">組織</nuxt-link></li>
+     </ol>
     <h3 class="start">黒人差別組織</h3>
     <p class="two">
 

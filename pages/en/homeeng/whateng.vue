@@ -2,7 +2,10 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/whateng">What?</nuxt-link></li>
+     </ol>
     <h3 class="start">What is discrimination?</h3>
     <img class="drawing1" src="~/assets/what.jpg">
     <p class="two">Discrimination is the act of ignoring one’s individuality and grouping them into different categories while marginalising individuals based on their group. While in reality, distinction should be done clearly, the problem that is being addressed these days are social discrimination, not distinction, which causes unequal treatment amongst people. Even within social discrimination though, there is no clear line on what is categorised as distinction and what is categorised as discrimination. Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. Therefore, as our awareness increases, what we once did not consider as discrimination could be considered as discrimination now or in the future. 

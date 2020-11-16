@@ -2,7 +2,12 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 他の差別</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/otherdiscrimination/otherdiscrimination/littleknowndiscrimination">他</nuxt-link></li>
+     </ol>　
+
     <h3 class="start">余り知らない差別とは？</h3>
     <p class="two">
         黒人差別や性的差別など、一度は聞いたことがある差別は様々あります。その中、余り気づかない差別などもたくさんあります。下には余り知らない、また気づかない差別のリストが表記されています。ぜひ他の差別の事を知るきっかけにしてください！

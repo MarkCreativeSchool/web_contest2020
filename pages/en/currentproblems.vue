@@ -19,6 +19,10 @@
     <div class="full">
     <Headereng></Headereng>
      <div class="info">
+      <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/current problems">Current Problems</nuxt-link></li>
+     </ol>
 
       <h3 class="start">Current Issues</h3>
       <p class="two">We have compiled/summarized some issues/protests regarding racism against black people on the US map below. However, this is not the full list, and there are several problems, issues, and protests that are not mentioned below. 

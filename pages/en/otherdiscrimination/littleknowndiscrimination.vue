@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Other Discrimination</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination">Others</nuxt-link></li>
+     </ol>
     <h3 class="start">Little Known Discrimination</h3>
     <p class="two">
         While major forms of discrimination are often brought up today, there are several forms of discrimination that is still unknown. Here are some examples of discrimination that is not noticed but should be. 

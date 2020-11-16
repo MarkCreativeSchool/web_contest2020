@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Statistics</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/policebrutality">Education</nuxt-link></li>
+     </ol>
     <h3 class="start">Arrest/Shooting Rates and Racism</h3>
     <p class="two">
         It has been investigated that the fatal shooting rate by police is disportionate based on race. Though the percentage for the overall fatal shootings of Black Americans are approximately 26% (1345 out of 5109 people) in 2020, it is disproportionate whilst taking the population of Black Americans in regard. Black Americans take up approximately 12~15% of the American population, which indicates the disproportionate rate of shooting kills though 50% of those that were shot by the police were white. It is shown on the graph that 30% per million of Black Americans are shot, a significant amount compared to 12% per million for White Americans. This signifies that if the population were to be the same for both Black and White Americans, there will be a 18% difference in fatal police shootings. 

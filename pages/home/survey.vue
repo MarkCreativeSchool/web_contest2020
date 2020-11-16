@@ -2,6 +2,11 @@
   <div class="full">
   <Header></Header>
     <div class="info">
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/home/what">アンケート結果</nuxt-link></li>
+     </ol>
+    
      <h3 class="start">アンケート</h3>
       <p class="two">
         この機会に、私たちはインターナショナルスクール（高1〜3）と日本の県立高校（高1〜2）で差別の意識に関するアンケートを取って見ました。国籍の違いはこのようになりました。
@@ -58,6 +63,11 @@
         <br></br>
       </p>
     </div> 
+
+        <div class="nextback">
+         <nuxt-link to="/home/what"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+          <!--  <nuxt-link to="/home/survey"><img class="next" src="~/assets/tugi.png"></nuxt-link>-->
+        </div>
 
   <Footer></Footer>
   </div>

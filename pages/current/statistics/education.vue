@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+     <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 現状</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/statistics/education">教育</nuxt-link></li>
+     </ol>
     <h3 class="start">教育</h3>
     <p class="two">
         奴隷制度が存在してる時代では黒人の教育は禁じられていました。奴隷制度が廃止され、黒人の教育が許されました。しかし、その時は白人と黒人高校が別々に存在していました。1954年にブラウン判決が決定されて以降は黒人と白人の共学が許されました。しかし、当時は黒人の生徒率がたったの0.1%と確認されています。1994年に取られたデータによると公立学校生徒の比率は黒人は17％と確認され、1954年以降改善に向かっていることがわかります。

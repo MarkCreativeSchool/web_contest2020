@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 他の差別</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/otherdiscrimination/otherdiscrimination/asiandiscrimination">アジア人差別</nuxt-link></li>
+     </ol>
     <h3 class="start">アジア人差別</h3>
     <p class="two">
         アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。

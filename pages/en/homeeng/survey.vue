@@ -2,13 +2,12 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-     <div class="test">
-        <video id="video" width="768" height="432" loop autoplay muted>
-          <source src="~/assets/douga.mp4" type="video/mp4" />
-        </video>
-      </div>
-    <!-- <img class="drawing" src="~/assets/title.jpg"> -->
-    <h3 class="start">Introduction</h3>
+   <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/survey">Survey Results</nuxt-link></li>
+     </ol>
+    
+    <h3 class="start">Survey Results</h3>
     <p class="two">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
          <br>
         We took a questionnaire about discrimination awareness at an international school (Grade 10~12) and a prefectural high school in Japan (Grade 10~11). The difference in nationality between the schools are shown below. 

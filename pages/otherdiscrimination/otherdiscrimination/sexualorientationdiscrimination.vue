@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 他の差別</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination">性的指向</nuxt-link></li>
+     </ol>
     <h3 class="start"> 性的指向による差別</h3>
     <p class="two">
        性的指向の差別は、自分の性別によって行われる差別です。この差別行為はLGBTQ +コミュニティ（L =レズビアン、G =ゲイ、B =バイセクシュアル、T =トランスジェンダー、Q =クィア、+ =パンセクシュアル、アセクシュアル、オムニセクシャルなどのその他の性的アイデンティティ）を対象としています。差別の種類には、直接的および間接的な差別のほか、嫌がらせが含まれます。

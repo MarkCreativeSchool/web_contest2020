@@ -4,8 +4,8 @@
     <div class="info1">
       
       <ol class="bread">
-         <li class="breadcrumb-item"> <a href="#">ホーム</a></li>
-         <li class="breadcrumb-item"> <a href="#">歴史</a></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/history">歴史</nuxt-link></li>
      </ol>
 
 

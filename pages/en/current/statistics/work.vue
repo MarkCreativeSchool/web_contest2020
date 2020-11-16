@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Statistics</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/work">Education</nuxt-link></li>
+     </ol>
     <h3 class="start">Work Discrimination</h3>
     <p class="two">
         The employment environment for black people living in the United States has improved since the 1960s and 1970s. Compared to 1965 where there were only 280 black public officials, it surged to more than 7,000 by 1990. It has also been confirmed that the number of black mayors among public officials has increased. In 1990, a total of 318 black mayors, compared to 3 in 1965. In addition, in 1990, a black woman was elected mayor of Washington City, making her the first black woman to be elected as mayor in a metropolis for the first time.

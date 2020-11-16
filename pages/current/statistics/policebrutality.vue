@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 現状</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/statistics/policebrutality">逮捕率など</nuxt-link></li>
+     </ol>
     <h3 class="start">逮捕率、銃撃率など</h3>
     <p class="two">
         警察による致命的な銃撃率は人種に基づいて不釣り合いであることをWashington Post が調査しました。 2020年のアフリカ系アメリカ人の全体的な致命的な銃撃の割合は約26％（5109人中1345人）で射殺された人の50％は白人でした。しかし、アフリカ系アメリカ人の人口を考慮すると不均衡です。アフリカ系アメリカ人はアメリカの人口の約12〜15％を占めており、射殺の割合が不均衡であることを示しています。グラフには、黒人アメリカ人の100万人あたり30％が撃たれていることが示されています。これは、白人アメリカ人の100万人あたり12％と比較してかなりの格差です。これは、人口が黒人と白人の両方のアメリカ人で同じである場合、致命的な警察の銃撃に18％の違いがあることを意味します。

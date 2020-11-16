@@ -3,6 +3,10 @@
   <Headereng></Headereng>
    <div class="info">
     
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/history">History</nuxt-link></li>
+     </ol>
     <h3 class="start">History Summarized</h3>
     <p class="two">Below, the timeline summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
 

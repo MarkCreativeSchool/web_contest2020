@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Other Discrimination</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination">Sexual Orientation</nuxt-link></li>
+     </ol>
     <h3 class="start">Sexual Orientation Discrimination</h3>
     <p class="two">
        Sexual orientation discrimination is discrimination that is done due to one’s sexuality. This act of discrimination targets  LGBTQ+ communities (L=Lesbian, G=Gay, B=Bisexual, T=Transgender, Q=Queer, +=other sexual identities such as pansexual, asexual, and omnisexual). Types of discrimination includes both direct and indirect discrimination as well as harassment.  

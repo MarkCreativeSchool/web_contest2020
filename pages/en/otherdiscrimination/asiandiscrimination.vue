@@ -2,7 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Other Discrimination</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/asiandiscrimination">Asian Discrimination</nuxt-link></li>
+     </ol>
     <h3 class="start">Discrimination against Asians</h3>
     <p class="two">
         Asian discrimination is one form of discrimination due to color/race, mostly occurring in locations such as the US and Europe. Similar to discrimination against black communities, Asian communities are often attacked/insulted by their color, and also looked down upon. While not as known as discrimination against black communities, it is a major global issue that has been around for a long time. 

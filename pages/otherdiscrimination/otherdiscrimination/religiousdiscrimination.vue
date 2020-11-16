@@ -2,7 +2,11 @@
   <div class="full">
   <Header></Header>
    <div class="info">
-    
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
+         <li class="breadcrumb-item"> 他の差別</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/current/otherdiscrimination/otherdiscrimination/religiousdiscrimination">宗教差別</nuxt-link></li>
+     </ol>
     <h3 class="start">宗教差別</h3>
     <p class="two">
        宗教差別は人を考えやその人の宗教をきっかけにその人に対し、嫌がらせなどをする事です。人の考えを馬鹿にしたり、また、学校や仕事場での嫌がらせなどが見られます。他にも、会話やサークルでの場で入れてもらえなかったりする事が多々あります。

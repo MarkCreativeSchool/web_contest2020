@@ -2,6 +2,11 @@
   <div class="full">
   <Headereng></Headereng>
    <div class="info">
+    <ol class="bread">
+         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item">Others</li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/others/profile">Profile</nuxt-link></li>
+     </ol>
     
     <h3 class="start">Profile</h3>
     <div class="profile">
