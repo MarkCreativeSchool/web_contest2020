@@ -84,7 +84,6 @@ export default {
     padding-top: 5px; 
     padding-bottom: 5px;
      background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000); 
-    background-color: white;
     color: #ffffff;
     display: inline-block; 
     width: 100%;
@@ -125,6 +124,14 @@ export default {
   position: relative; 
   flex: 1; 
   font-family: "Noto Sans JP"; 
+}
+
+.uppersub{
+  display:flex; 
+  margin: 0 auto; 
+  padding-top: 15px;
+  width: 75%;
+  float:right; 
 }
 
 .bar:hover{
