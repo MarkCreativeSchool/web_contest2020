@@ -27,25 +27,24 @@
   background: black;
   border-radius: 7px;
 }
-.year{
+.event-modal .year{
   position: relative;
   display: flex;
   align-content: space-between;
   width: 100%;
   text-align: center;
-  /*top: calc(83% - 95px);*/
   bottom: calc(1% - 160px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
 }
-.year h6 .timelineFirst{
-  text-align: left;
-  padding-left: 50px;
+.event-modal .year h6 .timelineFirst{
+  /*text-align: left;*/
+  /*padding-left: 50px;*/
 }
-.year h6 .timelineLast{
-  text-align: right;
-  padding-right: 50px;
+.event-modal .year h6 .timelineLast{
+  /*text-align: right;*/
+  /*padding-right: 50px;*/
 }
 .layer{
   position: fixed;
