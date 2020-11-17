@@ -1,13 +1,13 @@
 <template>
   <div class="fullhead">
    <div class="toggle">
-   <div class="up">
-   <img class="logo" src="~/assets/newlogo.png">
+   <div class="up-jp">
+   <img class="logo" src="~/assets/logo_new_jp.png">
 
    <!-- </div>
     <div class="toggle">-->
 
-    <div class="uppersub">
+    <div class="uppersub_jp">
         <nuxt-link to="" class="bar" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
         <ul class="sub">
@@ -87,10 +87,11 @@ export default {
   margin-bottom: 30px;
 }
 
-.up{
+.up-jp{
     padding-top: 5px; 
     padding-bottom: 5px;
-    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
+    /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000); */
+    background-color: white;
     color: #ffffff;
     display: inline-block; 
     width: 100%;
@@ -102,7 +103,7 @@ export default {
   margin-bottom: 0px;
 }
 
-.uppersub{
+.uppersub_jp{
   display:flex; 
   margin: 0 auto; 
   padding-top: 15px;
@@ -121,7 +122,7 @@ export default {
 }
 
 .bar{
-  color: #ffffff;
+  color: black;
   text-align: center;
   padding-left: 30px; 
   padding-right: 30px; 
