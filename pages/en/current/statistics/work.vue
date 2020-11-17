@@ -28,16 +28,16 @@
           <!--<nuxt-link to="/en/current/statistics/education"><img class="back" src="~/assets/next.png"></nuxt-link>-->
             <nuxt-link to="/en/current/statistics/education"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
-     <Footer></Footer>
+      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
 import Headereng from "~/components/Headereng"
-import Footer from "~/components/Footer"
+import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
-  components: { Headereng, Footer },
+  components: { Headereng, Footereng },
   head() {
     return {
       title: "Work-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",

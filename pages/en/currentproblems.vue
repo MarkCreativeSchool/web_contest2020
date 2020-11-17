@@ -21,10 +21,10 @@
      <div class="info">
       <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/en/current problems">Current Problems</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/current problems">Incidents</nuxt-link></li>
      </ol>
 
-      <h3 class="start">Current Issues</h3>
+      <h3 class="start">Incidents</h3>
       <p class="two">We have compiled/summarized some issues/protests regarding racism against black people on the US map below. However, this is not the full list, and there are several problems, issues, and protests that are not mentioned below. 
 
       </p>
@@ -32,7 +32,7 @@
       <img class="map" src="~/assets/usmap.png">
       </div>
 
-       <Footer></Footer>
+        <Footereng></Footereng>
     </div>
     <sample v-if="locationName==='sample'" @onClose="locationName=null"></sample>
     <or v-if="locationName==='or'" @onClose="locationName=null"></or>
@@ -52,7 +52,7 @@
 
 <script>
 import Headereng from "~/components/Headereng"
-import Footer from "~/components/Footer"
+import Footereng from "~/components/Footereng"
 import sample from "~/components/map/sample"
 import or from "~/components/map_eng/or"
 import ca from "~/components/map_eng/ca"
@@ -69,7 +69,7 @@ import md from "~/components/map_eng/md"
 
 export default {
   name: "Index",
-  components: { Headereng, Footer, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
+  components: { Headereng, Footereng, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
   head() {
     return {
       title: "Current Problems-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",

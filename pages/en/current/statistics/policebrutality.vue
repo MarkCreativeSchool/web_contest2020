@@ -5,7 +5,7 @@
     <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
          <li class="breadcrumb-item">Statistics</li>
-         <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/policebrutality">Education</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/education">Education</nuxt-link></li>
      </ol>
     <h3 class="start">Arrest/Shooting Rates and Racism</h3>
     <p class="two">
@@ -31,13 +31,13 @@
             <nuxt-link to="/en/current/statistics/education"><img class="back" src="~/assets/back2.png"></nuxt-link>
             <nuxt-link to="/en/current/organization"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
-     <Footer></Footer>
+      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
 import Headereng from "~/components/Headereng"
-import Footer from "~/components/Footer"
+import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
   components: { Headereng, Footer },
