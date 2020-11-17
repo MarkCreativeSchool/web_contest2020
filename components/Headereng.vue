@@ -83,12 +83,12 @@ export default {
 .up{
     padding-top: 5px; 
     padding-bottom: 5px;
-    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
-    color: #ffffff; 
-    box-shadow: $stripe;
+     background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000); 
+    background-color: white;
+    color: #ffffff;
     display: inline-block; 
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
 .fullhead{
@@ -109,7 +109,8 @@ export default {
 
 .toggle{
   display: inline-block; 
-  width: 100%;
+  width:100%;
+  margin-bottom: 0px;
 }
 
 .bar{
