@@ -94,7 +94,7 @@ export default {
     color: #ffffff;
     display: inline-block; 
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 .toggle{
   display: inline-block; 

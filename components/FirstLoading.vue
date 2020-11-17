@@ -1,7 +1,10 @@
 <template>
     <div class = "first-loading-contener">
         <div class = "first-loading-content">
-            <br>このサイトで扱われているテーマは繊細なテーマであるため、思想の偏りがないよう十分配慮しています。
+            <div class="first-loading-content-japanese">
+                <br>このサイトで扱われているテーマは繊細なテーマであるため、
+                <br>思想の偏りがないよう十分配慮しています。
+            </div>
             <br>The themes dealt with on this site are delicate themes, so we take great care not to bias our ideas.
             <!-- <div class = "first-loading-button-wrapper">
                 <button class="button is-primary" @click="close">OK</button>
@@ -18,7 +21,7 @@ export default {
     mounted(){
         setTimeout(() => {
             this.close();
-        }, 5000)
+        },5000)
     },
     methods: {
         close(){
@@ -67,7 +70,7 @@ to {
 }
 } */
 
-@keyframes blink {
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -86,15 +89,15 @@ to {
     z-index: 1000;
     background-image: url(/hand.png);
     background-size: cover;
+    background-position: center center;
 }
 
 .first-loading-content{
-    /* font-size: 20px;
-    font-weight: bold;
-    animation-name: fadein;
-    animation-duration: 2s; */
-    animation: blink 1s ease-in-out alternate;
-    animation-iteration-count: 10;
+    /* animation: blink 1.5s ease-in-out alternate;
+    animation-iteration-count: 10; */
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,15 +106,12 @@ to {
     font-weight: 70;
     color: white;
     font-size: 25px;
-    /* width: 15em;
-    border-right: 0.1em solid #000;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 1.5s steps(15, end), cursor 0.8s step-end infinite; */
 }
 
-/* .first-loading-button-wrapper{
-    margin-top: 10px;
-} */
+.first-loading-content-japanese{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
 
 </style>
