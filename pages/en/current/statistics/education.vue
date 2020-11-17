@@ -26,16 +26,16 @@ Disparities in education also affect disparities in other situations. On the emp
             <nuxt-link to="/en/current/statistics/work"><img class="back" src="~/assets/back2.png"></nuxt-link>
             <nuxt-link to="/en/current/statistics/policebrutality"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
-     <Footer></Footer>
+      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
 import Headereng from "~/components/Headereng"
-import Footer from "~/components/Footer"
+import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
-  components: { Headereng, Footer },
+  components: { Headereng, Footereng },
   head() {
     return {
       title: "Education-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",

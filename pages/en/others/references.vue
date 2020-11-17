@@ -11,16 +11,16 @@
     <h3 class="start">References</h3>
     
 </div>
-     <Footer></Footer>
+     <Footereng></Footereng>
   </div>
 </template>
 
 <script>
 import Headereng from "~/components/Headereng"
-import Footer from "~/components/Footer"
+import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
-  components: { Headereng, Footer },
+  components: { Headereng, Footereng },
   head() {
     return {
       title: "Profile-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
