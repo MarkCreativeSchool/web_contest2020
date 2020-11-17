@@ -98,7 +98,7 @@ export default {
 }
 .toggle{
   display: inline-block; 
-  width:100%;
+  width: 100%;
   margin-bottom: 0px;
 }
 
