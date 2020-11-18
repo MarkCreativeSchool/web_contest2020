@@ -97,6 +97,7 @@ export default {
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
+  text-indent: 1em;
 }
 
 .start{
@@ -117,14 +118,14 @@ export default {
   font-size: 24px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
-   width: 68%; 
+  width: 68%; 
 }
 
 mark {
   display: inline-block;
   line-height: 0em;
   padding-bottom: 0.5em;
-  background: #f6d405;
+  background: #ffa500;
 }
 
 .hometitle{
