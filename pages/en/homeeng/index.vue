@@ -7,8 +7,12 @@
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
       </div>
+   
+    <br> 
+ <h2 class="biggertitle"><mark>About Discrimination</mark></h2>
+
    <br> 
- <h2 class="biggertitle"><mark>Why?</marK></h2>
+ <h2 class="biggertitle"><mark>Why?</mark></h2>
 
     <h4 class="hometitle">Why we decided to make this website</h4>
     <p class="three">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
@@ -35,6 +39,7 @@
        </p>
 
     </div> 
+    <br>
      <div class="nextback">
           <!--  <nuxt-link to="/en/current/statistics/work"><img class="back" src="~/assets/back2.png"></nuxt-link>-->
             <nuxt-link to="/en/homeeng/whateng"><img class="next" src="~/assets/next.png"></nuxt-link>

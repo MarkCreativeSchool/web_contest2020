@@ -27,3 +27,24 @@
   .breadcrumb-item a:hover{
     color: yellow;
   }
+
+  .start{
+    font-family: "Noto Sans JP"; 
+    color: #ffffff;
+    background-color: #000000;
+    background-position: center center;
+    width: 73%; 
+    margin: 0 auto;
+    font-size: 30px; 
+    border-radius: 3px; 
+    text-shadow: 0.5px 0.5px #f6d405;
+    text-align: center; 
+  }
+
+  .two{
+    font-family: "Noto Sans JP"; 
+    width: 68%; 
+    margin: 0 auto;
+    margin-top: 10px; 
+    font-size: 18px; 
+  }

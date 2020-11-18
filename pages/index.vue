@@ -7,8 +7,10 @@
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
       </div>
-     <br>
-     <h2 class="biggertitle"><mark>きっかけ</marK></h2>
+    <br>
+     <h2 class="biggertitle"><mark>差別について</mark></h2>
+    <br>
+     <h2 class="biggertitle"><mark>きっかけ</mark></h2>
      
      <br>
      <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
@@ -37,6 +39,7 @@
       <b>*私たちがこのサイトで取り上げている黒人差別問題は繊細な課題です。バイアスは断じて禁じるように気遣っています。その為、意見や個人の考えなどは控えています。ご了承ください。</b>
       </p>
     </div> 
+    <br>
 
     <div class="nextback">
           <!--  <nuxt-link to="/home/what"><img class="back" src="~/assets/modoru2.png"></nuxt-link>-->
