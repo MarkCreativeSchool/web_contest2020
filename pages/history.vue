@@ -20,19 +20,19 @@
           <div class="linebar line2" @click="onClick('line2')"><p class="line2-name">第2章:独立戦争の開幕</p></div>
         </div>
         <div class="line">
-          <div class="linebar line3" @click="onClick('line3')"></div>
+          <div class="linebar line3" @click="onClick('line3')"><p class="line3-name">第3章：独立戦争後のアメリカの歩み</p></div>
         </div>
         <div class="line">
-          <div class="linebar line4" @click="onClick('line4')"></div>
+          <div class="linebar line4" @click="onClick('line4')"><p class="line4-name">第4章:南北戦争</p></div>
         </div>
         <div class="line">
-          <div class="linebar line5" @click="onClick('line5')"></div>
+          <div class="linebar line5" @click="onClick('line5')"><p class="line5-name">第5章：第一次世界大戦の幕開け</p></div>
         </div>
         <div class="line">
-          <div class="linebar line6" @click="onClick('line6')"></div>
+          <div class="linebar line6" @click="onClick('line6')"><p class="line6-name">第6章：第二次世界大戦</p></div>
         </div>
         <div class="line">
-          <div class="linebar line7" @click="onClick('line7')"></div>
+          <div class="linebar line7" @click="onClick('line7')"><p class="line7-name">第7章：冷戦</p></div>
         </div>
         <div class="line">
           <div class="linebar line8" @click="onClick('line8')"></div>
@@ -168,6 +168,7 @@ export default {
   position: relative;
   top: 17px;
   width: 1000px;
+  font-size:15px;
 }
 .line2{
   position: absolute;
@@ -178,31 +179,62 @@ export default {
   position: relative;
   top: 17px;
   width: 1000px;
+  font-size:15px;
 }
 .line3{
   position: absolute;
   left: 633px;
   width: 40px;
 }
+.line3 .line3-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
+}
 .line4{
   position: absolute;
   left: 675px;
   width:30px;
+}
+.line4 .line4-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
 }
 .line5{
   position: absolute;
   left: 781px;
   width: 20px;
 }
+.line5 .line5-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
+}
 .line6{
   position: absolute;
   left: 835px;
   width: 20px;
 }
+.line6 .line6-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
+}
 .line7{
   position: absolute;
   left: 875px;
   width: 35px;
+}
+.line7 .line7-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
 }
 .line8{
   position:absolute;

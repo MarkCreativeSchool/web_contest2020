@@ -2,7 +2,7 @@
     <div>
       <div class="layer" @click="onClose"></div>
       <div class="event-modal">
-        <div class="event-title">第8章：冷戦</div>
+        <div class="event-title">第7章：冷戦</div>
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
         <div class="event2" @click="onClick('event2')"></div>
