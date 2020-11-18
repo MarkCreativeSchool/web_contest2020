@@ -7,17 +7,31 @@
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
       </div>
-    <!-- <img class="drawing" src="~/assets/title.jpg"> 
-    <h3 class="start">Introduction</h3>-->
-    <p class="two">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
-      <br></br>
+   <br> 
+ <h2 class="biggertitle"><mark>Why?</marK></h2>
+
+    <h4 class="hometitle">Why we decided to make this website</h4>
+    <p class="three">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
+      </p>
+      <br>
+      <h4 class="hometitle">Our friend's experience</h4>
+      <p class="three">
       Have you ever been conscious regarding the topic of discrimination? In addition, have you ever been in a situation where you have been/felt as a subject of discrimination? As students that attend different schools, one being International, we believe that our knowledge and consciousness about discrimination are far more significant compared to others. One key factor that made us consider discussing/research discrimination is due to our friend feeling discriminated against due to her looks. Just by her appearance, she felt looks given by strangers. 
-      <br></br>
+      </p>
+      <br>
+      <h4 class="hometitle">Why we focused on America</h4>
+       <p class="three">
       As mentioned previously, George Floyd’s death that occurred in the US was widely discussed. This incident was the first reason why we focused on the topic of discrimination of black communities in America. Of course, there are several cases of discrimination against black communities in other countries, and different histories related to this topic. So, we thought that by creating a teaching material site on discrimination against black communities in America (which was our interest), it would interest viewers of the site to investigate further on discrimination within other countries. Therefore, we decided to focus just on discrimination within America. 
-      <br></br>
+      </p>
+      <br>
+      <h4 class="hometitle">Why we chose racism against black people</h4>
+       <p class="three">
       In our daily life, there are several situations and cases of discrimination around us that we do/do not realise. Discrimination against black communities that is widely talked about today is also discrimination. What we focused on is that while we are expected to understand current topics that are being discussed, not many seem to understand/digest the concept of discrimination against black communities although there has been several incidents relating racial injustice occurring recently. Furthermore, we realised that we are still lacking understanding of discrimination although it is a widely discussed topic. What we question/don’t know might apply to other people as well. With these reasons, we decided to create an informational site regarding discrimination against black communities for we wanted more people to get a clearer understanding regarding this topic. Therefore, we decided to focus on discrimination against black communities for these reasons: one, it is a topic widely discussed, and two, many people seem to lack understanding even though it is a problem being raised by many today.
-      <br></br>
+      <br>
+      </p>
+       <p class="three">
       <b>As racism is a very sensitive and delicate topic, we are refraining to include most of our opinions to prevent bias within the website. Please understand. Thank you.</b>
+       </p>
        </p>
 
     </div> 
@@ -54,6 +68,37 @@ export default {
 .two{
   font-family: "Noto Sans JP"; 
   width: 68%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+}
+
+.biggertitle{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+   width: 68%; 
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  background: #f6d405;
+}
+
+.hometitle{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+   width: 53%; 
+}
+
+.three{
+  font-family: "Noto Sans JP"; 
+  width: 53%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
