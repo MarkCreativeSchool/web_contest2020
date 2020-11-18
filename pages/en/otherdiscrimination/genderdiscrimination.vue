@@ -9,7 +9,10 @@
      </ol>
     <h3 class="start">Gender Discrimination</h3>
     <p class="two">
-       Gender discrimination is a form of discrimination where an inidividual is treated differently based on their gender, and not their ability. According to AAU, most states in the US offer unfair wages based on gender. Causes of gender discrimination include teachings within homes, religion, and the social structure of each country. Many of our global issues occurring today connects to gender discrimination. 
+       Gender discrimination is a form of discrimination where an inidividual is <mark class="highlights"><b>treated differently based on their gender, and not their ability</b></mark>.
+        According to AAU, most states in the US offer unfair wages based on gender. 
+        Causes of gender discrimination include teachings within homes, religion, and the social structure of each country. 
+        <mark class="highlights"><b>Many of our global issues occurring today connects to gender discrimination. </b></mark>
 <img class="drawing4" src="~/assets/equality.jpg">
     </p>
 
@@ -17,11 +20,22 @@
         <div class="activity">
             <h6 class="program">Salt thrown at woman for going up on the stage of Sumo wrestling</h6>
             <hr>
-            <p class="campaign">In 2018, April 4th, while the Mayor Ryozo Tatami of Maizuru City, Kyoto was giving an introductory speech at a Sumo Arena, he suddenly collapsed due to unconsciousness. At that moment, a woman who had a nursing qualification got up to the arena and started to conduct heart massage. Along with her, 2 other women went up to the arena to help her, when an announcement telling the women to get off the arena as soon as possible. This announcement was criticised heavily. In Sumo, it is a rule that women cannot go up on the arena, and the sumo association claimed this was the reason for the announcement, but was criticized, with people claiming that the announcement was out of place. Later on, Hokutoumi, Director of the Sumo association apologized saying that the announcement was inappropriate at that moment. Furthermore, it was found out later on that after the women finished urgent care on the mayor and got off the arena, they were thrown salt by the sumo referees. This caused an outrage on the internet, and again, the sumo association received criticism for their poor behavior. The director later on gave a comment regarding this problem, but was deemed that it lacked explanation and received criticism. </p>
+            <p class="campaign">In 2018, April 4th, while the Mayor Ryozo Tatami of Maizuru City, Kyoto was giving an introductory speech at a Sumo Arena, he suddenly collapsed due to unconsciousness. 
+            At that moment, a woman who had a nursing qualification got up to the arena and started to conduct heart massage. 
+            Along with her, 2 other women went up to the arena to help her, when an announcement telling the women to get off the arena as soon as possible. 
+            This announcement was criticised heavily. 
+            In Sumo, it is a rule that <b>women cannot go up on the arena</b>, and the sumo association claimed this was the reason for the announcement, but was criticized, with people claiming that the announcement was out of place.
+             Later on, Hokutoumi, Director of the Sumo association apologized saying that the announcement was inappropriate at that moment. 
+             Furthermore, it was found out later on that after the women finished urgent care on the mayor and got off the arena, <mark class="highlights"><b>she was thrown salt by the sumo referees</b></mark>.
+              This caused an outrage on the internet, and again, the sumo association received criticism for their poor behavior. The director later on gave a comment regarding this problem, but was deemed that it lacked explanation and received criticism. </p>
             <br></br>
             <h6 class="program">2018 Grammy Gender Inequality (US)</h6>
             <hr>
-            <p class="campaign">On 2018, January 29, the 2018 Grammy Awards ceremony was held. However, the Grammys were male-dominated this year, and lacked gender equality. ￥When Recording Academy President Neil Portnow was questioned about the imbalance of the nominees, he commented that women needed to ‘step up’ in order to be nominated and win awards. This comment received heavy criticism from the general public and musical artists. Halsey commented “ Female artists came HARD in 2017. But the nominees are selected by peers and their opinion of the music. Which means it’s a conversation about the standards of which the ENTIRE INDUSTRY expects women to uphold.” as well as the Annenberg Inclusion Initiative (initiative that aims for researched-based solutions to tackle inequality) commented “How do women "step up" in music when only 22% of artists, 12% of writers and 2% of producers are female?” and further stated “What is the composition of your membership and how are YOU stepping up to counter bias?” Later on, Neil Portnow apologized and claimed his comment was taken out of context. </p>
+            <p class="campaign">On 2018, January 29, the 2018 Grammy Awards ceremony was held. However, the Grammys were male-dominated this year, and <mark class="highlights"><b>lacked gender equality</b></mark>.
+             When Recording Academy President Neil Portnow was questioned about the imbalance of the nominees, he commented that women needed to <b>‘step up’</b> in order to be nominated and win awards. 
+             This comment received heavy criticism from the general public and musical artists. 
+             Halsey, a famous singer commented <b>“Female artists came HARD in 2017. But the nominees are selected by peers and their opinion of the music. Which means it’s a conversation about the standards of which the ENTIRE INDUSTRY expects women to uphold.”</b> as well as the Annenberg Inclusion Initiative (initiative that aims for researched-based solutions to tackle inequality) commented <b>“How do women "step up" in music when only 22% of artists, 12% of writers and 2% of producers are female?” </b>and further stated <b>“What is the composition of your membership and how are YOU stepping up to counter bias?”</b>
+              Later on, Neil Portnow apologized and claimed his comment was taken out of context. </p>
             <br></br>  
         </div>
 

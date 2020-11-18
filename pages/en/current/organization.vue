@@ -20,7 +20,7 @@
 <br>Is a global organization: UK, US, and Canada. 
 <br>Mission: Demolish/Eradicate white supremacy (白人覇権) and prevent violence amongst Black communities. 
 <br>Original Organizers:  Alicia Garza, Patrisse Cullors, and Opal Tometi
-<br>Created a movement called #BlackLives Matter due to Trayvon Martin’s murder in 2013. The organization itself was formed in 2014. Alicia Garza is an activist who was one of the people that posted #BlackLivesMattter on Facebook. 
+<br>Created a movement called #BlackLives Matter after <mark class="highlights"><b>Trayvon Martin’s murder in 2013</b></mark>. The organization itself was formed in 2014. Alicia Garza is an activist who was one of the people that posted #BlackLivesMattter on Facebook. 
 <br>Link to official site<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     <br>
     </p>
@@ -43,7 +43,7 @@
       <p class="paragraph">
         US’s largest online racial justice organization. Has 1.7 million members. Found in 2005, Oakland, California. 
 <br>Founders: Van Jones, James Rucker
-<br>Motto: “Changing the color of democracy”. 
+<br>Motto: <mark class="highlights"><b>“Changing the color of democracy”</b></mark>. 
 <br>Link to site=><a href="https://colorofchange.org/" target="_blank"> https://colorofchange.org/</a>
     <br>
     </p>
@@ -67,7 +67,7 @@
  <h3 class="start">The Movement for Black Lives</h3>
     <p class="paragraph2">
         Founded in December 2014. 
-<br>Are Abolitionists (abolitionism: movement to end slavery). Organization that believes that prisons and police that inflict violence amongst Black communities should be abolished and instead, form institutions that protect Black communities and their rights. 
+<br>Are Abolitionists (abolitionism: movement to end slavery). <mark class="highlights"><b>Organization that believes that prisons and police that inflict violence </b></mark> <mark class="highlights"><b>amongst Black communities should be abolished and instead,</b></mark> <mark class="highlights"><b>form institutions that protect Black communities and their rights. </b></mark>
 <br>Link to Official Site<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>

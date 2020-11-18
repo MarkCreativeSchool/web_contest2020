@@ -9,7 +9,7 @@
      </ol>
     <h3 class="start">Discrimination against Asians</h3>
     <p class="two">
-        Asian discrimination is one form of discrimination due to color/race, mostly occurring in locations such as the US and Europe. Similar to discrimination against black communities, Asian communities are often attacked/insulted by their color, and also looked down upon. While not as known as discrimination against black communities, it is a major global issue that has been around for a long time. 
+        Asian discrimination is one form of discrimination due to color/race, mostly occurring in locations such as the US and Europe. Similar to discrimination against black communities, Asian communities are often <mark class="highlights"><b>attacked/insulted by their color, and also looked down upon</b></mark>. While not as known as discrimination against black communities, it is a major global issue that has been around for a long time. 
 <br></br>
 <img class="drawings" src="~/assets/asia.jpg">
     </p>
@@ -19,13 +19,21 @@
             <div class="activity">
             <h6 class="program">Asian Discrimination due to COVID 19 (Worldwide)</h6>
             <hr>
-            <p class="campaign"> Due to the rise and spread of the Coronavirus (COVID-19) these past few months, cases of xenophobia and racism have increased immensely since the pandemic spread against Asian Ethnic groups. Incidents of discrimination have been occurring in several countries outside of Asia such as the USA, Germany, Australia, and Egypt. Fears and insecurities non-Asians carry seems to be sparking criticisms of Asians for “bringing” and “spreading” the virus. Furthermore, they are claiming that Asians are the COVID-19. Several reports have been notified where Asians have been discriminated against in other countries outside of Asia including Europe, Africa, and North America. 
+            <p class="campaign"> Due to the rise and spread of the Coronavirus (COVID-19) these past few months, cases of xenophobia and racism have increased immensely since the pandemic spread against Asian Ethnic groups. 
+            Incidents of discrimination have been occurring in several countries outside of Asia such as the USA, Germany, Australia, and Egypt.
+             Fears and insecurities non-Asians carry seems to be sparking criticisms of Asians for “bringing” and “spreading” the virus. 
+             Furthermore, they are claiming that <mark class="highlights"><b>Asians are the COVID-19</b></mark>.
+              Several reports have been notified where Asians have been discriminated against in other countries outside of Asia including Europe, Africa, and North America. 
                                 <br></br>Ex: The Asian Pacific Policy & Planning Council and Chinese for Affirmative Action reported that there have been 1,497 cases of discrimination during March 19~April 15 in the U.S. Based on the data collected, more than 60% of the reports were verbal bullying. Other actions reported included shunning, physical assault, workplace discrimination, and being prohibited/barred by some transportation systems such as trains and taxis. 
                                 </p>
             <br></br>
             <h6 class="program">Racial bias against Asian Americans at Harvard University (US)</h6>
             <hr>
-            <p class="campaign">In 2018, October, a federal judge dismissed the claim that Harvard University, an ivy league university in the US, had discriminated Asian-American applicants. The lawsuit claimed that Harvard had put a limit for the amount of people that would get accepted if they are Asian-Americans. The SFFA (Students for Fair Admissions) claimed that Harvard had put a limit of 20% for Asian-American applicants and accused them of going too far for the university’s effort to conduct racial balancing. Furthermore, Edward Blum of the SFFA group claimed that while the Asian-American applicants performed higher than the other applicants, they were not accepted based on subjective “personal” ratings. Harvard university denied these charges, claiming that their use of race in admissions was legal and that they did not conduct subjective personal ratings whilst accepting applicants. 
+            <p class="campaign">In 2018, October, a federal judge dismissed the claim that Harvard University, an ivy league university in the US, had <mark class="highlights"><b>discriminated Asian-American applicants</b></mark>. 
+            The lawsuit claimed that Harvard had put a limit for the amount of people that would get accepted if they are Asian-Americans. 
+            The SFFA (Students for Fair Admissions) claimed that Harvard had put a limit of <b>20%</b> for Asian-American applicants and accused them of going too far for the university’s effort to conduct racial balancing. 
+            Furthermore, Edward Blum of the SFFA group claimed that while the Asian-American applicants performed higher than the other applicants, <mark class="highlights"><b>they were not accepted based on subjective “personal” ratings</b></mark>.
+             Harvard university denied these charges, claiming that their use of race in admissions was legal and that they did not conduct subjective personal ratings whilst accepting applicants. 
 </p>
             <br></br>  
         </div>

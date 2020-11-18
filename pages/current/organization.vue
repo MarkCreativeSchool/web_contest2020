@@ -67,7 +67,7 @@ ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任さ
  <h3 class="start">The Movement for Black Lives</h3>
     <p class="paragraph2">
         ２０１４年１２月に創立。廃止論者組織である。
-<br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し、代わりに黒人コミュニティとその権利を保護する機関を設立するべきだと考える組織</b></mark>。
+<br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し</b></mark>、<mark class="highlights"><b>黒人コミュニティとその権利を保護する機関を設立するべき</b></mark>だと考える組織。
 <br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>
