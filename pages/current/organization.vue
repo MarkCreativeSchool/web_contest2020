@@ -18,7 +18,7 @@
 <br>グローバル組織だが、本拠地・主要地はアメリカ合衆国
 <br>ミッション：白人覇権を根絶し、黒人に対しての暴力行為を阻止する事。
 <br>創立者：アリシア・ガーザ（ガルザ）、パトリッセ・カラーズ、オーパル・トメティ
-<br>２０１２年に起きたトレイボンマーティンの死をきっかけにアリシア・ガーザ（ガルザ）さんがSNS（フェースブック）に#BlackLivesMatterと投稿した事が注目をあび、組織が創立された。
+<br>２０１２年に起きた<mark class="highlights"><b>トレイボンマーティンの死</b></mark>をきっかけにアリシア・ガーザ（ガルザ）さんがSNS（フェースブック）に<b>#BlackLivesMatter</b>と投稿した事が注目をあび、組織が創立された。
 <br>サイトへのリンク＝＞<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     <br>
     </p>
@@ -27,7 +27,9 @@
          <div class="activity">
             <h6 class="program">２０１８年６月：サンディエゴボーダーでの抗議</h6>
             <hr>
-            <p class="campaign">2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。大統領はその頃、両親が米国とメキシコの国境で逮捕された場合、子供を両親から引き離すことを宣言する命令に最近署名しました。活動家は抗議するとともに、仕事を求めている移民と米国の亡命者のための人道的な扱いを要求した。</p>
+            <p class="campaign">2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。
+            大統領はその頃、両親が米国とメキシコの国境で逮捕された場合、子供を両親から引き離すことを宣言する命令に最近署名しました。
+            活動家は抗議するとともに、仕事を求めている移民と米国の亡命者のための人道的な扱いを要求した。</p>
             <br>
             <h6 class="program">BLM’S #WhatMatters2020</h6>
             <hr>
@@ -38,9 +40,9 @@
     <h3 class="start">Color of Change</h3>
 
       <p class="paragraph">
-        アメリカ最大のオンライン人種的正義組織。会員数は170万人。２００５年、カリフォルニアオークランドで創立。
+        アメリカ最大のオンライン人種的正義組織。会員数は170万人。2005年、カリフォルニアオークランドで創立。
 <br>創立者：ヴァンジョーンズ（Van Jones）とジェームズラッカー(James Rucker)。
-<br>モットー：民主主義の色を変える
+<br>モットー：<mark class="highlights"><b>民主主義の色を変える</b></mark>
 <br>サイトへのリンク＝＞<a href="https://colorofchange.org/" target="_blank"> https://colorofchange.org/</a>
     <br>
     </p>
@@ -65,7 +67,7 @@ ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任さ
  <h3 class="start">The Movement for Black Lives</h3>
     <p class="paragraph2">
         ２０１４年１２月に創立。廃止論者組織である。
-<br>黒人コミュニティに暴力を与える刑務所や警察を廃止し、代わりに黒人コミュニティとその権利を保護する機関を設立するべきだと考える組織。
+<br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し、代わりに黒人コミュニティとその権利を保護する機関を設立するべきだと考える組織</b></mark>。
 <br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>
