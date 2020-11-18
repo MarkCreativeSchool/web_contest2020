@@ -16,21 +16,21 @@
  
     <h3 class="start">差別と区別</h3>
     <p class="two">
-    <b>差別</b> <br></br>
+    <b><mark>差別</mark></b> <br></br>
 「人や物の取り扱いに差をつけること」<br></br>
-    <b>区別</b> <br></br>
+    <b><mark>区別</mark></b> <br></br>
 「違いによって分けること」<br></br>
 しかし、区別する側に差別的にとがあった場合、それは差別になる。また、区別された側が差別だと感じたら差別になり得る。
 
     </p>
-
+<br>
     </div> 
        <div class="nextback">
          <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
             <nuxt-link to="/home/survey"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
 
-    
+  
      <Footer></Footer>
   </div>
 </template>

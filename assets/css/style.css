@@ -59,3 +59,17 @@
     float: left;
     margin-left: 200px;
   }
+
+  mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background: #f6d405;
+  }
+
+  .highlights{
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background: #f6d405;
+  }
