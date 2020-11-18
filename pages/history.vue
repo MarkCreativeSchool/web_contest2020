@@ -14,10 +14,10 @@
       <br>
       <div class="timeline">
         <div class="line">
-          <div class="linebar line1" @click="onClick('line1')"></div>
+          <div class="linebar line1" @click="onClick('line1')"><p class="line1-name">第一章:大陸の発見 / 13の植民地(13 colonies)の誕生</p></div>
         </div>
         <div class="line">
-          <div class="linebar line2" @click="onClick('line2')"></div>
+          <div class="linebar line2" @click="onClick('line2')"><p class="line2-name">第2章:独立戦争の開幕</p></div>
         </div>
         <div class="line">
           <div class="linebar line3" @click="onClick('line3')"></div>
@@ -164,10 +164,20 @@ export default {
   width: 177px;
   left: 370px;
 }
+.line1 .line1-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+}
 .line2{
   position: absolute;
   left: 547px;
   width: 38px;
+}
+.line2 .line2-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
 }
 .line3{
   position: absolute;
