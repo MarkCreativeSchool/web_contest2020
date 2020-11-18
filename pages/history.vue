@@ -14,7 +14,7 @@
       <br>
       <div class="timeline">
         <div class="line">
-          <div class="linebar line1" @click="onClick('line1')"><p class="line1-name">第一章:大陸の発見 / 13の植民地(13 colonies)の誕生</p></div>
+          <div class="linebar line1" @click="onClick('line1')"><p class="line1-name">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</p></div>
         </div>
         <div class="line">
           <div class="linebar line2" @click="onClick('line2')"><p class="line2-name">第2章:独立戦争の開幕</p></div>
