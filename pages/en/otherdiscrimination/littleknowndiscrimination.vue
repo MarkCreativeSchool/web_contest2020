@@ -9,7 +9,7 @@
      </ol>
     <h3 class="start">Little Known Discrimination</h3>
     <p class="two">
-        While major forms of discrimination are often brought up today, there are several forms of discrimination that is still unknown. Here are some examples of discrimination that is not noticed but should be. 
+        While major forms of discrimination are often brought up today, <mark class="highlights"><b>there are several forms of discrimination that is still unknown</b></mark>. Here are some examples of discrimination that is not noticed but should be. 
     <br></br>
     </p>
 
@@ -20,7 +20,7 @@
             <br></br>
             <h6 class="program">Discrimination against pregnant women</h6>
             <hr>
-            <p class="campaign">There are several cases where pregnant women face discrimination at work, as well as in the public, such as public transportation. 。</p>
+            <p class="campaign">There are several cases where pregnant women face discrimination at work, as well as in the public, such as public transportation. </p>
             <br></br>  
             <h6 class="program">Age discrimination</h6>
             <hr>
@@ -90,19 +90,17 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
+
 .program{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-
-
 .campaign{
-  width: 100%; 
+  width: 80%; 
   margin: 0 auto;
   font-size: 15px; 
 }
-
 
 </style>

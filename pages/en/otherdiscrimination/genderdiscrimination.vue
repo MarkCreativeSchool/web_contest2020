@@ -98,16 +98,15 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
+
 .program{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-
-
 .campaign{
-  width: 90%; 
+  width: 80%; 
   margin: 0 auto;
   font-size: 15px; 
 }

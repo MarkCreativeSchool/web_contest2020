@@ -9,7 +9,9 @@
      </ol>
     <h3 class="start">Sexual Orientation Discrimination</h3>
     <p class="two">
-       Sexual orientation discrimination is discrimination that is done due to one’s sexuality. This act of discrimination targets  LGBTQ+ communities (L=Lesbian, G=Gay, B=Bisexual, T=Transgender, Q=Queer, +=other sexual identities such as pansexual, asexual, and omnisexual). Types of discrimination includes both direct and indirect discrimination as well as harassment.  
+       Sexual orientation discrimination is <mark class="highlights"><b>discrimination againt one’s sexuality</b></mark>. 
+       This act of discrimination targets <b> LGBTQ+ communities (L=Lesbian, G=Gay, B=Bisexual, T=Transgender, Q=Queer, +=other sexual identities such as pansexual, asexual, and omnisexual)</b>. 
+       Types of discrimination includes both direct and indirect discrimination as well as harassment.  
     <br></br>
     <div class="logoimage">
     <img class="sexualorientation" src="~/assets/gendersign.png">
@@ -22,12 +24,20 @@
          <div class="activity">
             <h6 class="program">Orlando nightclub shooting (US)</h6>
             <hr>
-            <p class="campaign">On June 12, 2016, Omar Martin, a security guard conducted a shooting at a gay nightclub. He murdered 49 people in total and 53 others were injured. 3 hours after he was taken hostage, he was shot by the police. This attack was the worst mass shooting in the US at that time. The nightclub had several homosexual customers which Martin was aware of, and he often made it clear that he was homophobic. His relatives claim that it could have been a hate crime. 
+            <p class="campaign">On June 12, 2016, Omar Martin, a security guard conducted a shooting at a gay nightclub. 
+            He murdered <b>49</b> people in total and <b>53</b> others were injured. 
+            3 hours after he was taken hostage, he was shot by the police. 
+            This attack was the worst mass shooting in the US at that time. 
+            The nightclub had several homosexual customers which Martin was aware of, and he often made it clear that he was homophobic. 
+            His relatives claim that it could have been a hate crime. 
 </p>
             <br></br>
             <h6 class="program">Incident of outing at Hitotsubashi University (Japan)</h6>
             <hr>
-            <p class="campaign">In 2015, April, male student A from Hitotsubashi University confessed to male student B on messaging app, Line. While student B told him that he wanted to remain friends with him, later on, he exposed that student A was homosexual in a group chat that involved around 10 people without his permission. This act is called outing. After it was spread that student A was homosexual, he eventually got overwhelmed and committed suicide that year’s August. After he committed suicide,  students gathered in front of the gate of Hitotsubashi university to hold a memorial rally in honor of student A. 
+            <p class="campaign">In 2015, April, male student<i> A</i> from Hitotsubashi University confessed to male student <i>B</i> on messaging app, Line. 
+            While student <i>B</i> told him that he wanted to remain friends with him, later on, he exposed that student <i>A</i> was homosexual in a group chat that involved around 10 people without his permission. 
+            This act is called <b>outing</b>. After it was spread that student <i>A</i> was homosexual, he eventually got overwhelmed and committed suicide that year’s August. 
+            After he committed suicide, <mark class="highlights"><b>students gathered in front of the gate of Hitotsubashi university to hold a memorial rally</b></mark> in honor of student A. 
 </p>
             <br></br>  
         </div>
@@ -90,16 +100,15 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
+
 .program{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-
-
 .campaign{
-  width: 90%; 
+  width: 80%; 
   margin: 0 auto;
   font-size: 15px; 
 }

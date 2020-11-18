@@ -25,15 +25,15 @@
     <img class="logoblm" src="~/assets/blmlogo.jpg">
 
          <div class="activity">
-            <h6 class="program">２０１８年６月：サンディエゴボーダーでの抗議</h6>
+            <h6 class="program1">２０１８年６月：サンディエゴボーダーでの抗議</h6>
             <hr>
-            <p class="campaign">2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。
+            <p class="campaign1">2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。
             大統領はその頃、両親が米国とメキシコの国境で逮捕された場合、子供を両親から引き離すことを宣言する命令に最近署名しました。
             活動家は抗議するとともに、仕事を求めている移民と米国の亡命者のための人道的な扱いを要求した。</p>
             <br>
-            <h6 class="program">BLM’S #WhatMatters2020</h6>
+            <h6 class="program1">BLM’S #WhatMatters2020</h6>
             <hr>
-            <p class="campaign"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
+            <p class="campaign1"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
             <br>    
         </div>
 
@@ -50,16 +50,16 @@
 
         
          <div class="activity">
-            <h6 class="program">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.(
+            <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.(
 警察の暴力は銃による暴力です。 #JusticeforJakeを要求し、今すぐコミュニティに投資してください)</h6>
             <hr>
-            <p class="campaign">このキャンペーンは、警察によってウィスコンシン州で合計7回撃たれたジェイコブブレイクに正義を要求しています。彼の怪我のたせいで腰が麻痺してしまいました。回復中、彼の家族や友人や他の抗議者たちが正当な対応（警官の逮捕）を求めいている。
+            <p class="campaign1">このキャンペーンは、警察によってウィスコンシン州で合計7回撃たれたジェイコブブレイクに正義を要求しています。彼の怪我のたせいで腰が麻痺してしまいました。回復中、彼の家族や友人や他の抗議者たちが正当な対応（警官の逮捕）を求めいている。
             => <a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">リンク </a></p>
             <br>
-            <h6 class="program">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.(
+            <h6 class="program1">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.(
 ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任させる必要があります）</h6>
             <hr>
-            <p class="campaign"> 2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。
+            <p class="campaign1"> 2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。
              => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">リンク </a></p>
             <br>     
         </div>
@@ -76,24 +76,24 @@ ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任さ
 
     
     <div class="activity">
-            <h6 class="program">Amnesty-for-protestors</h6>
+            <h6 class="program1">Amnesty-for-protestors</h6>
             <hr>
-            <p class="campaign">抗議者アムネスティのキャンペーンは、蜂起とデモで逮捕された黒人政治活動家に正義を要求することです。彼らはまた、警察のすべての主張に対する再調査と、警察の軍事化の中止を要求している。
+            <p class="campaign1">抗議者アムネスティのキャンペーンは、蜂起とデモで逮捕された黒人政治活動家に正義を要求することです。彼らはまた、警察のすべての主張に対する再調査と、警察の軍事化の中止を要求している。
             => <a href="https://m4bl.org/amnesty-for-protestors/" target="_blank">リンク </a></p>
             <br>
-            <h6 class="program">Freedom-summer</h6>
+            <h6 class="program1">Freedom-summer</h6>
             <hr>
-            <p class="campaign">ミシシッピ州を起源とする黒人有権者の抑圧と戦いるキャンペーンで、現在は米国中に広まっています。ノースカロライナ、フロリダ、ミシガン、ミシシッピなど八つの州がこのキャンペーンに参加しています。
+            <p class="campaign1">ミシシッピ州を起源とする黒人有権者の抑圧と戦いるキャンペーンで、現在は米国中に広まっています。ノースカロライナ、フロリダ、ミシガン、ミシシッピなど八つの州がこのキャンペーンに参加しています。
              => <a href="https://m4bl.org/freedom-summer/" target="_blank">リンク </a></p>
             <br>
-            <h6 class="program">Defund-the-police</h6>
+            <h6 class="program1">Defund-the-police</h6>
             <hr>
-            <p class="campaign">このキャンペーンは、米国の残忍で軍事化されたポリシングに抗議しています。これは、ジョージフロイド、ブレナテイラー、トニーマクデードなどが最近亡くなったために広がっています。彼らの目的は、差別的ポリシングを廃止し、安全なコミュニティをビジョン化することです。
+            <p class="campaign1">このキャンペーンは、米国の残忍で軍事化されたポリシングに抗議しています。これは、ジョージフロイド、ブレナテイラー、トニーマクデードなどが最近亡くなったために広がっています。彼らの目的は、差別的ポリシングを廃止し、安全なコミュニティをビジョン化することです。
    => <a href="https://m4bl.org/defund-the-police/" target="_blank"> リンク</a></p>
             <br>
-            <h6 class="program">The Breathe Act</h6>
+            <h6 class="program1">The Breathe Act</h6>
             <hr>
-            <p class="campaign"> このキャンペーンは、警察によって引き起こされた黒人の数人の死を称え、すべてが自由に呼吸できる社会を実現するために作成されました。この行為は、黒人の生活を保護できず、より良い、より安全な環境のためのソリューションを構想/作成することに失敗した刑事法制度に反発します。
+            <p class="campaign1"> このキャンペーンは、警察によって引き起こされた黒人の数人の死を称え、すべてが自由に呼吸できる社会を実現するために作成されました。この行為は、黒人の生活を保護できず、より良い、より安全な環境のためのソリューションを構想/作成することに失敗した刑事法制度に反発します。
    => <a href="https://breatheact.org/" target="_blank"> リンク</a></p>
         <br>
         </div>
@@ -171,7 +171,7 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
-.program{
+.program1{
     width: 90%;
     margin: 0 auto;
     font-size: 21px; 
@@ -179,7 +179,7 @@ export default {
 }
 
 
-.campaign{
+.campaign1{
   width: 90%; 
   margin: 0 auto;
   font-size: 15px; 

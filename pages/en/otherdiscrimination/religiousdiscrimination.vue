@@ -9,7 +9,9 @@
      </ol>
     <h3 class="start">Religious Discrimination</h3>
     <p class="two">
-       Treating a person/group of people based on their beliefs and religion is called religious discrimination. Forms of discrimination seen includes harrassment of one’s religion, practices, and beliefs as well as mistreatment in work/educational situations. It also includes exclusion, where a person/group is excluded from a discussion/circle because of their beliefs. 
+       <mark class="highlights"><b>Treating a person/group of people based on their beliefs and religion</b></mark> is called religious discrimination. 
+       Forms of discrimination seen includes harrassment of one’s religion, practices, and beliefs as well as mistreatment in work/educational situations. 
+       It also includes exclusion, where a person/group is excluded from a discussion/circle because of their beliefs. 
 
     </p>
     <img class="drawing3" src="~/assets/religiousdiscrimination.jpg">
@@ -18,11 +20,21 @@
        <div class="activity">
             <h6 class="program">Portland Train Attack (US)</h6>
             <hr>
-            <p class="campaign">In 2017 May 26th, Jeremy Joseph Christian fatally stabbed Taliesin Myrddin Namkai-Meche and Ricky John Best as well as severely injuring Micah David-Cole Fletcher in Portland Oregon. The three men intervened in a verbal tirade between 2 teenage girls in which one was wearing a hijab. Although unsure, witnesses said that Christian claimed that “all Muslims should die '' during this verbal tirade. Upon further investigation, it was found out that he had anti-Muslim sentiments on his social media page and was clear that he was not fond of Muslims. The three men were deemed heroes by the Mayor. Hilary Clinton, former presidential candidate commented "No one should have to endure this racist abuse. No one should have to give their life to stop it."</p>
+            <p class="campaign">In 2017 May 26th, <b>Jeremy Joseph Christian</b> fatally stabbed <b>Taliesin Myrddin Namkai-Meche</b> and <b>Ricky John Best</b> as well as severely injuring <b>Micah David-Cole Fletcher</b> in Portland Oregon. 
+            <mark class="highlights"><b>The three men intervened in a verbal tirade between 2 teenage girls in which one was wearing a hijab</b></mark>.
+             Although unsure, witnesses said that Christian claimed that <b>“all Muslims should die"</b> during this verbal tirade. 
+             Upon further investigation, it was found out that he had anti-Muslim sentiments on his social media page and was clear that he was not fond of Muslims. 
+             The three men were deemed heroes by the Mayor. 
+             Hilary Clinton, former presidential candidate commented <b>"No one should have to endure this racist abuse. No one should have to give their life to stop it."</b></p>
             <br></br>
             <h6 class="program">Pool Incident at Wilmington Delaware (US)</h6>
             <hr>
-            <p class="campaign">In 2018 June, a young Muslim students along with their teacher were asked to leave a public pool in Wilmington, Delaware. The pool manager even went far to calling the police when asking them to leave because of their clothing. A Wilmington-based Muslim youth center filed a lawsuit against the pool for their discriminating behavior against the teacher and her students. Although Mayor Mike Purzycki, D-Wilmington issued an apology in July, many criticized the city for not addressing this issue enough. In January 2019, a settlement was announced regarding this case. To learn more about the settlement given by the city, click <a href="https://muslimadvocates.org/files/Darul-Amaanah-Filed-Settlement.pdf#page=14" target="_blank">here</a>.</p>
+            <p class="campaign">In 2018 June, a young Muslim students along with their teacher were asked to leave a public pool in Wilmington, Delaware. 
+            The pool manager even went far to <b>calling the police when asking them to leave because of their clothing</b>. 
+            A Wilmington-based Muslim youth center filed a lawsuit against the pool for their discriminating behavior against the teacher and her students. 
+            Although Mayor Mike Purzycki, D-Wilmington issued an apology in July, many criticized the city for not addressing this issue enough. 
+            In January 2019, a settlement was announced regarding this case. 
+            To learn more about the settlement given by the city, click <a href="https://muslimadvocates.org/files/Darul-Amaanah-Filed-Settlement.pdf#page=14" target="_blank">here</a>.</p>
             <br></br>  
         </div>
     </div> 
@@ -84,16 +96,15 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
+
 .program{
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-
-
 .campaign{
-  width: 90%; 
+  width: 80%; 
   margin: 0 auto;
   font-size: 15px; 
 }
