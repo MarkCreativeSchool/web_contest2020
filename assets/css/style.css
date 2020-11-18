@@ -48,3 +48,14 @@
     margin-top: 10px; 
     font-size: 18px; 
   }
+
+  .paragraph{
+    font-family: "Noto Sans JP"; 
+    width: 50%; 
+    margin: 0 auto;
+    padding-top: 20px; 
+    font-size: 18px; 
+    display: inline-block; 
+    float: left;
+    margin-left: 200px;
+  }

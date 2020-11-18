@@ -140,10 +140,10 @@ export default {
 
 .paragraph2{
   font-family: "Noto Sans JP"; 
-  width: 60%;  
+  width: 50%;  
   font-size: 18px; 
   display: inline-block; 
-  margin-left: 160px; 
+  margin-left: 200px; 
   padding-top: 25px; 
   float: left;
 }
@@ -193,11 +193,10 @@ export default {
 }
 
 .logom4bl{
-    width: 20%; 
-    height: 200px; 
+    width: 25%; 
+    height: 250px; 
     display: inline-block;
-    margin-right: 20px;  
-  
+    margin-right: 10px;  
     margin-top: 5px; 
 }
 

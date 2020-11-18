@@ -33,10 +33,11 @@
             <p class="campaign">In June 2018, BLM global activists gathered at the San Diego Border to protest against the President’s administration’s immigration policies, which resulted in separation between parents and children. The president had just recently signed an order that declared children would be separated from their parents once their parents are arrested within the U.S-Mexican border. Activists furthermore demanded for humane treatment for the immigrants that are seeking for jobs, and asylum in the U.S. </p>
             <br>
             <h6 class="program">BLM’S #WhatMatters2020</h6>
-            <hr> BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a>
+            <hr> <p class="campaign">BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a>
+            </p>
             <br>      
         </div>
-
+<br>
     <h3 class="start">Color of Change</h3>
 
       <p class="paragraph">
@@ -61,6 +62,7 @@
              => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">Link </a></p>
             <br>    
         </div>
+        <br>
 
  <h3 class="start">The Movement for Black Lives</h3>
     <p class="paragraph2">
@@ -149,14 +151,14 @@ export default {
 }
 
 .activity{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 30px; 
     font-family: "Noto Sans JP"; 
 }
 
 .program{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
