@@ -53,7 +53,6 @@
 <script>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
-var v = document.getElementById("video");
 
 // v.onplay = true;
 // v.onplay();

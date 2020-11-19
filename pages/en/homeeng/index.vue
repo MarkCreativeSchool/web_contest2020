@@ -36,7 +36,6 @@
        <p class="three">
       <b>As racism is a very sensitive and delicate topic, we are refraining to include most of our opinions to prevent bias within the website. Please understand. Thank you.</b>
        </p>
-       </p>
 
     </div> 
     <br>
@@ -52,7 +51,6 @@
 <script>
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
-var v = document.getElementById("video");
 export default {
   name: "Index",
   components: { Headereng, Footereng },
