@@ -102,8 +102,8 @@ export default {
 
 .start{
   font-family: "Noto Sans JP"; 
-  color: #000000;
-  background-color: white;
+  color: #ffffff;
+  background-color: #000000;
   background-position: center center;
   width: 83%; 
   margin: 0 auto;
@@ -112,7 +112,6 @@ export default {
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
 }
-
 .biggertitle{
   font-weight: bold;
   font-size: 24px;

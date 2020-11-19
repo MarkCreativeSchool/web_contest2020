@@ -204,15 +204,6 @@ export default {
     margin-left: 40px;
 }
 
-.two{
-  font-family: "Noto Sans JP"; 
-  width: 73%; 
-  margin: 0 auto;
-  padding-top: 20px; 
-  font-size: 18px; 
-}
-
-
 .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
