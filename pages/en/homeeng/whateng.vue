@@ -8,18 +8,24 @@
      </ol>
     <h3 class="start">What is discrimination?</h3>
     <img class="drawing1" src="~/assets/what.jpg">
-    <p class="two">Discrimination is the act of ignoring one’s individuality and grouping them into different categories while marginalising individuals based on their group. While in reality, distinction should be done clearly, the problem that is being addressed these days are social discrimination, not distinction, which causes unequal treatment amongst people. Even within social discrimination though, there is no clear line on what is categorised as distinction and what is categorised as discrimination. Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. Therefore, as our awareness increases, what we once did not consider as discrimination could be considered as discrimination now or in the future. 
+    <p class="two">Discrimination is the <mark class="highlights"><b>act of ignoring one’s individuality and grouping them into different categories</b></mark> <mark class="highlights"><b>while marginalising individuals based on their group</b></mark>. 
+    While in reality, distinction should be done clearly, the problem that is being addressed these days are <mark class="highlights"><b>social discrimination, not distinction</b></mark>, which causes unequal treatment amongst people. 
+    Even within social discrimination though, there is <mark class="highlights"><b>no clear</b></mark> line on what is categorised as distinction and what is categorised as discrimination. 
+    Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. 
+    Therefore, as our awareness increases, what we once did not consider as discrimination could be considered as discrimination now or in the future. 
   <br></br>
     </p>
     <img class="drawing3" src="~/assets/discrimination2.jpg">
  
     <h3 class="start">Difference between discrimination and Distinction</h3>
     <p class="two">
-    <b>Discrimination</b> <br></br>
-Treating people differently based on a certain factor(s)<br></br>
-    <b>Distinction</b> <br></br>
-Categorising people into certain groups based on factors (ex. Asian People are categorized as Asian based on their ethnicity.) <br></br>
-However, in cases where the side that is distincting people based on factors which cause mistreatement/unfair treatment, that leads to discrimination. Moreover, if the side that is being group feels mistreated/marginalised, it is also considered as discrimination.
+    <br>
+    <mark class="highlights"><b>Discrimination</b></mark> <br>
+Treating people differently based on a certain factor(s)<br><br>
+    <mark class="highlights"><b>Distinction</b></mark> <br>
+Categorising people into certain groups based on factors (ex. Asian People are categorized as Asian based on their ethnicity.) <br><br>
+
+<b>However, in cases where the side that is distincting people based on factors which cause mistreatement/unfair treatment, that leads to discrimination. Moreover, if the side that is being group feels mistreated/marginalised, it is also considered as discrimination.</b><br><br>
 
     </p>
 

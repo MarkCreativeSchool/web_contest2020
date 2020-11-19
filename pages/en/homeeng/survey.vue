@@ -35,10 +35,9 @@
         </figure>
     </div>
     <br>
-    <h4 class="surveytitle">Results of whether they have witnessed racism before</h4>
+    <h4 class="surveytitle">Results of whether they have witnessed racism</h4>
 
      <p class="two">We believe that some of the reasons for the low level of concern against racism amongst Japanese school students may be due to their experiences with discrimination. In fact, 28.5% of Japanese high schools answered that they had seen discrimination, while 73.6% of international school students answered that they had seen discrimination in real life. 
-    
     <div class="logograph">
     <figure>
         <img class="graphimage" src="~/assets/sawengjap.png">
@@ -47,10 +46,10 @@
         </figure>
     </div>
     <br>
-    <h4 class="surveytitle">Results of whether they have been a victim of racism, and where the racism took place</h4>
+    <h4 class="surveytitle">Results of whether they have been a victim of racism, where the racism took place</h4>
 
     <p class="two">In addition, about 58% of international school students said they had been discriminated against before. On the other hand, only 3.3% of Japanese high school students responded that they had. Moreover, when asked if they were discriminated against in Japan or abroad, most of the students in the Japanese high school answered that they were discriminated broad. On the contrary, most of the international school students were discriminated inside Japan. For this reason, it can be suggested that not only does Japanese high school students have less concern regarding discrimination due to inexperiences with discrimination, they also seem to regard discrimination as a problem that mostly occurrs outside of Japan. 
-    
+    <br><br>
     <div class="logograph">
     <figure>
         <img class="graphimage" src="~/assets/experiencengjap.png">
@@ -67,10 +66,8 @@
     </div>
              
       <p class="two">
-      <br>However, although it is perceived that racism is not a problem in Japan by most Japanese high school students, as shown by the responses of international school students, most of the discrimination that international school students experienced were in Japan (75%). Therefore, understanding of discrimination becomes more important as we gain more knowledge about how discrimination affects other people lives. However, it is difficult to understand discrimination in Japan, where it is still not as known. <br>
-      This website will introduce discrimination against black people in the US, including the history and current events that are occurring, and what aspects are affected by racism. We hope this website would be a good introductory site for many who are still unaware/uncertain about the topic of discrimination, and an opportunity to further dive into this topic in other regions. 
       <br>
-      <b>*The issue of racism that we are addressing on this site is a very serious and delicate. Therefore, we are refraining from any bias. We hope you kindly understand. </b>
+      <br>However, although it is perceived that racism is not a problem in Japan by most Japanese high school students, as shown by the responses of international school students, most of the discrimination that international school students experienced were in Japan (75%). Therefore, understanding of discrimination becomes more important as we gain more knowledge about how discrimination affects other people lives. However, it is difficult to understand discrimination in Japan, where it is still not as known. <br><br>
     </p>
 
     </div> 
@@ -125,7 +122,7 @@ export default {
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 73%; 
+  width: 83%; 
   margin: 0 auto;
   font-size: 30px; 
   border-radius: 3px; 
