@@ -28,12 +28,12 @@
 
         
          <div class="activity">
-            <h6 class="program">2018 June: Action at the San Diego Border</h6>
+            <h6 class="program1">2018 June: Action at the San Diego Border</h6>
             <hr>
-            <p class="campaign">In June 2018, BLM global activists gathered at the San Diego Border to protest against the President’s administration’s immigration policies, which resulted in separation between parents and children. The president had just recently signed an order that declared children would be separated from their parents once their parents are arrested within the U.S-Mexican border. Activists furthermore demanded for humane treatment for the immigrants that are seeking for jobs, and asylum in the U.S. </p>
+            <p class="campaign1">In June 2018, BLM global activists gathered at the San Diego Border to protest against the President’s administration’s immigration policies, which resulted in separation between parents and children. The president had just recently signed an order that declared children would be separated from their parents once their parents are arrested within the U.S-Mexican border. Activists furthermore demanded for humane treatment for the immigrants that are seeking for jobs, and asylum in the U.S. </p>
             <br>
-            <h6 class="program">BLM’S #WhatMatters2020</h6>
-            <hr> <p class="campaign">BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a>
+            <h6 class="program1">BLM’S #WhatMatters2020</h6>
+            <hr> <p class="campaign1">BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a>
             </p>
             <br>      
         </div>
@@ -51,14 +51,14 @@
 
         
          <div class="activity">
-            <h6 class="program">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.</h6>
+            <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.</h6>
             <hr>
-            <p class="campaign">This campaign is demanding justice for Jacob Blake, who was shot 7 times in total in Wisconsin by the police. Due to his injuries, he is now paralyzed waist down. While recovering, his family and friends are demanding justice as well as other protesters. 
+            <p class="campaign1">This campaign is demanding justice for Jacob Blake, who was shot 7 times in total in Wisconsin by the police. Due to his injuries, he is now paralyzed waist down. While recovering, his family and friends are demanding justice as well as other protesters. 
             => <a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">Link</a></p>
             <br>
-            <h6 class="program">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.</h6>
+            <h6 class="program1">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.</h6>
             <hr>
-            <p class="campaign">Breonna Taylor was shot on March 13, 2020 at her home by the police. Since then, demand for #JusticeforBre has spread. In June, Brett Hankison, the officer that shot her during her sleep was fired. However, Jonathan Mattingly and Myles Cosgrove, who were also officers that intruded her home and contributed to her death are still not dismissed at this point. This campaign demands #JusticeforBre while also demanding the dismissal of the other two officers (has changed through the months). 
+            <p class="campaign1">Breonna Taylor was shot on March 13, 2020 at her home by the police. Since then, demand for #JusticeforBre has spread. In June, Brett Hankison, the officer that shot her during her sleep was fired. However, Jonathan Mattingly and Myles Cosgrove, who were also officers that intruded her home and contributed to her death are still not dismissed at this point. This campaign demands #JusticeforBre while also demanding the dismissal of the other two officers (has changed through the months). 
              => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">Link </a></p>
             <br>    
         </div>
@@ -76,24 +76,24 @@
 
     
     <div class="activity">
-            <h6 class="program">Amnesty-for-protestors</h6>
+            <h6 class="program1">Amnesty-for-protestors</h6>
             <hr>
-            <p class="campaign">The campaign for Amnesty-for-Protestors is to demand justice for the political black activists that have been arrested in uprisings and demos. They also demand a reinvestigation for all the allegations of the police, as well as calling off of militarization of the police. 
+            <p class="campaign1">The campaign for Amnesty-for-Protestors is to demand justice for the political black activists that have been arrested in uprisings and demos. They also demand a reinvestigation for all the allegations of the police, as well as calling off of militarization of the police. 
             => <a href="https://m4bl.org/amnesty-for-protestors/" target="_blank">Link to campaign</a></p>
             <br>
-            <h6 class="program">Freedom-summer</h6>
+            <h6 class="program1">Freedom-summer</h6>
             <hr>
-            <p class="campaign">This campaign fights Black voter suppression which originated from Mississippi but is currently spread throughout the US. States participating in this campaign include North Carolina, Florida, Michigan, Georgia, Kentucky, Mississippi, Texas, and Illinois. 
+            <p class="campaign1">This campaign fights Black voter suppression which originated from Mississippi but is currently spread throughout the US. States participating in this campaign include North Carolina, Florida, Michigan, Georgia, Kentucky, Mississippi, Texas, and Illinois. 
              => <a href="https://m4bl.org/freedom-summer/" target="_blank">Link to campaign</a></p>
             <br>
-            <h6 class="program">Defund-the-police</h6>
+            <h6 class="program1">Defund-the-police</h6>
             <hr>
-            <p class="campaign">This campaign protests against the brutal and militarized policing the US has. This has spread due to the recent deaths of George Floyd, Breonna Taylor, Tony McDade, etc. Their aim is to abolish discriminatory policing and vision a safe community. 
+            <p class="campaign1">This campaign protests against the brutal and militarized policing the US has. This has spread due to the recent deaths of George Floyd, Breonna Taylor, Tony McDade, etc. Their aim is to abolish discriminatory policing and vision a safe community. 
    => <a href="https://m4bl.org/defund-the-police/" target="_blank">Link to campaign</a></p>
             <br>
-            <h6 class="program">The Breathe Act</h6>
+            <h6 class="program1">The Breathe Act</h6>
             <hr>
-            <p class="campaign"> This campaign was created to honor several deaths of black people caused by the police and to achieve a society where all can BREATHE free. This act uprises against the criminal-legal system which has failed to protect the lives of black people as well as envisioning/creating solutions for a better and safer environment. 
+            <p class="campaign1"> This campaign was created to honor several deaths of black people caused by the police and to achieve a society where all can BREATHE free. This act uprises against the criminal-legal system which has failed to protect the lives of black people as well as envisioning/creating solutions for a better and safer environment. 
    => <a href="https://breatheact.org/" target="_blank"> Link to campaign</a></p>
         <br>
         </div>
@@ -134,6 +134,41 @@ export default {
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
+}
+
+.paragraph{
+  font-family: "Noto Sans JP"; 
+  width: 40%; 
+  margin: 0 auto;
+  padding-top: 20px; 
+  font-size: 18px; 
+  display: inline-block; 
+  float: left;
+  margin-left: 250px;
+}
+
+.paragraph2{
+  font-family: "Noto Sans JP"; 
+  width: 35%;  
+  font-size: 18px; 
+  display: inline-block; 
+  margin-left: 250px; 
+  padding-top: 25px; 
+  float: left;
+}
+
+.program1{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 21px; 
+    font-weight: bold; 
+}
+
+
+.campaign1{
+  width: 85%; 
+  margin: 0 auto;
+  font-size: 15px; 
 }
 
 

@@ -109,12 +109,11 @@ export default {
 
 .two{
   font-family: "Noto Sans JP"; 
-  width: 68%; 
+  width: 63%; 
   margin: 0 auto;
-  padding-top: 20px; 
+  margin-top: 10px; 
   font-size: 18px; 
 }
-
 
 .start1{
   font-family: "Noto Sans JP"; 

@@ -65,7 +65,7 @@ ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任さ
         </div>
 
  <h3 class="start">The Movement for Black Lives</h3>
-    <p class="paragraph2">
+    <p class="paragraph">
         ２０１４年１２月に創立。廃止論者組織である。
 <br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し</b></mark>、<mark class="highlights"><b>黒人コミュニティとその権利を保護する機関を設立するべき</b></mark>だと考える組織。
 <br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
@@ -131,21 +131,21 @@ export default {
 
 .paragraph{
   font-family: "Noto Sans JP"; 
-  width: 50%; 
+  width: 40%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
   display: inline-block; 
   float: left;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 .paragraph2{
   font-family: "Noto Sans JP"; 
-  width: 50%;  
+  width: 35%;  
   font-size: 18px; 
   display: inline-block; 
-  margin-left: 200px; 
+  margin-left: 250px; 
   padding-top: 25px; 
   float: left;
 }
@@ -180,7 +180,7 @@ export default {
 
 
 .campaign1{
-  width: 90%; 
+  width: 85%; 
   margin: 0 auto;
   font-size: 15px; 
 }
@@ -192,6 +192,7 @@ export default {
     margin-top: 10px;
     margin-right: 20px;  
     margin-bottom: 20px; 
+    text-align: center;
 }
 
 .logom4bl{
@@ -200,6 +201,7 @@ export default {
     display: inline-block;
     margin-right: 10px;  
     margin-top: 5px; 
+    margin-left: 40px;
 }
 
 .two{
@@ -229,20 +231,6 @@ export default {
     margin: 0 auto;
     margin-top: 30px; 
     font-family: "Noto Sans JP"; 
-}
-
-.program{
-    width: 95%;
-    margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
-}
-
-
-.campaign{
-  width: 90%; 
-  margin: 0 auto;
-  font-size: 15px; 
 }
 
 .next{

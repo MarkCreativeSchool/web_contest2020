@@ -95,14 +95,13 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-  .two{
-    font-family: "Noto Sans JP";
-    width: 68%;
-    margin: 0 auto;
-    padding-top: 20px;
-    font-size: 18px;
-  }
-
+.two{
+  font-family: "Noto Sans JP"; 
+  width: 63%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+}
 
   .start{
     font-family: "Noto Sans JP";

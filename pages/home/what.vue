@@ -17,7 +17,7 @@
     <h3 class="start">差別と区別</h3>
     <p class="two">
     <b><mark>差別</mark></b> <br>
-「人や物の取り扱いに差をつけること」<br>
+「人や物の取り扱いに差をつけること」<br><br>
     <b><mark>区別</mark></b> <br>
 「違いによって分けること」<br>
 しかし、区別する側に差別的にとがあった場合、それは差別になる。また、区別された側が差別だと感じたら差別になり得る。
@@ -57,9 +57,9 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .two{
   font-family: "Noto Sans JP"; 
-  width: 68%; 
+  width: 63%; 
   margin: 0 auto;
-  padding-top: 20px; 
+  margin-top: 10px; 
   font-size: 18px; 
 }
 
