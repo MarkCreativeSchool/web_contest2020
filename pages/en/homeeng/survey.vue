@@ -84,7 +84,6 @@
 <script>
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
-var v = document.getElementById("video");
 export default {
   name: "Index",
   components: { Headereng, Footereng },
