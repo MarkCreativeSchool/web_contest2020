@@ -9,7 +9,7 @@
      </ol>
     <h3 class="start">Work Discrimination</h3>
     <p class="two">
-        The<mark class="highlights"><b>employment environment for black people living in the United States has improved </b></mark> since the 1960s and 1970s. 
+        The <mark class="highlights"><b> employment environment for black people living in the United States has improved </b></mark> since the 1960s and 1970s. 
         Compared to 1965 where there were only <b>280</b> black public officials, it surged to more than <b>7,000</b> by 1990. 
         It has also been confirmed that the number of black mayors among public officials has increased. 
         In 1990, a total of <b>318 black mayors</b>, compared to<b> 3</b> in 1965. 
