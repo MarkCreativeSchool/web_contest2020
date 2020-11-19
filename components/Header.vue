@@ -2,7 +2,7 @@
   <div class="fullhead">
    <div class="toggle">
    <div class="up-jp">
-   <img class="logo" src="~/assets/logo_new_jp.png">
+   <!-- <img class="logo" src="~/assets/logo_new_jp.png"> -->
 
    <!-- </div>
     <div class="toggle">-->
@@ -112,14 +112,14 @@ export default {
 }
 
 
-.logo{
+/* .logo{
   display: inline-block;
   width: 75px; 
   height: 75px;
   float: left; 
   margin-left: 20px; 
   margin-top: 5px; 
-}
+} */
 
 .bar_jp{
   color: black;

@@ -6,6 +6,7 @@
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
+        <div class="maku"></div>
       </div>
     <br>
      <h2 class="biggertitle_jp"><mark>差別について</mark></h2>
@@ -77,6 +78,13 @@ export default {
 
 .test{
   text-align: center;
+}
+
+.maku{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.5;
 }
 
 .two{
