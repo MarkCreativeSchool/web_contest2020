@@ -35,10 +35,10 @@
           <div class="linebar line7" @click="onClick('line7')"><p class="line7-name">第7章：冷戦</p></div>
         </div>
         <div class="line">
-          <div class="linebar line8" @click="onClick('line8')"></div>
+          <div class="linebar line8" @click="onClick('line8')"><p class="line8-name">第8章：21世期のアメリカ</p></div>
         </div>
         <div class="line">
-          <div class="linebar lastLine" @click="onClick('lastLine')"></div>
+          <div class="linebar lastLine" @click="onClick('lastLine')"><p class="lastLine-name">黒人差別の歴史</p></div>
         </div>
 <!--        <div class="line">-->
 <!--          <div class="linebar line9" @click="onClick('line9')"></div>-->
@@ -61,6 +61,8 @@
     <line5 v-if="locationName==='line5'" @onClose="locationName=null"></line5>
     <line6 v-if="locationName==='line6'" @onClose="locationName=null"></line6>
     <line7 v-if="locationName==='line7'" @onClose="locationName=null"></line7>
+    <line8 v-if="locationName==='line8'" @onClose="locationName=null"></line8>
+    <lastLine v-if="locationName==='lastLine'" @onClose="locationName=null"></lastLine>
 
   </div>
 </template>
@@ -75,10 +77,12 @@ import line4 from "~/components/timeline/line4"
 import line5 from "~/components/timeline/line5"
 import line6 from "~/components/timeline/line6"
 import line7 from "~/components/timeline/line7"
+import line8 from "~/components/timeline/line8"
+import lastLine from "~/components/timeline/lastLine"
 
 export default {
   name: "Index",
-  components: { Header, Footer, line1, line2, line3, line4, line5, line6, line7, },
+  components: { Header, Footer, line1, line2, line3, line4, line5, line6, line7, line8, lastLine},
 
   head() {
     return {
@@ -240,10 +244,23 @@ export default {
   left: 800px;
   width: 80px;
 }
+.line8 .line8-name{
+  position: relative;
+  top: 17px;
+  width: 1000px;
+  font-size:15px;
+}
 .lastLine{
   position: absolute;
   left: 20px;
   width: calc(100% - 40px);
+}
+.lastLine .lastLine-name{
+  position: relative;
+  bottom: 22px;
+  left: 5px;
+  width: 1000px;
+  font-size:15px;
 }
 .year-main{
   display: flex;
