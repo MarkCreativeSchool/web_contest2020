@@ -8,12 +8,9 @@
         </video>
       </div>
     <br>
-     <h2 class="biggertitle"><mark>差別について</mark></h2>
-
-
-
+     <h2 class="biggertitle_jp"><mark>差別について</mark></h2>
     <br>
-     <h2 class="biggertitle"><mark>きっかけ</mark></h2>
+     <h2 class="biggertitle_jp"><mark>きっかけ</mark></h2>
      
      <br>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
@@ -100,6 +97,7 @@ export default {
   text-indent: 1em;
 }
 
+
 .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
@@ -112,18 +110,19 @@ export default {
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
 }
-.biggertitle{
+.biggertitle_jp{
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
-  width: 68%; 
+  width: 50%; 
 }
 
 mark {
+  top: 10%;
   display: inline-block;
   line-height: 0em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   background: #ffa500;
 }
 

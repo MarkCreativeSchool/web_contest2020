@@ -1,9 +1,9 @@
 <template>
   <div class="full">
-    <ul class="down">
-        <li><a class="subpage" href="/">ホーム</a></li>
-        <li><a class="subpage" href="others/sitemap">サイトマップ</a></li>
-        <li class="statement">第23回全国中学高校WEBコンテスト参加作品</li>
+    <ul class="down_jp">
+        <li><a class="subpage_jp" href="/">ホーム</a></li>
+        <li><a class="subpage_jp" href="others/sitemap">サイトマップ</a></li>
+        <li class="statement_jp">第23回全国中学高校WEBコンテスト参加作品</li>
     </ul>
   </div>
 </template>
@@ -19,27 +19,29 @@ export default {
 
 
 
-.down{
+.down_jp{
     list-style: none; 
     color: #fff; 
     text-align: center; 
-    background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);
+    /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000); */
+    background-color: black;
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 10.5rem;
-    padding-top: 30px; 
+    height: 50%;
+    padding-top: 0%; 
 }
 
 li{
-    padding-top: 5px; 
+    padding-top: 5%; 
 }
 
-.subpage{
-    color: #f6d405;
+.subpage_jp{
+    color: #ffa000;
+    font-weight: 800;
 }
 
-.subpage:hover{
+.subpage_jp:hover{
     color: #fff; 
 }
 
@@ -49,8 +51,9 @@ li{
     height: 200px;
 }
 
-.statement{
-    color: #f6d405;
+.statement_jp{
+    color: #ffa000;
+    font-weight: 800;
 }
 
 </style>
