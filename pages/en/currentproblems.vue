@@ -21,7 +21,7 @@
      <div class="info">
       <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/en/current problems">Incidents</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/currentproblems">Incidents</nuxt-link></li>
      </ol>
 
       <h3 class="start">Incidents</h3>

@@ -5,7 +5,7 @@
     <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
          <li class="breadcrumb-item"> 他の差別</li>
-         <li class="breadcrumb-item"> <nuxt-link to="/current/otherdiscrimination/otherdiscrimination/littleknowndiscrimination">他</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination">他</nuxt-link></li>
      </ol>　
 
     <h3 class="start">余り知らない差別とは？</h3>
