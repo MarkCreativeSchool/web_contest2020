@@ -6,7 +6,6 @@
 
    <!-- </div>
     <div class="toggle">-->
-
     <div class="uppersub_jp">
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
@@ -92,11 +91,13 @@ export default {
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
     background-color: white;
-    color: #ffffff;
+    /* background: rgba(255,255,255,0.5); */
     display: inline-block; 
     width: 100%;
     text-align: center;
+    position: relative;
 }
+
 .toggle{
   display: inline-block; 
   width: 100%;

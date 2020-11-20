@@ -6,13 +6,18 @@
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
-        <div class="maku"></div>
+        <div class="maku"><div class="aaa">aaaaaaa</div></div>
       </div>
     <br>
-     <h2 class="biggertitle_jp"><mark>差別について</mark></h2>
+    <div>
+      <h2 class="biggertitle_jp"><span class="under">差別について</span></h2>
+      <div class="discrimination">現状の差別問題</div>
+      <div class="discrimination">黒人差別の歴史</div>
+    </div>
     <br>
-     <h2 class="biggertitle_jp"><mark>きっかけ</mark></h2>
-     
+    <div>
+     <h2 class="biggertitle_jp"><span class="under">きっかけ</span></h2>  
+    </div> 
      <br>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
       <p class="three">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
@@ -77,14 +82,27 @@ export default {
 
 
 .test{
+  position: relative;
   text-align: center;
+  height: calc(100vh - 0px);
+  overflow: hidden;
+  
 }
 
 .maku{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
   width: 100%;
   height: 100%;
-  background-color: red;
-  opacity: 0.5;
+  background: rgba(0,0,0,0.5)
+}
+
+.aaa{
+  color: white;
+  font-size: 20px;
+  left: 10%;
 }
 
 .two{
@@ -122,15 +140,25 @@ export default {
   font-size: 30px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
-  width: 50%; 
+  width: 80%;
 }
 
-mark {
-  top: 10%;
+.discrimination{
+  display: inline-block;
+  list-style: none;
+  margin: 30px;
+  background-color:  #ccc;
+  padding:  20px;             
+  height: 100px;
+}
+
+.under {
+  /* top: 10%;
   display: inline-block;
   line-height: 0em;
   padding-bottom: 1em;
-  background: #ffa500;
+  background: #ffa500; */
+  border-bottom: solid 10px #ffa000;
 }
 
 .hometitle{
@@ -138,11 +166,9 @@ mark {
   font-size: 24px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
-   width: 53%; 
+  width: 53%; 
 
 }
-
-
 .graphimage{
     width: 35%; 
     height: 2%; 
