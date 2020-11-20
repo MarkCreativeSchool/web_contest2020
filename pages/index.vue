@@ -10,13 +10,16 @@
       </div>
     <br>
     <div>
-      <h2 class="biggertitle_jp"><span class="under">差別について</span></h2>
-      <div class="discrimination">現状の差別問題</div>
-      <div class="discrimination">黒人差別の歴史</div>
+      <h2 class="biggertitle_jp"><span class="under">はじめに</span></h2>
+      <br>
+      <p class="three">世界中で問題となっている差別問題。日本にいる私たちには関係ないことだと思っていませんか？2020年、アメリカで起こった黒人差別事件をきっかけに、反対運動が再び激化し世界中が差別について目を向けるようになりました。このサイトでは、アメリカの黒人差別が始まった歴史や、黒人差別反対運動を行っている組織、そして、世界中で起こっている差別について詳しくまとめています。このサイトで「差別とは何か」をもう一度考えてみませんか？
+      </p>
     </div>
     <br>
     <div>
-     <h2 class="biggertitle_jp"><span class="under">きっかけ</span></h2>  
+     <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
+      <div class="discrimination">現状の差別問題</div>
+      <div class="discrimination">黒人差別の歴史</div> 
     </div> 
      <br>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
@@ -115,10 +118,10 @@ export default {
 
 .three{
   font-family: "Noto Sans JP"; 
-  width: 53%; 
+  width: 40%; 
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 15px; 
+  font-size: 20px; 
   text-indent: 1em;
 }
 
@@ -140,16 +143,23 @@ export default {
   font-size: 30px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
 }
 
 .discrimination{
   display: inline-block;
   list-style: none;
-  margin: 30px;
-  background-color:  #ccc;
-  padding:  20px;             
-  height: 100px;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 10%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 30%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 .under {
