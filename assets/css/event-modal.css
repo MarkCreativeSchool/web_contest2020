@@ -32,19 +32,22 @@
   display: flex;
   align-content: space-between;
   width: 100%;
-  text-align: center;
   bottom: calc(1% - 160px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;
 }
+.event-modal .year h6{
+  flex: 1;
+  font-weight: bold;
+}
 .event-modal .year h6 .timelineFirst{
-  /*text-align: left;*/
-  /*padding-left: 50px;*/
+  text-align: left;
+  padding-left: 50px;
 }
 .event-modal .year h6 .timelineLast{
-  /*text-align: right;*/
-  /*padding-right: 50px;*/
+  text-align: right;
+  padding-right: 50px;
 }
 .layer{
   position: fixed;
@@ -54,4 +57,34 @@
   height: 100%;
   background: rgba(0,0,0,0.7);
   z-index: 1000;
+}
+.event-modal .event0:hover{
+  background-color:gold !important;
+}
+.event-modal .event1:hover{
+  background-color:gold !important;
+}
+.event-modal .event2:hover{
+  background-color:gold !important;
+}
+.event-modal .event3:hover{
+  background-color:gold !important;
+}
+.event-modal .event4:hover{
+  background-color:gold !important;
+}
+.event-modal .event5:hover{
+  background-color:gold !important;
+}
+.event-modal .event6:hover{
+  background-color:gold !important;
+}
+.event-modal .event7:hover{
+  background-color:gold !important;
+}
+.event-modal .event8:hover{
+  background-color:gold !important;
+}
+.event-modal .event9:hover{
+  background-color:gold !important;
 }
