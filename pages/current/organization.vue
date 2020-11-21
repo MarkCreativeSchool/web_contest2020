@@ -20,49 +20,38 @@
     <br><b>設立のきっかけ</b>:
     <br>2012年に起きたトレイボンマーティンの死をきっかけに、アリシア・ガーザさんがSNSに<b>#BlackLivesMatter</b>と投稿をした事で組織が設立されました
     <br><b>サイトへのリンク</b>: <a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
-    <br>
     </p>
     <img class="logoblm" src="~/assets/blmlogo.jpg">
-
-         <div class="activity">
-            <h6 class="program1">２０１８年６月：サンディエゴボーダーでの抗議</h6>
-            <hr>
-            <p class="campaign1">2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。
-            大統領はその頃、両親が米国とメキシコの国境で逮捕された場合、子供を両親から引き離すことを宣言する命令に最近署名しました。
-            活動家は抗議するとともに、仕事を求めている移民と米国の亡命者のための人道的な扱いを要求した。</p>
-            <br>
-            <h6 class="program1">BLM’S #WhatMatters2020</h6>
-            <hr>
-            <p class="campaign1"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
-            <br>    
-        </div>
-
-    <h3 class="start">Color of Change</h3>
-
-      <p class="paragraph">
-        アメリカ最大のオンライン人種的正義組織。会員数は170万人。2005年、カリフォルニアオークランドで創立。
-<br>創立者：ヴァンジョーンズ（Van Jones）とジェームズラッカー(James Rucker)。
-<br>モットー：<mark class="highlights"><b>民主主義の色を変える</b></mark>
-<br>サイトへのリンク＝＞<a href="https://colorofchange.org/" target="_blank"> https://colorofchange.org/</a>
-    <br>
+    <!-- <div class="activity">
+      <h6 class="program1">2018年6月：サンディエゴボーダーでの抗議</h6>
+      <hr>
+      <p class="campaign1">
+        2018年6月にブラックライブスマターズの活動家がサンディエゴボーダーに集まり、大統領が出した移民政策に対する抗議をした。大統領はその頃、両親が米国とメキシコの国境で逮捕された場合、子供を両親から引き離すことを宣言する命令に最近署名しました。活動家は抗議するとともに、仕事を求めている移民と米国の亡命者のための人道的な扱いを要求した。</p>
+      <br>
+      <h6 class="program1">BLM’S #WhatMatters2020</h6>
+      <hr>
+      <p class="campaign1"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
+      <br>    
+    </div> -->
+    <h3 class="start_o">Color of Change</h3>
+    <p class="paragraph">
+      <b>設立日</b>: 2005年
+    <br><b>設立地</b>: カリフォルニアオークランド
+    <br><b>創立者</b>：ヴァンジョーンズ、ジェームズラッカー
+    <br><b>組織内容</b>: アフリカ系アメリカ人政治的声を強める
+    <br><b>サイトへのリンク</b>: <a href="https://blacklivesmatter.com/about/" target="_blank"> https://colorofchange.org/</a>
     </p>
-    <img class="logoblm" src="~/assets/colorofchange.jpg">
-
-        
-         <div class="activity">
-            <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.(
-警察の暴力は銃による暴力です。 #JusticeforJakeを要求し、今すぐコミュニティに投資してください)</h6>
-            <hr>
-            <p class="campaign1">このキャンペーンは、警察によってウィスコンシン州で合計7回撃たれたジェイコブブレイクに正義を要求しています。彼の怪我のたせいで腰が麻痺してしまいました。回復中、彼の家族や友人や他の抗議者たちが正当な対応（警官の逮捕）を求めいている。
-            => <a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">リンク </a></p>
-            <br>
-            <h6 class="program1">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.(
-ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任させる必要があります）</h6>
-            <hr>
-            <p class="campaign1"> 2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。
-             => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">リンク </a></p>
-            <br>     
-        </div>
+    <img class="logoblm" src="~/assets/colorofchange.jpg">       
+    <!-- <div class="activity">
+      <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.(警察の暴力は銃による暴力です。 #JusticeforJakeを要求し、今すぐコミュニティに投資してください)</h6>
+      <hr>
+      <p class="campaign1">このキャンペーンは、警察によってウィスコンシン州で合計7回撃たれたジェイコブブレイクに正義を要求しています。彼の怪我のたせいで腰が麻痺してしまいました。回復中、彼の家族や友人や他の抗議者たちが正当な対応（警官の逮捕）を求めいている。=> <a href="https://act.colorofchange.org/sign/police-violence-justice-for-jake?source=coc_main_website " target="_blank">リンク </a></p>
+      <br>
+      <h6 class="program1">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.(ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任させる必要があります）</h6>
+      <hr>
+      <p class="campaign1"> 2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。=> <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">リンク </a></p>
+      <br>     
+    </div> -->
 
  <h3 class="start">The Movement for Black Lives</h3>
     <p class="paragraph">
@@ -212,7 +201,7 @@ export default {
 }
 
 .logom4bl{
-    width: 25%; 
+    width: 270px; 
     height: 250px; 
     display: inline-block;
     margin-right: 10px;  
