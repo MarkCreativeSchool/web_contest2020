@@ -8,11 +8,13 @@
          <li class="breadcrumb-item"> <nuxt-link to="/en/current/organization">Organization</nuxt-link></li>
      </ol>
     
-    <h3 class="start">Organizations</h3>
+    <br>
+    <h3 class="start_organization"><span class="under">About Organizations</span></h3>
     <p class="two">
 
     </p>
-    <h3 class="start">Black Lives Matter</h3>
+    <br>
+    <h3 class="start_o">Black Lives Matter</h3>
     
     
     <p class="paragraph">
@@ -27,7 +29,7 @@
     <img class="logoblm" src="~/assets/blmlogo.jpg">
 
         
-         <div class="activity">
+        <!-- <div class="activity">
             <h6 class="program1">2018 June: Action at the San Diego Border</h6>
             <hr>
             <p class="campaign1">In June 2018, BLM global activists gathered at the San Diego Border to protest against the President’s administration’s immigration policies, which resulted in separation between parents and children. The president had just recently signed an order that declared children would be separated from their parents once their parents are arrested within the U.S-Mexican border. Activists furthermore demanded for humane treatment for the immigrants that are seeking for jobs, and asylum in the U.S. </p>
@@ -36,9 +38,9 @@
             <hr> <p class="campaign1">BLM created a campaign called #WhatMatters2020 which addresses issues including police brutality, racial injustice, access to healthcare, and voting rights for black communities. It was created to raise the current issue of racial injustice against black communities and assure the candidates would address these issues as well as build collective power to protest against racial injustice. See more here⇒ <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a>
             </p>
             <br>      
-        </div>
-<br>
-    <h3 class="start">Color of Change</h3>
+        </div>-->
+<br><br><br>
+    <h3 class="start_o">Color of Change</h3>
 
       <p class="paragraph">
         US’s largest online racial justice organization. Has 1.7 million members. Found in 2005, Oakland, California. 
@@ -49,7 +51,7 @@
     </p>
     <img class="logoblm" src="~/assets/colorofchange.jpg">
 
-        
+        <!--
          <div class="activity">
             <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.</h6>
             <hr>
@@ -61,13 +63,13 @@
             <p class="campaign1">Breonna Taylor was shot on March 13, 2020 at her home by the police. Since then, demand for #JusticeforBre has spread. In June, Brett Hankison, the officer that shot her during her sleep was fired. However, Jonathan Mattingly and Myles Cosgrove, who were also officers that intruded her home and contributed to her death are still not dismissed at this point. This campaign demands #JusticeforBre while also demanding the dismissal of the other two officers (has changed through the months). 
              => <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">Link </a></p>
             <br>    
-        </div>
+        </div>-->
         <br>
 
- <h3 class="start">The Movement for Black Lives</h3>
+ <h3 class="start_o">The movement for Black Lives</h3>
     <p class="paragraph2">
         Founded in December 2014. 
-<br>Are Abolitionists (abolitionism: movement to end slavery). <mark class="highlights"><b>Organization that believes that prisons and police that inflict violence </b></mark> <mark class="highlights"><b>amongst Black communities should be abolished and instead,</b></mark> <mark class="highlights"><b>form institutions that protect Black communities and their rights. </b></mark>
+<br>Are Abolitionists (abolitionism: movement to end slavery). Organization that believes that <mark class="highlights"><b>prisons and police that inflict violence amongst Black</b></mark> <mark class="highlights"><b>communities should be abolished</b></mark> and instead, form institutions that protect Black communities and their rights.
 <br>Link to Official Site<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>
@@ -75,7 +77,7 @@
 
 
     
-    <div class="activity">
+   <!-- <div class="activity">
             <h6 class="program1">Amnesty-for-protestors</h6>
             <hr>
             <p class="campaign1">The campaign for Amnesty-for-Protestors is to demand justice for the political black activists that have been arrested in uprisings and demos. They also demand a reinvestigation for all the allegations of the police, as well as calling off of militarization of the police. 
@@ -96,7 +98,7 @@
             <p class="campaign1"> This campaign was created to honor several deaths of black people caused by the police and to achieve a society where all can BREATHE free. This act uprises against the criminal-legal system which has failed to protect the lives of black people as well as envisioning/creating solutions for a better and safer environment. 
    => <a href="https://breatheact.org/" target="_blank"> Link to campaign</a></p>
         <br>
-        </div>
+        </div>-->
 
 
     </div> 
@@ -136,6 +138,51 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
+
+.start_organization{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  width: 67%;
+  color: black;
+}
+
+.logoblm{
+    height: 250px; 
+    width: 250px; 
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;  
+    margin-bottom: 20px; 
+    text-align: center;
+    margin-left: 100px;
+}
+
+.logom4bl{
+    width: 270px; 
+    height: 250px; 
+    display: inline-block;
+    margin-right: 10px;  
+    margin-top: 5px; 
+    margin-left: 40px;
+    margin-left: 100px;
+}
+
+.start_o{
+  font-family: "Noto Sans JP"; 
+  color: black;
+  /* background-color: #ffa000; */
+  /* background-position: center center; */
+  border-left: solid 10px #ffa000;
+  width: 67%; 
+  margin: 0 auto;
+  font-size: 30px; 
+  border-radius: 3px;
+  font-weight: 800;
+  /* text-align: center;  */
+}
+
 
 .paragraph{
   font-family: "Noto Sans JP"; 

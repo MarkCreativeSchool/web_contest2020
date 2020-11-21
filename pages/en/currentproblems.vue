@@ -23,9 +23,9 @@
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/currentproblems">Incidents</nuxt-link></li>
      </ol>
-
-      <h3 class="start">Incidents</h3>
-      <p class="two">We have compiled/summarized some issues/protests regarding racism against black people on the US map below. However, this is not the full list, and there are several problems, issues, and protests that are not mentioned below. 
+<br>
+         <h3 class="start_current"><span class="under">Incidents</span></h3>
+      <p class="two_current">We have compiled/summarized some issues/protests regarding racism against black people on the US map below. However, this is not the full list, and there are several problems, issues, and protests that are not mentioned below. 
 
       </p>
 
@@ -102,17 +102,23 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
-  .start{
-    font-family: "Noto Sans JP";
-    color: #ffffff;
-    background-color: #000000;
-    background-position: center center;
-    width: 83%;
-    margin: 0 auto;
+.two_current{
+  font-family: "Noto Sans JP"; 
+  width: 67%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
+}
+
+
+  .start_current{
+    font-weight: bold;
     font-size: 30px;
-    border-radius: 3px;
-    /* text-shadow: 0.5px 0.5px #f6d405; */
-    text-align: center;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 67%;
+    color: black;
   }
 
   .more{

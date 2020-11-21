@@ -29,12 +29,10 @@ export default {
     bottom: 0;
     width: 100%;
     height: 9rem;
-    padding-top: 30px; 
+    margin: 0 auto;
+   padding-top: 20px;
 }
 
-li{
-    padding-top: 5%; 
-}
 
 .subpage_jp{
     color: #ffa000;

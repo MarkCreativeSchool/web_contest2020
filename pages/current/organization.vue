@@ -35,6 +35,7 @@
       <br>    
     </div> -->
     <br><br>
+    
     <h3 class="start_o">Color of Change</h3>
     <p class="paragraph">
       <b>設立日</b>: 2005年
@@ -55,7 +56,7 @@
       <br>     
     </div> -->
 
- <h3 class="start_o">The movement for black lives</h3>
+ <h3 class="start_o">The Movement for Black Lives</h3>
     <p class="paragraph">
         ２０１４年１２月に創立。廃止論者組織である。
 <br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し</b></mark>、<mark class="highlights"><b>黒人コミュニティとその権利を保護する機関を設立するべき</b></mark>だと考える組織。

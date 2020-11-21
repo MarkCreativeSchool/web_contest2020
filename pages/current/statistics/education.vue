@@ -7,14 +7,15 @@
          <li class="breadcrumb-item"> 現状</li>
          <li class="breadcrumb-item"> <nuxt-link to="/current/statistics/education">教育</nuxt-link></li>
      </ol>
+     <br>
     <h3 class="start_education"><span class="under">教育について</span></h3>
     <br>
-    <p class="two">
+    <p class="two_education">
       奴隷制度が存在している時代では黒人の教育は禁じられていました。その後、奴隷制度が廃止され、黒人の教育が許されるようになりました。しかし、白人と黒人とで学校が分けられていました。1954年にブラウン判決が採択され、白人と黒人の共学が実現しました。しかし、当時の黒人の生徒数は全体の0.1%ほどしかいませんでした。1994年にとられたデータによると公立学校の黒人生徒は全体の17%となり、1954年以降改善に向かっていることがわかります。
     </p>
     <br>
     <img class="bargraph" src="~/assets/edugraph.png">
-    <p class="two">
+    <p class="two_education">
     上のグラフは中等学校での科目及び人種による単位取得率を表したグラフです。全ての教科において白磁にょリモ黒人の方が単位取得率が低いことがわかります。U.S. Census Bureauによると、2019年に学士号を取得している25歳全体での割合では、白人は40.1%、黒人は26.1%であったと報告されています。この結果からもわかるように、黒人と白人の間では教育の格差があるとわかりました。
     </p>
     </div> 
@@ -46,7 +47,7 @@ export default {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+.two_education{
   font-family: "Noto Sans JP"; 
   width: 47%; 
   margin: 0 auto;
