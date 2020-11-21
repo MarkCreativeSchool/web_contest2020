@@ -24,8 +24,10 @@
          <li class="breadcrumb-item"> <nuxt-link to="/currentproblems">現問題</nuxt-link></li>
      </ol>
 
-      <h3 class="start">現問題・抗議活動・出来事</h3>
-      <p class="two">下にある地図は２００６年から現在まで米国で起こった様々の黒人差別問題を紹介しています。
+      <br>
+         <h3 class="start_current"><span class="under">現問題</span></h3>
+         <br>
+      <p class="two_current">下にある地図は２００６年から現在まで米国で起こった様々の黒人差別問題を紹介しています。
 
       </p>
 
@@ -95,7 +97,8 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
@@ -103,7 +106,7 @@ export default {
   font-size: 18px; 
 }
 
-  .start{
+.start{
     font-family: "Noto Sans JP";
     color: #ffffff;
     background-color: #000000;
@@ -112,8 +115,26 @@ export default {
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
-    /* text-shadow: 0.5px 0.5px #f6d405; */
+    /* text-shadow: 0.5px 0.5px #f6d405;
     text-align: center;
+  } */
+.two_current{
+  font-family: "Noto Sans JP"; 
+  width: 67%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
+}
+
+
+  .start_current{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 67%;
+    color: black;
   }
 
   .more{

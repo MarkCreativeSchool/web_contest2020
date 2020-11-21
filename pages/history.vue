@@ -8,9 +8,9 @@
          <li class="breadcrumb-item"> <nuxt-link to="/history">歴史</nuxt-link></li>
      </ol>
 
-
-      <h3 class="start1">ざっくり出来事（歴史）</h3>
-      <p class="two">下にあるタイムラインは米国の歴史、また黒人差別に関する歴史が表記されています。</p>
+    <br>
+         <h3 class="start_history"><span class="under">歴史</span></h3>
+      <p class="two_history">下にあるタイムラインは米国の歴史、また黒人差別に関する歴史が表記されています。</p>
       <br>
       <div class="timeline">
         <div class="line">
@@ -111,15 +111,16 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
-}
+}*/
 
-.start1{
+/*.start1{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -130,7 +131,25 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
+}*/
+
+.two_history{
+  font-family: "Noto Sans JP"; 
+  width: 67%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+.start_history{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 67%;
+    color: black;
+  }
 
 .more{
   font-family: "Noto Sans JP"; 

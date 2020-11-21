@@ -33,7 +33,7 @@
     color: #ffffff;
     background-color: #000000;
     background-position: center center;
-    width: 73%; 
+    width: 83%; 
     margin: 0 auto;
     font-size: 30px; 
     border-radius: 3px; 
@@ -72,4 +72,17 @@
     line-height: 0em;
     padding-bottom: 0.5em;
     background: #f6d405;
+  }
+
+  .under{
+    border-bottom: solid 10px #ffa000;
+  }
+
+  .two{
+    font-family: "Noto Sans JP"; 
+    width: 47%; 
+    margin: 0 auto;
+    margin-top: 10px; 
+    font-size: 18px; 
+    text-indent: 1em;
   }
