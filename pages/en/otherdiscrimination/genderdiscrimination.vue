@@ -7,16 +7,16 @@
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/genderdiscrimination">Gender Discrimination</nuxt-link></li>
      </ol>
-    <h3 class="start">Gender Discrimination</h3>
-    <p class="two">
+    <br>
+     <h3 class="start_gender"><span class="under">Gender Discrimination</span></h3>
+    <p class="two_gender">
        Gender discrimination is a form of discrimination where an inidividual is <mark class="highlights"><b>treated differently based on their gender, and not their ability</b></mark>.
         According to AAU, most states in the US offer unfair wages based on gender. 
         Causes of gender discrimination include teachings within homes, religion, and the social structure of each country. 
         <mark class="highlights"><b>Many of our global issues occurring today connects to gender discrimination. </b></mark>
 <img class="drawing4" src="~/assets/equality.jpg">
     </p>
-
-    <h3 class="start">Current News/Incidents</h3>
+     <h3 class="start_gender"><span class="under">性差別</span></h3>
         <div class="activity">
             <h6 class="program">Salt thrown at woman for going up on the stage of Sumo wrestling</h6>
             <hr>
