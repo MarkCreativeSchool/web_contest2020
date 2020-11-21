@@ -53,6 +53,7 @@
    </div>
     <Footer></Footer>
     <line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>
+    <line2 v-if="locationName==='line2'" @onClose="locationName=null"></line2>
     
       <Footereng></Footereng>
   </div>
@@ -62,10 +63,11 @@
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 import line1 from "~/components/timeline_eng/line1"
+import line2 from "~/components/timeline_eng/line2"
 
 export default {
   name: "Index",
-  components: { Headereng, Footereng, line1,  },
+  components: { Headereng, Footereng, line1, line2, },
   head() {
     return {
       title: "History-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",

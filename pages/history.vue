@@ -233,7 +233,7 @@ export default {
 .line5 .line5-name{
   position: relative;
   top: 17px;
-  width: 134px;
+  width: 203px;
   font-size:15px;
 }
 .line6{
@@ -244,7 +244,7 @@ export default {
 .line6 .line6-name{
   position: relative;
   top: 17px;
-  width: 138px;
+  width: 150px;
   font-size:15px;
 }
 .line7{
