@@ -7,6 +7,9 @@
       <div class="event1" @click="onClick('event1')"></div>
       <div class="event2" @click="onClick('event2')"></div>
       <div class="event3" @click="onClick('event3')"></div>
+      <div class="event4" @click="onClick('event4')"></div>
+      <div class="event5" @click="onClick('event5')"></div>
+      <div class="event6" @click="onClick('event6')"></div>
 
       <div class="linebar"></div>
       <div class="year">
@@ -22,6 +25,9 @@
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
     <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
     <event3 v-if="locationName==='event3'" @onClose="locationName=null"></event3>
+    <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
+    <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
+    <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
 
   </div>
 </template>
@@ -30,10 +36,13 @@
 import event1 from "~/components/events_eng/2nd/event1"
 import event2 from "~/components/events_eng/2nd/event2"
 import event3 from "~/components/events_eng/2nd/event3"
+import event4 from "~/components/events_eng/2nd/event4"
+import event5 from "~/components/events_eng/2nd/event5"
+import event6 from "~/components/events_eng/2nd/event6"
 
 export default {
   name: "line2.vue",
-  components:{event1, event2, event3, },
+  components:{event1, event2, event3, event4, event5, event6, },
   data(){
     return{
       locationName:null
