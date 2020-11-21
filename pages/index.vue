@@ -6,9 +6,15 @@
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
-        <div class="maku"><div class="aaa">aaaaaaa</div></div>
+        <div class="maku"><div class="aaa">a</div></div>
+        
       </div>
     <br>
+    <div>
+     <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
+      <div class="discrimination"><li>現状の差別問題</li></div>
+      <div class="discrimination"><li>黒人差別の歴史</li></div> 
+    </div> 
     <div>
       <h2 class="biggertitle_jp"><span class="under">はじめに</span></h2>
       <br>
@@ -16,11 +22,6 @@
       </p>
     </div>
     <br>
-    <div>
-     <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
-      <div class="discrimination">現状の差別問題</div>
-      <div class="discrimination">黒人差別の歴史</div> 
-    </div> 
      <br>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
       <p class="three">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
@@ -104,8 +105,10 @@ export default {
 
 .aaa{
   color: white;
-  font-size: 20px;
-  left: 10%;
+  font-size: 15px;
+  right: 0%;
+  top: 100px;
+  width: 25%;
 }
 
 .two{
@@ -138,6 +141,7 @@ export default {
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
 }
+
 .biggertitle_jp{
   font-weight: bold;
   font-size: 30px;
@@ -200,6 +204,14 @@ figcaption {
   text-align: center;
   font-weight: bold; 
   font-size: 12px; 
+}
+
+.next{
+    display: inline-block;
+    float: right; 
+    margin-left: auto;
+    margin-right: 40px;
+    width: 100px; 
 }
 
 </style>

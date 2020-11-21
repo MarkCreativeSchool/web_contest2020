@@ -13,7 +13,7 @@ export default {
   },
   data(){
     return{
-      showFirstLoading: true,
+      showFirstLoading: false,
     }
   },
   methods: {

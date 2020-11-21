@@ -28,8 +28,8 @@ export default {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50%;
-    padding-top: 0%; 
+    height: 9rem;
+    padding-top: 30px; 
 }
 
 li{
