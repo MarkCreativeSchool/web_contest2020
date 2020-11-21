@@ -23,11 +23,11 @@
 </template>
 
 <script>
-
+import event1 from "~/components/events_eng/3rd/event1"
 
 export default {
   name: "line3.vue",
-  components:{},
+  components:{event1, },
   data(){
     return{
       locationName:null
