@@ -7,6 +7,7 @@
          <li class="breadcrumb-item"> 現状</li>
          <li class="breadcrumb-item"> <nuxt-link to="/current/statistics/policebrutality">逮捕率など</nuxt-link></li>
      </ol>
+     <br>
     <h3 class="start_arrest"><span class="under">逮捕率・銃撃率について</span></h3>
     <br>
     <p class="two_arrest">

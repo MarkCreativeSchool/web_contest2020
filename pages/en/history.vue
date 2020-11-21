@@ -7,8 +7,15 @@
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/history">History</nuxt-link></li>
      </ol>
+<<<<<<< HEAD
+    <br>
+         <h3 class="start_history"><span class="under">History</span></h3>
+    <p class="two_history">Below, the timeline summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
+
+=======
     <h3 class="start">History Summarized</h3>
     <p class="two">Below, the timeline summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
+>>>>>>> 67835b9e9af7fc100436b7ead41a4174fe344d67
     </p>
     <br>
       <div class="timeline">
@@ -100,18 +107,23 @@ export default {
 }*/
 
 
-.start{
+.two_history{
   font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
+  width: 67%; 
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+.start_history{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 67%;
+    color: black;
+  }
 
 .more{
   font-family: "Noto Sans JP"; 

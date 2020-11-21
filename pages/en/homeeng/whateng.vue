@@ -6,9 +6,11 @@
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/whateng">What?</nuxt-link></li>
      </ol>
-    <h3 class="start">What is discrimination?</h3>
+   <br>
+    <h3 class="start_what"><span class="under">What is discrimination?</span></h3>
+    <br>
     <img class="drawing1" src="~/assets/what.jpg">
-    <p class="two">Discrimination is the <mark class="highlights"><b>act of ignoring one’s individuality and grouping them into different categories</b></mark> <mark class="highlights"><b>while marginalising individuals based on their group</b></mark>. 
+    <p class="two_what">Discrimination is the <mark class="highlights"><b>act of ignoring one’s individuality and grouping them into different categories</b></mark> <mark class="highlights"><b>while marginalising individuals based on their group</b></mark>. 
     While in reality, distinction should be done clearly, the problem that is being addressed these days are <mark class="highlights"><b>social discrimination, not distinction</b></mark>, which causes unequal treatment amongst people. 
     Even within social discrimination though, there is <mark class="highlights"><b>no clear</b></mark> line on what is categorised as distinction and what is categorised as discrimination. 
     Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. 
@@ -17,8 +19,8 @@
     </p>
     <img class="drawing3" src="~/assets/discrimination2.jpg">
  
-    <h3 class="start">Difference between discrimination and Distinction</h3>
-    <p class="two">
+    <h3 class="start_what"><span class="under">Discrimination and Distinction</span></h3>
+    <p class="two_what">
     <br>
     <mark class="highlights"><b>Discrimination</b></mark> <br>
 Treating people differently based on a certain factor(s)<br><br>
@@ -67,18 +69,23 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
-.start{
+.two_what{
   font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
+  width: 50%; 
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+ .start_what{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
 .drawing3{
   display: block;
