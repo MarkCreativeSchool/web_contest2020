@@ -7,8 +7,8 @@
          <li class="breadcrumb-item">Others</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/others/profile">Profile</nuxt-link></li>
      </ol>
-    
-    <h3 class="start">Profile</h3>
+    <br>
+    <h3 class="start_profile"><span class="under">Profile</span></h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -84,18 +84,15 @@ export default {
   font-size: 18px; 
 }*/
 
-.start{
-  font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
-  margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-}
+.start_profile{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+  }
+
 
 .more{
   font-family: "Noto Sans JP"; 

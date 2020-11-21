@@ -7,8 +7,9 @@
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination">Sexual Orientation</nuxt-link></li>
      </ol>
-    <h3 class="start">Sexual Orientation Discrimination</h3>
-    <p class="two">
+     <br>
+    <h3 class="start_sexualorientation"><span class="under">Sexual Orientation Discrimination</span></h3>
+    <p class="two_sexualorientation">
        Sexual orientation discrimination is <mark class="highlights"><b>discrimination againt one’s sexuality</b></mark>. 
        This act of discrimination targets <b> LGBTQ+ communities (L=Lesbian, G=Gay, B=Bisexual, T=Transgender, Q=Queer, +=other sexual identities such as pansexual, asexual, and omnisexual)</b>. 
        Types of discrimination includes both direct and indirect discrimination as well as harassment.  
@@ -19,12 +20,12 @@
     </div>
     </p>
 
-    <h3 class="start">Incidents</h3>
+    <h3 class="start_sexualorientation"><span class="under">Current News</span></h3>
        
          <div class="activity">
-            <h6 class="program">Orlando nightclub shooting (US)</h6>
+            <h6 class="program_orientation">Orlando nightclub shooting (US)</h6>
             <hr>
-            <p class="campaign">On June 12, 2016, Omar Martin, a security guard conducted a shooting at a gay nightclub. 
+            <p class="campaign_orientation">On June 12, 2016, Omar Martin, a security guard conducted a shooting at a gay nightclub. 
             He murdered <b>49</b> people in total and <b>53</b> others were injured. 
             3 hours after he was taken hostage, he was shot by the police. 
             This attack was the worst mass shooting in the US at that time. 
@@ -32,12 +33,12 @@
             His relatives claim that it could have been a hate crime. 
 </p>
             <br></br>
-            <h6 class="program">Incident of outing at Hitotsubashi University (Japan)</h6>
+            <h6 class="program_orientation">Incident of outing at Hitotsubashi University (Japan)</h6>
             <hr>
-            <p class="campaign">In 2015, April, male student<i> A</i> from Hitotsubashi University confessed to male student <i>B</i> on messaging app, Line. 
+            <p class="campaign_orientation">In 2015, April, male student<i> A</i> from Hitotsubashi University confessed to male student <i>B</i> on messaging app, Line. 
             While student <i>B</i> told him that he wanted to remain friends with him, later on, he exposed that student <i>A</i> was homosexual in a group chat that involved around 10 people without his permission. 
             This act is called <b>outing</b>. After it was spread that student <i>A</i> was homosexual, he eventually got overwhelmed and committed suicide that year’s August. 
-            After he committed suicide, <mark class="highlights"><b>students gathered in front of the gate of Hitotsubashi university to hold a memorial rally</b></mark> in honor of student A. 
+            After he committed suicide, <mark class="highlights"><b>students gathered in front of the university to hold a memorial rally</b></mark> in honor of student A. 
 </p>
             <br></br>  
         </div>
@@ -80,18 +81,23 @@ export default {
   font-size: 18px; 
 }*/
 
-.start{
+.two_sexualorientation{
   font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
+  width: 50%; 
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+.start_sexualorientation{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
 .activity{
     width: 80%;
@@ -101,14 +107,14 @@ export default {
 }
 
 
-.program{
-    width: 85%;
+.program_orientation{
+    width: 50%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-.campaign{
-  width: 80%; 
+.campaign_orientation{
+  width: 50%; 
   margin: 0 auto;
   font-size: 15px; 
 }
