@@ -9,7 +9,7 @@
     <div class="uppersub_jp">
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
-        <ul class="sub">
+        <ul class="sub_jp">
               <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
               <li><nuxt-link to="/home/survey" class="subpage">アンケート結果</nuxt-link></li>
@@ -20,7 +20,7 @@
         
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 2 }"> 
         <span @click="toggleDropDown(2)">現状</span> 
-        <ul class="sub">
+        <ul class="sub_jp">
               <li><nuxt-link to="/current/statistics/work" class="subpage">雇用</nuxt-link></li>
               <li><nuxt-link to="/current/statistics/education" class="subpage">教育</nuxt-link></li>
               <li><nuxt-link to="/current/statistics/policebrutality" class="subpage">逮捕率など</nuxt-link></li>
@@ -30,7 +30,7 @@
 
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 3 }"> 
         <span @click="toggleDropDown(3)">他の差別</span> 
-        <ul class="sub">
+        <ul class="sub_jp">
               <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="subpage">性差別</nuxt-link></li>
               <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="subpage">アジア人差別</nuxt-link></li>
               <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="subpage">性的指向</nuxt-link></li>
@@ -41,7 +41,7 @@
         
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 4 }"> 
         <span @click="toggleDropDown(4)">その他</span> 
-        <ul class="sub">
+        <ul class="sub_jp">
             <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
               <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>
               <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
@@ -130,7 +130,7 @@ export default {
   padding-top: 7px; 
   padding-bottom: 7px;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 800;
   position: relative; 
   flex: 1; 
@@ -140,12 +140,11 @@ export default {
 .bar_jp:hover{
   color: #ffa000; 
 }
-.bar_jp.active .sub{
+.bar_jp.active .sub_jp{
   display: block; 
 }
 
-
-.sub{
+.sub_jp{
   background-color: #333; 
   width: 100%; 
   position: absolute; 

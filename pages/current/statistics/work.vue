@@ -65,6 +65,7 @@ export default {
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
   width: 50%;
+  color: black;
 }
 /* 
 .start{

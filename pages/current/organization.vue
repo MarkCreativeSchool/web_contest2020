@@ -7,19 +7,19 @@
          <li class="breadcrumb-item"> 現状</li>
          <li class="breadcrumb-item"> <nuxt-link to="/current/organization">組織</nuxt-link></li>
      </ol>
-    <h3 class="start">黒人差別組織</h3>
-    <p class="two">
-
-    </p>
-    <h3 class="start">Black Lives Matter</h3>
+    <h3 class="start_organization"><span class="under">黒人差別反対組織について</span></h3>
+    <br>
+    <br>
+    <h3 class="start_o">Black Lives Matter</h3>
     
     <p class="paragraph">
-        ブラックライブスマターズは２０１３年7月13日に設立された組織的な社会運動。
-<br>グローバル組織だが、本拠地・主要地はアメリカ合衆国
-<br>ミッション：白人覇権を根絶し、黒人に対しての暴力行為を阻止する事。
-<br>創立者：アリシア・ガーザ（ガルザ）、パトリッセ・カラーズ、オーパル・トメティ
-<br>２０１２年に起きた<mark class="highlights"><b>トレイボンマーティンの死</b></mark>をきっかけにアリシア・ガーザ（ガルザ）さんがSNS（フェースブック）に<b>#BlackLivesMatter</b>と投稿した事が注目をあび、組織が創立された。
-<br>サイトへのリンク＝＞<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
+      <b>設立日</b>: 2013年7月13日
+    <br><b>本拠地</b>: アメリカ合衆国
+    <br><b>創立者</b>：アリシア・ガーザ（ガルザ）、パトリッセ・カラーズ、オーパル・トメティ
+    <br><b>組織内容</b>: 黒人に対する暴力や構造的な人種差別の撤廃を訴える、国際的な積極行動主義の運動
+    <br><b>設立のきっかけ</b>:
+    <br>2012年に起きたトレイボンマーティンの死をきっかけに、アリシア・ガーザさんがSNSに<b>#BlackLivesMatter</b>と投稿をした事で組織が設立されました
+    <br><b>サイトへのリンク</b>: <a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     <br>
     </p>
     <img class="logoblm" src="~/assets/blmlogo.jpg">
@@ -125,19 +125,20 @@ export default {
 }　
 </script>
 
-<style>
+<style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 .paragraph{
   font-family: "Noto Sans JP"; 
-  width: 40%; 
+  width: 54%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
   display: inline-block; 
   float: left;
   margin-left: 250px;
+  color: black;
 }
 
 .paragraph2{
@@ -149,8 +150,23 @@ export default {
   padding-top: 25px; 
   float: left;
 }
+.border{
+  background-color: #00ced1;
+}
+.start_organization{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  width: 67%;
+  color: black;
+}
 
-.start{
+.under{
+  border-bottom: solid 10px #ffa000;
+}
+
+/* .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -161,7 +177,7 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
-}
+} */
 
 
 .activity{
@@ -186,8 +202,8 @@ export default {
 }
 
 .logoblm{
-    height: 300px; 
-    width: 20%; 
+    height: 250px; 
+    width: 250px; 
     display: inline-block;
     margin-top: 10px;
     margin-right: 20px;  
@@ -204,17 +220,18 @@ export default {
     margin-left: 40px;
 }
 
-.start{
+.start_o{
   font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
+  color: black;
+  /* background-color: #ffa000; */
+  /* background-position: center center; */
+  border-left: solid 10px #ffa000;
+  width: 67%; 
   margin: 0 auto;
   font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  border-radius: 3px;
+  font-weight: 800;
+  /* text-align: center;  */
 }
 
 .activity{
