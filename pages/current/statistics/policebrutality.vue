@@ -7,28 +7,21 @@
          <li class="breadcrumb-item"> 現状</li>
          <li class="breadcrumb-item"> <nuxt-link to="/current/statistics/policebrutality">逮捕率など</nuxt-link></li>
      </ol>
-    <h3 class="start">逮捕率、銃撃率など</h3>
-    <p class="two">
-        警察による致命的な銃撃率は人種に基づいて不釣り合いであることをWashington Post が調査しました。 
-        2020年のアフリカ系アメリカ人の全体的な致命的な銃撃の割合は<b>約26％（5109人中1345人）</b>で射殺された人の<b>50％</b>は白人でした。
-        しかし、<mark class="highlights"><b>アフリカ系アメリカ人の人口を考慮すると不均衡です</b></mark>。アフリカ系アメリカ人はアメリカの人口の<b>約12〜15％</b>を占めており、射殺の割合が不均衡であることを示しています。
-        表には、<mark class="highlights"><b>黒人アメリカ人の100万人あたり30％が撃たれていることが示されています</b></mark>。これは、白人アメリカ人の100万人あたり12％と比較してかなりの<b>格差</b>です。
-        これは、人口が黒人と白人の両方のアメリカ人で同じである場合、致命的な警察の銃撃に<b>18％</b>の違いがあることを意味します。
-<br></br>
+    <h3 class="start_arrest"><span class="under">逮捕率・銃撃率について</span></h3>
+    <br>
+    <p class="two_arrest">
+      Washington Postは警察による銃撃率が人種によって大きく異なることについて調査を行いました。2020年には、アフリカ系アメリカ人の銃撃率は全体の約26%で、白人は50%でした。一見、白人の方が銃撃率が高いように見えますが、人口を考慮した場合、アフリカ系アメリカ人はアメリカの人口の12~15%を占めており、残りは白人であるということを考えると射撃率の割合は釣り合いが取れていないことがわかります。下の表は、人種による100mん人あたりの希有殺の銃撃率を表しているグラフです。銃撃率において黒人は全体の30%、白人は約12%であり、黒人と白人には18%の差があります。
     </p>
-
+    <br>
     <img class="bargraph" src="~/assets/shooting.png">
-    <p class="two">
-    別の調査によると、12歳以上の黒人と白人のマリファナ使用量はほぼ同じで、白人は<b>16.5％</b>、黒人は<b>17.8％</b>ですが、<mark class="highlights"><b>米国の10万人あたりのマリファナ所持での逮捕率は黒人の3倍</b></mark>であると報告されています。
-    これは、警察が特定の人種を差別する傾向があり、使用率がほぼ同じであっても逮捕率に差が生じていることを示している可能性があります。
-
+    <p class="two_arrest">
+      左下の表は、12歳以上の過去1年間のマリファナの使用率を表したグラフ、右下は10万人あたりのマリファナの所持逮捕率を表したグラフです。白人と黒人とでは、マリファナの使用率は殆ど差はりませんが、逮捕率には大きな差があります。
     </p>
-       <div class="bardata">
-    <img class="bargraph2" src="~/assets/use.png">
-    <img class="bargraph2" src="~/assets/arrest.png">
+    <div class="bardata">
+      <img class="bargraph2" src="~/assets/use.png">
+      <img class="bargraph2" src="~/assets/arrest.png">
     </div>
-    <br></br>
-
+    <br>
     </div> 
     <div class="nextback">
             <nuxt-link to="/current/statistics/education"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
@@ -38,7 +31,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
@@ -58,15 +51,24 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+.two_arrest{
   font-family: "Noto Sans JP"; 
-  width: 63%; 
+  width: 47%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
+  text-indent: 1em;
 }
 
-.start{
+.start_arrest{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -77,7 +79,7 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
-}
+} */
 
 .activity{
     width: 80%;
@@ -96,6 +98,10 @@ export default {
   width: 80%; 
   margin: 0 auto;
   font-size: 15px; 
+}
+
+.under{
+  border-bottom: solid 10px #ffa000;
 }
 
 .next{
@@ -127,7 +133,7 @@ export default {
 
 
 .bargraph2{
-    width: 325px; 
+    width: 370px; 
     height: 350px; 
     display: inline-block; 
     margin: 0 auto; 
