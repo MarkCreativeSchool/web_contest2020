@@ -142,6 +142,7 @@ export default {
 }
 .bar_jp.active .sub_jp{
   display: block; 
+  z-index: 2000;
 }
 
 .sub_jp{

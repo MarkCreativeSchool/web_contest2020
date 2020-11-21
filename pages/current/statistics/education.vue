@@ -18,6 +18,7 @@
     <p class="two_education">
     上のグラフは中等学校での科目及び人種による単位取得率を表したグラフです。全ての教科において白磁にょリモ黒人の方が単位取得率が低いことがわかります。U.S. Census Bureauによると、2019年に学士号を取得している25歳全体での割合では、白人は40.1%、黒人は26.1%であったと報告されています。この結果からもわかるように、黒人と白人の間では教育の格差があるとわかりました。
     </p>
+    <br>
     </div> 
     <div class="nextback">
             <nuxt-link to="/current/statistics/work"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
