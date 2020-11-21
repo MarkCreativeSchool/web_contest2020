@@ -189,7 +189,7 @@ export default {
 .line1 .line1-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 397px;
   font-size:15px;
 }
 .line2{
@@ -200,7 +200,7 @@ export default {
 .line2 .line2-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 241px;
   font-size:15px;
 }
 .line3{
@@ -211,7 +211,7 @@ export default {
 .line3 .line3-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 269px;
   font-size:15px;
 }
 .line4{
@@ -222,7 +222,7 @@ export default {
 .line4 .line4-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 174px;
   font-size:15px;
 }
 .line5{
@@ -233,7 +233,7 @@ export default {
 .line5 .line5-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 134px;
   font-size:15px;
 }
 .line6{
@@ -244,7 +244,7 @@ export default {
 .line6 .line6-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 138px;
   font-size:15px;
 }
 .line7{
@@ -255,7 +255,7 @@ export default {
 .line7 .line7-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 110px;
   font-size:15px;
 }
 .line8{
@@ -266,7 +266,7 @@ export default {
 .line8 .line8-name{
   position: relative;
   top: 17px;
-  width: 1000px;
+  width: 190px;
   font-size:15px;
 }
 .lastLine{
@@ -278,7 +278,7 @@ export default {
   position: relative;
   bottom: 22px;
   left: 5px;
-  width: 1000px;
+  width: 156px;
   font-size:15px;
 }
 .year-main{
