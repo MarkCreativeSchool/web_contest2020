@@ -7,9 +7,10 @@
          <li class="breadcrumb-item"> <nuxt-link to="/home/what">差別とは？</nuxt-link></li>
      </ol>
 
-    <h3 class="start">差別とは何か？</h3>
+    <h3 class="start_what"><span class="under">差別とは？</span></h3>
+    <br>
     <img class="drawing1" src="~/assets/what.jpg">
-    <p class="two"><mark class="highlights"><b>個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱い</b></mark>をすること。 
+    <p class="two_what">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、<mark class="highlights"><b>合理的に説明できないような異なった（不利益）取り扱い</b></mark>をすること。 
     差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、<mark class="highlights"><b>本来平等であるべきものを不平等に取り扱うという社会的差別</b></mark>である。
      そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 
      <mark class="highlights"><b>＜本来平等であるべきもの＞</b></mark>という認識自体が、社会や時代とともに変化するからである。 
@@ -18,11 +19,11 @@
     </p>
     <img class="drawing3" src="~/assets/discrimination2.jpg">
  
-    <h3 class="start">差別と区別</h3>
-    <p class="two">
-    <b><mark>差別</mark></b> <br>
-「人や物の取り扱いに差をつけること」<br><br>
-    <b><mark>区別</mark></b> <br>
+    <h3 class="start_what"><span class="under">差別と区別</span></h3>
+    <p class="two_what">
+    <b><mark>差別</mark></b><br>
+「人や物の取り扱いに差をつけること」<br><br><b>
+<mark>区別</mark></b> <br>
 「違いによって分けること」<br>
 しかし、区別する側に差別的にとがあった場合、それは差別になる。また、区別された側が差別だと感じたら差別になり得る。
 
@@ -59,15 +60,34 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
+}*/
+
+.two_what{
+  font-family: "Noto Sans JP"; 
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
 
+ .start_what{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
+/*
 .start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
@@ -79,7 +99,7 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
-}
+}*/
 
 .drawing3{
   display: block;
@@ -94,7 +114,7 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 73%;
+  width: 40%;
   height: 500px; 
   margin-top: 0px; 
   margin-bottom: 30px;

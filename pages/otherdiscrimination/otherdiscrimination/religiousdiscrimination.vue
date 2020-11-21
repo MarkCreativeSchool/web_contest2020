@@ -7,8 +7,9 @@
          <li class="breadcrumb-item"> 他の差別</li>
          <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination">宗教差別</nuxt-link></li>
      </ol>
-    <h3 class="start">宗教差別</h3>
-    <p class="two">
+     <br>
+    <h3 class="start_religion"><span class="under">宗教差別</span></h3>
+    <p class="two_religion">
        宗教差別は<mark class="highlights"><b>人を考えやその人の宗教をきっかけにその人に対し、嫌がらせなどをする事です</b></mark>。
        人の考えを馬鹿にしたり、また、学校や仕事場での嫌がらせなどが見られます。
        他にも、会話やサークルでの場で入れてもらえなかったりする事が多々あります。
@@ -16,20 +17,22 @@
     </p>
     <img class="drawing3" src="~/assets/religiousdiscrimination.jpg">
 
-    <h3 class="start">活動・プログラム</h3>
+    <h3 class="start_religion"><span class="under">宗教差別</span></h3>
        <div class="activity">
-            <h6 class="program">2017年ポートランド列車殺傷事件（アメリカ）</h6>
+            <h6 class="program_religion">2017年ポートランド列車殺傷事件（アメリカ）</h6>
             <hr>
-            <p class="campaign">２０１７年５月２６日に<b>ジェレミー・クリスチャン</b>が<b>タリーシン・ムルジン・ナムカイ・メシェさんとリッキー・ジョン・ベストさん</b>を殺害し、<b>マイカ・デイビッド・コール・フレッチャーさん</b>に重傷を負わせた事件。
-            <mark class="highlights"><b>3人の男はクリスチャン容疑者が二人の女性（16歳と17歳）に対し暴言を吐いていたところを割って入った。</b></mark>
+            <br>
+            <p class="campaign_religion">２０１７年５月２６日に<b>ジェレミー・クリスチャン</b>が<b>タリーシン・ムルジン・ナムカイ・メシェさんとリッキー・ジョン・ベストさん</b>を殺害し、<b>マイカ・デイビッド・コール・フレッチャーさん</b>に重傷を負わせた事件。
+            3人の男は<mark class="highlights"><b>クリスチャン容疑者が二人の女性（16歳と17歳）に対し暴言を吐いていた</b></mark>ところを割って入った。
             明確ではないが、目撃者はクリスチャン容疑者が<b>「ムスリムはみんな死ね」</b>と怒鳴っていたという。
             さらに調査したところ、彼のソーシャルメディアページに反イスラム教の感情があった事が明らかになった。
             3人の男性は市長によって英雄と見なされました。
             また、元大統領候補のヒラリークリントンは、<b>「この人種差別的虐待に耐える必要はありません。それを止めるために命を与える必要はありません。」</b>とコメントした。</p>
             <br></br>
-            <h6 class="program">ウィルミントン公民プール事件</h6>
+            <h6 class="program_religion">ウィルミントン公民プール事件</h6>
             <hr>
-            <p class="campaign">2018年6月、若いイスラム教徒の生徒とその教師は、デラウェア州ウィルミントンにある公共プール出ていくよう求められました。
+            <br>
+            <p class="campaign_religion">2018年6月、若いイスラム教徒の生徒とその教師は、デラウェア州ウィルミントンにある公共プール出ていくよう求められました。
             プールのマネージャーは<b>生徒らを追い出す際彼らの衣服などを理由とし、警察まで呼ぼうとした</b>。
             ウィルミントンに本部を置くイスラム教徒の青少年センターが、教師と生徒に対する差別的な行動について、プールに対して訴訟を起こした。 
             ウィルミントン市長のマイク市長は7月に謝罪を発表しましたが、多くの人がこの問題に十分に対処していないことで同市を批判した。 
@@ -66,14 +69,16 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
-}
-.start{
+}*/
+
+/*.start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -84,7 +89,25 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
+}*/
+
+.two_religion{
+  font-family: "Noto Sans JP"; 
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+.start_religion{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
 .activity{
     width: 75%;
@@ -93,14 +116,14 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
-.program{
-    width: 85%;
+.program_religion{
+    width: 50%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-.campaign{
-  width: 80%; 
+.campaign_religion{
+  width: 50%; 
   margin: 0 auto;
   font-size: 15px; 
 }

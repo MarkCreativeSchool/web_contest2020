@@ -111,13 +111,14 @@ export default {
   width: 25%;
 }
 
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
-}
+}*/
 
 .three{
   font-family: "Noto Sans JP"; 

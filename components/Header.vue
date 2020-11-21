@@ -83,14 +83,13 @@ export default {
 
 .fullhead{
   height: 30%;
-  margin-bottom: 30px;
 }
 
 .up-jp{
     padding-top: 5px; 
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
-    background-color: white;
+    background-color: black;
     /* background: rgba(255,255,255,0.5); */
     display: inline-block; 
     width: 100%;
@@ -108,6 +107,7 @@ export default {
   display:flex; 
   margin: 0 auto; 
   padding-top: 15px;
+   padding-bottom: 25px;
   width: 75%;
   float:right;
 }
@@ -123,7 +123,7 @@ export default {
 } */
 
 .bar_jp{
-  color: black;
+  color: white;
   text-align: center;
   padding-left: 30px; 
   padding-right: 30px; 

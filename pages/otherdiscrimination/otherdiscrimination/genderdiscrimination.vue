@@ -7,8 +7,9 @@
          <li class="breadcrumb-item"> 他の差別</li>
          <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination">性差別</nuxt-link></li>
      </ol>
-    <h3 class="start">性差別</h3>
-    <p class="two">
+     <br>
+     <h3 class="start_gender"><span class="under">性差別</span></h3>
+    <p class="two_gender">
        性差別とは人が実力ではなく、<mark class="highlights"><b>その人の性で差別される事を指します</b></mark>。
        AAU (American Association of University Women)によると、米国のほとんどの州では賃金格差があると示しています。
        性差別の主な原因として、家庭内での教育、生物学的役割の違い、宗教、伝統的な社会構造などが挙げられます。
@@ -17,11 +18,12 @@
 <img class="drawing4" src="~/assets/equality.jpg">
     </p>
 
-    <h3 class="start">現代ニュース</h3>
+    <h3 class="start_gender"><span class="under">最近のニュース</span></h3>
         <div class="activity">
-            <h6 class="program">大相撲・救命女性が降りた土俵に「大量の塩」「めちゃくちゃ失礼」と非難の声：2018年4月五日 (日本)</h6>
+            <h6 class="program_gender">大相撲・救命女性が降りた土俵に「大量の塩」「めちゃくちゃ失礼」と非難の声：2018年4月五日 (日本)</h6>
             <hr>
-            <p class="campaign">２０１８年、４月４日、京都府舞鶴市での大相撲の春巡業で多々見良三市長が挨拶をしている間に意識不明になり、土俵上倒れてしまいました。
+            <br>
+            <p class="campaign_gender">２０１８年、４月４日、京都府舞鶴市での大相撲の春巡業で多々見良三市長が挨拶をしている間に意識不明になり、土俵上倒れてしまいました。
             その時、看護資格を取得していた女性が土俵上に上がり、緊急処置を行い、他に、二人の女性も助けるために土俵に上がろうとすると、女性は土俵から降りてくださいというアナウンスが繰り返し流れ、批判が広まった。
             土俵には<b>「女人禁制」</b>と相撲界側は主張しましたが、場違いだと批判された。
             その後、相撲界の八角理事長はアナウンスを不適切だと言い、謝罪した。
@@ -29,9 +31,10 @@
             このことに対し、インターネット上で大炎上となり、またもや相撲界は批判を受けた。
             この問題に対し、理事長はコメントをした物の、説明不足だと炎上になり、批判を受けた。</p>
             <br>
-            <h6 class="program">2018年グラミー賞でジェンダーの不平等（アメリカ）</h6>
+            <h6 class="program_gender">2018年グラミー賞でジェンダーの不平等（アメリカ）</h6>
             <hr>
-            <p class="campaign">2018年1月29日、2018年グラミー賞授賞式が行われた。
+            <br>
+            <p class="campaign_gender">2018年1月29日、2018年グラミー賞授賞式が行われた。
             しかし、グラミー賞はその年、男性が優勢であり、<mark class="highlights"><b>男女平等に欠けていた</b></mark>。
             レコーディングアカデミーのニールポートナウ校長が候補者の不均衡について質問されたとき、彼は女性が指名されて賞を獲得するために<b>「ステップアップ」</b>する必要があるとコメントした。
             このコメントは、一般の人々や音楽アーティストから激しい批判を受けました。 
@@ -71,16 +74,16 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
-}
+}*/
 
-
-.start{
+/*.start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -91,7 +94,25 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
+}*/
+
+.two_gender{
+  font-family: "Noto Sans JP"; 
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+.start_gender{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
 .activity{
     width: 75%;
@@ -100,14 +121,14 @@ export default {
     font-family: "Noto Sans JP"; 
 }
 
-.program{
-    width: 85%;
+.program_gender{
+    width: 50%;
     margin: 0 auto;
     font-size: 21px; 
     font-weight: bold; 
 }
-.campaign{
-  width: 80%; 
+.campaign_gender{
+  width: 50%; 
   margin: 0 auto;
   font-size: 15px; 
 }
@@ -140,6 +161,11 @@ export default {
 
 .nextback{
     text-align: center; 
+}
+
+hr{
+  width: 50%;
+  margin:0 auto;
 }
 
 

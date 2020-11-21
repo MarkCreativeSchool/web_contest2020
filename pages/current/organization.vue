@@ -7,6 +7,7 @@
          <li class="breadcrumb-item"> 現状</li>
          <li class="breadcrumb-item"> <nuxt-link to="/current/organization">組織</nuxt-link></li>
      </ol>
+     <br>
     <h3 class="start_organization"><span class="under">黒人差別反対組織について</span></h3>
     <br>
     <br>
@@ -33,6 +34,7 @@
       <p class="campaign1"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
       <br>    
     </div> -->
+    <br><br>
     <h3 class="start_o">Color of Change</h3>
     <p class="paragraph">
       <b>設立日</b>: 2005年
@@ -53,7 +55,7 @@
       <br>     
     </div> -->
 
- <h3 class="start">The Movement for Black Lives</h3>
+ <h3 class="start_o">The movement for black lives</h3>
     <p class="paragraph">
         ２０１４年１２月に創立。廃止論者組織である。
 <br>黒人コミュニティに<mark class="highlights"><b>暴力を与える刑務所や警察を廃止し</b></mark>、<mark class="highlights"><b>黒人コミュニティとその権利を保護する機関を設立するべき</b></mark>だと考える組織。
@@ -64,7 +66,7 @@
 
 
     
-    <div class="activity">
+   <!-- <div class="activity">
             <h6 class="program1">Amnesty-for-protestors</h6>
             <hr>
             <p class="campaign1">抗議者アムネスティのキャンペーンは、蜂起とデモで逮捕された黒人政治活動家に正義を要求することです。彼らはまた、警察のすべての主張に対する再調査と、警察の軍事化の中止を要求している。
@@ -85,7 +87,7 @@
             <p class="campaign1"> このキャンペーンは、警察によって引き起こされた黒人の数人の死を称え、すべてが自由に呼吸できる社会を実現するために作成されました。この行為は、黒人の生活を保護できず、より良い、より安全な環境のためのソリューションを構想/作成することに失敗した刑事法制度に反発します。
    => <a href="https://breatheact.org/" target="_blank"> リンク</a></p>
         <br>
-        </div>
+        </div>-->
 
 
     </div> 
@@ -120,7 +122,7 @@ export default {
 
 .paragraph{
   font-family: "Noto Sans JP"; 
-  width: 54%; 
+  width: 45%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
@@ -132,7 +134,7 @@ export default {
 
 .paragraph2{
   font-family: "Noto Sans JP"; 
-  width: 35%;  
+  width: 45%;  
   font-size: 18px; 
   display: inline-block; 
   margin-left: 250px; 
@@ -198,6 +200,7 @@ export default {
     margin-right: 20px;  
     margin-bottom: 20px; 
     text-align: center;
+    margin-left: 100px;
 }
 
 .logom4bl{
@@ -207,6 +210,7 @@ export default {
     margin-right: 10px;  
     margin-top: 5px; 
     margin-left: 40px;
+    margin-left: 100px;
 }
 
 .start_o{

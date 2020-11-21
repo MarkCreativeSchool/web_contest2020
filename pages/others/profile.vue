@@ -8,7 +8,8 @@
          <li class="breadcrumb-item"> <nuxt-link to="/others/profile">製作者紹介</nuxt-link></li>
      </ol>
 
-    <h3 class="start">製作者紹介</h3>
+    <br>
+    <h3 class="start_profile"><span class="under">製作者紹介</span></h3>
     <div class="profile">
      <div class="card">
         <div class="card-image">
@@ -80,7 +81,7 @@ export default {
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
-.start{
+/*.start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -91,7 +92,15 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
-}
+}*/
+.start_profile{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+  }
 
 .more{
   font-family: "Noto Sans JP"; 

@@ -7,8 +7,9 @@
          <li class="breadcrumb-item"> その他</li>
          <li class="breadcrumb-item"> <nuxt-link to="/others/references">参考文献</nuxt-link></li>
      </ol>
-    <h3 class="start">参考文献</h3>
-    <p class="two">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
+    <br>
+    <h3 class="start_references"><span class="under">参考文献</span></h3>
+    <p class="two_references">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
 
     </p>
 
@@ -44,16 +45,16 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-.two{
+
+/*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
-}
+}*/
 
-
-.start{
+/*.start{
   font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
@@ -64,7 +65,25 @@ export default {
   border-radius: 3px; 
   text-shadow: 0.5px 0.5px #f6d405;
   text-align: center; 
+}*/
+
+.two_references{
+  font-family: "Noto Sans JP"; 
+  width: 50%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
+
+ .start_references{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
 
 .more{
   font-family: "Noto Sans JP"; 
