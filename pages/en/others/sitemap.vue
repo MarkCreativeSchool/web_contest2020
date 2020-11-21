@@ -8,7 +8,8 @@
          <li class="breadcrumb-item"> <nuxt-link to="/en/others/sitemap">Sitemap</nuxt-link></li>
      </ol>
     
-    <h3 class="start">Sitemap</h3>
+     <br>
+    <h3 class="start_sitemap"><span class="under">Site Map</span></h3>
     
 </div>
       <Footereng></Footereng>
@@ -44,17 +45,22 @@ export default {
   font-size: 18px; 
 }*/
 
-.start{
+ .start_sitemap{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
+
+  .two_sitemap{
   font-family: "Noto Sans JP"; 
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%; 
+  width: 50%; 
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
 }
 
 .more{
