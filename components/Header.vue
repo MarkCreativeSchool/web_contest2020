@@ -10,9 +10,9 @@
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">トップ</span> 
         <ul class="sub_jp">
-              <li><nuxt-link to="/" class="subpage">ホーム</nuxt-link></li>
-              <li><nuxt-link to="/home/what" class="subpage">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="/home/survey" class="subpage">アンケート結果</nuxt-link></li>
+              <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
+              <li><nuxt-link to="/home/what" class="downsub">差別とは？</nuxt-link></li>
+              <li><nuxt-link to="/home/survey" class="downsub">アンケート結果</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar_jp">歴史</nuxt-link>
@@ -21,21 +21,21 @@
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 2 }"> 
         <span @click="toggleDropDown(2)">現状</span> 
         <ul class="sub_jp">
-              <li><nuxt-link to="/current/statistics/work" class="subpage">雇用</nuxt-link></li>
-              <li><nuxt-link to="/current/statistics/education" class="subpage">教育</nuxt-link></li>
-              <li><nuxt-link to="/current/statistics/policebrutality" class="subpage">逮捕率など</nuxt-link></li>
-              <li><nuxt-link to="/current/organization" class="subpage">組織</nuxt-link></li>
+              <li><nuxt-link to="/current/statistics/work" class="downsub">雇用</nuxt-link></li>
+              <li><nuxt-link to="/current/statistics/education" class="downsub">教育</nuxt-link></li>
+              <li><nuxt-link to="/current/statistics/policebrutality" class="downsub">逮捕率など</nuxt-link></li>
+              <li><nuxt-link to="/current/organization" class="downsub">組織</nuxt-link></li>
             </ul>
         </nuxt-link>
 
         <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 3 }"> 
         <span @click="toggleDropDown(3)">他の差別</span> 
         <ul class="sub_jp">
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="subpage">性差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="subpage">アジア人差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="subpage">性的指向</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="subpage">宗教差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="subpage">他</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="downsub">アジア人差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="downsub">性的指向</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="downsub">宗教差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="downsub">他</nuxt-link></li>
             </ul>
         </nuxt-link>
         
@@ -43,9 +43,9 @@
         <span @click="toggleDropDown(4)">その他</span> 
         <ul class="sub_jp">
             <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
-              <li><nuxt-link to="/others/sitemap" class="subpage">サイトマップ</nuxt-link></li>
-              <li><nuxt-link to="/others/profile" class="subpage" href="/others/profile">製作者紹介</nuxt-link></li>
-              <li><nuxt-link to="/others/references" class="subpage">参考文献</nuxt-link></li>
+              <li><nuxt-link to="/others/sitemap" class="downsub">サイトマップ</nuxt-link></li>
+              <li><nuxt-link to="/others/profile" class="downsub" href="/others/profile">製作者紹介</nuxt-link></li>
+              <li><nuxt-link to="/others/references" class="downsub">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/en/homeeng/" class="bar_jp">ENGLISH</nuxt-link>
@@ -137,9 +137,11 @@ export default {
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
 }
+
 .bar_jp:hover{
   color: #ffa000; 
 }
+
 .bar_jp.active .sub_jp{
   display: block; 
   z-index: 2000;
@@ -155,10 +157,24 @@ export default {
   display: none; 
 }
 
-.subpage{
-  color: #ffa000; 
+/*.subpage{
+  color: #ffffff; 
   font-family: "Rockwell"; 
   padding: 5px; 
+}
+
+.subpage:hover{
+  color: #ffa000;
+}*/
+
+.downsub{
+color: #ffffff; 
+  font-family: "Rockwell"; 
+  padding: 5px; 
+}
+
+.downsub:hover{
+  color: #ffa000;
 }
 
 

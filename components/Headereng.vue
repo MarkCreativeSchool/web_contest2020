@@ -11,9 +11,9 @@
         <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 1 }"> 
         <span @click="toggleDropDown(1)">Top</span> 
         <ul class="sub">
-              <li><nuxt-link to="/en/homeeng" class="subpage">Home</nuxt-link></li>
-              <li><nuxt-link to="/en/homeeng/whateng" class="subpage">What?</nuxt-link></li>
-              <li><nuxt-link to="/en/homeeng/survey" class="subpage">Survey Results</nuxt-link></li>
+              <li><nuxt-link to="/en/homeeng" class="downsub">Home</nuxt-link></li>
+              <li><nuxt-link to="/en/homeeng/whateng" class="downsub">What?</nuxt-link></li>
+              <li><nuxt-link to="/en/homeeng/survey" class="downsub">Survey Results</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar_en">History</nuxt-link>
@@ -21,21 +21,21 @@
        <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 2 }"> 
         <span @click="toggleDropDown(2)">Statistics</span> 
         <ul class="sub">
-              <li><nuxt-link to="/en/current/statistics/work" class="subpage">Work</nuxt-link></li>
-              <li><nuxt-link to="/en/current/statistics/education" class="subpage">Education</nuxt-link></li>
-              <li><nuxt-link to="/en/current/statistics/policebrutality" class="subpage">Police Brutality, etc.</nuxt-link></li>
-              <li><nuxt-link to="/en/current/organization" class="subpage">Organization</nuxt-link></li>
+              <li><nuxt-link to="/en/current/statistics/work" class="downsub">Work</nuxt-link></li>
+              <li><nuxt-link to="/en/current/statistics/education" class="downsub">Education</nuxt-link></li>
+              <li><nuxt-link to="/en/current/statistics/policebrutality" class="downsub">Police Brutality, etc.</nuxt-link></li>
+              <li><nuxt-link to="/en/current/organization" class="downsub">Organization</nuxt-link></li>
             </ul>
         </nuxt-link>
 
         <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 3 }"> 
         <span @click="toggleDropDown(3)">Other</span> 
         <ul class="sub">
-              <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="subpage">Gender</nuxt-link></li>
-              <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="subpage">Asian</nuxt-link></li>
-              <li><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="subpage">Sexual Orientation</nuxt-link></li>
-              <li><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="subpage">Religious</nuxt-link></li>
-              <li><nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination" class="subpage">Others</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="downsub">Gender</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="downsub">Asian</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="downsub">Sexual Orientation</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="downsub">Religious</nuxt-link></li>
+              <li><nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination" class="downsub">Others</nuxt-link></li>
             </ul>
         </nuxt-link>
         
@@ -43,9 +43,9 @@
         <span @click="toggleDropDown(4)">Others</span> 
         <ul class="sub">
             <!--  <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>-->
-              <li><nuxt-link to="/en/others/sitemap" class="subpage">Site Map</nuxt-link></li>
-              <li><nuxt-link to="/en/others/profile" class="subpage" href="/others/profile">Profile</nuxt-link></li>
-              <li><nuxt-link to="/en/others/references" class="subpage">References</nuxt-link></li>
+              <li><nuxt-link to="/en/others/sitemap" class="downsub">Site Map</nuxt-link></li>
+              <li><nuxt-link to="/en/others/profile" class="downsub" href="/others/profile">Profile</nuxt-link></li>
+              <li><nuxt-link to="/en/others/references" class="downsub">References</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/" class="bar_en">日本語</nuxt-link>
@@ -124,7 +124,7 @@ export default {
   font-size: 17px;
   position: relative; 
   flex: 1; 
-  font-family: "Noto Sans JP"; 
+  font-family: "Rockwell";
 }
 
 .uppersub_eng{
@@ -156,10 +156,20 @@ export default {
   display: none; 
 }
 
-.subpage{
+/*.subpage{
   color: #ffa000; 
   font-family: "Rockwell"; 
   padding: 5px; 
+}*/
+
+.downsub{
+color: #ffffff; 
+  font-family: "Rockwell"; 
+  padding: 5px; 
+}
+
+.downsub:hover{
+  color: #ffa000;
 }
 
 
