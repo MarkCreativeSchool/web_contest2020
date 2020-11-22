@@ -68,7 +68,7 @@
         <br>
 
  <h3 class="start_o">The movement for Black Lives</h3>
-    <p class="paragraph2">
+    <p class="paragraph3">
         Founded in December 2014. 
 <br>Are Abolitionists (abolitionism: movement to end slavery). Organization that believes that <mark class="highlights"><b>prisons and police that inflict violence amongst Black</b></mark> <mark class="highlights"><b>communities should be abolished</b></mark> and instead, form institutions that protect Black communities and their rights.
 <br>Link to Official Site<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
@@ -197,21 +197,23 @@ export default {
 
 .paragraph{
   font-family: "Noto Sans JP"; 
-  width: 40%; 
+  width: 42%; 
   margin: 0 auto;
   padding-top: 20px; 
   font-size: 18px; 
   display: inline-block; 
   float: left;
-  margin-left: 250px;
+  margin-left: 18%;
+  color: black;
 }
 
-.paragraph2{
+
+.paragraph3{
   font-family: "Noto Sans JP"; 
-  width: 35%;  
+  width: 42%;  
   font-size: 18px; 
   display: inline-block; 
-  margin-left: 250px; 
+  margin-left: 18%; 
   padding-top: 25px; 
   float: left;
 }
