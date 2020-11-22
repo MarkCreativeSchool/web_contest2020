@@ -36,7 +36,8 @@ li{
 }
 
 .subpage{
-    color: #f6d405;
+    color: #ffa000;
+    font-weight: 800;
 }
 
 .subpage:hover{
@@ -50,7 +51,8 @@ li{
 }
 
 .statement{
-    color: #f6d405;
+    color: #ffa000;
+    font-weight: 800;
 }
 
 </style>

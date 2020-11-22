@@ -96,7 +96,60 @@
       <br>
       <p>・<a href="https://www.excite.co.jp/news/">exciteニュース</a> (https://www.excite.co.jp/news/) </p>
     </div>
-    
+    <br>
+    <h3 class="start_references"><span class="under">Citation information</span></h3>
+    <br>
+    <h2 class="references_o">Images</h2>
+    <div class="pictures">
+      <p>●Source of the material used</p>
+      <div class="pictures_link">
+        <p><a href="https://icooon-mono.com/">ICOOON MONO</a>(https://icooon-mono.com/)</p>
+      </div>
+      <br>
+      <p>●Licensing</p>
+      <div class="pictures_link">
+        <p><a href="https://icooon-mono.com/license/">ライセンスについて</a>(https://icooon-mono.com/license/)</p>
+      </div>
+      <br>
+      <p>●URL of the page</p>
+      <br>
+      <p>●Source of the material used</p>
+      <div class="pictures_link">
+        <p><a href="http://pictogram2.com/?p=1011">Pictogram</a>(http://pictogram2.com/?p=1011)</p>
+        <p><a href="http://pictogram2.com/?p=1584">Pictogram</a>(http://pictogram2.com/?p=1584)</p>
+        <p><a href="http://pictogram2.com/?p=1698">Pictogram</a>(http://pictogram2.com/?p=1698)</p>
+        <p><a href="http://pictogram2.com/?p=1771">Pictogram</a>(http://pictogram2.com/?p=1771)</p>
+        <p><a href="http://pictogram2.com/?p=1586">Pictogram</a>(http://pictogram2.com/?p=1586)</p>
+      </div>
+      <br>
+      <p>●Licensing</p>
+      <div class="pictures_link">
+        <p><a href="http://pictogram2.com/?page_id=39">ライセンスとQ&A</a>(http://pictogram2.com/?page_id=39)</p>
+      </div>
+      <br>
+      <p>●URL of the page</p>
+      <br>      
+      <p>●Source of the material used</p>
+      <div class="pictures_link">
+        <p><a href="https://stock.adobe.com/jp/images/stop-racism-conceptual-image-against-intolerance-and-discrimination/271221841?prev_url=detail">手を繋いでいる画像</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/old-yellowing-index-card/23936618?prev_url=detail">古い紙</a>
+        </p>
+        <p><a href="https://stock.adobe.com/jp/images/%E3%81%B3%E3%82%8A%E3%81%B3%E3%82%8A%E3%81%AE%E5%8F%A4%E7%B4%99%E7%99%BD/227925118?prev_url=detail">ビリビリの古い紙</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/sign-end-racism-at-the-police-violence-march-in-vancouver-bc/354243029">END RACISMを掲げる</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/black-lives-matter/354890480">Black Lives Matterのプレート</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/black-lives-matter/354892876">Black Lives Matterのプレート2</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/people-raising-fist-with-unfocused-background-in-a-pacifist-protest-against-racism-demanding-justice/356518530">差別反対運動</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/human-hands-with-different-skin-colors-form-a-circle-vector-illustration-eps10/356937322">手のイラスト</a></p>
+        <p><a href="https://stock.adobe.com/jp/images/hoboken-nj-usa-june-5th-2020-black-lives-matter-peaceful-protest-in-hoboken-nj/355607985">差別反対運動2</a></p>
+      </div>
+      <br>
+      <p>●Licensing</p>
+      <div class="pictures_link">
+        <p><a href="https://www.adobe.com/jp/legal/terms.html">ライセンス</a>(https://www.adobe.com/jp/legal/terms.html)</p>
+      </div>
+      <br>
+      <p>●URL of page used</p>
+    </div>
 </div>
 <br>
 <div class="nextback">
@@ -155,6 +208,32 @@ export default {
   margin: 0 auto;
   font-size: 20px;
   margin-left: 25%;
+  margin-top: 1%;
+  font-weight: 700;
+}
+.sites{
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+.pictures{
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  font-size: 20px;
+  margin-left: 26%;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+.pictures_link{
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  font-size: 20px;
+  /* margin-left: 27%; */
   margin-top: 1%;
   font-weight: 700;
 }
