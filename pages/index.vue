@@ -127,7 +127,7 @@ export default {
   text-align: center;
   height: calc(100vh - 0px);
   overflow: hidden;
-  margin-top: -97px;
+  margin-top: -100px;
   
 }
 
