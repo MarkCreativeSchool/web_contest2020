@@ -10,6 +10,9 @@
      <br>
     <h3 class="start_organization"><span class="under">黒人差別反対組織について</span></h3>
     <br>
+    <p class="two_organization">黒人差別組織は差別廃止を目指し、様々な取り組みを行っています。最近ニュースで話題になったBlack Lives Matterや警察による暴力行為に対し抗議しているThe Movement for Black Livesなど、様々な組織が存在します。すべては紹介し切れませんが、参考ように三つ簡潔に説明します。下に表記されている組織は様々な取り組みを行っており、最近ではブリオナテイラーさんが亡くなった件で、Color of Changeはテイラーさんを殺害した警察官を捕まえるように抗議キャンペーンを行いました（まだ続いている）。組織を知ることで、様々な事件、抗議活動の理解が深まります。
+</p>
+    <br>
     <br>
     <h3 class="start_o">Black Lives Matter</h3>
     
@@ -120,6 +123,16 @@ export default {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.two_organization{
+  font-family: "Noto Sans JP"; 
+  width: 67%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
+
+}
 
 .paragraph{
   font-family: "Noto Sans JP"; 

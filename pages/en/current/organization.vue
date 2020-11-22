@@ -10,8 +10,9 @@
     
     <br>
     <h3 class="start_organization"><span class="under">About Organizations</span></h3>
-    <p class="two">
-
+    <br>
+    <p class="two_organization">
+    Black lives matter organizations are making countless efforts to abolish racism. To “Black Lives Matter” that have been broadcasted and shared several time in media recently, to “The Movement for Black Lives” who are making several contributions to abolish police brutality against black people, there are several organizations that are contributing to abolish racism. Though we cannot introduce all, we have listed three organizations for your reference. The organizations below are advocating for the abolishment of racism. For example, with the recent death of Breonna Taylor, “Color of Change” has made a campaign to protest that the policemen who killed her should be jailed immediately. By knowing these organizations, it will contribute greatly to your understanding of racism and what efforts and initiatives are taking place regarding racism. 
     </p>
     <br>
     <h3 class="start_o">Black Lives Matter</h3>
@@ -138,6 +139,16 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
+
+.two_organization{
+  font-family: "Noto Sans JP"; 
+  width: 67%; 
+  margin: 0 auto;
+  margin-top: 10px; 
+  font-size: 18px; 
+  text-indent: 1em;
+
+}
 
 .start_organization{
   font-weight: bold;
