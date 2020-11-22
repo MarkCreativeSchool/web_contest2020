@@ -12,8 +12,20 @@
     <br>
     <div>
      <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
-      <div class="discrimination"><li>現状の差別問題</li></div>
-      <div class="discrimination1"><li>黒人差別の歴史</li></div> 
+      <div class="discrimination">
+      <li>現状の差別問題</li>
+      <p class="introhome">世界では、差別はあらゆる所に潜んでいます。<br>それは性別や年齢、出身国や民族など様々ですが、どの差別もあってはならない事です。</p>
+      <div class="buttons">
+      <button class="introbutton"><nuxt-link to="/current/statistics/work" class="introlink">雇用問題</nuxt-link></button>
+      <button class="introbutton"><nuxt-link to="/current/statistics/education" class="introlink">教育問題</nuxt-link></button>
+      <button class="introbutton"><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="introlink">性差別</nuxt-link></button>
+      </div>
+      </div>
+      <div class="discrimination1">
+      <li>黒人差別の歴史</li>
+      <p class="introhome">差別の歴史を年代別に参照できるようにタイムライン形式で内容を参照することができます。<br><br></p>
+      <button class="introbutton"><nuxt-link to="/history" class="introlink">差別の歴史を見る＞＞</nuxt-link></button>
+      </div> 
     </div> 
     <div>
       <h2 class="biggertitle_jp"><span class="under">はじめに</span></h2>
@@ -84,6 +96,29 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
+.introbutton{
+  background-color: #ffa000;
+  color: #000000;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-color: #ffa000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.introbutton:hover{
+  color:#000000;
+}
+
+.introlink{
+  color: #000000;
+}
+
+.introlink:hover{
+  color: #ffa000;
+  background-color: #000000;
+}
 
 .test{
   position: relative;
@@ -91,6 +126,12 @@ export default {
   height: calc(100vh - 0px);
   overflow: hidden;
   
+}
+
+.introhome{
+  font-family: "Noto Sans JP"; 
+  font-size: 14px;
+  font-weight: none;
 }
 
 .maku{
