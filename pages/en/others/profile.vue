@@ -33,7 +33,7 @@
 
             <div class="content">
               <b>Ninjin</b> <br></br>
-              A high school student who loves Doraemon. My nickname is "Ninjin (carrot)" but the vegtable.... not so much<br></br>
+              A high school student who loves Doraemon. My nickname is "Ninjin (carrot)" but the vegetable.... not so much<br></br>
           <br>
             </div>
       </div>
@@ -47,6 +47,7 @@
             <div class="content">
              <b>Mikeke</b> <br></br>
               I love music. I especially am into Taylor Swift’s new album, Folklore. A potterhead, and I also enjoy the Marvel movies (MCU). I prefer cats over dogs. My replies are often slow when texting.  
+           <br><br>
             </div>
       </div>
       </div>
