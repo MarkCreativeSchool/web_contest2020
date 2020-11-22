@@ -149,8 +149,8 @@ export default {
   }
   .box{
     position:absolute;
-     background-color: #4CAF50;
-    opacity: 0.2;
+     /*background-color: #4CAF50;*/
+    opacity: 0;
     cursor: pointer;
     z-index: 10;
   }
