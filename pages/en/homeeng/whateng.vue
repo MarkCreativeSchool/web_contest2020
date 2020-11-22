@@ -100,7 +100,7 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 73%;
+  width: 50%;
   height: 500px; 
   margin-top: 0px; 
   margin-bottom: 30px;
