@@ -6,14 +6,14 @@
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
-        <div class="maku"><div class="aaa">a</div></div>
+        <div class="maku"><div class="aaa"></div></div>
         
       </div>
     <br>
     <div>
      <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
       <div class="discrimination"><li>現状の差別問題</li></div>
-      <div class="discrimination"><li>黒人差別の歴史</li></div> 
+      <div class="discrimination1"><li>黒人差別の歴史</li></div> 
     </div> 
     <div>
       <h2 class="biggertitle_jp"><span class="under">はじめに</span></h2>
@@ -156,11 +156,27 @@ export default {
   list-style: none;
   vertical-align: center;
   margin: 40px;
-  margin-left: 10%;
+  margin-left: 18%;
   background-color:  #f5f5f5;
   padding:  25px;             
   height:250px;
-  width: 30%;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination1{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
   position: relative;
   left: 5%;
   font-size: 25px;

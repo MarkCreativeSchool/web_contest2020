@@ -9,10 +9,13 @@
       </div>
    
     <br> 
- <h2 class="biggertitle"><mark>About Discrimination</mark></h2>
+ <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
+ <div class="discrimination"><li>Current problems</li></div>
+      <div class="discrimination1"><li>History of Racism</li></div> 
 
    <br> 
- <h2 class="biggertitle"><mark>Why?</mark></h2>
+  <h2 class="biggertitle_en"><span class="under">About this website</span></h2> 
+  <br>
 
     <h4 class="hometitle">Why we decided to make this website</h4>
     <p class="three">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
@@ -77,13 +80,22 @@ export default {
   font-size: 18px; 
 }*/
 
-.biggertitle{
+.biggertitle_en{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+/*.biggertitle{
   font-weight: bold;
   font-size: 24px;
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
    width: 68%; 
-}
+}*/
 
 mark {
   display: inline-block;
