@@ -29,7 +29,7 @@
         </nuxt-link>
 
         <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 3 }"> 
-        <span @click="toggleDropDown(3)">Other</span> 
+        <span @click="toggleDropDown(3)">Discrimination</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="downsub">Gender</nuxt-link></li>
               <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="downsub">Asian</nuxt-link></li>
@@ -131,7 +131,7 @@ export default {
   display:flex; 
   margin: 0 auto; 
   padding-top: 15px;
-  width: 75%;
+  width: 80%;
   float:right; 
 }
 

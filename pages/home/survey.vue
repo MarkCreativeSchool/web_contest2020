@@ -139,8 +139,8 @@ export default {
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
    width: 67%; 
-
 }
+
 
 .start{
   font-family: "Noto Sans JP"; 

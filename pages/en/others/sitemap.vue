@@ -10,6 +10,41 @@
     
      <br>
     <h3 class="start_sitemap"><span class="under">Site Map</span></h3>
+    <br>
+    <h6 class="title_sitemap">Top</h6>
+      <ul class="list_sitemap">
+      <li>Home</li>
+      <li>What?</li>
+      <li>Survey Results</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">History</h6>
+    <br>
+    <h6 class="title_sitemap">Incidents</h6>
+    <br>
+    <h6 class="title_sitemap">Statistics</h6>
+    <ul class="list_sitemap">
+      <li>Work</li>
+      <li>Education</li>
+      <li>Police Brutality, etc.</li>
+      <li>Organizations</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">Discrimination</h6>
+    <ul class="list_sitemap">
+      <li>Gender</li>
+      <li>Asian</li>
+      <li>Sexual Orientation</li>
+      <li>Religious</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">Others</h6>
+    <ul class="list_sitemap">
+      <li>Site Map</li>
+      <li>Profile</li>
+      <li>References</li>
+      </ul>
+<br>
     
 </div>
       <Footereng></Footereng>
@@ -44,6 +79,26 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
+
+  .list_sitemap{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 45%;
+    color: black;
+    list-style-type: circle;
+  }
+
+  .title_sitemap{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
+
 
  .start_sitemap{
     font-weight: bold;

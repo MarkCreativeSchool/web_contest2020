@@ -9,9 +9,40 @@
      </ol>
      <br>
     <h3 class="start_sitemap"><span class="under">サイトマップ</span></h3>
-    <p class="two_sitemap">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
-
-    </p>
+    <br>
+    <h6 class="title_sitemap">トップ</h6>
+      <ul class="list_sitemap">
+      <li>ホーム</li>
+      <li>差別とは？</li>
+      <li>アンケート結果</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">歴史</h6>
+    <br>
+    <h6 class="title_sitemap">現問題</h6>
+    <br>
+    <h6 class="title_sitemap">現状</h6>
+    <ul class="list_sitemap">
+      <li>雇用</li>
+      <li>教育</li>
+      <li>逮捕率など</li>
+      <li>組織</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">他の差別</h6>
+    <ul class="list_sitemap">
+      <li>性差別</li>
+      <li>アジア人差別</li>
+      <li>性的指向</li>
+      <li>宗教差別</li>
+      </ul>
+      <br>
+    <h6 class="title_sitemap">その他</h6>
+    <ul class="list_sitemap">
+      <li>サイトマップ</li>
+      <li>制作者紹介</li>
+      <li>参考文献</li>
+      </ul>
 
 
     </div> 
@@ -66,6 +97,25 @@ export default {
  .start_sitemap{
     font-weight: bold;
     font-size: 30px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
+
+  .list_sitemap{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Noto Sans JP"; 
+    margin: 0 auto;
+    width: 45%;
+    color: black;
+    list-style-type: circle;
+  }
+
+  .title_sitemap{
+    font-weight: bold;
+    font-size: 20px;
     font-family: "Noto Sans JP"; 
     margin: 0 auto;
     width: 50%;
