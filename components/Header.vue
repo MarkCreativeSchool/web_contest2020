@@ -1,14 +1,15 @@
 <template>
   <div class="fullhead">
-   <div class="toggle">
+   <div class="toggle" :class="{ isHome: isHome === true }">
    <div class="up-jp">
    <!-- <img class="logo" src="~/assets/logo_new_jp.png"> -->
-    <nuxt-link to="/"><img class="logo" src="~/assets/newlogo.png"></nuxt-link>
+    <nuxt-link to="/" v-if="isHome"><img class="logo" src="~/assets/newlogo.png"></nuxt-link>
+    <nuxt-link to="/" v-else><img class="logo" src="~/assets/black_logo.png"></nuxt-link>
 
    <!-- </div>
     <div class="toggle">-->
     <div class="uppersub_jp">
-        <nuxt-link to="" class="bar_jp"> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
         <span>トップ</span> 
         <ul class="sub_jp">
               <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
@@ -16,12 +17,12 @@
               <li><nuxt-link to="/survey" class="downsub">アンケート結果</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/history" class="bar_jp">歴史</nuxt-link>
-        <nuxt-link to="/currentproblems" class="bar_jp">現問題</nuxt-link>
+        <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link>
+        <nuxt-link to="/currentproblems" class="bar_jp" :class="{ isHome: isHome === true }">現問題</nuxt-link>
         
-        <nuxt-link to="" class="bar_jp"> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
         <span>現状</span>
-        <ul class="sub_jp">
+        <ul class="sub_jp" >
               <li><nuxt-link to="/current/statistics/work" class="downsub">雇用</nuxt-link></li>
               <li><nuxt-link to="/current/statistics/education" class="downsub">教育</nuxt-link></li>
               <li><nuxt-link to="/current/statistics/policebrutality" class="downsub">逮捕率など</nuxt-link></li>
@@ -29,7 +30,7 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_jp"> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
         <span>他の差別</span> 
         <ul class="sub_jp">
               <li><nuxt-link to="/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
@@ -40,7 +41,7 @@
             </ul>
         </nuxt-link>
         
-        <nuxt-link to="" class="bar_jp"> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
         <span>その他</span> 
         <ul class="sub_jp">
             <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
@@ -49,7 +50,7 @@
               <li><nuxt-link to="/others/references" class="downsub">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <a @click="toeng" class="bar_jp">英語</a>
+        <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">英語</a>
         </div>
   </div> 
   </div>
@@ -63,6 +64,14 @@ export default {
   data(){
     return {
       activeIndex: null, 
+    }
+  },
+  computed: {
+    isHome() {
+      if (this.$route.path === "/") {
+        return true
+      } 
+      return false
     }
   },
   methods: {
@@ -93,15 +102,15 @@ export default {
   height: 30%;
   position: relative;
   z-index: 100;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .up-jp{
     padding-top: 5px; 
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
-    background-color: black;
-    /* background: rgba(255,255,255,0.5); */
+    /* background-color: white; */
+    background: rgba(255,255,255,0);
     display: inline-block; 
     width: 100%;
     text-align: center;
@@ -112,6 +121,11 @@ export default {
   display: inline-block; 
   width: 100%;
   margin-bottom: 0px;
+  border-bottom: solid 1px #ddd;
+}
+
+.toggle.isHome{
+  border-bottom: none;
 }
 
 .uppersub_jp{
@@ -119,7 +133,7 @@ export default {
   margin: 0 auto; 
   padding-top: 15px;
    padding-bottom: 25px;
-  width: 75%;
+  width: 50%;
   float:right;
 }
 
@@ -135,10 +149,10 @@ export default {
 
 .bar_jp{
   position: relative;
-  color: white;
+  color: black;
   text-align: center;
-  padding-left: 30px; 
-  padding-right: 30px; 
+  padding-left:10px; 
+  padding-right: 10px; 
   padding-top: 7px; 
   padding-bottom: 7px;
   text-decoration: none;
@@ -148,6 +162,10 @@ export default {
   flex: 1; 
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
+}
+
+.bar_jp.isHome{
+  color:white;
 }
 
 .bar_jp:hover{
@@ -164,6 +182,17 @@ export default {
 
 .bar_jp .sub_jp li {
   padding-top: 0;
+  font-size: 16px;
+  border-bottom: solid 1px #222;
+}
+
+.bar_jp .sub_jp li:last-child{
+  border-bottom: none;
+}
+
+.bar_jp .sub_jp li a{
+  display: block;
+  padding: 10px 10px 5px 10px;
 }
 
 .bar_jp.active .sub_jp{
@@ -173,11 +202,13 @@ export default {
 
 .sub_jp{
   position: absolute;
-  background-color: #000; 
-  width: 100%; 
+  background-color: #444; 
+  border: solid 1px #222;
+  width: 160px; 
   position: absolute; 
   top: 100%; 
-  left: 0; 
+  left: -50%; 
+  margin-left: 20px;
   z-index: 10; 
   display: none; 
 }
@@ -193,7 +224,7 @@ export default {
 }*/
 
 .downsub{
-color: #ffffff; 
+  color: #ffffff; 
   font-family: "Rockwell"; 
   padding: 5px; 
 }

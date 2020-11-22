@@ -7,7 +7,6 @@
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
         <div class="maku"><div class="aaa"></div></div>
-        
       </div>
     <br>
     <div>
@@ -101,13 +100,18 @@ export default {
   font-size: 13px;
   margin-top: 20px;
   margin-right: 10px;
-  border-color: #ffa000;
   border-radius: 5px;
   padding: 5px;
+  width: 100px;
+  border: none;
+  box-shadow: 3px 3px 0px #cc8800;
 }
 
 .introbutton:hover{
-  background-color:#000000;
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
 }
 
 .introlink{
@@ -115,8 +119,7 @@ export default {
 }
 
 .introlink:hover{
-  color: #ffa000;
-  background-color: #000000;
+  color: #000000;
 }
 
 .test{
@@ -124,6 +127,7 @@ export default {
   text-align: center;
   height: calc(100vh - 0px);
   overflow: hidden;
+  margin-top: -97px;
   
 }
 
