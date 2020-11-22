@@ -10,6 +10,7 @@
         <div class="event4" @click="onClick('event4')"></div>
         <div class="event5" @click="onClick('event5')"></div>
         <div class="event6" @click="onClick('event6')"></div>
+        <div class="event7" @click="onClick('event7')"></div>
 
         <div class="linebar"></div>
         <div class="year">
@@ -28,7 +29,7 @@
     <event4 v-if="locationName==='event4'" @onClose="locationName=null"></event4>
     <event5 v-if="locationName==='event5'" @onClose="locationName=null"></event5>
     <event6 v-if="locationName==='event6'" @onClose="locationName=null"></event6>
-
+    <event7 v-if="locationName==='event7'" @onClose="locationName=null"></event7>
   </div>
 </template>
 
@@ -39,11 +40,11 @@ import event3 from "~/components/events_eng/4th/event3"
 import event4 from "~/components/events_eng/4th/event4"
 import event5 from "~/components/events_eng/4th/event5"
 import event6 from "~/components/events_eng/4th/event6"
-// import event7 from "~/components/events_eng/4rt/event7"
+import event7 from "~/components/events_eng/4th/event7"
 
 export default {
   name: "line4.vue",
-  components:{event1, event2, event3, event4, event5, event6, },
+  components:{event1, event2, event3, event4, event5, event6, event7},
   data(){
     return{
       locationName:null
