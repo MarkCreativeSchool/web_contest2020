@@ -8,13 +8,91 @@
          <li class="breadcrumb-item"> <nuxt-link to="/others/references">参考文献</nuxt-link></li>
      </ol>
     <br>
-    <h3 class="start_references"><span class="under">参考文献</span></h3>
-    <p class="two_references">個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、合理的に説明できないような異なった（不利益）取り扱いをすること。 差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、本来平等であるべきものを不平等に取り扱うという社会的差別である。 そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はない。 ＜本来平等であるべきもの＞という認識自体が、社会や時代とともに変化するからである。 つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになる。
-
-    </p>
-
-
-
+    <h3 class="start_references"><span class="under">参考文献・サイト</span></h3>
+    <br>
+    <h2 class="references_o">参考文献</h2>
+    <div class="books">
+      <p>・上杉忍著「アメリカ黒人の歴史ー奴隷貿易からオバマ大統領までー」(中公新書・2013/3/25)</p>
+      <br>
+      <p>・上坂昇「キング牧師とマルコムX」(講談社現代新書・1994/12/20)</p>
+      <br>
+      <p>・関眞興「一冊でわかるアメリカ史」(河出書房新社・2019/5/20)</p>
+    </div>
+    <br>
+    <h2 class="references_o">参考サイト</h2>
+    <div class="sites">
+      <p>・<a href="https://www.y-history.net/">世界史の窓</a> (https://www.y-history.net/) </p>
+      <br>
+      <p>・<a href="https://world-note.com/">世界史雑学ノート</a> (https://world-note.com/) </p>
+      <br>
+      <p>・<a href="https://www.history.com/">HISTORY</a> (https://www.history.com/) </p>
+      <br>
+      <p>・<a href="https://nihonsi-jiten.com/">日本史辞典.com</a> (https://nihonsi-jiten.com/) </p>
+      <br>
+      <p>・<a href="https://www.washingtonpost.com/">The Washington Post</a> (https://www.washingtonpost.com/) </p>
+      <br>
+      <p>・<a href="https://www.bls.gov/">U.S. BUREAU OF LABOR STATISTICS</a> (https://www.bls.gov/) </p>
+      <br>
+      <p>・<a href="https://ies.ed.gov/">Institute of Education Sciences</a> (https://ies.ed.gov/) </p>
+      <br>
+      <p>・<a href="https://www.businessinsider.jp/">BUSINESS INSIDER</a> (https://www.businessinsider.jp/) </p>
+      <br>
+      <p>・<a href="https://blacklivesmatter.com/">BLACK LIVES MATTER</a> (https://blacklivesmatter.com/) </p>
+      <br>
+      <p>・<a href="https://colorofchange.org/">COLOR OF CHANGE</a> (https://colorofchange.org/) </p>
+      <br>
+      <p>・<a href="https://m4bl.org/">M4BL</a> (https://m4bl.org/) </p>
+      <br>
+      <p>・<a href="http://www.duqsm.com/">THE DUQUESNE DUKE</a> (http://www.duqsm.com/) </p>
+      <br>
+      <p>・<a href="https://asia.nikkei.com/">NIKKEI Asia</a> (https://asia.nikkei.com/) </p>
+      <br>
+      <p>・<a href="https://www.theguardian.com/international">The Guardian</a> (https://www.theguardian.com/international) </p>
+      <br>
+      <p>・<a href="https://www.bbc.com/">BBC</a> (https://www.bbc.com/) </p>
+      <br>
+      <p>・<a href="https://jobrainbow.jp/magazine/">JobRainbow</a> (https://jobrainbow.jp/magazine/) </p>
+      <br>
+      <p>・<a href="https://www.huffingtonpost.jp/">HUFFPOST</a> (https://www.huffingtonpost.jp/) </p>
+      <br>
+      <p>・<a href="https://www.bengo4.com/topics/">弁護士ドットコムニュース</a> (https://www.bengo4.com/topics/) </p>
+      <br>
+      <p>・<a href="https://www.eeoc.gov/">U.S. Equal Employment Opportunity Commision</a> (https://www.eeoc.gov/) </p>
+      <br>
+      <p>・<a href="https://www.nytimes.com/">The NewYork Times</a> (https://www.nytimes.com/) </p>
+      <br>
+      <p>・<a href="https://whyy.org/">WHYY</a> (https://whyy.org/) </p>
+      <br>
+      <p>・<a href="https://muslimadvocates.org/">MUSLIM ADVOCATES</a> (https://muslimadvocates.org/) </p>
+      <br>
+      <p>・<a href="https://kusanomido.com/">草の実堂</a> (https://kusanomido.com/) </p>
+      <br>
+      <p>・<a href="https://www.irohabook.com/">Irohabook</a> (https://www.irohabook.com/) </p>
+      <br>
+      <p>・<a href="https://core.ac.uk/download/pdf/267841229.pdf">アメリカ黒人とスポーツ</a> (https://core.ac.uk/download/pdf/267841229.pdf) </p>
+      <br>
+      <p>・<a href="https://www.city-journal.org/">CITY JOURNAL</a> (https://www.city-journal.org/) </p>
+      <br>
+      <p>・<a href="https://www.afpbb.com/?cx_part=nav">AFP BB News</a> (https://www.afpbb.com/?cx_part=nav) </p>
+      <br>
+      <p>・<a href="https://edition.cnn.com/">CNN</a> (https://edition.cnn.com/) </p>
+      <br>
+      <p>・<a href="https://www.cincinnati.com/">Cincinnati.com</a> (https://www.cincinnati.com/) </p>
+      <br>
+      <p>・<a href="https://www.nbcnews.com/">NBC NEWS</a> (https://www.nbcnews.com/) </p>
+      <br>
+      <p>・<a href="https://newsphere.jp/">NewSphere</a> (https://newsphere.jp/) </p>
+      <br>
+      <p>・<a href="https://news.yahoo.co.jp/">YAHOO! JAPAN</a> (https://news.yahoo.co.jp/) </p>
+      <br>
+      <p>・<a href="https://www.instyle.com/">InStyle</a> (https://www.instyle.com/) </p>
+      <br>
+      <p>・<a href="https://www.theskanner.com/">THE Skanner</a> (https://www.theskanner.com/) </p>
+      <br>
+      <p>・<a href="https://front-row.jp/">FRONTROW</a> (https://front-row.jp/) </p>
+      <br>
+      <p>・<a href="https://www.excite.co.jp/news/">exciteニュース</a> (https://www.excite.co.jp/news/) </p>
+    </div>
     </div> 
      <div class="nextback">
             <nuxt-link to="/others/profile"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
@@ -67,6 +145,20 @@ export default {
   text-align: center; 
 }*/
 
+.references_o{
+  font-family: "Noto Sans JP"; 
+  color: black;
+  /* background-color: #ffa000; */
+  /* background-position: center center; */
+  border-left: solid 5px #ffa000;
+  width: 50%; 
+  margin: 0 auto;
+  font-size: 25px; 
+  /* border-radius: 3px; */
+  font-weight: 800;
+  /* text-align: center;  */
+}
+
 .two_references{
   font-family: "Noto Sans JP"; 
   width: 50%; 
@@ -84,6 +176,24 @@ export default {
     width: 50%;
     color: black;
   }
+
+.books{
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+.sites{
+  font-family: "Noto Sans JP"; 
+  margin: 0 auto;
+  font-size: 20px;
+  margin-left: 25%;
+  margin-top: 1%;
+  font-weight: 700;
+}
 
 .more{
   font-family: "Noto Sans JP"; 
