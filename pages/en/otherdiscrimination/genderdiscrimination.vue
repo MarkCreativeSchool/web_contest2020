@@ -29,7 +29,7 @@
              Later on, Hokutoumi, Director of the Sumo association apologized saying that the announcement was inappropriate at that moment. 
              Furthermore, it was found out later on that after the women finished urgent care on the mayor and got off the arena, <mark class="highlights"><b>she was thrown salt by the sumo referees</b></mark>.
               This caused an outrage on the internet, and again, the sumo association received criticism for their poor behavior. The director later on gave a comment regarding this problem, but was deemed that it lacked explanation and received criticism. </p>
-            <br></br>
+            <br>
             <h6 class="program_gender">2018 Grammy Gender Inequality (US)</h6>
             <hr>
             <br>
@@ -38,7 +38,7 @@
              This comment received heavy criticism from the general public and musical artists. 
              Halsey, a famous singer commented <b>“Female artists came HARD in 2017. But the nominees are selected by peers and their opinion of the music. Which means it’s a conversation about the standards of which the ENTIRE INDUSTRY expects women to uphold.”</b> as well as the Annenberg Inclusion Initiative (initiative that aims for researched-based solutions to tackle inequality) commented <b>“How do women "step up" in music when only 22% of artists, 12% of writers and 2% of producers are female?” </b>and further stated <b>“What is the composition of your membership and how are YOU stepping up to counter bias?”</b>
               Later on, Neil Portnow apologized and claimed his comment was taken out of context. </p>
-            <br></br>  
+            <br>
         </div>
 
     </div> 

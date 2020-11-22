@@ -3,13 +3,13 @@
    <div class="toggle">
    <div class="up-jp">
    <!-- <img class="logo" src="~/assets/logo_new_jp.png"> -->
-    <img class="logo" src="~/assets/newlogo.png">
+    <nuxt-link to="/"><img class="logo" src="~/assets/newlogo.png"></nuxt-link>
 
    <!-- </div>
     <div class="toggle">-->
     <div class="uppersub_jp">
-        <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 1 }"> 
-        <span @click="toggleDropDown(1)">トップ</span> 
+        <nuxt-link to="" class="bar_jp"> 
+        <span>トップ</span> 
         <ul class="sub_jp">
               <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
               <li><nuxt-link to="/home/what" class="downsub">差別とは？</nuxt-link></li>
@@ -19,8 +19,8 @@
         <nuxt-link to="/history" class="bar_jp">歴史</nuxt-link>
         <nuxt-link to="/currentproblems" class="bar_jp">現問題</nuxt-link>
         
-        <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 2 }"> 
-        <span @click="toggleDropDown(2)">現状</span> 
+        <nuxt-link to="" class="bar_jp"> 
+        <span>現状</span>
         <ul class="sub_jp">
               <li><nuxt-link to="/current/statistics/work" class="downsub">雇用</nuxt-link></li>
               <li><nuxt-link to="/current/statistics/education" class="downsub">教育</nuxt-link></li>
@@ -29,8 +29,8 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 3 }"> 
-        <span @click="toggleDropDown(3)">他の差別</span> 
+        <nuxt-link to="" class="bar_jp"> 
+        <span>他の差別</span> 
         <ul class="sub_jp">
               <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
               <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="downsub">アジア人差別</nuxt-link></li>
@@ -40,8 +40,8 @@
             </ul>
         </nuxt-link>
         
-        <nuxt-link to="" class="bar_jp" :class="{ 'active': activeIndex === 4 }"> 
-        <span @click="toggleDropDown(4)">その他</span> 
+        <nuxt-link to="" class="bar_jp"> 
+        <span>その他</span> 
         <ul class="sub_jp">
             <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
               <li><nuxt-link to="/others/sitemap" class="downsub">サイトマップ</nuxt-link></li>
@@ -49,7 +49,8 @@
               <li><nuxt-link to="/others/references" class="downsub">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/en/homeeng/" class="bar_jp">ENGLISH</nuxt-link>
+        <!-- <nuxt-link to="/en/homeeng/" class="bar_jp">ENGLISH</nuxt-link> -->
+        <a @click="toeng" class="bar_jp">英語</a>
         </div>
   </div> 
   </div>
@@ -72,6 +73,13 @@ export default {
        } else{
          this.activeIndex = num
        }
+    },
+    toeng(){
+      const path = this.$route.path
+      console.log(path)
+      const newPath = "/en" + path
+      console.log(newPath)
+      this.$router.push(newPath)
     }
   }
 }
@@ -124,6 +132,7 @@ export default {
 } 
 
 .bar_jp{
+  position: relative;
   color: white;
   text-align: center;
   padding-left: 30px; 
@@ -143,12 +152,25 @@ export default {
   color: #ffa000; 
 }
 
+.bar_jp .sub_jp {
+  z-index: 2000;
+}
+
+.bar_jp:hover .sub_jp {
+  display: block;
+}
+
+.bar_jp .sub_jp li {
+  padding-top: 0;
+}
+
 .bar_jp.active .sub_jp{
   display: block; 
   z-index: 2000;
 }
 
 .sub_jp{
+  position: absolute;
   background-color: #000; 
   width: 100%; 
   position: absolute; 

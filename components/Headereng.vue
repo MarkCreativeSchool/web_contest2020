@@ -8,18 +8,18 @@
   <!--  </div>
     <div class="toggle">-->
     <div class="uppersub_eng">
-        <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 1 }"> 
-        <span @click="toggleDropDown(1)">Top</span> 
+        <nuxt-link to="" class="bar_en"> 
+        <span>Top</span> 
         <ul class="sub">
-              <li><nuxt-link to="/en/homeeng" class="downsub">Home</nuxt-link></li>
-              <li><nuxt-link to="/en/homeeng/whateng" class="downsub">What?</nuxt-link></li>
-              <li><nuxt-link to="/en/homeeng/survey" class="downsub">Survey Results</nuxt-link></li>
+              <li><nuxt-link to="/en" class="downsub">Home</nuxt-link></li>
+              <li><nuxt-link to="/en/whateng" class="downsub">What?</nuxt-link></li>
+              <li><nuxt-link to="/en/survey" class="downsub">Survey Results</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar_en">History</nuxt-link>
         <nuxt-link to="/en/currentproblems" class="bar_en">Incidents</nuxt-link>
-       <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 2 }"> 
-        <span @click="toggleDropDown(2)">Statistics</span> 
+       <nuxt-link to="" class="bar_en"> 
+        <span>Statistics</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/current/statistics/work" class="downsub">Work</nuxt-link></li>
               <li><nuxt-link to="/en/current/statistics/education" class="downsub">Education</nuxt-link></li>
@@ -28,8 +28,8 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 3 }"> 
-        <span @click="toggleDropDown(3)">Discrimination</span> 
+        <nuxt-link to="" class="bar_en"> 
+        <span>Discrimination</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="downsub">Gender</nuxt-link></li>
               <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="downsub">Asian</nuxt-link></li>
@@ -39,8 +39,8 @@
             </ul>
         </nuxt-link>
         
-        <nuxt-link to="" class="bar_en" :class="{ 'active': activeIndex === 4 }"> 
-        <span @click="toggleDropDown(4)">Others</span> 
+        <nuxt-link to="" class="bar_en"> 
+        <span>Others</span> 
         <ul class="sub">
             <!--  <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>-->
               <li><nuxt-link to="/en/others/sitemap" class="downsub">Site Map</nuxt-link></li>
@@ -48,7 +48,8 @@
               <li><nuxt-link to="/en/others/references" class="downsub">References</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/" class="bar_en">日本語</nuxt-link>
+        <!-- <nuxt-link to="/" class="bar_en">日本語</nuxt-link> -->
+        <a @click="tojp" class="bar_en">日本語</a>
    </div>
   </div> 
   </div>
@@ -71,8 +72,19 @@ export default {
        } else{
          this.activeIndex = num
        }
+    },
+    tojp(){
+      console.log(this.$route)
+      const path = this.$route.path
+      const newPath = path.replace(/^\/en/, "")
+      console.log(newPath)
+      if (newPath === ""){
+        this.$router.push("/")
+      } else{
+        this.$router.push(newPath)
+      }
     }
-  }
+  },
 }
 
 
@@ -138,7 +150,7 @@ export default {
 .bar_en:hover{
   color: #ffa000; 
 }
-.bar_en.active .sub{
+.bar_en:hover .sub{
   display: block; 
   z-index:2000;
 }
