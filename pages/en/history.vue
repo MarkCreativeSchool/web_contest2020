@@ -59,6 +59,8 @@
     <line5 v-if="locationName==='line5'" @onClose="locationName=null"></line5>
     <line6 v-if="locationName==='line6'" @onClose="locationName=null"></line6>
     <line7 v-if="locationName==='line7'" @onClose="locationName=null"></line7>
+    <line8 v-if="locationName==='line8'" @onClose="locationName=null"></line8>
+
 
       <Footereng></Footereng>
   </div>
@@ -74,10 +76,11 @@ import line4 from "~/components/timeline_eng/line4"
 import line5 from "~/components/timeline_eng/line5"
 import line6 from "~/components/timeline_eng/line6"
 import line7 from "~/components/timeline_eng/line7"
+import line8 from "~/components/timeline_eng/line8"
 
 export default {
   name: "Index",
-  components: { Headereng, Footereng, line1, line2, line3, line4, line5, line6, line7, },
+  components: { Headereng, Footereng, line1, line2, line3, line4, line5, line6, line7, line8},
   head() {
     return {
       title: "History-Introducing Racism for High School Students by High School Students-高校生による高校生のため黒人差別",
