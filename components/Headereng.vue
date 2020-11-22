@@ -2,7 +2,7 @@
   <div class="fullhead">
    <div class="toggle">
    <div class="up">
-   <img class="logo" src="~/assets/newlogoeng.png">
+   <nuxt-link to="/en"><img class="logo" src="~/assets/newlogoeng.png"></nuxt-link>
   
   
   <!--  </div>
@@ -12,7 +12,7 @@
         <span>Top</span> 
         <ul class="sub">
               <li><nuxt-link to="/en" class="downsub">Home</nuxt-link></li>
-              <li><nuxt-link to="/en/whateng" class="downsub">What?</nuxt-link></li>
+              <li><nuxt-link to="/en/what" class="downsub">What?</nuxt-link></li>
               <li><nuxt-link to="/en/survey" class="downsub">Survey Results</nuxt-link></li>
             </ul>
         </nuxt-link>

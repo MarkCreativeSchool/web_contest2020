@@ -4,7 +4,7 @@
     <div class="info">
     <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/home/what">アンケート結果</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="">アンケート結果</nuxt-link></li>
      </ol>
     
    <!--  <h3 class="start">アンケート</h3>-->

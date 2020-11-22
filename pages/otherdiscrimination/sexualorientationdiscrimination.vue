@@ -5,7 +5,7 @@
     <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
          <li class="breadcrumb-item"> 他の差別</li>
-         <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination">性的指向</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination">性的指向</nuxt-link></li>
      </ol>
     <br>
     <h3 class="start_sexualorientation"><span class="under">性的指向差別</span></h3>

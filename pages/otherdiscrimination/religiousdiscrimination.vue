@@ -5,7 +5,7 @@
     <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
          <li class="breadcrumb-item"> 他の差別</li>
-         <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination">宗教差別</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/otherdiscrimination/religiousdiscrimination">宗教差別</nuxt-link></li>
      </ol>
      <br>
     <h3 class="start_religion"><span class="under">宗教差別</span></h3>
@@ -28,7 +28,7 @@
             さらに調査したところ、彼のソーシャルメディアページに反イスラム教の感情があった事が明らかになった。
             3人の男性は市長によって英雄と見なされました。
             また、元大統領候補のヒラリークリントンは、<b>「この人種差別的虐待に耐える必要はありません。それを止めるために命を与える必要はありません。」</b>とコメントした。</p>
-            <br></br>
+            <br />
             <h6 class="program_religion">ウィルミントン公民プール事件</h6>
             <hr>
             <br>
@@ -37,7 +37,7 @@
             ウィルミントンに本部を置くイスラム教徒の青少年センターが、教師と生徒に対する差別的な行動について、プールに対して訴訟を起こした。 
             ウィルミントン市長のマイク市長は7月に謝罪を発表しましたが、多くの人がこの問題に十分に対処していないことで同市を批判した。 
             2019年1月、この件に関して和解が発表された。和解について詳しくは、<a href="https://muslimadvocates.org/files/Darul-Amaanah-Filed-Settlement.pdf#page=14" target="_blank">こちら</a>をクリックしてください（正式な和解は英語で書かれています）。</p>
-            <br></br>  
+            <br />  
         </div>
     </div> 
     <div class="nextback">

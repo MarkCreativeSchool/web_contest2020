@@ -4,7 +4,7 @@
    <div class="info">
      <ol class="bread">
          <li class="breadcrumb-item"> <nuxt-link to="/">ホーム</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/home/what">差別とは？</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="">差別とは？</nuxt-link></li>
      </ol>
 <br>
     <h3 class="start_what"><span class="under">差別とは？</span></h3>

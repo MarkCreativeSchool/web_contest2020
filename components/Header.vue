@@ -12,8 +12,8 @@
         <span>トップ</span> 
         <ul class="sub_jp">
               <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
-              <li><nuxt-link to="/home/what" class="downsub">差別とは？</nuxt-link></li>
-              <li><nuxt-link to="/home/survey" class="downsub">アンケート結果</nuxt-link></li>
+              <li><nuxt-link to="/what" class="downsub">差別とは？</nuxt-link></li>
+              <li><nuxt-link to="/survey" class="downsub">アンケート結果</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar_jp">歴史</nuxt-link>
@@ -32,11 +32,11 @@
         <nuxt-link to="" class="bar_jp"> 
         <span>他の差別</span> 
         <ul class="sub_jp">
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/asiandiscrimination" class="downsub">アジア人差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination" class="downsub">性的指向</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/religiousdiscrimination" class="downsub">宗教差別</nuxt-link></li>
-              <li><nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination" class="downsub">他</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/asiandiscrimination" class="downsub">アジア人差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination" class="downsub">性的指向</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/religiousdiscrimination" class="downsub">宗教差別</nuxt-link></li>
+              <li><nuxt-link to="/otherdiscrimination/littleknowndiscrimination" class="downsub">他</nuxt-link></li>
             </ul>
         </nuxt-link>
         
@@ -92,6 +92,9 @@ export default {
 
 .fullhead{
   height: 30%;
+  position: relative;
+  z-index: 100;
+  margin-bottom: 30px;
 }
 
 .up-jp{
