@@ -18,7 +18,7 @@
       <div class="buttons">
       <button class="introbutton"><nuxt-link to="/current/statistics/work" class="introlink">雇用問題</nuxt-link></button>
       <button class="introbutton"><nuxt-link to="/current/statistics/education" class="introlink">教育問題</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/otherdiscrimination/otherdiscrimination/genderdiscrimination" class="introlink">性差別</nuxt-link></button>
+      <button class="introbutton"><nuxt-link to="/current/statistics/policebrutality" class="introlink">逮捕率など</nuxt-link></button>
       </div>
       </div>
       <div class="discrimination1">

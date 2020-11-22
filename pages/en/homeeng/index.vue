@@ -10,8 +10,22 @@
    
     <br> 
  <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
- <div class="discrimination"><li>Current problems</li></div>
-      <div class="discrimination1"><li>History of Racism</li></div> 
+ <div class="discrimination">
+ <li>Current problems</li>
+  <p class="introhome">Discrimination is a worldwide issue that has been around for centuries. <br> Discrimination can occur based on race, sexuality, and age, but there should <b>never</b> be racism.</p>
+      <div class="buttons">
+      <button class="introbutton"><nuxt-link to="/en/current/statistics/work" class="introlink">Work</nuxt-link></button>
+      <button class="introbutton"><nuxt-link to="/en/current/statistics/education" class="introlink">Education</nuxt-link></button>
+      <button class="introbutton"><nuxt-link to="/en/current/statistics/policebrutality" class="introlink">Police Brutality</nuxt-link></button>
+      </div>
+ </div>
+     
+      <div class="discrimination1">
+      <li>History of Racism</li>
+       <p class="introhome">To compare/contrast the events that occurred with the history of racism, we have made a timeline that you can browse to investigate further on how historic event had an impact on racism in the US.</p>
+      <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History>></nuxt-link></button>
+      
+      </div> 
 
    <br> 
   <h2 class="biggertitle_en"><span class="under">About this website</span></h2> 
@@ -79,6 +93,31 @@ export default {
   margin-top: 10px; 
   font-size: 18px; 
 }*/
+
+
+.introbutton{
+  background-color: #ffa000;
+  color: #000000;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-right: 10px;
+  border-color: #ffa000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.introbutton:hover{
+  background-color:#000000;
+}
+
+.introlink{
+  color: #000000;
+}
+
+.introlink:hover{
+  color: #ffa000;
+  background-color: #000000;
+}
 
 .biggertitle_en{
   font-weight: bold;
