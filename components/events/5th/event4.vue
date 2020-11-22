@@ -5,7 +5,7 @@
       <div class="double">
         <div>
           <h6 class="double-title"><b>十月革命(1917年11月)</b></h6>
-          <p class="double-context">ウラジーミル・レーニン率いるソビエト政権が「平和に関する布告」を発表。無併合＿無賠償、民族自決を主とした原則。</p>
+          <p class="double-context">ウラジーミル・レーニン率いるソビエト政権が「平和に関する布告」を発表。無併合、無賠償、民族自決を主とした原則。</p>
         </div>
       </div>
       <h6 class="xButton" @click="onClose">x</h6>
