@@ -140,6 +140,7 @@ export default {
 }
 .bar_en.active .sub{
   display: block; 
+  z-index:2000;
 }
 
 .menu{

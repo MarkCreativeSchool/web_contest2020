@@ -51,6 +51,11 @@
       </div>
       </div>
 </div>
+<br>
+<div class="nextback">
+            <nuxt-link to="/en/others/sitemap"><img class="back" src="~/assets/back.png"></nuxt-link>
+            <nuxt-link to="/en/others/references"><img class="next" src="~/assets/next.png"></nuxt-link>
+        </div>
       <Footereng></Footereng>
   </div>
 </template>
