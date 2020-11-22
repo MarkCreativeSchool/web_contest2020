@@ -149,86 +149,80 @@ export default {
   }
   .box{
     position:absolute;
-    /* background-color: #4CAF50; */
-    opacity: 0;
+     background-color: #4CAF50;
+    opacity: 0.2;
     cursor: pointer;
     z-index: 10;
   }
   .or{
-    top: 470px;
+    top: 427px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
   .ca{
-    top: 545px;
-    left: 35px;
+    top: 512px;
+    left: 47px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
   .mn{
-    top: 450px;
+    top: 403px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
   .mo{
-    top: 650px;
+    top: 609px;
     left: 539px;
     width: 91px;
     height: 80px;
   }
   .il{
-    top: 580px;
+    top: 542px;
     left: 633px;
     width: 50px;
     height: 107px;
   }
   .ky{
-    top: 640px;
+    top: 603px;
     left: 686px;
     width: 104px;
     height: 55px;
   }
   .oh{
-    top: 550px;
+    top: 511px;
     left: 746px;
     width: 63px;
     height: 64px;
   }
   .ny{
-    top: 460px;
+    top: 412px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
-  .ma{
-    top: 450px;
-    left: 934px;
-    width: 44px;
-    height: 15px;
-  }
   .pa{
-    top: 540px;
+    top: 499px;
     left: 817px;
     width: 84px;
     height: 53px;
   }
   .md{
-    top: 600px;
+    top: 572px;
     left: 863px;
     width: 68px;
     height: 55px;
   }
   .ga{
-    top: 765px;
+    top: 726px;
     left: 733px;
     width: 81px;
     height: 86px;
   }
   .fl{
-    top: 865px;
+    top: 827px;
     left: 720px;
     width: 140px;
     height: 110px;

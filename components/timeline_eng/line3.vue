@@ -5,6 +5,8 @@
         <div class="event-title">Chapter 3: History after the Revolutionary War</div>
         <!--イベント-->
         <div class="event1" @click="onClick('event1')"></div>
+        <div class="event2" @click="onClick('event2')"></div>
+
 
         <div class="linebar"></div>
         <div class="year">
@@ -18,16 +20,18 @@
       </div>
 
     <event1 v-if="locationName==='event1'" @onClose="locationName=null"></event1>
+    <event2 v-if="locationName==='event2'" @onClose="locationName=null"></event2>
 
   </div>
 </template>
 
 <script>
 import event1 from "~/components/events_eng/3rd/event1"
+import event2 from "~/components/events_eng/3rd/event2"
 
 export default {
   name: "line3.vue",
-  components:{event1, },
+  components:{event1, event2, },
   data(){
     return{
       locationName:null
