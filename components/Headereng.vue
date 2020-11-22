@@ -148,7 +148,7 @@ export default {
 }
 
 .sub{
-  background-color: #333; 
+  background-color: #000;
   width: 100%; 
   position: absolute; 
   top: 100%; 
