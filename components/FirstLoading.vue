@@ -25,8 +25,10 @@ export default {
     },
     methods: {
         close(){
+            setTimeout(() => {
             this.$emit("close");
             // window.setTimeout("close", "5")
+            }, 500)
         }, 
     }
 }
