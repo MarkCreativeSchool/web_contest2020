@@ -41,8 +41,8 @@
         </div>
     </div> 
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/otherdiscrimination/otherdiscrimination/littleknowndiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/littleknowndiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
     
      <Footer></Footer>

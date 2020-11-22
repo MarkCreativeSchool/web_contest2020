@@ -3,12 +3,12 @@
   <Headereng></Headereng>
    <div class="info">
    <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Statistics</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/current/organization">Organization</nuxt-link></li>
      </ol>
     
-    <br>
+    <br />
     <h3 class="start_organization"><span class="under">About Organizations</span></h3>
     <br>
     <p class="two_organization">

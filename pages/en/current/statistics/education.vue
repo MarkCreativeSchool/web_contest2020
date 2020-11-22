@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Statistics</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/education">Education</nuxt-link></li>
      </ol>

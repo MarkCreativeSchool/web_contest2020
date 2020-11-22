@@ -64,8 +64,7 @@
     <br>
 
     <div class="nextback">
-          <!--  <nuxt-link to="/home/what"><img class="back" src="~/assets/modoru2.png"></nuxt-link>-->
-            <nuxt-link to="/home/what"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/what"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
 
   <Footer></Footer>

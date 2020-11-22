@@ -1,7 +1,7 @@
 <template>
   <div class="full">
     <ul class="down">
-        <li><a class="subpage" href="/en/homeeng/">Home</a></li>
+        <li><a class="subpage" href="/en">Home</a></li>
         <li><a class="subpage" href="/en/others/sitemap">Sitemap</a></li>
         <li class="statement">第23回全国中学高校WEBコンテスト参加作品</li>
     </ul>

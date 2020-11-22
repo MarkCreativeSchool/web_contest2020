@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination">Sexual Orientation</nuxt-link></li>
      </ol>
@@ -13,12 +13,11 @@
        Sexual orientation discrimination is <mark class="highlights"><b>discrimination againt one’s sexuality</b></mark>. 
        This act of discrimination targets <b> LGBTQ+ communities (L=Lesbian, G=Gay, B=Bisexual, T=Transgender, Q=Queer, +=other sexual identities such as pansexual, asexual, and omnisexual)</b>. 
        Types of discrimination includes both direct and indirect discrimination as well as harassment.  
-    <br></br>
+    <br />
     <div class="logoimage">
     <img class="sexualorientation" src="~/assets/gendersign.png">
     <img class="sexualorientation" src="~/assets/heart.png">
     </div>
-    </p>
 
     <h3 class="start_sexualorientation"><span class="under">Current News</span></h3>
        
@@ -32,7 +31,7 @@
             The nightclub had several homosexual customers which Martin was aware of, and he often made it clear that he was homophobic. 
             His relatives claim that it could have been a hate crime. 
 </p>
-            <br></br>
+            <br />
             <h6 class="program_orientation">Incident of outing at Hitotsubashi University (Japan)</h6>
             <hr>
             <p class="campaign_orientation">In 2015, April, male student<i> A</i> from Hitotsubashi University confessed to male student <i>B</i> on messaging app, Line. 
@@ -40,7 +39,7 @@
             This act is called <b>outing</b>. After it was spread that student <i>A</i> was homosexual, he eventually got overwhelmed and committed suicide that year’s August. 
             After he committed suicide, <mark class="highlights"><b>students gathered in front of the university to hold a memorial rally</b></mark> in honor of student A. 
 </p>
-            <br></br>  
+            <br /> 
         </div>
     </div> 
     <div class="nextback">

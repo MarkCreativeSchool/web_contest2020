@@ -59,7 +59,7 @@
     <br>
      <div class="nextback">
           <!--  <nuxt-link to="/en/current/statistics/work"><img class="back" src="~/assets/back2.png"></nuxt-link>-->
-            <nuxt-link to="/en/homeeng/whateng"><img class="next" src="~/assets/next.png"></nuxt-link>
+            <nuxt-link to="/en/what"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
 
   <Footereng></Footereng>

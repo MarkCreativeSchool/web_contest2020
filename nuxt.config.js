@@ -1,6 +1,12 @@
 
+const routerBase = process.env.DEPLOY_ENV === 'PRODUCTION' ? {
+  router: {
+    base: '/tqj23/230005R/'
+  }
+} : {}
 export default {
   mode: 'universal',
+  ...routerBase,
   /*
   ** Headers of the page
   */

@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/asiandiscrimination">Asian Discrimination</nuxt-link></li>
      </ol>
@@ -11,7 +11,7 @@
     <h3 class="start_asia"><span class="under">Asian Discrimination</span></h3>
     <p class="two_asia">
         Asian discrimination is one form of discrimination due to color/race, mostly occurring in locations such as the US and Europe. Similar to discrimination against black communities, Asian communities are often <mark class="highlights"><b>attacked/insulted by their color, and also looked down upon</b></mark>. While not as known as discrimination against black communities, it is a major global issue that has been around for a long time. 
-<br></br>
+<br />
 <img class="drawings" src="~/assets/asia.jpg">
     </p>
 
@@ -26,9 +26,9 @@
              Fears and insecurities non-Asians carry seems to be sparking criticisms of Asians for “bringing” and “spreading” the virus. 
              Furthermore, they are claiming that <mark class="highlights"><b>Asians are the COVID-19</b></mark>.
               Several reports have been notified where Asians have been discriminated against in other countries outside of Asia including Europe, Africa, and North America. 
-                                <br></br>Ex: The Asian Pacific Policy & Planning Council and Chinese for Affirmative Action reported that there have been 1,497 cases of discrimination during March 19~April 15 in the U.S. Based on the data collected, more than 60% of the reports were verbal bullying. Other actions reported included shunning, physical assault, workplace discrimination, and being prohibited/barred by some transportation systems such as trains and taxis. 
+                                <br />Ex: The Asian Pacific Policy & Planning Council and Chinese for Affirmative Action reported that there have been 1,497 cases of discrimination during March 19~April 15 in the U.S. Based on the data collected, more than 60% of the reports were verbal bullying. Other actions reported included shunning, physical assault, workplace discrimination, and being prohibited/barred by some transportation systems such as trains and taxis. 
                                 </p>
-            <br></br>
+            <br />
             <h6 class="program_asia">Racial bias against Asian Americans at Harvard University (US)</h6>
             <hr>
             <br>
@@ -38,7 +38,7 @@
             Furthermore, Edward Blum of the SFFA group claimed that while the Asian-American applicants performed higher than the other applicants, <mark class="highlights"><b>they were not accepted based on subjective “personal” ratings</b></mark>.
              Harvard university denied these charges, claiming that their use of race in admissions was legal and that they did not conduct subjective personal ratings whilst accepting applicants. 
 </p>
-            <br></br>  
+            <br /> 
         </div>
         
 

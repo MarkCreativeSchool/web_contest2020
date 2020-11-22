@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination">Others</nuxt-link></li>
      </ol>
@@ -11,26 +11,26 @@
     <h3 class="start_little"><span class="under">Little known discrimination</span></h3>
     <p class="two_little">
         While major forms of discrimination are often brought up today, <mark class="highlights"><b>there are several forms of discrimination that is still unknown</b></mark>. Here are some examples of discrimination that is not noticed but should be. 
-    <br></br>
+    <br />
     </p>
 
        <div class="activity">
             <h6 class="program_little">Discrimination based on educational status</h6>
             <hr>
             <p class="campaign_little">Discrimination based on one’s educational level (college graduate, high school graduate, and high school drop-out) and the mistreatment that occurs. </p>
-            <br></br>
+            <br />
             <h6 class="program_little">Discrimination against pregnant women</h6>
             <hr>
             <p class="campaign_little">There are several cases where pregnant women face discrimination at work, as well as in the public, such as public transportation. </p>
-            <br></br>  
+            <br /> 
             <h6 class="program_little">Age discrimination</h6>
             <hr>
             <p class="campaign_little">Discrimination against people with a certain age is also an issue that is being raised today. </p>
-            <br></br>  
+            <br />  
             <h6 class="program_little">Discrimination against handicapped people/people with disorders</h6>
             <hr>
             <p class="campaign_little">Discrimination people who have disorders (ADD, Dyslexia, Alzheimer's disease, etc) and/or handicapped (a part of their body is paralyzed, etc.). </p>
-            <br></br>  
+            <br /> 
         </div>
         
     </div> 

@@ -3,8 +3,8 @@
   <Headereng></Headereng>
    <div class="info">
    <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/survey">Survey Results</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/survey">Survey Results</nuxt-link></li>
      </ol>
     
      <br>
@@ -73,8 +73,7 @@
 
     </div> 
     <div class="nextback">
-        <nuxt-link to="/en/homeeng/whateng"><img class="back" src="~/assets/back2.png"></nuxt-link>
-           <!-- <nuxt-link to="/en/homeeng/survey"><img class="next" src="~/assets/next.png"></nuxt-link>-->
+        <nuxt-link to="/en/what"><img class="back" src="~/assets/back2.png"></nuxt-link>
         </div>
     
 

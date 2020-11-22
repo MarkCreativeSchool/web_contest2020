@@ -3,8 +3,8 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/whateng">What?</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en/what">What?</nuxt-link></li>
      </ol>
    <br>
     <h3 class="start_what"><span class="under">What is discrimination?</span></h3>
@@ -15,7 +15,7 @@
     Even within social discrimination though, there is <mark class="highlights"><b>no clear</b></mark> line on what is categorised as distinction and what is categorised as discrimination. 
     Furthermore, currently, equal opportunities has become a topic that is being spoken about, which increases our awareness of people and problems around us. 
     Therefore, as our awareness increases, what we once did not consider as discrimination could be considered as discrimination now or in the future. 
-  <br></br>
+  <br>
     </p>
     <img class="drawing3" src="~/assets/discrimination2.jpg">
  
@@ -33,8 +33,8 @@ Categorising people into certain groups based on factors (ex. Asian People are c
 
     </div> 
     <div class="nextback">
-        <nuxt-link to="/en/homeeng/"><img class="back" src="~/assets/back2.png"></nuxt-link>
-            <nuxt-link to="/en/homeeng/survey"><img class="next" src="~/assets/next.png"></nuxt-link>
+        <nuxt-link to="/en/"><img class="back" src="~/assets/back2.png"></nuxt-link>
+            <nuxt-link to="/en/survey"><img class="next" src="~/assets/next.png"></nuxt-link>
         </div>
     
       <Footereng></Footereng>

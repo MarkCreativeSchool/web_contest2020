@@ -49,7 +49,6 @@
               <li><nuxt-link to="/others/references" class="downsub">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <!-- <nuxt-link to="/en/homeeng/" class="bar_jp">ENGLISH</nuxt-link> -->
         <a @click="toeng" class="bar_jp">英語</a>
         </div>
   </div> 

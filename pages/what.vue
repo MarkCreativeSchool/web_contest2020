@@ -32,7 +32,7 @@
     </div> 
        <div class="nextback">
          <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/home/survey"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/survey"><img class="next" src="~/assets/tugi.png"></nuxt-link>
         </div>
 
   

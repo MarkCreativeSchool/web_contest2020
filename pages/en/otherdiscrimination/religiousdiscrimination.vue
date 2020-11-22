@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Other Discrimination</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/otherdiscrimination/religiousdiscrimination">Religious</nuxt-link></li>
      </ol>
@@ -27,7 +27,7 @@
              Upon further investigation, it was found out that he had anti-Muslim sentiments on his social media page and was clear that he was not fond of Muslims. 
              The three men were deemed heroes by the Mayor. 
              Hilary Clinton, former presidential candidate commented <b>"No one should have to endure this racist abuse. No one should have to give their life to stop it."</b></p>
-            <br></br>
+            <br />
             <h6 class="program_religion">Pool Incident at Wilmington Delaware (US)</h6>
             <hr>
             <p class="campaign_religion">In 2018 June, a young Muslim students along with their teacher were asked to leave a public pool in Wilmington, Delaware. 
@@ -36,7 +36,7 @@
             Although Mayor Mike Purzycki, D-Wilmington issued an apology in July, many criticized the city for not addressing this issue enough. 
             In January 2019, a settlement was announced regarding this case. 
             To learn more about the settlement given by the city, click <a href="https://muslimadvocates.org/files/Darul-Amaanah-Filed-Settlement.pdf#page=14" target="_blank">here</a>.</p>
-            <br></br>  
+            <br /> 
         </div>
     </div> 
     <div class="nextback">

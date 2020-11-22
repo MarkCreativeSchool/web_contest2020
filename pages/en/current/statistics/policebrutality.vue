@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Statistics</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/current/statistics/education">Arrest/Shooting Rates and Racism</nuxt-link></li>
      </ol>
@@ -17,7 +17,7 @@
          It is shown on the graph that <b>30%</b> per million of Black Americans are shot, a significant amount compared to <b>12%</b> per million for White Americans.
          This signifies that if the population were to be the same for both Black and White Americans, there will be a <b>18%</b> difference in fatal police shootings. 
 
-<br></br>
+<br />
     </p>
 
     <img class="bargraph" src="~/assets/policegraph.png">
@@ -29,7 +29,7 @@
     <img class="bargraph2" src="~/assets/usage.png">
     <img class="bargraph2" src="~/assets/arrestrate.png">
     </div>
-    <br></br>
+    <br />
 
         
 

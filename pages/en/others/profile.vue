@@ -3,7 +3,7 @@
   <Headereng></Headereng>
    <div class="info">
     <ol class="bread">
-         <li class="breadcrumb-item"> <nuxt-link to="/en/homeeng/">Home</nuxt-link></li>
+         <li class="breadcrumb-item"> <nuxt-link to="/en">Home</nuxt-link></li>
          <li class="breadcrumb-item">Others</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/others/profile">Profile</nuxt-link></li>
      </ol>
@@ -18,10 +18,10 @@
         </div>
 
         <div class="content">
-              <b>Saryu</b> <br></br>
+              <b>Saryu</b> <br />
               
       15 years old with but they say my mental age is 5... I love computers and games! I'm doing martial arts but I haven't moved recently and I'm dull. I am living a healthy life.
-              <br></br>
+              <br />
          </div>
       </div>
       <div class="card">
@@ -32,8 +32,8 @@
         </div>
 
             <div class="content">
-              <b>Ninjin</b> <br></br>
-              A high school student who loves Doraemon. My nickname is "Ninjin (carrot)" but the vegetable.... not so much<br></br>
+              <b>Ninjin</b> <br />
+              A high school student who loves Doraemon. My nickname is "Ninjin (carrot)" but the vegetable.... not so much<br />
           <br>
             </div>
       </div>
@@ -45,7 +45,7 @@
         </div>
 
             <div class="content">
-             <b>Mikeke</b> <br></br>
+             <b>Mikeke</b> <br />
               I love music. I especially am into Taylor Swift’s new album, Folklore. A potterhead, and I also enjoy the Marvel movies (MCU). I prefer cats over dogs. My replies are often slow when texting.  
            <br><br>
             </div>
