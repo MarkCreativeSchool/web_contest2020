@@ -43,7 +43,7 @@
       <li>制作者紹介</li>
       <li>参考文献</li>
       </ul>
-
+<br><br>
 
     </div> 
      <div class="nextback">
@@ -122,14 +122,14 @@ export default {
     color: black;
   }
 
-  .two_sitemap{
+  /*.two_sitemap{
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
   margin-top: 10px; 
   font-size: 18px; 
   text-indent: 1em;
-}
+}*/
 
 .more{
   font-family: "Noto Sans JP"; 

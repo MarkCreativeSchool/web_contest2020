@@ -6,6 +6,7 @@
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
+        <div class="maku"><div class="aaa"></div></div>
       </div>
    
     <br> 
