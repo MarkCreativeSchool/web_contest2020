@@ -205,17 +205,16 @@ export default {
 
 .sub{
   position: absolute;
-  background-color: #444; 
+  background-color: #444;
   border: solid 1px #222;
-  width: 160px; 
-  position: absolute; 
-  top: 100%; 
-  left: -50%; 
-  margin-left: 20px;
-  z-index: 10; 
-  display: none; 
+  width: 160px;
+  position: absolute;
+  top: 100%;
+  left: 50%; 
+  margin-left: -80px; 
+  z-index: 10;
+  display: none;
 }
-
 /*.subpage{
   color: #ffa000; 
   font-family: "Rockwell"; 

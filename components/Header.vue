@@ -207,8 +207,8 @@ export default {
   width: 160px; 
   position: absolute; 
   top: 100%; 
-  left: -50%; 
-  margin-left: 20px;
+  left: 50%; 
+  margin-left: -80px;
   z-index: 10; 
   display: none; 
 }
