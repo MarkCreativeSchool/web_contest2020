@@ -14,7 +14,7 @@
      <p class="three">世界中で問題となっている差別問題。日本にいる私たちには関係ないことだと思っていませんか？2020年、アメリカで起こった黒人差別事件をきっかけに、反対運動が再び激化し世界中が差別について目を向けるようになりました。このサイトでは、アメリカの黒人差別が始まった歴史や、黒人差別反対運動を行っている組織、そして、世界中で起こっている差別について詳しくまとめています。このサイトで「差別とは何か」をもう一度考えてみませんか？
       <div class="discrimination">
         <li>黒人差別の歴史</li>
-        <p class="introhome">差別の歴史を年代別に参照できるようにタイムライン形式で内容を参照することができます。</p>
+        <p class="introhome">差別の歴史を年代別にタイムラインでまとめられています。</p>
         <button class="introbutton"><nuxt-link to="/history" class="introlink">差別の歴史を見る＞＞</nuxt-link></button>
       </div> 
       <div class="discrimination1">

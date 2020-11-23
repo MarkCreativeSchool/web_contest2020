@@ -86,3 +86,92 @@
     font-size: 18px; 
     text-indent: 1em;
   }
+
+  .timeline .line .linebar{
+    background: #4EC4D3 !important;
+  }
+
+  .timeline .line .linebar:hover {
+    background: #f6d405 !important;
+  }
+
+  .event-sub-modal .border .double{
+    background:#fff !important;
+    height: 109% !important;
+    
+  }
+
+  .event-modal .event0, 
+  .event-modal .event1,
+  .event-modal .event2,
+  .event-modal .event3,
+  .event-modal .event4,
+  .event-modal .event5,
+  .event-modal .event6,
+  .event-modal .event7,
+  .event-modal .event8,
+  .event-modal .event9,
+  .event-modal .linebar{
+    background: #4EC4D3 !important;
+  }
+
+  .event-modal {
+    border: solid 5px #00bfff;
+  }
+
+  .event-modal .linebar{
+    height: 4px !important;
+    background: #191970 !important;
+  }
+
+  .event-modal .linebar:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background: #191970;
+    left: 0;
+    top: -8px;
+  }
+  .event-modal .linebar:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background: #191970;
+    right: 0;
+    top: -8px;
+  }
+
+  /* .timeline{
+    position: relative;
+  }
+  .timeline .lastLine{
+    height: 4px !important;
+  }
+
+  .timeline .lastLine:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #4EC4D3;
+    left: 0;
+    top: -8px;
+    border-radius: 100px;
+  }
+
+  .timeline .lastLine:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #4EC4D3;
+    right: 0;
+    top: -8px;
+    border-radius: 100px;
+  } */
