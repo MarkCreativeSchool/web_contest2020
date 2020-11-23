@@ -25,7 +25,7 @@
      </ol>
 <br>
          <h3 class="start_current"><span class="under">Incidents</span></h3>
-      <p class="two_current">We have compiled/summarized some issues/protests regarding racism against black people on the US map below. However, this is not the full list, and there are several problems, issues, and protests that are not mentioned below. 
+      <p class="two_current">We have compiled/summarized some issues/movements regarding racism against black people on the US map below. However, please note that this map does not include all incidents/movements, and that there are several other problems, issues, and protests that are not mentioned below. 
 
       </p>
 

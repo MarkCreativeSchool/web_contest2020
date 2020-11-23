@@ -11,7 +11,7 @@
     <h3 class="start_religion"><span class="under">Religious Discrimination</span></h3>
     <p class="two_religion">
        <mark class="highlights"><b>Treating a person/group of people based on their beliefs and religion</b></mark> is called religious discrimination. 
-       Forms of discrimination seen includes harrassment of one’s religion, practices, and beliefs as well as mistreatment in work/educational situations. 
+       Forms of discrimination seen includes harassment of one’s religion, practices, and beliefs as well as mistreatment in work/educational situations. 
        It also includes exclusion, where a person/group is excluded from a discussion/circle because of their beliefs. 
 
     </p>

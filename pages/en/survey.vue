@@ -12,7 +12,7 @@
     <br>
      <h4 class="surveytitle"><mark>Nationality of Target</mark></h4>
     <p class="two_survey">
-        We took a questionnaire about discrimination awareness at an international school (Grade 10~12) and a prefectural high school in Japan (Grade 10~11). The difference in nationality between the schools are shown below. 
+        We took a questionnaire about discrimination awareness at an international school (Grade 10~12) and a public high school in Japan (Grade 10~11). The difference in nationality between the schools are shown below. 
 
         <div class="logograph">
        <figure>
@@ -25,7 +25,7 @@
         <br><br>
         <h4 class="surveytitle"><mark>Level of Concern</mark></h4>
 
-    <p class="two_survey">The variety of nationalities in International schools was shown to affect the awareness of the topic of discrimination when looking at the data collected for the other questions.
+    <p class="two_survey">The variety of nationalities in international schools was shown to affect the awareness of the topic of discrimination when looking at the data collected for the other questions.
     <br>According to the results of the question that questioned their level of concern regarding racism, most of the international school students chose 4-5, and none of them chose 1. However, although few Japanese high school students answered 1, there were still people that chose 1 (no concern). In addition, when calculating the average of their level of concern, the international school students resulted to 4.02, Japanese high school students’ average was 3.45, 0.57 lower compared to international school students. From this questionnaire, it was found that Japanese high school students are less conscious of discrimination against black people compared to international school students. 
     
     <div class="logograph">
@@ -49,7 +49,7 @@
     <br><br>
     <h4 class="surveytitle"><mark>Results of whether they have been a victim of racism, where the racism took place</mark></h4>
 
-    <p class="two_survey">In addition, about 58% of international school students said they had been discriminated against before. On the other hand, only 3.3% of Japanese high school students responded that they had. Moreover, when asked if they were discriminated against in Japan or abroad, most of the students in the Japanese high school answered that they were discriminated broad. On the contrary, most of the international school students were discriminated inside Japan. For this reason, it can be suggested that not only does Japanese high school students have less concern regarding discrimination due to inexperiences with discrimination, they also seem to regard discrimination as a problem that mostly occurrs outside of Japan. 
+    <p class="two_survey">In addition, about 58% of international school students said they had been discriminated against before. On the other hand, only 3.3% of Japanese high school students responded that they had. Moreover, when asked if they were discriminated against in Japan or abroad, most of the students in the Japanese high school answered that they were discriminated broad. On the contrary, most of the international school students were discriminated inside Japan. For this reason, it can be suggested that not only does Japanese high school students have less concern regarding discrimination due to less connections with discrimination. They also seem to regard discrimination as a problem that mostly occurs outside of Japan. 
     <br><br>
     <div class="logograph">
     <figure>

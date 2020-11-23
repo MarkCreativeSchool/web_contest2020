@@ -9,7 +9,7 @@
      </ol>
     <br>
          <h3 class="start_history"><span class="under">History</span></h3>
-    <p class="two_history">Below, the timeline summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
+    <p class="two_history">Below, the time line summarizes important events in US history, while also displaying how events relating to racism has occurred within these historical events.
 
    
     </p>

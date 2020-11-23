@@ -47,7 +47,7 @@
             <div class="content">
              <b>Mikeke</b> <br />
               I love music. I especially am into Taylor Swift’s new album, Folklore. A potterhead, and I also enjoy the Marvel movies (MCU). I prefer cats over dogs. My replies are often slow when texting.  
-           <br><br>
+           <br>
             </div>
       </div>
       </div>

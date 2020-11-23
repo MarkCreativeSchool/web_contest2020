@@ -10,7 +10,7 @@
     <br>
      <h3 class="start_gender"><span class="under">Gender Discrimination</span></h3>
     <p class="two_gender">
-       Gender discrimination is a form of discrimination where an inidividual is <mark class="highlights"><b>treated differently based on their gender, and not their ability</b></mark>.
+       Gender discrimination is a form of discrimination where an individual is <mark class="highlights"><b>treated differently based on their gender, and not their ability</b></mark>.
         According to AAU, most states in the US offer unfair wages based on gender. 
         Causes of gender discrimination include teachings within homes, religion, and the social structure of each country. 
         <mark class="highlights"><b>Many of our global issues occurring today connects to gender discrimination. </b></mark>

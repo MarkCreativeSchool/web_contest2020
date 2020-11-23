@@ -11,7 +11,7 @@
      <h3 class="start_arrest"><span class="under">Arrest/Shooting Rates and Racism</span></h3>
      <br>
     <p class="two_arrest">
-        It has been investigated that the fatal shooting rate by police is disportionate based on race. 
+        It has been investigated that the fatal shooting rate by police is disproportionate based on race. 
         Though the percentage for the overall fatal shootings of Black Americans are approximately <b>26% (1345 out of 5109 people)</b> in 2020, it is<mark class="highlights"><b> disproportionate when taking the population of Black Americans to account</b></mark>.
          Black Americans take up approximately <b>12~15%</b> of the American population, which indicates the disproportionate rate of shooting kills though <b>50%</b> of those that were shot by the police were white. 
          It is shown on the graph that <b>30%</b> per million of Black Americans are shot, a significant amount compared to <b>12%</b> per million for White Americans.
@@ -22,7 +22,7 @@
 
     <img class="bargraph" src="~/assets/policegraph.png">
     <p class="two_arrest">
-    Another investigation reports that though the marujuana usage between black and white people over 12 are nearly the same, white being <b>16.5% </b>and blacks being <b>17.8%</b>, it was reported that <mark class="highlights"><b>the arrest rates per 100k in the US is 3 times more for black people</b></mark> than it is for white people, shown and comprared in the two graphs above. 
+    Another investigation reports that though the marijuana usage between black and white people over 12 are nearly the same, white being <b>16.5% </b>and blacks being <b>17.8%</b>, it was reported that <mark class="highlights"><b>the arrest rates per 100k in the US is 3 times more for black people</b></mark> than it is for white people, shown and compared in the two graphs above. 
     This could suggest that the police have a tendency to discriminate against certain races among others, causing the disparity in the arrest rates even though the usage rate is nearly the same. 
     </p>
   <div class="bardata">
