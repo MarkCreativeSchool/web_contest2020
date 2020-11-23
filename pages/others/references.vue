@@ -109,7 +109,7 @@
       </div>
       <br>
       <p>●使用したページ</p>
-      <p>・<nuxt-link to="http://contest.japias.jp/tqj23/230005R/what">差別について</nuxt-link></p>
+      <p>・<nuxt-link to="/what">差別について</nuxt-link></p>
       <br>
       <p>●利用した素材の出典</p>
       <div class="pictures_link">
@@ -126,9 +126,10 @@
       </div>
       <br>
       <p>●使用したページ</p>
-      <p>・<nuxt-link to="hhttp://contest.japias.jp/tqj23/230005R/">トップページの動画内</nuxt-link></p>
-      <p>・<nuxt-link to="http://contest.japias.jp/tqj23/230005R/what">ロード画面</nuxt-link></p>
-      <p>・<nuxt-link to="http://contest.japias.jp/tqj23/230005R/currentproblems">現問題</nuxt-link></p>
+      <p>・<nuxt-link to="/">ロード画面</nuxt-link></p>
+      <p>・<nuxt-link to="/">トップページの動画内</nuxt-link></p>
+      <p>・<nuxt-link to="/what">ロード画面</nuxt-link></p>
+      <p>・<nuxt-link to="/currentproblems">現問題</nuxt-link></p>
       <br>      
       <p>●利用した素材の出典</p>
       <div class="pictures_link">
