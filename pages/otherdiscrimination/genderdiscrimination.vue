@@ -15,10 +15,10 @@
        性差別の主な原因として、家庭内での教育、生物学的役割の違い、宗教、伝統的な社会構造などが挙げられます。
        <mark class="highlights"><b>性差別は現社会で起きている様々な問題に繋がっていきます</b></mark>。
        セクハラ・モラハラ問題や、ジェンダーと社会的役割に関する偏見などの問題が現在取り上げられています。
-<img class="drawing4" src="~/assets/equality.jpg">
+<!-- <img class="drawing4" src="~/assets/equality.jpg"> -->
     </p>
-
-    <h3 class="start_gender"><span class="under">最近のニュース</span></h3>
+    <br>
+    <h3 class="start_gender"><span class="under">性差別に関するニュース</span></h3>
         <div class="activity">
             <h6 class="program_gender">大相撲・救命女性が降りた土俵に「大量の塩」「めちゃくちゃ失礼」と非難の声：2018年4月五日 (日本)</h6>
             <hr>
@@ -100,7 +100,7 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

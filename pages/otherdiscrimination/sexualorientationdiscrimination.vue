@@ -11,14 +11,14 @@
     <h3 class="start_sexualorientation"><span class="under">性的指向差別</span></h3>
     <p class="two_sexualorientation">
        性的指向差別とは、<mark class="highlights"><b>自分の性別によって行われる差別です</b></mark>。この差別行為は<b>LGBTQ +コミュニティ（L =レズビアン、G =ゲイ、B =バイセクシュアル、T =トランスジェンダー、Q =クィア、+ =パンセクシュアル、アセクシュアル、オムニセクシャルなどのその他の性的アイデンティティ）</b>を対象としています。差別の種類には、直接的および間接的な差別のほか、嫌がらせが含まれます。
-    <br><br>
+    <br>
     <div class="logoimage">
-    <img class="sexualorientation" src="~/assets/gendersign.png">
-    <img class="sexualorientation" src="~/assets/heart.png">
+    <!-- <img class="sexualorientation" src="~/assets/gendersign.png">
+    <img class="sexualorientation" src="~/assets/heart.png"> -->
     </div>
     <br>
 
-    <h3 class="start_sexualorientation"><span class="under">最近のニュース</span></h3>
+    <h3 class="start_sexualorientation"><span class="under">性的指向差別に関する最近のニュース</span></h3>
        
          <div class="activity">
             <h6 class="program_sexualorientation">オーランド銃乱射事件（アメリカ）</h6>
@@ -96,7 +96,7 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 20px; 
   font-size: 18px; 
   text-indent: 1em;
 }

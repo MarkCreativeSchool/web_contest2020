@@ -11,29 +11,38 @@
     <br>
     <div>
      <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
+     <p class="three">世界中で問題となっている差別問題。日本にいる私たちには関係ないことだと思っていませんか？2020年、アメリカで起こった黒人差別事件をきっかけに、反対運動が再び激化し世界中が差別について目を向けるようになりました。このサイトでは、アメリカの黒人差別が始まった歴史や、黒人差別反対運動を行っている組織、そして、世界中で起こっている差別について詳しくまとめています。このサイトで「差別とは何か」をもう一度考えてみませんか？
       <div class="discrimination">
-      <li>現状の差別問題</li>
-      <p class="introhome">世界では、差別はあらゆる所に潜んでいます。<br>それは性別や年齢、出身国や民族など様々ですが、どの差別もあってはならない事です。</p>
-      <div class="buttons">
-      <button class="introbutton"><nuxt-link to="/current/statistics/work" class="introlink">雇用問題</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/current/statistics/education" class="introlink">教育問題</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/current/statistics/policebrutality" class="introlink">逮捕率など</nuxt-link></button>
-      </div>
-      </div>
+        <li>黒人差別の歴史</li>
+        <p class="introhome">差別の歴史を年代別に参照できるようにタイムライン形式で内容を参照することができます。</p>
+        <button class="introbutton"><nuxt-link to="/history" class="introlink">差別の歴史を見る＞＞</nuxt-link></button>
+      </div> 
       <div class="discrimination1">
-      <li>黒人差別の歴史</li>
-      <p class="introhome">差別の歴史を年代別に参照できるようにタイムライン形式で内容を参照することができます。<br><br></p>
-      <button class="introbutton"><nuxt-link to="/history" class="introlink">差別の歴史を見る＞＞</nuxt-link></button>
+        <li>現代の差別問題</li>
+        <p class="introhome">近年アメリカで起こった黒人差別問題についてをまとめたページです。</p>
+        <button class="introbutton"><nuxt-link to="/currentproblems" class="introlink">現代の差別問題を見る</nuxt-link></button>
+      </div> 
+      <div class="discrimination2">
+        <li>現状の差別問題</li>
+        <p class="introhome">差別問題が日常生活にどのような影響を及ぼしているのでしょうか。</p>
+        <div class="buttons">
+          <button class="introbutton"><nuxt-link to="/current/statistics/work" class="introlink">雇用問題</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/current/statistics/education" class="introlink">教育問題</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/current/statistics/policebrutality" class="introlink">逮捕率など</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/current/organization" class="introlink">組織</nuxt-link></button>
+        </div>
+      </div>
+      <div class="discrimination3">
+        <li>世界で起こる差別問題</li>
+        <p class="introhome">世界ではどのような差別問題が起こっているのでしょうか。</p>
+        <div class="buttons">
+          <button class="introbutton"><nuxt-link to="/otherdiscrimination/genderdiscrimination" class="introlink">性差別</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/otherdiscrimination/asiandiscrimination" class="introlink">アジア人差別</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination" class="introlink">性差別</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/otherdiscrimination/religiousdiscrimination" class="introlink">宗教差別</nuxt-link></button>
+        </div>
       </div> 
     </div> 
-    <div>
-      <h2 class="biggertitle_jp"><span class="under">はじめに</span></h2>
-      <br>
-      <p class="three">世界中で問題となっている差別問題。日本にいる私たちには関係ないことだと思っていませんか？2020年、アメリカで起こった黒人差別事件をきっかけに、反対運動が再び激化し世界中が差別について目を向けるようになりました。このサイトでは、アメリカの黒人差別が始まった歴史や、黒人差別反対運動を行っている組織、そして、世界中で起こっている差別について詳しくまとめています。このサイトで「差別とは何か」をもう一度考えてみませんか？
-      </p>
-    </div>
-    <br>
-     <br>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
       <p class="three">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
      </p> -->
@@ -99,7 +108,8 @@ export default {
   color: #000000;
   font-size: 13px;
   margin-top: 20px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 5px;
   padding: 5px;
   width: 100px;
@@ -135,6 +145,7 @@ export default {
   font-family: "Noto Sans JP"; 
   font-size: 14px;
   font-weight: none;
+  margin-top: 10px;
 }
 
 .maku{
@@ -166,11 +177,12 @@ export default {
 
 .three{
   font-family: "Noto Sans JP"; 
-  width: 40%; 
+  width: 50%; 
   margin: 0 auto;
-  margin-top: 15px; 
-  font-size: 20px; 
+  margin-top: 40px; 
+  font-size: 17px; 
   text-indent: 1em;
+  color: black;
 }
 
 
@@ -227,6 +239,37 @@ export default {
   font-weight: 800;
 }
 
+.discrimination2{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 18%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination3{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
 .under {
   /* top: 10%;
   display: inline-block;

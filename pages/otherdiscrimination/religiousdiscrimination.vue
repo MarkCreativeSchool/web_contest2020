@@ -15,9 +15,9 @@
        他にも、会話やサークルでの場で入れてもらえなかったりする事が多々あります。
 
     </p>
-    <img class="drawing3" src="~/assets/religiousdiscrimination.jpg">
-
-    <h3 class="start_religion"><span class="under">宗教差別</span></h3>
+    <!-- <img class="drawing3" src="~/assets/religiousdiscrimination.jpg"> -->
+    <br>
+    <h3 class="start_religion"><span class="under">宗教差別に関する最近のニュース</span></h3>
        <div class="activity">
             <h6 class="program_religion">2017年ポートランド列車殺傷事件（アメリカ）</h6>
             <hr>
@@ -95,7 +95,7 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

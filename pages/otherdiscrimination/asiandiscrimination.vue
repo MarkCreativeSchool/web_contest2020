@@ -12,10 +12,10 @@
     <p class="two_asia">
         アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに<mark class="highlights"><b>他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています</b></mark>。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。
 <br>
-<img class="drawings" src="~/assets/asia.jpg">
+<!-- <img class="drawings" src="~/assets/asia.jpg"> -->
     </p>
-
-    <h3 class="start_asia"><span class="under">最近のニュース</span></h3>
+<br>
+    <h3 class="start_asia"><span class="under">アジア人差別に関する最近のニュース</span></h3>
        
             <div class="activity">
             <h6 class="program_asia">コロナ禍での差別（世界）</h6>
@@ -95,7 +95,7 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }
