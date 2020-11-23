@@ -1,14 +1,11 @@
 <template>
   <div class="fullhead">
-   <div class="toggle">
+   <div class="toggle" :class="{ isHome: isHome === true }">
    <div class="up">
-   <nuxt-link to="/en"><img class="logo" src="~/assets/newlogoeng.png"></nuxt-link>
-  
-  
-  <!--  </div>
-    <div class="toggle">-->
+   <nuxt-link to="/en" v-if="isHome"><img class="logo" src="~/assets/newlogoeng.png"></nuxt-link>
+   <nuxt-link to="/en" v-else><img class="logo" src="~/assets/black_logo_en.png"></nuxt-link>
     <div class="uppersub_eng">
-        <nuxt-link to="" class="bar_en"> 
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
         <span>Top</span> 
         <ul class="sub">
               <li><nuxt-link to="/en" class="downsub">Home</nuxt-link></li>
@@ -16,9 +13,9 @@
               <li><nuxt-link to="/en/survey" class="downsub">Survey Results</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <nuxt-link to="/en/history" class="bar_en">History</nuxt-link>
-        <nuxt-link to="/en/currentproblems" class="bar_en">Incidents</nuxt-link>
-       <nuxt-link to="" class="bar_en"> 
+        <nuxt-link to="/en/history" class="bar_en" :class="{ isHome: isHome === true }">History</nuxt-link>
+        <nuxt-link to="/en/currentproblems" class="bar_en" :class="{ isHome: isHome === true }">Incidents</nuxt-link>
+       <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
         <span>Statistics</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/current/statistics/work" class="downsub">Work</nuxt-link></li>
@@ -28,7 +25,7 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_en"> 
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
         <span>Discrimination</span> 
         <ul class="sub">
               <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="downsub">Gender</nuxt-link></li>
@@ -39,7 +36,7 @@
             </ul>
         </nuxt-link>
         
-        <nuxt-link to="" class="bar_en"> 
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
         <span>Others</span> 
         <ul class="sub">
             <!--  <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>-->
@@ -49,7 +46,7 @@
             </ul>
         </nuxt-link>
         <!-- <nuxt-link to="/" class="bar_en">日本語</nuxt-link> -->
-        <a @click="tojp" class="bar_en">日本語</a>
+        <a @click="tojp" class="bar_en" :class="{ isHome: isHome === true }">日本語</a>
    </div>
   </div> 
   </div>
@@ -63,6 +60,14 @@ export default {
   data(){
     return {
       activeIndex: null, 
+    }
+  },
+  computed: {
+    isHome() {
+      if (this.$route.path === "/en") {
+        return true
+      } 
+      return false
     }
   },
   methods: {
@@ -96,7 +101,8 @@ export default {
     padding-top: 5px; 
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
-    background-color: black;
+    /* background-color: black; */
+    background: rgba(255,255,255,0);
     color: #ffffff;
     display: inline-block; 
     width: 100%;
@@ -105,7 +111,9 @@ export default {
 
 .fullhead{
   height: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  z-index: 100;
+  position: relative;
 }
 
 .logo{
@@ -123,36 +131,72 @@ export default {
   display: inline-block; 
   width:100%;
   margin-bottom: 0px;
+  border-bottom: solid 1px #ddd;
 }
 
 .bar_en{
-  color: white;
+  color: black;
   text-align: center;
-  padding-left: 30px; 
-  padding-right: 30px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
   padding-top: 7px; 
   padding-bottom: 7px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 800;
   position: relative; 
   flex: 1; 
   font-family: "Rockwell";
+  margin: 0 auto;
+}
+
+.toggle.isHome{
+  border-bottom: none;
 }
 
 .uppersub_eng{
   display:flex; 
   margin: 0 auto; 
   padding-top: 15px;
-  width: 80%;
+  padding-bottom: 25px;
+  width: 55%;
   float:right; 
+}
+
+.bar_en.isHome{
+  color: white;
 }
 
 .bar_en:hover{
   color: #ffa000; 
 }
+
+.bar_en .sub{
+  z-index: 2000;
+}
 .bar_en:hover .sub{
   display: block; 
   z-index:2000;
+}
+
+.bar_en .sub li{
+  padding-top: 0;
+  font-size: 16px;
+  border-bottom: solid 1px #222;
+}
+
+.bar_en .sub li:last-child{
+  border-bottom: none;
+}
+
+.bar_en .sub li a{
+  display: block;
+  padding: 10px 10px 5px 10px;
+}
+
+.bar_en.active .sub{
+  display: block; 
+  z-index: 2000;
 }
 
 .menu{
@@ -160,11 +204,14 @@ export default {
 }
 
 .sub{
-  background-color: #000;
-  width: 100%; 
+  position: absolute;
+  background-color: #444; 
+  border: solid 1px #222;
+  width: 160px; 
   position: absolute; 
   top: 100%; 
-  left: 0; 
+  left: -50%; 
+  margin-left: 20px;
   z-index: 10; 
   display: none; 
 }
