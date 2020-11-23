@@ -13,7 +13,7 @@
  <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
  <br>
  <p class="three">
-Discrimination is a problem all over the world. Don't you think it has nothing to do with us in Japan? In 2020, the black discrimination incident in the United States intensified the opposition movement again, and the world began to look at discrimination. This site details the history of black racism in the United States, organizations campaigning against racism in the United States, and discrimination occurring around the world. Why don't you think about "what is discrimination" again on this site?
+Discrimination is a problem all over the world. Don't you think it has nothing to do with us in Japan? In 2020, black discrimination incidents in the United States intensified the opposition movement again, and the world began to focus once more about discrimination. This site details the history of black racism in the United States, organizations campaigning against racism in the United States, and discrimination occurring around the world. This is your oppportunity to once again ask yourself, "what is discrimination" on this site.
   <div class="discrimination">
     <li>History of Racism</li>
     <p class="introhome">
@@ -21,10 +21,10 @@ You can browse the content in a timeline format so that you can see the history 
     <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History</nuxt-link></button>
   </div> 
   <div class="discrimination1">
-    <li>Insidents</li>
+    <li>Incidents</li>
     <p class="introhome">
 This page summarizes the recent problems of black discrimination in the United States and you can learn about.</p>
-    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Insidents</nuxt-link></button>
+    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Incidents</nuxt-link></button>
   </div> 
   <div class="discrimination2">
     <li>Current problems</li>
