@@ -89,7 +89,7 @@ to {
     height: 100vh;
     position: fixed;
     z-index: 3000;
-    background-image: url(/hand.png);
+    background-image: url(./hand.png);
     background-size: cover;
     background-position: center center;
 }
