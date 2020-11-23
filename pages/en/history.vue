@@ -150,7 +150,7 @@ export default {
   margin-top: 45px; 
 }
 .timeline{
-  border: solid 5px black;
+  border: double 5px#000080;
   height: 500px;
   width: 1000px;
   margin: 0 auto;

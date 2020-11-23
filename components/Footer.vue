@@ -1,8 +1,8 @@
 <template>
   <div class="full">
     <ul class="down_jp">
-        <li><a class="subpage_jp" href="/">ホーム</a></li>
-        <li><a class="subpage_jp" href="others/sitemap">サイトマップ</a></li>
+        <li><nuxt-link class="subpage_jp" to="/">ホーム</nuxt-link></li>
+        <li><nuxt-link class="subpage_jp" to="/others/sitemap">サイトマップ</nuxt-link></li>
         <li class="statement_jp">第23回全国中学高校WEBコンテスト参加作品</li>
     </ul>
   </div>
