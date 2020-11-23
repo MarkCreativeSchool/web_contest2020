@@ -126,10 +126,8 @@
       </div>
       <br>
       <p>●使用したページ</p>
-      <p>・<nuxt-link to="/">ロード画面</nuxt-link></p>
-      <p>・<nuxt-link to="/">トップページの動画内</nuxt-link></p>
-      <p>・<nuxt-link to="/what">ロード画面</nuxt-link></p>
-      <p>・<nuxt-link to="/currentproblems">現問題</nuxt-link></p>
+
+      <p>・<nuxt-link to="/what">差別とは何か</nuxt-link></p>
       <br>      
       <p>●利用した素材の出典</p>
       <div class="pictures_link">
@@ -151,6 +149,9 @@
       </div>
       <br>
       <p>●使用したページ</p>
+      <p>・<nuxt-link to="/">ロード画面</nuxt-link></p>
+      <p>・<nuxt-link to="/">トップページの動画内</nuxt-link></p>
+      <p>・<nuxt-link to="/currentproblems">現問題</nuxt-link></p>
     </div>
     </div> 
      <div class="nextback">

@@ -112,6 +112,7 @@
       </div>
       <br>
       <p>●URL of the page</p>
+      <p>・<nuxt-link to="/what">what</nuxt-link></p>
       <br>
       <p>●Source of the material used</p>
       <div class="pictures_link">
@@ -149,6 +150,9 @@
       </div>
       <br>
       <p>●URL of page used</p>
+      <p>・<nuxt-link to="/">Loading</nuxt-link></p>
+      <p>・<nuxt-link to="/">Movie in Top</nuxt-link></p>
+      <p>・<nuxt-link to="/currentproblems">CurrentProblems</nuxt-link></p>
     </div>
 </div>
 <br>
