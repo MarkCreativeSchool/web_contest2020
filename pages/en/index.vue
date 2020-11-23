@@ -11,50 +11,44 @@
    
     <br> 
  <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
- <div class="discrimination">
- <li>Current problems</li>
-  <p class="introhome">Discrimination is a worldwide issue that has been around for centuries. <br> Discrimination can occur based on race, sexuality, and age, but there should <b>never</b> be racism.</p>
-      <div class="buttons">
+ <br>
+ <p class="three">
+Discrimination is a problem all over the world. Don't you think it has nothing to do with us in Japan? In 2020, the black discrimination incident in the United States intensified the opposition movement again, and the world began to look at discrimination. This site details the history of black racism in the United States, organizations campaigning against racism in the United States, and discrimination occurring around the world. Why don't you think about "what is discrimination" again on this site?
+  <div class="discrimination">
+    <li>History of Racism</li>
+    <p class="introhome">
+You can browse the content in a timeline format so that you can see the history of discrimination by age group.</p>
+    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History</nuxt-link></button>
+  </div> 
+  <div class="discrimination1">
+    <li>Insidents</li>
+    <p class="introhome">
+This page summarizes the recent problems of black discrimination in the United States and you can learn about.</p>
+    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Insidents</nuxt-link></button>
+  </div> 
+  <div class="discrimination2">
+    <li>Current problems</li>
+    <p class="introhome">
+    How does the issue of discrimination affect our daily lives?</p>
+    <div class="buttons">
       <button class="introbutton"><nuxt-link to="/en/current/statistics/work" class="introlink">Work</nuxt-link></button>
       <button class="introbutton"><nuxt-link to="/en/current/statistics/education" class="introlink">Education</nuxt-link></button>
       <button class="introbutton"><nuxt-link to="/en/current/statistics/policebrutality" class="introlink">Police Brutality</nuxt-link></button>
-      </div>
- </div>
-     
-      <div class="discrimination1">
-      <li>History of Racism</li>
-       <p class="introhome">To compare/contrast the events that occurred with the history of racism, we have made a timeline that you can browse to investigate further on how historic event had an impact on racism in the US.</p>
-      <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History>></nuxt-link></button>
-      
-      </div> 
-
+      <button class="introbutton"><nuxt-link to="/en/current/organization" class="introlink">Organizations</nuxt-link></button>
+    </div>
+  </div>
+  <div class="discrimination3">
+    <li>World Discrimination</li>
+    <p class="introhome">
+What kind of discrimination problem is occurring in the world?</p>
+    <div class="buttons">
+          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="introlink">Gender</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="introlink">Asia</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="introlink">SexualOrientation</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="introlink">Religion</nuxt-link></button>
+    </div>
+  </div>
    <br> 
-  <h2 class="biggertitle_en"><span class="under">About this website</span></h2> 
-  <br>
-
-    <h4 class="hometitle">Why we decided to make this website</h4>
-    <p class="three">Recently, due to the killing of George Floyd, discrimination against black lives has become a widely discussed topic once again. However, how much do we really understand about discrimination against black communities? Do we really understand this topic like we think we do? In fact, we were quite surprised to see how much we did not know/understand the topic of discrimination against black communities until we researched on this topic more heavily. 
-      </p>
-      <br>
-      <h4 class="hometitle">Our friend's experience</h4>
-      <p class="three">
-      Have you ever been conscious regarding the topic of discrimination? In addition, have you ever been in a situation where you have been/felt as a subject of discrimination? As students that attend different schools, one being International, we believe that our knowledge and consciousness about discrimination are far more significant compared to others. One key factor that made us consider discussing/research discrimination is due to our friend feeling discriminated against due to her looks. Just by her appearance, she felt looks given by strangers. 
-      </p>
-      <br>
-      <h4 class="hometitle">Why we focused on America</h4>
-       <p class="three">
-      As mentioned previously, George Floyd’s death that occurred in the US was widely discussed. This incident was the first reason why we focused on the topic of discrimination of black communities in America. Of course, there are several cases of discrimination against black communities in other countries, and different histories related to this topic. So, we thought that by creating a teaching material site on discrimination against black communities in America (which was our interest), it would interest viewers of the site to investigate further on discrimination within other countries. Therefore, we decided to focus just on discrimination within America. 
-      </p>
-      <br>
-      <h4 class="hometitle">Why we chose racism against black people</h4>
-       <p class="three">
-      In our daily life, there are several situations and cases of discrimination around us that we do/do not realise. Discrimination against black communities that is widely talked about today is also discrimination. What we focused on is that while we are expected to understand current topics that are being discussed, not many seem to understand/digest the concept of discrimination against black communities although there has been several incidents relating racial injustice occurring recently. Furthermore, we realised that we are still lacking understanding of discrimination although it is a widely discussed topic. What we question/don’t know might apply to other people as well. With these reasons, we decided to create an informational site regarding discrimination against black communities for we wanted more people to get a clearer understanding regarding this topic. Therefore, we decided to focus on discrimination against black communities for these reasons: one, it is a topic widely discussed, and two, many people seem to lack understanding even though it is a problem being raised by many today.
-      <br>
-      </p>
-       <p class="three">
-      <b>As racism is a very sensitive and delicate topic, we are refraining to include most of our opinions to prevent bias within the website. Please understand. Thank you.</b>
-       </p>
-
     </div> 
     <br>
      <div class="nextback">
@@ -83,9 +77,8 @@ export default {
 }　
 </script>
 
-<style>
-
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+<style scoped>
+@import url('https://fonts.googleapis.com/css?family=Rockwell');
 
 /*.two{
   font-family: "Noto Sans JP"; 
@@ -101,14 +94,20 @@ export default {
   color: #000000;
   font-size: 13px;
   margin-top: 20px;
-  margin-right: 10px;
-  border-color: #ffa000;
+  margin-left: 20px;
+  margin-right: 20px;
   border-radius: 5px;
   padding: 5px;
+  width: 100px;
+  border: none;
+  box-shadow: 3px 3px 0px #cc8800;
 }
 
 .introbutton:hover{
-  background-color:#000000;
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
 }
 
 .introlink{
@@ -116,16 +115,82 @@ export default {
 }
 
 .introlink:hover{
-  color: #ffa000;
-  background-color: #000000;
+  color: #000000;
 }
 
 .biggertitle_en{
   font-weight: bold;
   font-size: 30px;
-  font-family: "Noto Sans JP"; 
   margin: 0 auto;
   width: 70%;
+  color: black;
+}
+
+.discrimination{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 18%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination li{
+  color: black;
+}
+
+.discrimination1{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination1 li{
+  color: black;
+}
+
+.discrimination2{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 18%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination2 li{
+  color: black;
+}
+
+.introhome{
+  font-family: "Rockwell"; 
+  font-size: 14px;
+  font-weight: none;
+  margin-top: 10px;
 }
 
 
@@ -147,13 +212,11 @@ mark {
 .hometitle{
   font-weight: bold;
   font-size: 24px;
-  font-family: "Noto Sans JP"; 
   margin: 0 auto;
    width: 53%; 
 }
 
 .three{
-  font-family: "Noto Sans JP"; 
   width: 53%; 
   margin: 0 auto;
   margin-top: 10px; 
@@ -161,7 +224,6 @@ mark {
 }
 
 .start{
-  font-family: "Noto Sans JP"; 
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
@@ -199,7 +261,6 @@ figure {
 }
 
 figcaption {
-  font-family: "Noto Sans JP"; 
   text-align: center;
   font-weight: bold; 
   font-size: 12px; 

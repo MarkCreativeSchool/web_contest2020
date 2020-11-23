@@ -79,7 +79,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 
@@ -205,6 +205,7 @@ export default {
   font-family: "Noto Sans JP"; 
   margin: 0 auto;
   width: 70%;
+  color: black;
 }
 
 .discrimination{
@@ -223,6 +224,10 @@ export default {
   font-weight: 800;
 }
 
+.discrimination li{
+  color: black;
+}
+
 .discrimination1{
   display: inline-block;
   list-style: none;
@@ -237,6 +242,10 @@ export default {
   left: 5%;
   font-size: 25px;
   font-weight: 800;
+}
+
+.discrimination1 li{
+  color: black;
 }
 
 .discrimination2{
@@ -255,6 +264,10 @@ export default {
   font-weight: 800;
 }
 
+.discrimination2 li{
+  color: black;
+}
+
 .discrimination3{
   display: inline-block;
   list-style: none;
@@ -269,6 +282,10 @@ export default {
   left: 5%;
   font-size: 25px;
   font-weight: 800;
+}
+
+.discrimination3 li{
+  color: black;
 }
 .under {
   /* top: 10%;

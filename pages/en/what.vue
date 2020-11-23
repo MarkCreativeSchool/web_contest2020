@@ -60,8 +60,6 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-
 /*.two{
   font-family: "Noto Sans JP"; 
   width: 63%; 
@@ -70,7 +68,6 @@ export default {
   font-size: 18px; 
 }*/
 .two_what{
-  font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
   margin-top: 10px; 
@@ -81,7 +78,6 @@ export default {
  .start_what{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
     margin: 0 auto;
     width: 50%;
     color: black;

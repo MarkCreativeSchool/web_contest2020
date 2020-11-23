@@ -19,7 +19,7 @@
       <div class="map-wrapper">
         <img class="map" src="~/assets/note2.png">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/mine.png">
+          <img class="map2" src="~/assets/nyu.png">
         </div>
       </div>
     </div>
