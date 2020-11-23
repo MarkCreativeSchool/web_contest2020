@@ -1,7 +1,22 @@
 
 const routerBase = process.env.DEPLOY_ENV === 'PRODUCTION' ? {
   router: {
-    base: '/tqj23/230005R/'
+    base: '/tqj23/230005R/',
+    extendRoutes(routes, resolve) {
+      routes.push({
+        path     : '/index.html',
+        alias    : '/',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+    }
+  },
+  hooks: {
+    generate: {
+      async extendRoutes(routes) {
+        const filtered = routes.filter(page => !/\.html$/.test(page.route))
+        routes.splice(0, routes.length, ...filtered)
+      }
+    }
   }
 } : {}
 export default {
