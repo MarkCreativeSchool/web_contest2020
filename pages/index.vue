@@ -38,7 +38,7 @@
         <div class="buttons">
           <button class="introbutton"><nuxt-link to="/otherdiscrimination/genderdiscrimination" class="introlink">性差別</nuxt-link></button>
           <button class="introbutton"><nuxt-link to="/otherdiscrimination/asiandiscrimination" class="introlink">アジア人差別</nuxt-link></button>
-          <button class="introbutton"><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination" class="introlink">性差別</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination" class="introlink">性的指向差別</nuxt-link></button>
           <button class="introbutton"><nuxt-link to="/otherdiscrimination/religiousdiscrimination" class="introlink">宗教差別</nuxt-link></button>
         </div>
       </div> 

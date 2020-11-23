@@ -53,6 +53,7 @@
       <nuxt-link to="/en/what"><img class="next" src="~/assets/next.png"></nuxt-link>
     </div>
     <Footereng></Footereng>
+    </div>
   </div>
 </template>
 
@@ -179,6 +180,26 @@ export default {
 }
 
 .discrimination2 li{
+  color: black;
+}
+
+.discrimination3{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;             
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination3 li{
   color: black;
 }
 
