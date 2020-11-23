@@ -59,19 +59,8 @@
     float: left;
     margin-left: 200px;
   }
-
   mark {
-    display: inline-block;
-    line-height: 0em;
-    padding-bottom: 0.5em;
-    background: #f6d405;
-  }
-
-  .highlights{
-    display: inline-block;
-    line-height: 0em;
-    padding-bottom: 0.5em;
-    background: #f6d405;
+    background: linear-gradient(transparent 70%, #f6d405 70%);
   }
 
   .under{
@@ -98,7 +87,7 @@
   .event-sub-modal .border .double{
     background:#fff !important;
     height: 109% !important;
-    
+
   }
 
   .event-modal .event0, 

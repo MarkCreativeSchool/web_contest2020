@@ -107,7 +107,7 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP'); */
 
 /*.two{
   font-family: "Noto Sans JP"; 
@@ -119,7 +119,7 @@ export default {
 
 
 .two_history{
-  font-family: "Noto Sans JP"; 
+  /* font-family: "Noto Sans JP";  */
   width: 67%; 
   margin: 0 auto;
   margin-top: 10px; 
@@ -130,14 +130,14 @@ export default {
 .start_history{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    /* font-family: "Noto Sans JP";  */
     margin: 0 auto;
     width: 67%;
     color: black;
   }
 
 .more{
-  font-family: "Noto Sans JP"; 
+  /* font-family: "Noto Sans JP";  */
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
