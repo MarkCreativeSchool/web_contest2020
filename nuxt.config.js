@@ -37,7 +37,7 @@ export default {
       { hid: 'og:description', property: 'og:description', content: '黒人差別を高校生のために解説、紹介してあるサイトです。繊細な問題の為、意見などは控えております。ご了承ください。' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*
