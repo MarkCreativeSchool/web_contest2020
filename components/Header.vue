@@ -50,7 +50,7 @@
               <li><nuxt-link to="/others/references" class="downsub">参考文献</nuxt-link></li>
             </ul>
         </nuxt-link>
-        <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">英語</a>
+        <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">English</a>
         </div>
   </div> 
   </div>
