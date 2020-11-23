@@ -93,7 +93,7 @@ export default {
     return {
       title: "ホーム-高校生による高校生のため黒人差別",
       meta: [
-        { hid: "description", name: "description", content: "黒人差別を高校生にのために解説、紹介sしてあるサイトです。繊細な問題の為、意見などは控えております。ご了承ください。" }
+        { hid: "description", name: "description", content: "黒人差別を高校生のために解説、紹介してあるサイトです。繊細な問題の為、意見などは控えております。ご了承ください。" }
       ]
     }
   },

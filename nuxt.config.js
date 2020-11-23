@@ -30,7 +30,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description',content: "黒人差別を高校生のために解説、紹介してあるサイトです。繊細な問題の為、意見などは控えております。ご了承ください。" },
+      { hid: 'og:site_name', property: 'og:site_name', content: '高校生による高校生のため黒人差別' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:title', property: 'og:title', content: '高校生による高校生のため黒人差別' },
+      { hid: 'og:description', property: 'og:description', content: '黒人差別を高校生のために解説、紹介してあるサイトです。繊細な問題の為、意見などは控えております。ご了承ください。' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
