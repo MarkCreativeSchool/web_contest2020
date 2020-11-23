@@ -4,22 +4,17 @@
       <div class="image-wrapper">
         <img class="note" src="~/assets/note.png">
         <div class="main-content">
-          <div class="note-content">ショーン・ベル事件</div>
-          <div class="year">(ニューヨーク州・2006年)</div>
+          <div class="note-content">トレイボン・マーティン射殺事件</div>
+          <div class="year">(フロリダ州・2014年)</div>
           <div class="note-content-sub">
-            <br>2006年11月25日に丸腰のショーンベルと言う黒人青年（23歳）が警官に50発の銃弾を浴びせ死亡させた事件。麻薬が関わっていると疑われていたビルを出たところで友達とともに打たれた。警官はこの際、凶器をもっていると思いこんでしまった。警官の判決は無罪。
-          </div>
-          <div class="note-content2">エリック・ガーナー窒息死事件</div>
-          <div class="year2">(ニューヨーク州・2014年)</div>
-          <div class="note-content-sub2">
-            <br>ニューヨーク州で脱税を疑われた黒人が警察官に取り押さえられ窒息しさせられる。警察官は不起訴。
+            <br>フロリダ州でランニング中だった17足の黒人がヒスパニック系自警団院に「怪しい」という理由だけで射殺された。しかし、この自警団員は「無罪」の判決を下された。
           </div>
         </div>
       </div>
       <div class="map-wrapper">
         <img class="map" src="~/assets/note2.png">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/mine.png">
+          <img class="map2" src="~/assets/huro.png">
         </div>
       </div>
     </div>
