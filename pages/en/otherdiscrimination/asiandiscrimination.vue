@@ -12,7 +12,7 @@
     <p class="two_asia">
         Asian discrimination is one form of discrimination due to color/race, mostly occurring in locations such as the US and Europe. Similar to discrimination against black communities, Asian communities are often <mark class="highlights"><b>attacked/insulted by their color, and also looked down upon</b></mark>. While not as known as discrimination against black communities, it is a major global issue that has been around for a long time. 
 <br />
-<img class="drawings" src="~/assets/asia.jpg">
+<!-- <img class="drawings" src="~/assets/asia.jpg"> -->
     </p>
 
     <h3 class="start_asia"><span class="under">Current News</span></h3>
@@ -84,7 +84,8 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px;
+  margin-bottom: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

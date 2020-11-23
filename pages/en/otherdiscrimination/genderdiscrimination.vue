@@ -14,7 +14,7 @@
         According to AAU, most states in the US offer unfair wages based on gender. 
         Causes of gender discrimination include teachings within homes, religion, and the social structure of each country. 
         <mark class="highlights"><b>Many of our global issues occurring today connects to gender discrimination. </b></mark>
-<img class="drawing4" src="~/assets/equality.jpg">
+<!-- <img class="drawing4" src="~/assets/equality.jpg"> -->
     </p>
      <h3 class="start_gender"><span class="under">Current News</span></h3>
         <div class="activity">
@@ -85,7 +85,8 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px;
+  margin-bottom: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

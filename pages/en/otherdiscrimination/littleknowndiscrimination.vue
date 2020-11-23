@@ -75,7 +75,7 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

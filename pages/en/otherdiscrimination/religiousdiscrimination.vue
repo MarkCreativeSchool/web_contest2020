@@ -15,7 +15,7 @@
        It also includes exclusion, where a person/group is excluded from a discussion/circle because of their beliefs. 
 
     </p>
-    <img class="drawing3" src="~/assets/religiousdiscrimination.jpg">
+    <!-- <img class="drawing3" src="~/assets/religiousdiscrimination.jpg"> -->
 
     <h3 class="start_religion"><span class="under">Current News</span></h3>
        <div class="activity">
@@ -81,7 +81,8 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px;
+  margin-bottom: 30px; 
   font-size: 18px; 
   text-indent: 1em;
 }

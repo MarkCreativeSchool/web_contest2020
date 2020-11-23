@@ -15,8 +15,8 @@
        Types of discrimination includes both direct and indirect discrimination as well as harassment.  
     <br />
     <div class="logoimage">
-    <img class="sexualorientation" src="~/assets/gendersign.png">
-    <img class="sexualorientation" src="~/assets/heart.png">
+    <!-- <img class="sexualorientation" src="~/assets/gendersign.png">
+    <img class="sexualorientation" src="~/assets/heart.png"> -->
     </div>
 
     <h3 class="start_sexualorientation"><span class="under">Current News</span></h3>
@@ -84,7 +84,8 @@ export default {
   font-family: "Noto Sans JP"; 
   width: 50%; 
   margin: 0 auto;
-  margin-top: 10px; 
+  margin-top: 30px; 
+  margin-bottom: 30px;
   font-size: 18px; 
   text-indent: 1em;
 }
