@@ -13,36 +13,37 @@
     <br>
     <h6 class="title_sitemap">Top</h6>
       <ul class="list_sitemap">
-      <li>Home</li>
-      <li>What?</li>
-      <li>Survey Results</li>
+      <li><nuxt-link to="/en">Home</nuxt-link></li>
+      <li><nuxt-link to="/en/what">What?</nuxt-link></li>
+      <li><nuxt-link to="/en/survey">Survey Results</nuxt-link></li>
       </ul>
       <br>
-    <h6 class="title_sitemap">History</h6>
+    <h6 class="title_sitemap"><nuxt-link to="/en/history">History</nuxt-link></h6>
     <br>
-    <h6 class="title_sitemap">Incidents</h6>
+    <h6 class="title_sitemap"><nuxt-link to="/en/currentproblems">Incidents</nuxt-link></h6>
     <br>
     <h6 class="title_sitemap">Statistics</h6>
     <ul class="list_sitemap">
-      <li>Work</li>
-      <li>Education</li>
-      <li>Police Brutality, etc.</li>
-      <li>Organizations</li>
+      <li><nuxt-link to="/en/current/statistics/work">Work</nuxt-link></li>
+      <li><nuxt-link to="/en/current/statistics/education">Education</nuxt-link></li>
+      <li><nuxt-link to="/en/current/statistics/policebrutality">Police Brutality, etc.</nuxt-link></li>
+      <li><nuxt-link to="/en/current/organization">Organizations</nuxt-link></li>
       </ul>
       <br>
     <h6 class="title_sitemap">Discrimination</h6>
     <ul class="list_sitemap">
-      <li>Gender</li>
-      <li>Asian</li>
-      <li>Sexual Orientation</li>
-      <li>Religious</li>
+      <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination">Gender</nuxt-link></li>
+      <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination">Asian</nuxt-link></li>
+      <li><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination">Sexual Orientation</nuxt-link></li>
+      <li><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination">Religious</nuxt-link></li>
+      <li><nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination">Others</nuxt-link></li>
       </ul>
       <br>
     <h6 class="title_sitemap">Others</h6>
     <ul class="list_sitemap">
-      <li>Site Map</li>
-      <li>Profile</li>
-      <li>References</li>
+      <li><nuxt-link to="/en/others/sitemap">Site Map</nuxt-link></li>
+      <li><nuxt-link to="/en/others/profile">Profile</nuxt-link></li>
+      <li><nuxt-link to="/en/others/references">References</nuxt-link></li>
       </ul>
 <br><br>
     

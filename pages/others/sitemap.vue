@@ -12,36 +12,37 @@
     <br>
     <h6 class="title_sitemap">トップ</h6>
       <ul class="list_sitemap">
-      <li>ホーム</li>
-      <li>差別とは？</li>
-      <li>アンケート結果</li>
+      <li><nuxt-link to="/">ホーム</nuxt-link></li>
+      <li><nuxt-link to="/what">差別とは？</nuxt-link></li>
+      <li><nuxt-link to="/survey">アンケート結果</nuxt-link></li>
       </ul>
       <br>
-    <h6 class="title_sitemap">歴史</h6>
+    <h6 class="title_sitemap"><nuxt-link to="/history">歴史</nuxt-link></h6>
     <br>
-    <h6 class="title_sitemap">現問題</h6>
+    <h6 class="title_sitemap"><nuxt-link to="/currentproblems">現問題</nuxt-link></h6>
     <br>
     <h6 class="title_sitemap">現状</h6>
     <ul class="list_sitemap">
-      <li>雇用</li>
-      <li>教育</li>
-      <li>逮捕率など</li>
-      <li>組織</li>
+      <li><nuxt-link to="/current/statistics/work">雇用</nuxt-link></li>
+      <li><nuxt-link to="/current/statistics/education">教育</nuxt-link></li>
+      <li><nuxt-link to="/current/statistics/policebrutality">逮捕率など</nuxt-link></li>
+      <li><nuxt-link to="/current/organization">組織</nuxt-link></li>
       </ul>
       <br>
     <h6 class="title_sitemap">他の差別</h6>
     <ul class="list_sitemap">
-      <li>性差別</li>
-      <li>アジア人差別</li>
-      <li>性的指向</li>
-      <li>宗教差別</li>
+      <li><nuxt-link to="/otherdiscrimination/genderdiscrimination">性差別</nuxt-link></li>
+      <li><nuxt-link to="/otherdiscrimination/asiandiscrimination">アジア人差別</nuxt-link></li>
+      <li><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination">性的指向</nuxt-link></li>
+      <li><nuxt-link to="/otherdiscrimination/religiousdiscrimination">宗教差別</nuxt-link></li>
+      <li><nuxt-link to="/otherdiscrimination/littleknowndiscrimination">他</nuxt-link></li>
       </ul>
       <br>
     <h6 class="title_sitemap">その他</h6>
     <ul class="list_sitemap">
-      <li>サイトマップ</li>
-      <li>制作者紹介</li>
-      <li>参考文献</li>
+      <li><nuxt-link to="/others/sitemap">サイトマップ</nuxt-link></li>
+      <li><nuxt-link to="/others/profile">制作者紹介</nuxt-link></li>
+      <li><nuxt-link to="/others/references">参考文献</nuxt-link></li>
       </ul>
 <br><br>
 
