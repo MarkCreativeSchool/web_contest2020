@@ -44,7 +44,7 @@ What kind of discrimination problem is occurring in the world?</p>
     <div class="buttons">
           <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="introlink">Gender</nuxt-link></button>
           <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="introlink">Asia</nuxt-link></button>
-          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="introlink">SexualOrientation</nuxt-link></button>
+          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="introlink">Sexual</nuxt-link></button>
           <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="introlink">Religion</nuxt-link></button>
     </div>
   </div>
