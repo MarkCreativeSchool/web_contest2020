@@ -1,62 +1,58 @@
 <template>
   <div class="full">
-  <Headereng></Headereng>
-   <div class="info">
-     <div class="test">
+    <Headereng></Headereng>
+    <div class="info">
+      <div class="test">
         <video id="video" width="1920" height="1080" loop autoplay muted>
           <source src="~/assets/douga.mp4" type="video/mp4" />
         </video>
         <div class="maku"><div class="aaa"></div></div>
       </div>
-   
-    <br> 
- <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
- <br>
- <p class="three">
-Discrimination is a problem all over the world. Don't you think it has nothing to do with us in Japan? In 2020, black discrimination incidents in the United States intensified the opposition movement again, and the world began to focus once more about discrimination. This site details the history of black racism in the United States, organizations campaigning against racism in the United States, and discrimination occurring around the world. This is your oppportunity to once again ask yourself, "what is discrimination" on this site.
-  <div class="discrimination">
-    <li>History of Racism</li>
-    <p class="introhome">
-You can browse the content in a timeline format so that you can see the history of discrimination by age group.</p>
-    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History</nuxt-link></button>
-  </div> 
-  <div class="discrimination1">
-    <li>Incidents</li>
-    <p class="introhome">
-This page summarizes the recent problems of black discrimination in the United States and you can learn about.</p>
-    <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Incidents</nuxt-link></button>
-  </div> 
-  <div class="discrimination2">
-    <li>Current problems</li>
-    <p class="introhome">
-    How does the issue of discrimination affect our daily lives?</p>
-    <div class="buttons">
-      <button class="introbutton"><nuxt-link to="/en/current/statistics/work" class="introlink">Work</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/en/current/statistics/education" class="introlink">Education</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/en/current/statistics/policebrutality" class="introlink">Police Brutality</nuxt-link></button>
-      <button class="introbutton"><nuxt-link to="/en/current/organization" class="introlink">Organizations</nuxt-link></button>
-    </div>
-  </div>
-  <div class="discrimination3">
-    <li>World Discrimination</li>
-    <p class="introhome">
-What kind of discrimination problem is occurring in the world?</p>
-    <div class="buttons">
-          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="introlink">Gender</nuxt-link></button>
-          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="introlink">Asia</nuxt-link></button>
-          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="introlink">Sexual</nuxt-link></button>
-          <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="introlink">Religion</nuxt-link></button>
-    </div>
-  </div>
-   <br> 
+      <br> 
+      <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
+      <br>
+      <p class="three">
+        Discrimination is a problem all over the world. Don't you think it has nothing to do with us in Japan? In 2020, black discrimination incidents in the United States intensified the opposition movement again, and the world began to focus once more about discrimination. This site details the history of black racism in the United States, organizations campaigning against racism in the United States, and discrimination occurring around the world. This is your oppportunity to once again ask yourself, "what is discrimination" on this site.
+      <div class="discrimination">
+        <li>History of Racism</li>
+        <p class="introhome">
+          You can browse the content in a timeline format so that you can see the history of discrimination by age group.</p>
+        <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History</nuxt-link></button>
+      </div> 
+    <div class="discrimination1">
+      <li>Incidents</li>
+      <p class="introhome">
+        This page summarizes the recent problems of black discrimination in the United States and you can learn about.</p>
+      <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Incidents</nuxt-link></button>
     </div> 
+    <div class="discrimination2">
+      <li>Current problems</li>
+      <p class="introhome">
+        How does the issue of discrimination affect our daily lives?</p>
+      <div class="buttons">
+        <button class="introbutton"><nuxt-link to="/en/current/statistics/work" class="introlink">Work</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/current/statistics/education" class="introlink">Education</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/current/statistics/policebrutality" class="introlink">Police Brutality</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/current/organization" class="introlink">Organizations</nuxt-link></button>
+      </div>
+    </div>
+    <div class="discrimination3">
+      <li>World Discrimination</li>
+      <p class="introhome">
+        What kind of discrimination problem is occurring in the world?</p>
+      <div class="buttons">
+        <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="introlink">Gender</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="introlink">Asia</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/sexualorientationdiscrimination" class="introlink">Sexual</nuxt-link></button>
+        <button class="introbutton"><nuxt-link to="/en/otherdiscrimination/religiousdiscrimination" class="introlink">Religion</nuxt-link></button>
+      </div>
+    </div>
     <br>
-     <div class="nextback">
-          <!--  <nuxt-link to="/en/current/statistics/work"><img class="back" src="~/assets/back2.png"></nuxt-link>-->
-            <nuxt-link to="/en/what"><img class="next" src="~/assets/next.png"></nuxt-link>
-        </div>
-
-  <Footereng></Footereng>
+    <br>
+    <div class="nextback">
+      <nuxt-link to="/en/what"><img class="next" src="~/assets/next.png"></nuxt-link>
+    </div>
+    <Footereng></Footereng>
   </div>
 </template>
 
