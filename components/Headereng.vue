@@ -64,7 +64,7 @@ export default {
   },
   computed: {
     isHome() {
-      if (this.$route.path === "/en") {
+      if (this.$route.path === "/en" || this.$route.path === "/en/index.html") {
         return true
       } 
       return false
