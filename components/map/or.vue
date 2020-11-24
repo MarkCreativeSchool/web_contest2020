@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">催涙ガス</div>
         <div class="note-content-sub">
           <br>6月26日にアメリカのポートランドで他の反対運動と比べ非常的に暴力的な黒人差別反対運動があった。抗議者側は警察の管区に火をつけた。警察側はこの事に対し、催涙ガスを使い抗議者を解散させた。これによって、視聴はポートランドでの催涙ガスの使用を禁じた。また、警察側もセキュリティレベルを上げることを決定した。
@@ -10,9 +10,9 @@
         <div class="year">(オレゴン州・2020年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="/ore.png">
+          <img class="map2" :src="`${prefix}/ore.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "or.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

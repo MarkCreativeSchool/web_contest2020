@@ -50,7 +50,7 @@
     <br>
     <br>
     <div class="nextback">
-      <nuxt-link to="/en/what"><img class="next" src="/next.png"></nuxt-link>
+      <nuxt-link to="/en/what"><img class="next" :src="`${prefix}/next.png`"></nuxt-link>
     </div>
     <Footereng></Footereng>
     </div>

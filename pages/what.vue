@@ -9,7 +9,7 @@
 <br>
     <h3 class="start_what"><span class="under">差別とは？</span></h3>
     <br>
-    <img class="drawing1" :src="`${prefix}/what.jpg`">
+    <img class="drawing1" :src="`${prefix}/What.jpg`">
     <p class="two_what">差別とは、個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、<mark class="highlights"><b>合理的に説明できないような異なった（不利益）取り扱い</b></mark>をすることです。
     差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、<mark class="highlights"><b>本来平等であるべきものを不平等に取り扱うという社会的差別</b></mark>です。
      そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はありません。

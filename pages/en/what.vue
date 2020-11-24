@@ -9,7 +9,7 @@
    <br>
     <h3 class="start_what"><span class="under">What is discrimination?</span></h3>
     <br>
-    <img class="drawing1" :src="`${prefix}/what.jpg`">
+    <img class="drawing1" :src="`${prefix}/What.jpg`">
     <p class="two_what">Discrimination is the <mark class="highlights"><b>act of ignoring one’s individuality and grouping them into different categories</b></mark> <mark class="highlights"><b>while marginalizing individuals based on their group</b></mark>.
     While in reality, distinction should be done clearly, the problem that is being addressed these days are <mark class="highlights"><b>social discrimination, not distinction</b></mark>, which causes unequal treatment amongst people.
     Even within social discrimination though, there is<mark class="highlights"><b>no clear</b></mark> line on what is categorized as distinction and what is categorized as discrimination. <br><br>

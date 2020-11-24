@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Shooting of Michael Brown</div>
         <div class="note-content-sub">
           <br>Shortly after noon, Michael Brown was on his way home from a convenience store with a friend when he got into an argument with one police officer. Brown fiercely resisted and attempted to take the gun, and a struggle ensued, and when the officer ordered him to restrain him, he lunged at the officer, and the police opened fire, killing Brown at the scene. The police officer was not charged.
@@ -10,9 +10,9 @@
         <div class="year">(Missouri・2014)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="/mizu.png">
+          <img class="map2" :src="`${prefix}/mizu.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

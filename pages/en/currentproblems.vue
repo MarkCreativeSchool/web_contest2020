@@ -29,7 +29,7 @@
 
       </p>
 
-      <img class="map" src="/usmap.png">
+      <img class="map" :src="`${prefix}/usmap.png`">
       </div>
 
         <Footereng></Footereng>
@@ -51,6 +51,7 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 import sample from "~/components/map/sample"
@@ -69,6 +70,7 @@ import md from "~/components/map_eng/md"
 
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
   head() {
     return {

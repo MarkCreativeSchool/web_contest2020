@@ -31,7 +31,7 @@
 
       </p>
 
-      <img class="map" src="/usmap.png">
+      <img class="map" :src="`${prefix}/usmap.png`">
       </div>
 
        <Footer></Footer>
@@ -53,6 +53,7 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 import sample from "~/components/map/sample"
@@ -71,6 +72,7 @@ import md from "~/components/map/md"
 
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer, sample, or, ca, fl, ky, ny, mn, il, ga, mo, oh, pa, md},
 
   head() {

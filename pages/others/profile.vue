@@ -14,7 +14,7 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img :src="`${prefix}/saryu.jpg`" alt="Placeholder image">
+            <img :src="`${prefix}/saryu.JPG`" alt="Placeholder image">
           </figure>
         </div>
 
@@ -27,7 +27,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img :src="`${prefix}/matoilogo.jpg`" alt="Placeholder image">
+            <img :src="`${prefix}/Matoilogo.jpg`" alt="Placeholder image">
           </figure>
         </div>
 

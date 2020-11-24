@@ -157,17 +157,19 @@
 </div>
 <br>
 <div class="nextback">
-            <nuxt-link to="/en/others/profile"><img class="back" src="/back.png"></nuxt-link>
+            <nuxt-link to="/en/others/profile"><img class="back" :src="`${prefix}/back.png`"></nuxt-link>
         </div>
      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {

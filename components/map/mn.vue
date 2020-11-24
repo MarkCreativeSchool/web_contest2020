@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

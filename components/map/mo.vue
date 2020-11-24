@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">マイケル・ブラウン射殺事件</div>
         <div class="note-content-sub">
           <br>正午過ぎ、マイケル・ブラウンは友人と一緒にコンビニエンスストアから帰宅する途中、一人の警察官と言い合いになった。ブラウンは激しく抵抗し、銃を奪おうとするなどして揉み合いとなり、警察官が制するよう命じると警察官へ向けて突進したため、警察は発砲し、ブラウンは現場で死亡した。警察官は不起訴となった。
@@ -10,9 +10,9 @@
         <div class="year">(ミズーリ州・2014年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="/mizu.png">
+          <img class="map2" :src="`${prefix}/mizu.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

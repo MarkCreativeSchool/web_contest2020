@@ -13,7 +13,7 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="/saryu.jpg" alt="Placeholder image">
+            <img :src="`${prefix}/saryu.JPG`" alt="Placeholder image">
           </figure>
         </div>
 
@@ -27,7 +27,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="/matoilogo.jpg" alt="Placeholder image">
+            <img :src="`${prefix}/Matoilogo.jpg`" alt="Placeholder image">
           </figure>
         </div>
 
@@ -40,7 +40,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="/kanaprofile.jpg" alt="Placeholder image">
+            <img :src="`${prefix}/kanaprofile.jpg`" alt="Placeholder image">
           </figure>
         </div>
 
@@ -54,18 +54,20 @@
 </div>
 <br>
 <div class="nextback">
-            <nuxt-link to="/en/others/sitemap"><img class="back" src="/back.png"></nuxt-link>
-            <nuxt-link to="/en/others/references"><img class="next" src="/next.png"></nuxt-link>
+            <nuxt-link to="/en/others/sitemap"><img class="back" :src="`${prefix}/back.png`"></nuxt-link>
+            <nuxt-link to="/en/others/references"><img class="next" :src="`${prefix}/next.png`"></nuxt-link>
         </div>
       <Footereng></Footereng>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {

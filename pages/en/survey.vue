@@ -16,8 +16,8 @@
 
         <div class="logograph">
        <figure>
-        <img class="graphimage" src="/nationalityjap.png">
-        <img class="graphimage" src="/nationalityinter.png">
+        <img class="graphimage" :src="`${prefix}/Nationalityjap.png`">
+        <img class="graphimage" :src="`${prefix}/nationalityinter.png`">
         <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
         </figure>
 
@@ -30,8 +30,8 @@
 
     <div class="logograph">
     <figure>
-        <img class="graphimage" src="/concernengjap.png">
-        <img class="graphimage" src="/concernenginter.png">
+        <img class="graphimage" :src="`${prefix}/concernengjap.png`">
+        <img class="graphimage" :src="`${prefix}/concernenginter.png`">
         <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
         </figure>
     </div>
@@ -41,8 +41,8 @@
      <p class="two_survey">We believe that some of the reasons for the low level of concern against racism amongst Japanese school students may be due to their experiences with discrimination. In fact, 28.5% of Japanese high schools answered that they had seen discrimination, while 73.6% of international school students answered that they had seen discrimination in real life.
     <div class="logograph">
     <figure>
-        <img class="graphimage" src="/sawengjap.png">
-        <img class="graphimage" src="/sawenginter.png">
+        <img class="graphimage" :src="`${prefix}/sawengjap.png`">
+        <img class="graphimage" :src="`${prefix}/sawenginter.png`">
         <figcaption>Left: Japanese High School Results Right: International School Results</figcaption>
         </figure>
     </div>
@@ -53,15 +53,15 @@
     <br><br>
     <div class="logograph">
     <figure>
-        <img class="graphimage" src="/experiencengjap.png">
-        <img class="graphimage" src="/yesengjap.png">
+        <img class="graphimage" :src="`${prefix}/experiencengjap.png`">
+        <img class="graphimage" :src="`${prefix}/yesengjap.png`">
         <figcaption>Japanese High School Results</figcaption>
         </figure>
     </div>
     <div class="logograph">
     <figure>
-        <img class="graphimage" src="/experienceenginter.png">
-        <img class="graphimage" src="/yesenginter.png">
+        <img class="graphimage" :src="`${prefix}/experienceenginter.png`">
+        <img class="graphimage" :src="`${prefix}/yesenginter.png`">
         <figcaption>International School Results</figcaption>
         </figure>
     </div>
@@ -73,7 +73,7 @@
 
     </div>
     <div class="nextback">
-        <nuxt-link to="/en/what"><img class="back" src="/back2.png"></nuxt-link>
+        <nuxt-link to="/en/what"><img class="back" :src="`${prefix}/back2.png`"></nuxt-link>
         </div>
 
 
@@ -82,10 +82,12 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {

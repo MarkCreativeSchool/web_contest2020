@@ -40,8 +40,8 @@
         </div>
     </div>
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="/modoru2.png"></nuxt-link>
-            <nuxt-link to="/otherdiscrimination/littleknowndiscrimination"><img class="next" src="/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/littleknowndiscrimination"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
 
      <Footer></Footer>
@@ -49,10 +49,12 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {

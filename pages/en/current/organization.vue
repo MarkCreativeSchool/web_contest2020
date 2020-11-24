@@ -27,7 +27,7 @@
 <br>Link to official site<a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     <br>
     </p>
-    <img class="logoblm" src="/blmlogo.jpg">
+    <img class="logoblm" :src="`${prefix}/blmlogo.jpg`">
 
 
         <!-- <div class="activity">
@@ -50,7 +50,7 @@
 <br>Link to site=><a href="https://colorofchange.org/" target="_blank"> https://colorofchange.org/</a>
     <br>
     </p>
-    <img class="logoblm" src="/colorofchange.jpg">
+    <img class="logoblm" :src="`${prefix}/colorofchange.jpg`">
 
         <!--
          <div class="activity">
@@ -74,7 +74,7 @@
 <br>Link to Official Site<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>
-    <img class="logom4bl" src="/m4bl.png">
+    <img class="logom4bl" :src="`${prefix}/m4bl.png`">
 
 
 
@@ -104,17 +104,19 @@
 
     </div>
     <div class="nextback">
-            <nuxt-link to="/en/current/statistics/policebrutality"><img class="back" src="/back2.png"></nuxt-link>
+            <nuxt-link to="/en/current/statistics/policebrutality"><img class="back" :src="`${prefix}/back2.png`"></nuxt-link>
         </div>
      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {

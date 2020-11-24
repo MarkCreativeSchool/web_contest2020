@@ -18,7 +18,7 @@
         In addition, in 1990, a black woman was elected mayor of Washington City, making her the first black woman to be elected as mayor in a metropolis for the first time.
 <br>
     </p>
- <img class="bargraph" src="/workgrapheng.png">
+ <img class="bargraph" :src="`${prefix}/workgrapheng.png`">
         <p class="two_work">
                 However, even today, work disparities against black discrimination are still a problem in the United States.
                 The table on the left shows the <b>unemployment rate </b>for 2018 by major racial and democratic groups in the United States.
@@ -40,17 +40,19 @@
 
     </div>
     <div class="nextback">
-            <nuxt-link to="/en/current/statistics/education"><img class="next" src="/next.png"></nuxt-link>
+            <nuxt-link to="/en/current/statistics/education"><img class="next" :src="`${prefix}/next.png`"></nuxt-link>
         </div>
       <Footereng></Footereng>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {
