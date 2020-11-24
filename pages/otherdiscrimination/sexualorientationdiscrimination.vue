@@ -13,13 +13,11 @@
        性的指向差別とは、<mark class="highlights"><b>自分の性別によって行われる差別です</b></mark>。この差別行為は<b>LGBTQ +コミュニティ（L =レズビアン、G =ゲイ、B =バイセクシュアル、T =トランスジェンダー、Q =クィア、+ =パンセクシュアル、アセクシュアル、オムニセクシャルなどのその他の性的アイデンティティ）</b>を対象としています。差別の種類には、直接的および間接的な差別のほか、嫌がらせが含まれます。
     <br>
     <div class="logoimage">
-    <!-- <img class="sexualorientation" src="~/assets/gendersign.png">
-    <img class="sexualorientation" src="~/assets/heart.png"> -->
     </div>
     <br>
 
     <h3 class="start_sexualorientation"><span class="under">性的指向差別に関する最近のニュース</span></h3>
-       
+
          <div class="activity">
             <h6 class="program_sexualorientation">オーランド銃乱射事件（アメリカ）</h6>
             <hr>
@@ -39,21 +37,23 @@
             その後、精神的に不安定になり生徒Aは８月に自殺した。その後、この事件で生徒などが集まり、<mark class="highlights"><b>一橋大の校門前で追悼集会が行われた</b></mark>。</p>
             <br>
         </div>
-    </div> 
+    </div>
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/asiandiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/otherdiscrimination/religiousdiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/asiandiscrimination"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/religiousdiscrimination"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
-    
+
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -71,40 +71,40 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .two_sexualorientation{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 20px; 
-  font-size: 18px; 
+  margin-top: 20px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_sexualorientation{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -113,52 +113,52 @@ export default {
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program_sexualorientation{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_sexualorientation{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 
 .sexualorientation{
-    width: 325px; 
-    height: 350px; 
-    display: inline-block; 
-    margin: 0 auto; 
+    width: 325px;
+    height: 350px;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .logoimage{
-    text-align: center; 
+    text-align: center;
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 

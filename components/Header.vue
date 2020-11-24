@@ -2,15 +2,14 @@
   <div class="fullhead">
    <div class="toggle" :class="{ isHome: isHome === true }">
    <div class="up-jp">
-   <!-- <img class="logo" src="~/assets/logo_new_jp.png"> -->
-    <nuxt-link to="/" v-if="isHome"><img class="logo" src="~/assets/newlogo.png"></nuxt-link>
-    <nuxt-link to="/" v-else><img class="logo" src="~/assets/black_logo.png"></nuxt-link>
+    <nuxt-link to="/" v-if="isHome"><img class="logo" :src="`${prefix}/newlogo.png`"></nuxt-link>
+    <nuxt-link to="/" v-else><img class="logo" :src="`${prefix}/black_logo.png`"></nuxt-link>
 
    <!-- </div>
     <div class="toggle">-->
     <div class="uppersub_jp">
-        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
-        <span>トップ</span> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }">
+        <span>トップ</span>
         <ul class="sub_jp">
               <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
               <li><nuxt-link to="/what" class="downsub">差別とは？</nuxt-link></li>
@@ -19,8 +18,8 @@
         </nuxt-link>
         <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link>
         <nuxt-link to="/currentproblems" class="bar_jp" :class="{ isHome: isHome === true }">現問題</nuxt-link>
-        
-        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
+
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }">
         <span>現状</span>
         <ul class="sub_jp" >
               <li><nuxt-link to="/current/statistics/work" class="downsub">雇用</nuxt-link></li>
@@ -30,8 +29,8 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
-        <span>他の差別</span> 
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }">
+        <span>他の差別</span>
         <ul class="sub_jp">
               <li><nuxt-link to="/otherdiscrimination/genderdiscrimination" class="downsub">性差別</nuxt-link></li>
               <li><nuxt-link to="/otherdiscrimination/asiandiscrimination" class="downsub">アジア人差別</nuxt-link></li>
@@ -40,9 +39,9 @@
               <li><nuxt-link to="/otherdiscrimination/littleknowndiscrimination" class="downsub">他</nuxt-link></li>
             </ul>
         </nuxt-link>
-        
-        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }"> 
-        <span>その他</span> 
+
+        <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }">
+        <span>その他</span>
         <ul class="sub_jp">
             <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
               <li><nuxt-link to="/others/sitemap" class="downsub">サイトマップ</nuxt-link></li>
@@ -52,27 +51,33 @@
         </nuxt-link>
         <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">English</a>
         </div>
-  </div> 
   </div>
-           
+  </div>
+
   </div>
 </template>
 
 <script>
+import Mixin from "../mixins/mixin";
 export default {
     name: "Header",
+  mixins: [ Mixin ],
   data(){
     return {
-      activeIndex: null, 
+      activeIndex: null,
+      // prefix: "",
     }
   },
   computed: {
     isHome() {
       if (this.$route.path === "/" || this.$route.path === "/index.html") {
         return true
-      } 
+      }
       return false
-    }
+    },
+  },
+  mounted() {
+      // this.prefix = "/_nuxt"
   },
   methods: {
     toggleDropDown(num){
@@ -106,19 +111,19 @@ export default {
 }
 
 .up-jp{
-    padding-top: 5px; 
+    padding-top: 5px;
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
     /* background-color: white; */
     background: rgba(255,255,255,0);
-    display: inline-block; 
+    display: inline-block;
     width: 100%;
     text-align: center;
     position: relative;
 }
 
 .toggle{
-  display: inline-block; 
+  display: inline-block;
   width: 100%;
   margin-bottom: 0px;
   border-bottom: solid 1px #ddd;
@@ -129,8 +134,8 @@ export default {
 }
 
 .uppersub_jp{
-  display:flex; 
-  margin: 0 auto; 
+  display:flex;
+  margin: 0 auto;
   padding-top: 15px;
    padding-bottom: 25px;
   width: 50%;
@@ -140,27 +145,27 @@ export default {
 
  .logo{
   display: inline-block;
-  width: 75px; 
+  width: 75px;
   height: 75px;
-  float: left; 
-  margin-left: 20px; 
-  margin-top: 5px; 
-} 
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
 
 .bar_jp{
   position: relative;
   color: black;
   text-align: center;
-  padding-left:10px; 
-  padding-right: 10px; 
-  padding-top: 7px; 
+  padding-left:10px;
+  padding-right: 10px;
+  padding-top: 7px;
   padding-bottom: 7px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  position: relative; 
-  flex: 1; 
-  font-family: "Noto Sans JP"; 
+  position: relative;
+  flex: 1;
+  font-family: "Noto Sans JP";
   margin: 0 auto;
 }
 
@@ -169,7 +174,7 @@ export default {
 }
 
 .bar_jp:hover{
-  color: #ffa000; 
+  color: #ffa000;
 }
 
 .bar_jp .sub_jp {
@@ -196,27 +201,27 @@ export default {
 }
 
 .bar_jp.active .sub_jp{
-  display: block; 
+  display: block;
   z-index: 2000;
 }
 
 .sub_jp{
   position: absolute;
-  background-color: #444; 
+  background-color: #444;
   border: solid 1px #222;
-  width: 160px; 
-  position: absolute; 
-  top: 100%; 
-  left: 50%; 
+  width: 160px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
   margin-left: -80px;
-  z-index: 10; 
-  display: none; 
+  z-index: 10;
+  display: none;
 }
 
 /*.subpage{
-  color: #ffffff; 
-  font-family: "Rockwell"; 
-  padding: 5px; 
+  color: #ffffff;
+  font-family: "Rockwell";
+  padding: 5px;
 }
 
 .subpage:hover{
@@ -224,9 +229,9 @@ export default {
 }*/
 
 .downsub{
-  color: #ffffff; 
-  font-family: "Rockwell"; 
-  padding: 5px; 
+  color: #ffffff;
+  font-family: "Rockwell";
+  padding: 5px;
 }
 
 .downsub:hover{

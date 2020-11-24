@@ -2,17 +2,17 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Shooting of Oscar Grant</div>
         <div class="note-content-sub">
-          <br>On January 1, 2009, Oscar Grant, a 22 year old man, was murdered at a subway station. He was detained along with approximately 20 passengers that were involved in a fight in the train. Although he was not involved in the fight, he was near the location the fight took place and was captured. While trying to confront the officer, he was backed against the wall and was handcuffed, and later murdered. 
+          <br>On January 1, 2009, Oscar Grant, a 22 year old man, was murdered at a subway station. He was detained along with approximately 20 passengers that were involved in a fight in the train. Although he was not involved in the fight, he was near the location the fight took place and was captured. While trying to confront the officer, he was backed against the wall and was handcuffed, and later murdered.
         </div>
         <div class="year">(California・2009)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/kari.png">
+          <img class="map2" :src="`${prefix}/kari.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "ca.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

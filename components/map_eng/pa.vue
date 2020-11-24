@@ -2,17 +2,17 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content"> Shooting of Antwon Rose Jr.</div>
         <div class="note-content-sub">
-          <br>In 2018, June 19, Antwon Rose Jr. (17 years old) was shot after trying to escape from a false accusation made by an office (*needs source). He was riding in the passenger seat of the car that was apparently seen near a shooting that had just occurred that day, and was stopped by the police. The officer shot him 3 times and Antwon was declared dead. The officer was acquitted for all charges. 
+          <br>In 2018, June 19, Antwon Rose Jr. (17 years old) was shot after trying to escape from a false accusation made by an office (*needs source). He was riding in the passenger seat of the car that was apparently seen near a shooting that had just occurred that day, and was stopped by the police. The officer shot him 3 times and Antwon was declared dead. The officer was acquitted for all charges.
         </div>
         <div class="year">(Pennsylvania・2018)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/pen.png">
+          <img class="map2" :src="`${prefix}/pen.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "pa.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

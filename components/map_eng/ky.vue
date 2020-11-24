@@ -2,17 +2,17 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Shooting of Breonna Taylor</div>
         <div class="note-content-sub">
-          <br>On March 13, 2020, Breonna Taylor (26 years old) was fatally shot by the police after the police intruded her and her boyfriend’s house after being accused of drug possession. Breonna’s boyfriend thought this act was trespassing, and shot the police, and in response, the police shot Breonna. The trial ended with Breonna’s boyfriend (Kenneth Walker) being pressed charges of shooting, but the officer was acquitted from his crime. 
+          <br>On March 13, 2020, Breonna Taylor (26 years old) was fatally shot by the police after the police intruded her and her boyfriend’s house after being accused of drug possession. Breonna’s boyfriend thought this act was trespassing, and shot the police, and in response, the police shot Breonna. The trial ended with Breonna’s boyfriend (Kenneth Walker) being pressed charges of shooting, but the officer was acquitted from his crime.
         </div>
         <div class="year">(Kentucky・2020)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/ken.png">
+          <img class="map2" :src="`${prefix}/ken.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

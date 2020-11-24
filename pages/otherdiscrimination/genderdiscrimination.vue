@@ -15,7 +15,6 @@
        性差別の主な原因として、家庭内での教育、生物学的役割の違い、宗教、伝統的な社会構造などが挙げられます。
        <mark class="highlights"><b>性差別は現社会で起きている様々な問題に繋がっていきます</b></mark>。
        セクハラ・モラハラ問題や、ジェンダーと社会的役割に関する偏見などの問題が現在取り上げられています。
-<!-- <img class="drawing4" src="~/assets/equality.jpg"> -->
     </p>
     <br>
     <h3 class="start_gender"><span class="under">性差別に関するニュース</span></h3>
@@ -37,28 +36,29 @@
             <p class="campaign_gender">2018年1月29日、2018年グラミー賞授賞式が行われた。
             しかし、グラミー賞はその年、男性が優勢であり、<mark class="highlights"><b>男女平等に欠けていた</b></mark>。
             レコーディングアカデミーのニールポートナウ校長が候補者の不均衡について質問されたとき、彼は女性が指名されて賞を獲得するために<b>「ステップアップ」</b>する必要があるとコメントした。
-            このコメントは、一般の人々や音楽アーティストから激しい批判を受けました。 
+            このコメントは、一般の人々や音楽アーティストから激しい批判を受けました。
             世界的歌手のHalseyは次のようにコメントしています。
            　<b>「2017年には女性アーティストは音楽界にインパクトを残しました。しかし、候補者はピアと音楽に対する彼らの意見によって選ばれます。つまり、それは全産業が女性が支持することを期待する基準についての会話であることを意味します。」また、アネンバーグインクルージョンイニシアチブ（不平等に取り組むための研究ベースのソリューションを目指すイニシアチブ）は、「アーティストの22％、ライターの12％、プロデューサーの2％だけが女性である場合、女性は音楽をどのように「ステップアップ」するのですか？ 」さらに、「あなたのメンバーシップの構成はどのようなものであり、あなたはどのようにカウンターバイアスにステップアップしていますか？」</b>と問い詰めました。
            その後、ニール・ポートナウは謝罪し、彼のコメントは文脈から外されたと主張した。</p>
             <br>
         </div>
 
-    </div> 
+    </div>
     <div class="nextback">
-           <!-- <nuxt-link to="/otherdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>-->
-            <nuxt-link to="/otherdiscrimination/asiandiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/asiandiscrimination"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
-    
+
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -76,39 +76,39 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .two_gender{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 30px; 
-  font-size: 18px; 
+  margin-top: 30px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_gender{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -117,20 +117,20 @@ export default {
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program_gender{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_gender{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 
@@ -139,28 +139,28 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 55%;
-  height: 370px; 
-  margin-bottom: 20px; 
-  margin-top: 0px; 
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 hr{

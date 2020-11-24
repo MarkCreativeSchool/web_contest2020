@@ -9,16 +9,16 @@
 <br>
     <h3 class="start_what"><span class="under">差別とは？</span></h3>
     <br>
-    <img class="drawing1" src="~/assets/what.jpg">
-    <p class="two_what">差別とは、個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、<mark class="highlights"><b>合理的に説明できないような異なった（不利益）取り扱い</b></mark>をすることです。 
+    <img class="drawing1" :src="`${prefix}/What.jpg`">
+    <p class="two_what">差別とは、個人の特性を無視し、所属している集団や社会的カテゴリーに基づいて、<mark class="highlights"><b>合理的に説明できないような異なった（不利益）取り扱い</b></mark>をすることです。
     差別には本来、明確に区分するという意味が含まれているが、ここで取り上げるのは、<mark class="highlights"><b>本来平等であるべきものを不平等に取り扱うという社会的差別</b></mark>です。
-     そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はありません。 
-     <mark class="highlights"><b>なぜならば、＜本来平等であるべきもの＞</b></mark>という認識自体が、社会や時代とともに変化するからです。 
+     そのような社会的差別にしても、何を差別ととらえるのかについては万人が納得するような基準はありません。
+     <mark class="highlights"><b>なぜならば、＜本来平等であるべきもの＞</b></mark>という認識自体が、社会や時代とともに変化するからです。
      つまり、人権意識の深まりとともに、今まで差別ととらえられなかったものが差別と認識されるようになるのです。
   <br>
     </p>
-    <img class="drawing3" src="~/assets/discrimination2.jpg">
- 
+    <img class="drawing3" :src="`${prefix}/discrimination2.jpg`">
+
     <h3 class="start_what"><span class="under">差別と区別</span></h3>
     <p class="two_what">
     <b><mark>差別</mark></b><br>
@@ -29,22 +29,24 @@
 
     </p>
 <br>
-    </div> 
+    </div>
        <div class="nextback">
-         <nuxt-link to="/"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/survey"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+         <nuxt-link to="/"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
+            <nuxt-link to="/survey"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
 
-  
+
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -62,26 +64,26 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 .two_what{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
  .start_what{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -89,16 +91,16 @@ export default {
 
 /*
 .start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .drawing3{
@@ -106,8 +108,8 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  height: 370px; 
-  margin-top: 0px; 
+  height: 370px;
+  margin-top: 0px;
 }
 
 .drawing1{
@@ -115,8 +117,8 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 500px; 
-  margin-top: 0px; 
+  height: 500px;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 

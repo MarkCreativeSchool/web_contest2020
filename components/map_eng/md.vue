@@ -2,17 +2,17 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Death of Freddie Gray</div>
         <div class="note-content-sub">
-          <br>In 2015, April 12, Freddie Gray was arrested due to possessing a knife. He was captured by 6 police officers, who held him to the police van while he was protesting. This caused injuries within the spinal cord, and caused Gray to slip into a coma. 3 days after the arrest, Freddie Gray was declared dead. Although the officers were pressed charges for conducted violence and death, the result of the trial ended with the officers declared as “not guilty”. 
+          <br>In 2015, April 12, Freddie Gray was arrested due to possessing a knife. He was captured by 6 police officers, who held him to the police van while he was protesting. This caused injuries within the spinal cord, and caused Gray to slip into a coma. 3 days after the arrest, Freddie Gray was declared dead. Although the officers were pressed charges for conducted violence and death, the result of the trial ended with the officers declared as “not guilty”.
         </div>
         <div class="year">(Maryland・2015)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/meri.png">
+          <img class="map2" :src="`${prefix}/meri.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

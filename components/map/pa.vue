@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">アントワン・ローズ・ジュニア死亡事件</div>
         <div class="note-content-sub">
           <br>優秀な学生だったアントワン・ローズ・ジュニアは、背後から頬と肘を撃たれ死亡した。その翌日、イースト・ピッツバーグ警察署にはたくさんの黒人の若者が押し寄せた。容疑者は銃のようなものを所持していたと主張している。
@@ -10,9 +10,9 @@
         <div class="year">(ペンシルベニア州・2018年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/pen.png">
+          <img class="map2" :src="`${prefix}/pen.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "pa.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">市長宅デモ事件</div>
         <div class="note-content-sub">
           <br>デモは市長の家の前で行われ、すぐに警察官が出動しましたが、火炎瓶や、凍ったボトル、石などを投げ、怪我人が出た。およそ18人の警察官が負傷し、12人が逮捕に至った。抗議者に対し、民間警察説明責任局（COPA）は、「警察の不正行為に関して送られた多数の苦情を現在調査中である」ことを明確にした。この事件をきっかけに、シカゴでは警察の警備がさらに厳重になった。
@@ -10,9 +10,9 @@
         <div class="year">(イリノイ州・2020年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/iri.png">
+          <img class="map2" :src="`${prefix}/iri.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

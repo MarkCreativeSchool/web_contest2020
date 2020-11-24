@@ -4,12 +4,12 @@
     <div class="info">
       <div class="test">
         <video id="video" width="1920" height="1080" loop autoplay muted>
-          <source src="~/assets/douga.mp4" type="video/mp4" />
+          <source :src="`${prefix}/douga.mp4`" type="video/mp4" />
         </video>
         <div class="maku"><div class="aaa"></div></div>
       </div>
-      <br> 
-      <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2> 
+      <br>
+      <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2>
       <br>
       <p class="three">
         Discrimination is an issue that involves the whole world. Discrimination is not an issue that we have nothing to do with. In 2020, racist incidents in the United States intensified the opposition movement once again, and the world began to focus on the issue of discrimination. This site details the history of racism against black people in the United States, organizations campaigning against racism in the United States, and other forms of discrimination occurring around the world. This is your opportunity to once again ask yourself, "what is discrimination" on this site.
@@ -18,13 +18,13 @@
         <p class="introhome">
           You can browse the content in a timeline format so that you can see the history of discrimination.</p>
         <button class="introbutton"><nuxt-link to="/en/history" class="introlink">History</nuxt-link></button>
-      </div> 
+      </div>
     <div class="discrimination1">
       <li>Incidents</li>
       <p class="introhome">
         This page summarizes the recent incidents regarding discrimination in the United States that you can learn about.</p>
       <button class="introbutton"><nuxt-link to="/en/history" class="introlink">Incidents</nuxt-link></button>
-    </div> 
+    </div>
     <div class="discrimination2">
       <li>Current problems</li>
       <p class="introhome">
@@ -50,7 +50,7 @@
     <br>
     <br>
     <div class="nextback">
-      <nuxt-link to="/en/what"><img class="next" src="~/assets/next.png"></nuxt-link>
+      <nuxt-link to="/en/what"><img class="next" :src="`${prefix}/next.png`"></nuxt-link>
     </div>
     <Footereng></Footereng>
     </div>
@@ -58,10 +58,12 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {
@@ -78,11 +80,11 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Rockwell');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 
@@ -130,7 +132,7 @@ export default {
   margin: 40px;
   margin-left: 18%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -150,7 +152,7 @@ export default {
   margin: 40px;
   margin-right: 13%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -170,7 +172,7 @@ export default {
   margin: 40px;
   margin-left: 18%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -190,7 +192,7 @@ export default {
   margin: 40px;
   margin-right: 13%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -204,7 +206,7 @@ export default {
 }
 
 .introhome{
-  font-family: "Rockwell"; 
+  font-family: "Rockwell";
   font-size: 14px;
   font-weight: none;
   margin-top: 10px;
@@ -214,9 +216,9 @@ export default {
 /*.biggertitle{
   font-weight: bold;
   font-size: 24px;
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
-   width: 68%; 
+   width: 68%;
 }*/
 
 mark {
@@ -230,46 +232,46 @@ mark {
   font-weight: bold;
   font-size: 24px;
   margin: 0 auto;
-   width: 53%; 
+   width: 53%;
 }
 
 .three{
-  width: 53%; 
+  width: 53%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .start{
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }
 .drawing{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  height: 575px; 
-  margin-top: 0px; 
+  height: 575px;
+  margin-top: 0px;
 }
 
 
 .graphimage{
-    width: 35%; 
-    height: 2%; 
-    display: inline-block; 
-    margin: 0 auto; 
+    width: 35%;
+    height: 2%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .logograph{
-    text-align: center; 
+    text-align: center;
 }
 
 figure {
@@ -279,27 +281,27 @@ figure {
 
 figcaption {
   text-align: center;
-  font-weight: bold; 
-  font-size: 12px; 
+  font-weight: bold;
+  font-size: 12px;
 }
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 .test{
@@ -308,7 +310,7 @@ figcaption {
   height: calc(100vh - 0px);
   overflow: hidden;
   margin-top: -100px;
-} 
+}
 
 
 
