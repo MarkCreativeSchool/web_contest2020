@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Demo Attack in Mayor’s House</div>
         <div class="note-content-sub">
           <br>In Chicago, protesters gathered around the mayor’s house. During this protest, the protesters threw rocks, fireworks, frozen bottles, and other objects to attack officers, which led to 18 officers getting injured. 12 protesters were arrested from this demo. The Civilian Office of Police Accountability (COPA) confirmed that they are currently investigating the numerous complaints that have been sent regarding police misconduct. With this incident, it has been reported that the security level of Chicago increased.
@@ -10,9 +10,9 @@
         <div class="year">(Illinois・2020)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/iri.png">
+          <img class="map2" :src="`${prefix}/iri.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

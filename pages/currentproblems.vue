@@ -31,7 +31,7 @@
 
       </p>
 
-      <img class="map" src="~/assets/usmap.png">
+      <img class="map" src="/usmap.png">
       </div>
 
        <Footer></Footer>
@@ -99,11 +99,11 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .start{
@@ -111,7 +111,7 @@ export default {
     color: #ffffff;
     background-color: #000000;
     background-position: center center;
-    width: 83%;  
+    width: 83%;
     margin: 0 auto;
     font-size: 30px;
     border-radius: 3px;
@@ -119,11 +119,11 @@ export default {
     text-align: center;
   } */
 .two_current{
-  font-family: "Noto Sans JP"; 
-  width: 67%; 
+  font-family: "Noto Sans JP";
+  width: 67%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
@@ -131,7 +131,7 @@ export default {
   .start_current{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 67%;
     color: black;
@@ -246,22 +246,22 @@ export default {
 
   .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 </style>

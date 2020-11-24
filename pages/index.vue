@@ -4,24 +4,24 @@
     <div class="info">
       <div class="test">
         <video id="video" width="1920" height="1080" loop autoplay muted>
-          <source src="~/assets/douga.mp4" type="video/mp4" />
+          <source :src="`${prefix}/douga.mp4`" type="video/mp4" />
         </video>
         <div class="maku"><div class="aaa"></div></div>
       </div>
     <br>
     <div>
-     <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2> 
+     <h2 class="biggertitle_jp"><span class="under">このサイトついて</span></h2>
      <p class="three">世界中で問題となっている差別問題。日本にいる私たちには関係ないことだと思っていませんか？2020年、アメリカで起こった黒人差別事件をきっかけに、反対運動が再び激化し世界中が差別について目を向けるようになりました。このサイトでは、アメリカの黒人差別が始まった歴史や、黒人差別反対運動を行っている組織、そして、世界中で起こっている差別について詳しくまとめています。このサイトで「差別とは何か」をもう一度考えてみませんか？
       <div class="discrimination">
         <li>黒人差別の歴史</li>
         <p class="introhome">差別の歴史を年代別にタイムラインでまとめられています。</p>
         <button class="introbutton"><nuxt-link to="/history" class="introlink">差別の歴史を見る＞＞</nuxt-link></button>
-      </div> 
+      </div>
       <div class="discrimination1">
         <li>現代の差別問題</li>
         <p class="introhome">近年アメリカで起こった黒人差別問題についてをまとめたページです。</p>
         <button class="introbutton"><nuxt-link to="/currentproblems" class="introlink">現代の差別問題を見る</nuxt-link></button>
-      </div> 
+      </div>
       <div class="discrimination2">
         <li>現状の差別問題</li>
         <p class="introhome">差別問題が日常生活にどのような影響を及ぼしているのでしょうか。</p>
@@ -41,8 +41,8 @@
           <button class="introbutton"><nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination" class="introlink">性的指向差別</nuxt-link></button>
           <button class="introbutton"><nuxt-link to="/otherdiscrimination/religiousdiscrimination" class="introlink">宗教差別</nuxt-link></button>
         </div>
-      </div> 
-    </div> 
+      </div>
+    </div>
      <!-- <h4 class="hometitle">サイトを作ろうとしたきっかけ</h4>
       <p class="three">最近、ジョージフロイドが警官に窒息死された事件をきっかけに、黒人差別が注目される話題になりました。昔から世界的に問題となっている黒人差別。しかし、私たちは一体どこまで黒人差別の事を理解しているのでしょう？本当に私たちはこの問題を理解しているのか？実際、私たちはこの問題のことを調べた際、自分たちの黒人差別問題に対する理解がどれだけ少なかったかを知り、驚きました。
      </p> -->
@@ -68,11 +68,11 @@
       <!-- <p class="three">
       <b>*私たちがこのサイトで取り上げている黒人差別問題は繊細な課題です。バイアスは断じて禁じるように気遣っています。その為、意見や個人の考えなどは控えています。ご了承ください。</b>
       </p> -->
-    </div> 
+    </div>
     <br>
 
     <div class="nextback">
-            <nuxt-link to="/what"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/what"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
 
   <Footer></Footer>
@@ -80,6 +80,7 @@
 </template>
 
 <script scoped>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 
@@ -87,6 +88,7 @@ import Footer from "~/components/Footer"
 // v.onplay();
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
 
   head() {
@@ -138,11 +140,11 @@ export default {
   height: calc(100vh - 0px);
   overflow: hidden;
   margin-top: -100px;
-  
+
 }
 
 .introhome{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   font-size: 14px;
   font-weight: none;
   margin-top: 10px;
@@ -168,41 +170,41 @@ export default {
 
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 .three{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 40px; 
-  font-size: 17px; 
+  margin-top: 40px;
+  font-size: 17px;
   text-indent: 1em;
   color: black;
 }
 
 
 .start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }
 
 .biggertitle_jp{
   font-weight: bold;
   font-size: 30px;
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   width: 70%;
   color: black;
@@ -215,7 +217,7 @@ export default {
   margin: 40px;
   margin-left: 18%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -235,7 +237,7 @@ export default {
   margin: 40px;
   margin-right: 13%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -255,7 +257,7 @@ export default {
   margin: 40px;
   margin-left: 18%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -275,7 +277,7 @@ export default {
   margin: 40px;
   margin-right: 13%;
   background-color:  #f5f5f5;
-  padding:  25px;             
+  padding:  25px;
   height:250px;
   width: 24%;
   position: relative;
@@ -299,20 +301,20 @@ export default {
 .hometitle{
   font-weight: bold;
   font-size: 24px;
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
-  width: 53%; 
+  width: 53%;
 
 }
 .graphimage{
-    width: 35%; 
-    height: 2%; 
-    display: inline-block; 
-    margin: 0 auto; 
+    width: 35%;
+    height: 2%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .logograph{
-    text-align: center; 
+    text-align: center;
 }
 
 figure {
@@ -321,18 +323,18 @@ figure {
 }
 
 figcaption {
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   text-align: center;
-  font-weight: bold; 
-  font-size: 12px; 
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 </style>

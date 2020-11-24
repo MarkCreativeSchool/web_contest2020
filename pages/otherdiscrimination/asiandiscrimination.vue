@@ -12,11 +12,10 @@
     <p class="two_asia">
         アジア人差別は人種差別の一種であり、ヨーロッパやアメリカなどを中心でみられる差別です。黒人差別同様、人種をきっかけに<mark class="highlights"><b>他人に屈辱されたり、見下されたる扱いを受けるなどのことが起きています</b></mark>。黒人差別よりは今現在メディアなどで取り上げられている差別ではないが、昔からある問題です。
 <br>
-<!-- <img class="drawings" src="~/assets/asia.jpg"> -->
     </p>
 <br>
     <h3 class="start_asia"><span class="under">アジア人差別に関する最近のニュース</span></h3>
-       
+
             <div class="activity">
             <h6 class="program_asia">コロナ禍での差別（世界）</h6>
             <hr>
@@ -33,18 +32,18 @@
             <hr>
             <br>
             <p class="campaign_asia">2018年10月、連邦裁判官は、米国のアイビーリーグ大学であるハーバード大学が<mark class="highlights"><b>アジア系アメリカ人の申請者を差別したという主張</b></mark>を却下しました。
-            訴訟は、ハーバード大学がアジア系アメリカ人であれば受け入れられる人々の数に制限を設けたと主張した。 
+            訴訟は、ハーバード大学がアジア系アメリカ人であれば受け入れられる人々の数に制限を設けたと主張した。
             SFFA（Students for Fair Admissions）は、ハーバード大学がアジア系アメリカ人の申請者に<b>20％</b>の制限を設けており、人種的バランスを取るための大学の努力が行き過ぎていると非難した。
             さらに、SFFAグループのエドワードブラムは、アジア系アメリカ人の申請者は他の申請者よりも高い成績を収めましたが、<mark class="highlights"><b>主観的な「個人的な」評価に基づいて受け入れられなかったと主張した</b></mark>。
             ハーバード大学はこれらの容疑を否定し、入学時の人種の使用は合法であり、申請者を受け入れる間は主観的な個人評価を行わなかったと主張しました。</p>
             <br>
         </div>
-        
 
-    </div> 
+
+    </div>
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/genderdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/genderdiscrimination"><img class="back" src="/modoru2.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="next" src="/tugi.png"></nuxt-link>
         </div>
      <Footer></Footer>
   </div>
@@ -72,38 +71,38 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 .two_asia{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 30px; 
-  font-size: 18px; 
+  margin-top: 30px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_asia{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -112,44 +111,44 @@ export default {
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program_asia{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_asia{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 .drawings{
-    width: 300px; 
+    width: 300px;
     display: block;
   margin-left: auto;
   margin-right: auto;

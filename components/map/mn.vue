@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">フィランド・カスティール死亡事件</div>
         <div class="note-content-sub">
           <br>自動車の後部のライトが壊れていたため、警官に呼び止められ撃たれて死亡した事件。警察の命令に従い車を停めたカスティールさんは、自分は銃を隠し持つ許可を受けており今も銃を携帯していると警官に告げた。その上で、免許証を取ろうと手を伸ばしたところで、警官に撃たれた。
@@ -10,9 +10,9 @@
         <div class="year">(ミネソタ州・2016年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/mine.png">
+          <img class="map2" :src="`${prefix}/mine.png`">
         </div>
       </div>
     </div>

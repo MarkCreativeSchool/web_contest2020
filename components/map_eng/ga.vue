@@ -2,17 +2,17 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Shooting of Ahmaud Arbery</div>
         <div class="note-content-sub">
-          <br>Ahmaud Arbery (24 years old) was murdered by Gregory McMichael (64 years old) and Travis McMichael (34 years old) on February 23, 2020. According to the police, Gregory and Travis (parents and child) thought that Arbery had caused the robbery that occurred near their house, and was running away. With no evidence, they fatally shot Arbery. They were acquitted from their crime, which caused protests amongst the citizens. 
+          <br>Ahmaud Arbery (24 years old) was murdered by Gregory McMichael (64 years old) and Travis McMichael (34 years old) on February 23, 2020. According to the police, Gregory and Travis (parents and child) thought that Arbery had caused the robbery that occurred near their house, and was running away. With no evidence, they fatally shot Arbery. They were acquitted from their crime, which caused protests amongst the citizens.
         </div>
         <div class="year">(Georgia・2020)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/jo.png">
+          <img class="map2" :src="`${prefix}/jo.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "ga.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

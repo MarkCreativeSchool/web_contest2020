@@ -15,7 +15,6 @@
        他にも、会話やサークルでの場で入れてもらえなかったりする事が多々あります。
 
     </p>
-    <!-- <img class="drawing3" src="~/assets/religiousdiscrimination.jpg"> -->
     <br>
     <h3 class="start_religion"><span class="under">宗教差別に関する最近のニュース</span></h3>
        <div class="activity">
@@ -34,17 +33,17 @@
             <br>
             <p class="campaign_religion">2018年6月、若いイスラム教徒の生徒とその教師は、デラウェア州ウィルミントンにある公共プール出ていくよう求められました。
             プールのマネージャーは<b>生徒らを追い出す際彼らの衣服などを理由とし、警察まで呼ぼうとした</b>。
-            ウィルミントンに本部を置くイスラム教徒の青少年センターが、教師と生徒に対する差別的な行動について、プールに対して訴訟を起こした。 
-            ウィルミントン市長のマイク市長は7月に謝罪を発表しましたが、多くの人がこの問題に十分に対処していないことで同市を批判した。 
+            ウィルミントンに本部を置くイスラム教徒の青少年センターが、教師と生徒に対する差別的な行動について、プールに対して訴訟を起こした。
+            ウィルミントン市長のマイク市長は7月に謝罪を発表しましたが、多くの人がこの問題に十分に対処していないことで同市を批判した。
             2019年1月、この件に関して和解が発表された。和解について詳しくは、<a href="https://muslimadvocates.org/files/Darul-Amaanah-Filed-Settlement.pdf#page=14" target="_blank">こちら</a>をクリックしてください（正式な和解は英語で書かれています）。</p>
-            <br />  
+            <br />
         </div>
-    </div> 
+    </div>
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <nuxt-link to="/otherdiscrimination/littleknowndiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/sexualorientationdiscrimination"><img class="back" src="/modoru2.png"></nuxt-link>
+            <nuxt-link to="/otherdiscrimination/littleknowndiscrimination"><img class="next" src="/tugi.png"></nuxt-link>
         </div>
-    
+
      <Footer></Footer>
   </div>
 </template>
@@ -71,39 +70,39 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .two_religion{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 30px; 
-  font-size: 18px; 
+  margin-top: 30px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_religion{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -112,20 +111,20 @@ export default {
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program_religion{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_religion{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 
@@ -134,29 +133,29 @@ export default {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  height: 370px; 
-  margin-bottom: 20px; 
-  margin-top: 0px; 
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 </style>

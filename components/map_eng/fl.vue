@@ -2,19 +2,19 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="main-content">
           <div class="note-content">Shooting of Trayvon Martin</div>
           <div class="year">(Florida・2014)</div>
           <div class="note-content-sub">
-            <br>On February 26, 2012, an African-American boy who was 17 year old at the time was shot by a Hispanic neighborhood watch captain because he thought he was “suspicious.” However, this lawsuit ended with the watch captain (George Zimmerman) being declared as “not guilty/innocent”. This event started the “Blacks lives Matter” movement, which will be explained more in the organizations page.  
+            <br>On February 26, 2012, an African-American boy who was 17 year old at the time was shot by a Hispanic neighborhood watch captain because he thought he was “suspicious.” However, this lawsuit ended with the watch captain (George Zimmerman) being declared as “not guilty/innocent”. This event started the “Blacks lives Matter” movement, which will be explained more in the organizations page.
           </div>
         </div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/huro.png">
+          <img class="map2" :src="`${prefix}/huro.png`">
         </div>
       </div>
     </div>
@@ -22,8 +22,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "ny.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

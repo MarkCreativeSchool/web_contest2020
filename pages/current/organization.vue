@@ -15,7 +15,7 @@
     <br>
     <br>
     <h3 class="start_o">Black Lives Matter</h3>
-    
+
     <p class="paragraph">
       <b>設立日</b>: 2013年7月13日
     <br><b>本拠地</b>: アメリカ合衆国
@@ -25,7 +25,7 @@
     <br>2012年に起きたトレイボンマーティンの死をきっかけに、アリシア・ガーザさんがSNSに<b>#BlackLivesMatter</b>と投稿をした事で組織が設立されました
     <br><b>サイトへのリンク</b>: <a href="https://blacklivesmatter.com/about/" target="_blank"> https://blacklivesmatter.com/about/ </a>
     </p>
-    <img class="logoblm" src="~/assets/blmlogo.jpg">
+    <img class="logoblm" :src="`${prefix}/blmlogo.jpg`">
     <!-- <div class="activity">
       <h6 class="program1">2018年6月：サンディエゴボーダーでの抗議</h6>
       <hr>
@@ -35,10 +35,10 @@
       <h6 class="program1">BLM’S #WhatMatters2020</h6>
       <hr>
       <p class="campaign1"> BLM は2020年に#What Matters2020 という警察の残虐行為、人種的不正、医療へのアクセス、黒人コミュニティの投票権などに関するキャンペーンを作成しました。それは、黒人コミュニティに対する人種的不正の現在の問題を提起し、候補者がこれらの問題に対処し、人種的不正に抗議する集団的力を構築することを保証するため。詳しくはここから=> <a href="https://blacklivesmatter.com/what-matters-2020/" target="_blank">#WhatMatters2020</a></p>
-      <br>    
+      <br>
     </div> -->
     <br><br><br>
-    
+
     <h3 class="start_o">Color of Change</h3>
     <p class="paragraph">
       <b>設立日</b>: 2005年
@@ -47,7 +47,7 @@
     <br><b>組織内容</b>: アフリカ系アメリカ人政治的声を強める
     <br><b>サイトへのリンク</b>: <a href="https://blacklivesmatter.com/about/" target="_blank"> https://colorofchange.org/</a>
     </p>
-    <img class="logoblm" src="~/assets/colorofchange.jpg">       
+    <img class="logoblm" :src="`${prefix}/colorofchange.jpg`">
     <!-- <div class="activity">
       <h6 class="program1">Police violence is Gun violence. Demand #JusticeforJake and Invest In Our Communities Now.(警察の暴力は銃による暴力です。 #JusticeforJakeを要求し、今すぐコミュニティに投資してください)</h6>
       <hr>
@@ -56,7 +56,7 @@
       <h6 class="program1">ColorOfChange: #JusticeforBre: Police officers who killed Breonna Taylor must be FIRED.(ColorOfChange：#JusticeforBre：Breonna Taylorを殺した警察官は辞任させる必要があります）</h6>
       <hr>
       <p class="campaign1"> 2020年3月、ブレナテイラーは自宅で警察に射殺されました。その後。6月、睡眠中に彼女を撃った警官ハンキソンが解雇された。しかし、彼女の死に貢献した警官らは、まだ解雇されていません。このキャンペーンは#Justice for Breを要求する一方で、他の2人の解任も要求しています。=> <a href="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired?source=coc_main_website  " target="_blank">リンク </a></p>
-      <br>     
+      <br>
     </div> -->
 
  <h3 class="start_o">The Movement for Black Lives</h3>
@@ -66,10 +66,10 @@
 <br>リンク＝＞<a href="https://m4bl.org/about-us/" target="_blank">https://m4bl.org/about-us/</a>
 <br>
     </p>
-    <img class="logom4bl" src="~/assets/m4bl.png">
+    <img class="logom4bl" :src="`${prefix}/m4bl.png`">
 
 
-    
+
    <!-- <div class="activity">
             <h6 class="program1">Amnesty-for-protestors</h6>
             <hr>
@@ -94,20 +94,21 @@
         </div>-->
 
 
-    </div> 
+    </div>
     <div class="nextback">
-            <nuxt-link to="/current/statistics/policebrutality"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <!--<nuxt-link to="/otherdiscrimination/otherdiscrimination/sexualorientationdiscrimination"><img class="next" src="~/assets/tugi.png"></nuxt-link>-->
+            <nuxt-link to="/current/statistics/policebrutality"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
         </div>
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -125,34 +126,34 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 .two_organization{
-  font-family: "Noto Sans JP"; 
-  width: 67%; 
+  font-family: "Noto Sans JP";
+  width: 67%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 
 }
 
 .paragraph{
-  font-family: "Noto Sans JP"; 
-  width: 42%; 
+  font-family: "Noto Sans JP";
+  width: 42%;
   margin: 0 auto;
-  padding-top: 20px; 
-  font-size: 18px; 
-  display: inline-block; 
+  padding-top: 20px;
+  font-size: 18px;
+  display: inline-block;
   float: left;
   margin-left: 18%;
   color: black;
 }
 
 .paragraph2{
-  font-family: "Noto Sans JP"; 
-  width: 42%;  
-  font-size: 18px; 
-  display: inline-block; 
-  margin-left: 15%; 
-  padding-top: 25px; 
+  font-family: "Noto Sans JP";
+  width: 42%;
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 15%;
+  padding-top: 25px;
   float: left;
 }
 .border{
@@ -161,7 +162,7 @@ export default {
 .start_organization{
   font-weight: bold;
   font-size: 30px;
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   width: 67%;
   color: black;
@@ -172,70 +173,70 @@ export default {
 }
 
 /* .start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 80%; 
+  width: 80%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 } */
 
 
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program1{
     width: 90%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 
 
 .campaign1{
-  width: 85%; 
+  width: 85%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .logoblm{
-    height: 250px; 
-    width: 250px; 
+    height: 250px;
+    width: 250px;
     display: inline-block;
     margin-top: 10px;
-    margin-right: 20px;  
-    margin-bottom: 20px; 
+    margin-right: 20px;
+    margin-bottom: 20px;
     text-align: center;
     margin-left: 100px;
 }
 
 .logom4bl{
-    width: 270px; 
-    height: 250px; 
+    width: 270px;
+    height: 250px;
     display: inline-block;
-    margin-right: 10px;  
-    margin-top: 5px; 
+    margin-right: 10px;
+    margin-top: 5px;
     margin-left: 40px;
     margin-left: 100px;
 }
 
 .start_o{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: black;
   /* background-color: #ffa000; */
   /* background-position: center center; */
   border-left: solid 10px #ffa000;
-  width: 67%; 
+  width: 67%;
   margin: 0 auto;
-  font-size: 30px; 
+  font-size: 30px;
   border-radius: 3px;
   font-weight: 800;
   /* text-align: center;  */
@@ -244,32 +245,32 @@ export default {
 .activity{
     width: 80%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 .briefinfo{
-    display: inline-block; 
+    display: inline-block;
 }
 
 </style>

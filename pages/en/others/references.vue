@@ -7,7 +7,7 @@
          <li class="breadcrumb-item">Others</li>
          <li class="breadcrumb-item"> <nuxt-link to="/en/others/references">References</nuxt-link></li>
      </ol>
-    
+
     <br>
     <h3 class="start_references"><span class="under">References</span></h3>
     <br>
@@ -129,7 +129,7 @@
       </div>
       <br>
       <p>●URL of the page</p>
-      <br>      
+      <br>
       <p>●Source of the material used</p>
       <div class="pictures_link">
         <p><a href="https://stock.adobe.com/jp/images/stop-racism-conceptual-image-against-intolerance-and-discrimination/271221841?prev_url=detail">手を繋いでいる画像</a></p>
@@ -157,8 +157,7 @@
 </div>
 <br>
 <div class="nextback">
-            <nuxt-link to="/en/others/profile"><img class="back" src="~/assets/back.png"></nuxt-link>
-           <!-- <nuxt-link to="/en/others/references"><img class="next" src="~/assets/next.png"></nuxt-link>-->
+            <nuxt-link to="/en/others/profile"><img class="back" src="/back.png"></nuxt-link>
         </div>
      <Footereng></Footereng>
   </div>
@@ -186,29 +185,29 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 .references_o{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: black;
   /* background-color: #ffa000; */
   /* background-position: center center; */
   border-left: solid 5px #ffa000;
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 25px; 
+  font-size: 25px;
   /* border-radius: 3px; */
   font-weight: 800;
   /* text-align: center;  */
 }
 
 .books{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 25%;
@@ -216,7 +215,7 @@ export default {
   font-weight: 700;
 }
 .sites{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 25%;
@@ -225,7 +224,7 @@ export default {
 }
 
 .pictures{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 26%;
@@ -234,7 +233,7 @@ export default {
 }
 
 .pictures_link{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   /* margin-left: 27%; */
@@ -243,54 +242,54 @@ export default {
 }
 
 .two_references{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
  .start_references{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
   }
 
 .more{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-  margin-top: 45px; 
+  text-align: center;
+  margin-top: 45px;
 }
 
 .card{
   width: 24%;
   display: inline-block;
-  margin: 20px; 
-  padding: 1px; 
-  border-radius: 3px; 
-  background-color: #000000; 
+  margin: 20px;
+  padding: 1px;
+  border-radius: 3px;
+  background-color: #000000;
 }
 
 .profile{
-  display: block; 
-  width: 100%; 
-  text-align: center; 
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
-.content{ 
-  font-size: 14px; 
+.content{
+  font-size: 14px;
   color: #f6d405;
 }
 

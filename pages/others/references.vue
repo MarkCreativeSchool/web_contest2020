@@ -128,7 +128,7 @@
       <p>●使用したページ</p>
 
       <p>・<nuxt-link to="/what">差別とは何か</nuxt-link></p>
-      <br>      
+      <br>
       <p>●利用した素材の出典</p>
       <div class="pictures_link">
         <p><a href="https://stock.adobe.com/jp/images/stop-racism-conceptual-image-against-intolerance-and-discrimination/271221841?prev_url=detail">手を繋いでいる画像</a></p>
@@ -153,21 +153,22 @@
       <p>・<nuxt-link to="/">トップページの動画内</nuxt-link></p>
       <p>・<nuxt-link to="/currentproblems">現問題</nuxt-link></p>
     </div>
-    </div> 
+    </div>
      <div class="nextback">
-            <nuxt-link to="/others/profile"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-           <!-- <nuxt-link to="/others/references"><img class="next" src="~/assets/tugi.png"></nuxt-link>-->
+            <nuxt-link to="/others/profile"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
         </div>
-    
+
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -185,60 +186,60 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .references_o{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: black;
   /* background-color: #ffa000; */
   /* background-position: center center; */
   border-left: solid 5px #ffa000;
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 25px; 
+  font-size: 25px;
   /* border-radius: 3px; */
   font-weight: 800;
   /* text-align: center;  */
 }
 
 .two_references{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
  .start_references{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
   }
 
 .books{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 25%;
@@ -247,7 +248,7 @@ export default {
 }
 
 .sites{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 25%;
@@ -256,7 +257,7 @@ export default {
 }
 
 .pictures{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   margin-left: 26%;
@@ -265,7 +266,7 @@ export default {
 }
 
 .pictures_link{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   margin: 0 auto;
   font-size: 20px;
   /* margin-left: 27%; */
@@ -274,37 +275,37 @@ export default {
 }
 
 .more{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-  margin-top: 45px; 
+  text-align: center;
+  margin-top: 45px;
 }
 
 .next{
     display: inline-block;
-    float: right; 
+    float: right;
     margin-left: auto;
     margin-right: 40px;
-    width: 100px; 
+    width: 100px;
 }
 
 .back{
     display: inline-block;
     margin-left: 40px;
-    float: left; 
+    float: left;
     margin-right: auto;
-    width: 100px; 
+    width: 100px;
 }
 
 .nextback{
-    text-align: center; 
+    text-align: center;
 }
 
 </style>

@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" src="/note.png">
         <div class="note-content">ブリオナ・テイラー死亡事件</div>
         <div class="note-content-sub">
           <br>ルイスヴィル在住のブリオナ・テイラーが薬物捜査のため彼女の自宅に誤って強制的に侵入した警官に射殺された事件。彼女の死後、ルイスヴィル市は無断の家宅捜査を禁止する“ブリオナ法”を成立させた。しかし、彼女の死に関わった3人の警官はいまだ解雇も、殺人で逮捕も起訴もされていない。この事件がきっかけて、ルイスヴィル市では、無断で家宅捜索を禁止する「ブリオナ法」を制定した。
@@ -10,9 +10,9 @@
         <div class="year">(ケンタッキー州・2020年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" src="/note2.png">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/ken.png">
+          <img class="map2" src="/ken.png">
         </div>
       </div>
     </div>

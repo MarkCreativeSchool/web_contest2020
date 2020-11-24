@@ -22,32 +22,33 @@
             <h6 class="program_little">妊婦に対する差別。</h6>
             <hr>
             <p class="campaign_little">妊娠している女性に対する嫌がらせや批判する事。</p>
-            <br> 
+            <br>
             <h6 class="program_little">年齢差別</h6>
             <hr>
             <p class="campaign_little">人の年齢で差別をする事（例：高齢者に対する仕事場での差別）。</p>
-            <br>  
+            <br>
             <h6 class="program_little">障害者差別</h6>
             <hr>
             <p class="campaign_little">生まれつきからある病気（失読症など)や、病気を抱えている人（白血病など）、障害者（身体の部分が麻痺している）人に対する嫌がらせなどをする事。</p>
-            <br>  
+            <br>
         </div>
-        
-    </div> 
+
+    </div>
     <div class="nextback">
-            <nuxt-link to="/otherdiscrimination/religiousdiscrimination"><img class="back" src="~/assets/modoru2.png"></nuxt-link>
-            <!--<nuxt-link to="/others/why"><img class="next" src="~/assets/tugi.png"></nuxt-link>-->
+            <nuxt-link to="/otherdiscrimination/religiousdiscrimination"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
         </div>
-    
+
      <Footer></Footer>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Header from "~/components/Header"
 import Footer from "~/components/Footer"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Header, Footer },
   head() {
     return {
@@ -65,38 +66,38 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 /*.start{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
+  text-align: center;
 }*/
 
 .two_little{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_little{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -105,20 +106,20 @@ export default {
 .activity{
     width: 75%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 .program_little{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_little{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 

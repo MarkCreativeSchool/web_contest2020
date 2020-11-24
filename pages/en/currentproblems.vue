@@ -25,11 +25,11 @@
      </ol>
 <br>
          <h3 class="start_current"><span class="under">Incidents</span></h3>
-      <p class="two_current">We have compiled/summarized some issues/movements regarding racism against black people on the US map below. However, please note that this map does not include all incidents/movements, and that there are several other problems, issues, and protests that are not mentioned below. 
+      <p class="two_current">We have compiled/summarized some issues/movements regarding racism against black people on the US map below. However, please note that this map does not include all incidents/movements, and that there are several other problems, issues, and protests that are not mentioned below.
 
       </p>
 
-      <img class="map" src="~/assets/usmap.png">
+      <img class="map" src="/usmap.png">
       </div>
 
         <Footereng></Footereng>
@@ -94,20 +94,20 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
- 
+
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 .two_current{
-  font-family: "Noto Sans JP"; 
-  width: 67%; 
+  font-family: "Noto Sans JP";
+  width: 67%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
@@ -115,7 +115,7 @@ export default {
   .start_current{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 67%;
     color: black;

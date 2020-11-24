@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">Tear gas</div>
         <div class="note-content-sub">
           <br>On June 26th, the protesters pulled down the barricades, and caused a fire in the police buildings. In response, the police used tear gas in order to disperse the protesters. The mayor later on banned the use of CR Tear gas in portland. Furthermore, the police made a decision to increase the level of security in Portland.
@@ -10,9 +10,9 @@
         <div class="year">(Oregon・2020)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/ore.png">
+          <img class="map2" :src="`${prefix}/ore.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "or.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

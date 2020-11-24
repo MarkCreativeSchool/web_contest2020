@@ -10,7 +10,7 @@
     <br>
     <h3 class="start_little"><span class="under">Little known discrimination</span></h3>
     <p class="two_little">
-        While major forms of discrimination are often brought up today, <mark class="highlights"><b>there are several forms of discrimination that is still unknown</b></mark>. Here are some examples of discrimination that is not noticed but should be. 
+        While major forms of discrimination are often brought up today, <mark class="highlights"><b>there are several forms of discrimination that is still unknown</b></mark>. Here are some examples of discrimination that is not noticed but should be.
     <br />
     </p>
 
@@ -22,31 +22,33 @@
             <h6 class="program_little">Discrimination against pregnant women</h6>
             <hr>
             <p class="campaign_little">There are several cases where pregnant women face discrimination at work, as well as in the public, such as public transportation. </p>
-            <br /> 
+            <br />
             <h6 class="program_little">Age discrimination</h6>
             <hr>
             <p class="campaign_little">Discrimination against people with a certain age is also an issue that is being raised today. </p>
-            <br />  
+            <br />
             <h6 class="program_little">Discrimination against handicapped people/people with disorders</h6>
             <hr>
             <p class="campaign_little">Discrimination people who have disorders (ADD, Dyslexia, Alzheimer's disease, etc) and/or handicapped (a part of their body is paralyzed, etc.). </p>
-            <br /> 
+            <br />
         </div>
-        
-    </div> 
+
+    </div>
     <div class="nextback">
-            <nuxt-link to="/en/otherdiscrimination/religiousdiscrimination"><img class="back" src="~/assets/back2.png"></nuxt-link>
+            <nuxt-link to="/en/otherdiscrimination/religiousdiscrimination"><img class="back" :src="`${prefix}/back2.png`"></nuxt-link>
         </div>
-    
+
      <Footereng></Footereng>
   </div>
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 import Headereng from "~/components/Headereng"
 import Footereng from "~/components/Footereng"
 export default {
   name: "Index",
+  mixins: [ Mixin ],
   components: { Headereng, Footereng },
   head() {
     return {
@@ -64,26 +66,26 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 .two_little{
-  font-family: "Noto Sans JP"; 
-  width: 50%; 
+  font-family: "Noto Sans JP";
+  width: 50%;
   margin: 0 auto;
-  margin-top: 30px; 
-  font-size: 18px; 
+  margin-top: 30px;
+  font-size: 18px;
   text-indent: 1em;
 }
 
 .start_little{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 50%;
     color: black;
@@ -92,21 +94,21 @@ export default {
 .activity{
     width: 80%;
     margin: 0 auto;
-    margin-top: 30px; 
-    font-family: "Noto Sans JP"; 
+    margin-top: 30px;
+    font-family: "Noto Sans JP";
 }
 
 
 .program_little{
     width: 50%;
     margin: 0 auto;
-    font-size: 21px; 
-    font-weight: bold; 
+    font-size: 21px;
+    font-weight: bold;
 }
 .campaign_little{
-  width: 50%; 
+  width: 50%;
   margin: 0 auto;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 

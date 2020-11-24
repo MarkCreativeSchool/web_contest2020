@@ -13,13 +13,13 @@
      <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/saryu.jpg" alt="Placeholder image">
+            <img src="/saryu.jpg" alt="Placeholder image">
           </figure>
         </div>
 
         <div class="content">
               <b>Saryu</b> <br />
-              
+
       15 years old with but they say my mental age is 5... I love computers and games! I'm doing martial arts but I haven't moved recently and I'm dull. I am living a healthy life.
               <br />
          </div>
@@ -27,7 +27,7 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/matoilogo.jpg" alt="Placeholder image">
+            <img src="/matoilogo.jpg" alt="Placeholder image">
           </figure>
         </div>
 
@@ -40,13 +40,13 @@
       <div class="card">
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="~/assets/kanaprofile.jpg" alt="Placeholder image">
+            <img src="/kanaprofile.jpg" alt="Placeholder image">
           </figure>
         </div>
 
             <div class="content">
              <b>Mikeke</b> <br />
-              I love music. I especially am into Taylor Swift’s new album, Folklore. A potterhead, and I also enjoy the Marvel movies (MCU). I prefer cats over dogs. My replies are often slow when texting.  
+              I love music. I especially am into Taylor Swift’s new album, Folklore. A potterhead, and I also enjoy the Marvel movies (MCU). I prefer cats over dogs. My replies are often slow when texting.
            <br>
             </div>
       </div>
@@ -54,8 +54,8 @@
 </div>
 <br>
 <div class="nextback">
-            <nuxt-link to="/en/others/sitemap"><img class="back" src="~/assets/back.png"></nuxt-link>
-            <nuxt-link to="/en/others/references"><img class="next" src="~/assets/next.png"></nuxt-link>
+            <nuxt-link to="/en/others/sitemap"><img class="back" src="/back.png"></nuxt-link>
+            <nuxt-link to="/en/others/references"><img class="next" src="/next.png"></nuxt-link>
         </div>
       <Footereng></Footereng>
   </div>
@@ -83,17 +83,17 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 /*.two{
-  font-family: "Noto Sans JP"; 
-  width: 63%; 
+  font-family: "Noto Sans JP";
+  width: 63%;
   margin: 0 auto;
-  margin-top: 10px; 
-  font-size: 18px; 
+  margin-top: 10px;
+  font-size: 18px;
 }*/
 
 .start_profile{
     font-weight: bold;
     font-size: 30px;
-    font-family: "Noto Sans JP"; 
+    font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 80%;
     color: black;
@@ -101,36 +101,36 @@ export default {
 
 
 .more{
-  font-family: "Noto Sans JP"; 
+  font-family: "Noto Sans JP";
   color: #ffffff;
   background-color: #000000;
   background-position: center center;
-  width: 83%; 
+  width: 83%;
   margin: 0 auto;
-  font-size: 30px; 
-  border-radius: 3px; 
+  font-size: 30px;
+  border-radius: 3px;
   text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center; 
-  margin-top: 45px; 
+  text-align: center;
+  margin-top: 45px;
 }
 
 .card{
   width: 24%;
   display: inline-block;
-  margin: 20px; 
-  padding: 1px; 
-  border-radius: 3px; 
-  background-color: #000000; 
+  margin: 20px;
+  padding: 1px;
+  border-radius: 3px;
+  background-color: #000000;
 }
 
 .profile{
-  display: block; 
-  width: 100%; 
-  text-align: center; 
+  display: block;
+  width: 100%;
+  text-align: center;
 }
 
-.content{ 
-  font-size: 14px; 
+.content{
+  font-size: 14px;
   color: #f6d405;
 }
 

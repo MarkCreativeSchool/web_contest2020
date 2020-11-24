@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">フレディ・グレイ死亡事件</div>
         <div class="note-content-sub">
           <br>警察車両をみて逃走したフレディ・グレイは拘束された際、車両の後部座席で脊髄を骨折。搬送されたた後死亡が確認された。警察官6人が起訴され、第2級暴行罪や過失致死などの罪に問われていたが、これまでに裁判で3人が無罪判決を言い渡されていた。検察は、残る3人についても同じ結果になる可能性が高いとして起訴を取り下げた。
@@ -10,9 +10,9 @@
         <div class="year">(メリーランド州・2015年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/meri.png">
+          <img class="map2" :src="`${prefix}/meri.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

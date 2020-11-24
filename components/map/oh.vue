@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="main-content">
           <div class="note-content">ジョン・クロフォード射殺事件</div>
           <div class="year">(オハイオ州・2014年)</div>
@@ -17,9 +17,9 @@
         </div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/oha.png">
+          <img class="map2" :src="`${prefix}/oha.png`">
         </div>
       </div>
     </div>
@@ -27,8 +27,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "oh.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

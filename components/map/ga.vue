@@ -2,7 +2,7 @@
   <div>
     <div class="layer" v-if="true" @click="onClose" :class="{isRemove: isRemove===true}">
       <div class="image-wrapper">
-        <img class="note" src="~/assets/note.png">
+        <img class="note" :src="`${prefix}/note.png`">
         <div class="note-content">アマード・アベリー死亡事件</div>
         <div class="note-content-sub">
           <br>ジョギングしてた黒人男性のアマード・アベリーが白人親子に殺害される事件。しかし、事件後に親子は釈放されている。容疑者は、近所で発生した強盗事件の犯人だと思ったと主張している。
@@ -10,9 +10,9 @@
         <div class="year">(ジョージア州・2020年)</div>
       </div>
       <div class="map-wrapper">
-        <img class="map" src="~/assets/note2.png">
+        <img class="map" :src="`${prefix}/note2.png`">
         <div class="map2-wrapper">
-          <img class="map2" src="~/assets/jo.png">
+          <img class="map2" :src="`${prefix}/jo.png`">
         </div>
       </div>
     </div>
@@ -20,8 +20,10 @@
 </template>
 
 <script>
+import Mixin from "~/mixins/mixin";
 export default {
   name: "mn.vue",
+  mixins: [ Mixin ],
   data(){
     return{
       isRemove: false

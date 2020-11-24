@@ -2,11 +2,11 @@
   <div class="fullhead">
    <div class="toggle" :class="{ isHome: isHome === true }">
    <div class="up">
-   <nuxt-link to="/en" v-if="isHome"><img class="logo" src="~/assets/newlogoeng.png"></nuxt-link>
-   <nuxt-link to="/en" v-else><img class="logo" src="~/assets/black_logo_en.png"></nuxt-link>
+   <nuxt-link to="/en" v-if="isHome"><img class="logo" :src="`${prefix}/newlogoeng.png`"></nuxt-link>
+   <nuxt-link to="/en" v-else><img class="logo" :src="`${prefix}/black_logo_en.png`"></nuxt-link>
     <div class="uppersub_eng">
-        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
-        <span>Top</span> 
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }">
+        <span>Top</span>
         <ul class="sub">
               <li><nuxt-link to="/en" class="downsub">Home</nuxt-link></li>
               <li><nuxt-link to="/en/what" class="downsub">What?</nuxt-link></li>
@@ -15,8 +15,8 @@
         </nuxt-link>
         <nuxt-link to="/en/history" class="bar_en" :class="{ isHome: isHome === true }">History</nuxt-link>
         <nuxt-link to="/en/currentproblems" class="bar_en" :class="{ isHome: isHome === true }">Incidents</nuxt-link>
-       <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
-        <span>Statistics</span> 
+       <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }">
+        <span>Statistics</span>
         <ul class="sub">
               <li><nuxt-link to="/en/current/statistics/work" class="downsub">Work</nuxt-link></li>
               <li><nuxt-link to="/en/current/statistics/education" class="downsub">Education</nuxt-link></li>
@@ -25,8 +25,8 @@
             </ul>
         </nuxt-link>
 
-        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
-        <span>Discrimination</span> 
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }">
+        <span>Discrimination</span>
         <ul class="sub">
               <li><nuxt-link to="/en/otherdiscrimination/genderdiscrimination" class="downsub">Gender</nuxt-link></li>
               <li><nuxt-link to="/en/otherdiscrimination/asiandiscrimination" class="downsub">Asian</nuxt-link></li>
@@ -35,9 +35,9 @@
               <li><nuxt-link to="/en/otherdiscrimination/littleknowndiscrimination" class="downsub">Others</nuxt-link></li>
             </ul>
         </nuxt-link>
-        
-        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }"> 
-        <span>Others</span> 
+
+        <nuxt-link to="" class="bar_en" :class="{ isHome: isHome === true }">
+        <span>Others</span>
         <ul class="sub">
             <!--  <li><nuxt-link to="/en/others/why" class="subpage">Why?</nuxt-link></li>-->
               <li><nuxt-link to="/en/others/sitemap" class="downsub">Site Map</nuxt-link></li>
@@ -48,25 +48,27 @@
         <!-- <nuxt-link to="/" class="bar_en">日本語</nuxt-link> -->
         <a @click="tojp" class="bar_en" :class="{ isHome: isHome === true }">日本語</a>
    </div>
-  </div> 
   </div>
-           
+  </div>
+
   </div>
 </template>
 
 <script>
+import Mixin from "../mixins/mixin";
 export default {
     name: "Headereng",
+  mixins: [ Mixin ],
   data(){
     return {
-      activeIndex: null, 
+      activeIndex: null,
     }
   },
   computed: {
     isHome() {
       if (this.$route.path === "/en" || this.$route.path === "/en/index.html" || this.$route.path === "/en/") {
         return true
-      } 
+      }
       return false
     }
   },
@@ -98,13 +100,13 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 .up{
-    padding-top: 5px; 
+    padding-top: 5px;
     padding-bottom: 5px;
     /* background-image: linear-gradient(to bottom, #000000, #0f0f0f, #191919, #222222, #2b2b2b, #2b2b2b, #2b2b2b, #2b2b2b, #222222, #191919, #0f0f0f, #000000);  */
     /* background-color: black; */
     background: rgba(255,255,255,0);
     color: #ffffff;
-    display: inline-block; 
+    display: inline-block;
     width: 100%;
     text-align: center;
 }
@@ -118,17 +120,17 @@ export default {
 
 .logo{
   display: inline-block;
-  width: 75px; 
+  width: 75px;
   height: 75x;
-  float: left; 
-  margin-left: 20px; 
-  margin-top: 5px; 
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 
 
 .toggle{
-  display: inline-block; 
+  display: inline-block;
   width:100%;
   margin-bottom: 0px;
   border-bottom: solid 1px #ddd;
@@ -137,15 +139,15 @@ export default {
 .bar_en{
   color: black;
   text-align: center;
-  padding-left: 10px; 
-  padding-right: 10px; 
-  padding-top: 7px; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
   padding-bottom: 7px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 800;
-  position: relative; 
-  flex: 1; 
+  position: relative;
+  flex: 1;
   font-family: "Rockwell";
   margin: 0 auto;
 }
@@ -155,12 +157,12 @@ export default {
 }
 
 .uppersub_eng{
-  display:flex; 
-  margin: 0 auto; 
+  display:flex;
+  margin: 0 auto;
   padding-top: 15px;
   padding-bottom: 25px;
   width: 55%;
-  float:right; 
+  float:right;
 }
 
 .bar_en.isHome{
@@ -168,14 +170,14 @@ export default {
 }
 
 .bar_en:hover{
-  color: #ffa000; 
+  color: #ffa000;
 }
 
 .bar_en .sub{
   z-index: 2000;
 }
 .bar_en:hover .sub{
-  display: block; 
+  display: block;
   z-index:2000;
 }
 
@@ -195,12 +197,12 @@ export default {
 }
 
 .bar_en.active .sub{
-  display: block; 
+  display: block;
   z-index: 2000;
 }
 
 .menu{
-    width: 100%; 
+    width: 100%;
 }
 
 .sub{
@@ -210,21 +212,21 @@ export default {
   width: 160px;
   position: absolute;
   top: 100%;
-  left: 50%; 
-  margin-left: -80px; 
+  left: 50%;
+  margin-left: -80px;
   z-index: 10;
   display: none;
 }
 /*.subpage{
-  color: #ffa000; 
-  font-family: "Rockwell"; 
-  padding: 5px; 
+  color: #ffa000;
+  font-family: "Rockwell";
+  padding: 5px;
 }*/
 
 .downsub{
-color: #ffffff; 
-  font-family: "Rockwell"; 
-  padding: 5px; 
+color: #ffffff;
+  font-family: "Rockwell";
+  padding: 5px;
 }
 
 .downsub:hover{
