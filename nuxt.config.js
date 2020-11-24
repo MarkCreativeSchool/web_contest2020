@@ -1,7 +1,9 @@
 
 const routerBase = process.env.DEPLOY_ENV === 'PRODUCTION' ? {
   router: {
-    base: '/tqj23/230005R/',
+    // base: '/tqj23/230005R/',
+    base: "/",
+    mode: "hash",
     extendRoutes(routes, resolve) {
       routes.push({
         path     : '/index.html',
@@ -20,7 +22,7 @@ const routerBase = process.env.DEPLOY_ENV === 'PRODUCTION' ? {
   }
 } : {}
 export default {
-  mode: 'universal',
+  mode: 'spa',
   ...routerBase,
   /*
   ** Headers of the page
@@ -94,7 +96,8 @@ export default {
     */
     extend (config, ctx) {
       if(!ctx.isDev) {
-        config.output.publicPath = './_nuxt/'
+        // config.output.publicPath = './_nuxt/'
+        config.output.publicPath = '/tqj23/230005R/_nuxt/'
       }
     }
   }
