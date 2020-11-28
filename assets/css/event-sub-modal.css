@@ -1,8 +1,8 @@
 .event-sub-modal .border{
   position: fixed;
-  top: calc(50% + 15px);
+  top: calc(50% + 20px);
   left: 50%;
-  height: 50%;
+  height: 55%;
   transform: translate(-50%, -50%);
   width: 990px;
   background: #ffffff;
@@ -32,7 +32,7 @@
   padding-left: 60px;
   padding-right:20px;
   font-size: 20px;
-  height: 93%;
+  height: 84%;
   overflow-y: auto;
   font-weight: normal;
   text-align: left;
