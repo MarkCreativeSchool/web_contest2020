@@ -269,8 +269,9 @@ export default {
 .line_sub_name{
   position: relative;
   top: 17px;
+  padding-top: 2px;
   width: 387px;
-  font-size:9px;
+  font-size:10px;
 }
 .year-main{
   display: flex;
