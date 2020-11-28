@@ -15,10 +15,10 @@
         <div class="linebar"></div>
         <div class="year">
           <h6>
-            <div class="timelineFirst">1800</div>
+            <div class="timelineFirst">1854</div>
           </h6>
           <h6>
-            <div class="timelineLast">1823</div>
+            <div class="timelineLast">1865</div>
           </h6>
         </div>
       </div>

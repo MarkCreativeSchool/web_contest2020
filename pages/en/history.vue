@@ -40,7 +40,7 @@
           <div class="linebar line8" @click="onClick('line8')"><p class="line_sub_name">Chapter 8: 21st Century America</p></div>
         </div>
         <div class="line">
-          <div class="linebar lastLine" @click="onClick('lastLine')"><p class="line_sub_name">The History of Racism</p></div>
+          <div class="linebar lastLine" @click="onClick('lastLine')"><p class="lastLine-name">The History of Racism</p></div>
         </div>
         <div class="year-main">
           <h6>1600</h6>
@@ -168,8 +168,8 @@ export default {
 }
 .line1{
   position: absolute;
-  width: 177px;
-  left: 370px;
+  width: 361px;
+  left: 17px;
 }
 .line1 .line1-name{
   position: relative;
@@ -179,7 +179,7 @@ export default {
 }
 .line2{
   position: absolute;
-  left: 547px;
+  left: 376px;
   width: 38px;
 }
 .line2 .line2-name{
@@ -190,7 +190,7 @@ export default {
 }
 .line3{
   position: absolute;
-  left: 633px;
+  left: 503px;
   width: 40px;
 }
 .line3 .line3-name{
@@ -201,7 +201,7 @@ export default {
 }
 .line4{
   position: absolute;
-  left: 675px;
+  left: 609px;
   width:30px;
 }
 .line4 .line4-name{
@@ -212,7 +212,7 @@ export default {
 }
 .line5{
   position: absolute;
-  left: 781px;
+  left: 725px;
   width: 20px;
 }
 .line5 .line5-name{
@@ -223,7 +223,7 @@ export default {
 }
 .line6{
   position: absolute;
-  left: 835px;
+  left: 765px;
   width: 20px;
 }
 .line6 .line6-name{
@@ -234,7 +234,7 @@ export default {
 }
 .line7{
   position: absolute;
-  left: 875px;
+  left: 787px;
   width: 35px;
 }
 .line7 .line7-name{
@@ -245,7 +245,7 @@ export default {
 }
 .line8{
   position:absolute;
-  left: 800px;
+  left: 890px;
   width: 80px;
 }
 .line8 .line8-name{
