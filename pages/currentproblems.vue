@@ -174,80 +174,80 @@ export default {
     z-index: 10;
   }
   .or{
-    top: 433px;
+    top: 413px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
   .ca{
-    top: 513px;
+    top: 493px;
     left: 40px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
   .mn{
-    top: 405px;
+    top: 385px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
   .mo{
-    top: 611px;
+    top: 591px;
     left: 534px;
     width: 91px;
     height: 80px;
   }
   .il{
-    top: 544px;
+    top: 524px;
     left: 627px;
     width: 50px;
     height: 107px;
   }
   .ky{
-    top: 606px;
+    top: 586px;
     left: 678px;
     width: 104px;
     height: 55px;
   }
   .oh{
-    top: 511px;
+    top: 491px;
     left: 736px;
     width: 63px;
     height: 64px;
   }
   .ny{
-    top: 422px;
+    top: 402px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
   .pa{
-    top: 504px;
+    top: 484px;
     left: 809px;
     width: 84px;
     height: 53px;
   }
   .md{
-    top: 575px;
+    top: 555px;
     left: 855px;
     width: 68px;
     height: 55px;
   }
   .ga{
-    top: 728px;
+    top: 708px;
     left: 727px;
     width: 81px;
     height: 86px;
   }
   .fl{
-    top: 826px;
+    top: 806px;
     left: 713px;
     width: 140px;
     height: 110px;
   }
   .ma{
-    top: 414px;
+    top: 394px;
     left: 929px;
     width: 20px;
     height: 20px;

@@ -1,19 +1,19 @@
 <template>
   <div>
     <div class="parent">
-      <div class="box or" @click="onClick('or')">or</div>
-      <div class="box ca" @click="onClick('ca')">ca</div>
-      <div class="box mn" @click="onClick('mn')">mn</div>
-      <div class="box mo" @click="onClick('mo')">mo</div>
-      <div class="box il" @click="onClick('il')">il</div>
-      <div class="box ky" @click="onClick('ky')">ky</div>
-      <div class="box oh" @click="onClick('oh')">oh</div>
-      <div class="box ny" @click="onClick('ny')">ny</div>
-      <div class="box ma" @click="onClick('ma')">ma</div>
-      <div class="box pa" @click="onClick('pa')">pa</div>
-      <div class="box md" @click="onClick('md')">md</div>
-      <div class="box ga" @click="onClick('ga')">ga</div>
-      <div class="box fl" @click="onClick('fl')">fl</div>
+      <div class="box_en or_en" @click="onClick('or')">or</div>
+      <div class="box_en ca_en" @click="onClick('ca')">ca</div>
+      <div class="box_en mn_en" @click="onClick('mn')">mn</div>
+      <div class="box_en mo_en" @click="onClick('mo')">mo</div>
+      <div class="box_en il_en" @click="onClick('il')">il</div>
+      <div class="box_en ky_en" @click="onClick('ky')">ky</div>
+      <div class="box_en oh_en" @click="onClick('oh')">oh</div>
+      <div class="box_en ny_en" @click="onClick('ny')">ny</div>
+      <div class="box_en ma_en" @click="onClick('ma')">ma</div>
+      <div class="box_en pa_en" @click="onClick('pa')">pa</div>
+      <div class="box_en md_en" @click="onClick('md')">md</div>
+      <div class="box_en ga_en" @click="onClick('ga')">ga</div>
+      <div class="box_en fl_en" @click="onClick('fl')">fl</div>
       <div class="space"></div>
     </div>
     <div class="full">
@@ -149,81 +149,81 @@ export default {
     margin-left: auto;
     margin-right: auto;
   }
-  .box{
+  .box_en{
     position:absolute;
      /*background-color: #4CAF50;*/
     opacity: 0;
     cursor: pointer;
     z-index: 10;
   }
-  .or{
+  .or_en{
     top: 427px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
-  .ca{
+  .ca_en{
     top: 512px;
     left: 47px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
-  .mn{
+  .mn_en{
     top: 403px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
-  .mo{
+  .mo_en{
     top: 609px;
     left: 539px;
     width: 91px;
     height: 80px;
   }
-  .il{
+  .il_en{
     top: 542px;
     left: 633px;
     width: 50px;
     height: 107px;
   }
-  .ky{
+  .ky_en{
     top: 603px;
     left: 686px;
     width: 104px;
     height: 55px;
   }
-  .oh{
+  .oh_en{
     top: 511px;
     left: 746px;
     width: 63px;
     height: 64px;
   }
-  .ny{
+  .ny_en{
     top: 412px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
-  .pa{
+  .pa_en{
     top: 499px;
     left: 817px;
     width: 84px;
     height: 53px;
   }
-  .md{
+  .md_en{
     top: 572px;
     left: 863px;
     width: 68px;
     height: 55px;
   }
-  .ga{
+  .ga_en{
     top: 726px;
     left: 733px;
     width: 81px;
     height: 86px;
   }
-  .fl{
+  .fl_en{
     top: 827px;
     left: 720px;
     width: 140px;
