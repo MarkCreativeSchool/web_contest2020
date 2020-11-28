@@ -16,28 +16,28 @@
     <br>
       <div class="timeline">
         <div class="line">
-          <div class="linebar line1" @click="onClick('line1')"><p class="line_sub_name">Chapter 1: The Discovery of the Continent / The Birth of 13 Colonies</p></div>
+          <div class="linebar line1" @click="onClick('line1')"><p class="line_sub_name">Chapter 1:<br>The Discovery of the Continent / The Birth of 13 Colonies</p></div>
         </div>
         <div class="line">
-          <div class="linebar line2" @click="onClick('line2')"><p class="line_sub_name">Chapter 2: Start of the Revolutionary War</p></div>
+          <div class="linebar line2" @click="onClick('line2')"><p class="line_sub_name">Chapter 2:<br>Start of the Revolutionary War</p></div>
         </div>
         <div class="line">
-          <div class="linebar line3" @click="onClick('line3')"><p class="line_sub_name">Chapter 3: History after the Revolutionary War</p></div>
+          <div class="linebar line3" @click="onClick('line3')"><p class="line_sub_name">Chapter 3:<br>History after the Revolutionary War</p></div>
         </div>
         <div class="line">
-          <div class="linebar line4" @click="onClick('line4')"><p class="line_sub_name">Chapter 4: American Civil War</p></div>
+          <div class="linebar line4" @click="onClick('line4')"><p class="line_sub_name">Chapter 4:<br>American Civil War</p></div>
         </div>
         <div class="line">
-          <div class="linebar line5" @click="onClick('line5')"><p class="line_sub_name">Chapter 5: World War I</p></div>
+          <div class="linebar line5" @click="onClick('line5')"><p class="line_sub_name">Chapter 5:<br>World War I</p></div>
         </div>
         <div class="line">
-          <div class="linebar line6" @click="onClick('line6')"><p class="line_sub_name">Chapter 6: World War II</p></div>
+          <div class="linebar line6" @click="onClick('line6')"><p class="line_sub_name">Chapter 6:<br>World War II</p></div>
         </div>
         <div class="line">
-          <div class="linebar line7" @click="onClick('line7')"><p class="line_sub_name">Chapter 7: Cold War</p></div>
+          <div class="linebar line7" @click="onClick('line7')"><p class="line_sub_name">Chapter 7:<br>Cold War</p></div>
         </div>
         <div class="line">
-          <div class="linebar line8" @click="onClick('line8')"><p class="line_sub_name">Chapter 8: 21st Century America</p></div>
+          <div class="linebar line8" @click="onClick('line8')"><p class="line_sub_name">Chapter 8:<br>21st Century America</p></div>
         </div>
         <div class="line">
           <div class="linebar lastLine" @click="onClick('lastLine')"><p class="lastLine-name">The History of Racism</p></div>
@@ -270,7 +270,7 @@ export default {
   position: relative;
   top: 17px;
   width: 387px;
-  font-size:12px;
+  font-size:9px;
 }
 .year-main{
   display: flex;
