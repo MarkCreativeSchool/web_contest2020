@@ -14,6 +14,7 @@
       <div class="box md" @click="onClick('md')">md</div>
       <div class="box ga" @click="onClick('ga')">ga</div>
       <div class="box fl" @click="onClick('fl')">fl</div>
+      <div class="box ma" @click="onClick('ma')">ma</div>
       <div class="space"></div>
     </div>
     <div class="full">
@@ -167,83 +168,89 @@ export default {
   }
   .box{
     position:absolute;
-    /*background-color: #4CAF50;*/
-    opacity: 0;
+    background-color: #4CAF50;
+    opacity: 0.2;
     cursor: pointer;
     z-index: 10;
   }
   .or{
-    top: 400px;
+    top: 433px;
     left: 40px;
     width: 115px;
     height: 79px;
   }
   .ca{
-    top: 470px;
+    top: 513px;
     left: 40px;
     width: 77px;
     height: 215px;
     transform: rotate(-25deg)
   }
   .mn{
-    top: 370px;
+    top: 405px;
     left: 530px;
     width: 83px;
     height: 107px;
   }
   .mo{
-    top: 580px;
-    left: 539px;
+    top: 611px;
+    left: 534px;
     width: 91px;
     height: 80px;
   }
   .il{
-    top: 510px;
-    left: 633px;
+    top: 544px;
+    left: 627px;
     width: 50px;
     height: 107px;
   }
   .ky{
-    top: 570px;
-    left: 686px;
+    top: 606px;
+    left: 678px;
     width: 104px;
     height: 55px;
   }
   .oh{
-    top: 485px;
-    left: 746px;
+    top: 511px;
+    left: 736px;
     width: 63px;
     height: 64px;
   }
   .ny{
-    top: 390px;
+    top: 422px;
     left: 810px;
     width: 96px;
     height: 73px;
   }
   .pa{
-    top: 470px;
-    left: 817px;
+    top: 504px;
+    left: 809px;
     width: 84px;
     height: 53px;
   }
   .md{
-    top: 550px;
-    left: 863px;
+    top: 575px;
+    left: 855px;
     width: 68px;
     height: 55px;
   }
   .ga{
-    top: 690px;
-    left: 733px;
+    top: 728px;
+    left: 727px;
     width: 81px;
     height: 86px;
   }
   .fl{
-    top: 800px;
-    left: 720px;
+    top: 826px;
+    left: 713px;
     width: 140px;
     height: 110px;
+  }
+  .ma{
+    top: 414px;
+    left: 929px;
+    width: 20px;
+    height: 20px;
   }
 
   .next{
