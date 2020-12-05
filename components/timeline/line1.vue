@@ -4,15 +4,15 @@
     <div class="event-modal">
       <div class="event-title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
       <!--イベント-->
-      <div class="event0" @click="onClick('event0')"></div>
-      <div class="event1" @click="onClick('event1')"></div>
-      <div class="event2" @click="onClick('event2')"></div>
-      <div class="event3" @click="onClick('event3')"></div>
-      <div class="event4" @click="onClick('event4')"></div>
-      <div class="event5" @click="onClick('event5')"></div>
-      <div class="event6" @click="onClick('event6')"></div>
-      <div class="event7" @click="onClick('event7')"></div>
-      <div class="event8" @click="onClick('event8')"></div>
+      <div class="event0" @click="onClick('event0')"><p class="line_sub_name">新大陸の発見</p></div>
+      <div class="event1" @click="onClick('event1')"><p class="line_sub_name">2-1: 奴隷輸入</p></div>
+      <div class="event2" @click="onClick('event2')"><p class="line_sub_name">2-2 : 13の植民地誕生</p></div>
+      <div class="event3" @click="onClick('event3')"><p class="line_sub_name">七年戦争(1756年~1763年)</p></div>
+      <div class="event4" @click="onClick('event4')"><p class="line_sub_name">砂糖法(1764年)</p></div>
+      <div class="event5" @click="onClick('event5')"><p class="line_sub_name">印紙法(1765年)</p></div>
+      <div class="event6" @click="onClick('event6')"><p class="line_sub_name">タウンゼンド諸法(1767年)</p></div>
+      <div class="event7" @click="onClick('event7')"><p class="line_sub_name">ボストン茶会事件(1773年)</p></div>
+      <div class="event8" @click="onClick('event8')"><p class="line_sub_name">強圧的諸条令(1774年)</p></div>
 
 
       <div class="linebar"></div>
