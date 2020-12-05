@@ -20,7 +20,7 @@
 .event-modal .linebar{
   position: relative;
   /*top: calc(85% - 110px);*/
-  bottom: calc(1% - 155px);
+  bottom: calc(1% - 185px);
   width: 90%;
   margin: 0 auto;
   height: 20px;
@@ -32,7 +32,7 @@
   display: flex;
   align-content: space-between;
   width: 100%;
-  bottom: calc(1% - 160px);
+  bottom: calc(1% - 190px);
   flex: 1;
   font-size: 17px;
   font-weight: bold;

@@ -100,7 +100,7 @@ export default {
 }
 .event-modal .event3{
   position:relative;
-  top: calc(10% - 15px);
+  top: calc(10% - 5px);
   left: 710px;
   width: 90px;
   height: 20px;
@@ -110,7 +110,7 @@ export default {
 }
 .event-modal .event4{
   position:relative;
-  top: calc(10% - 10px);
+  top: calc(10% + 15px);
   left: 798px;
   width: 20px;
   height: 20px;
@@ -120,7 +120,7 @@ export default {
 }
 .event-modal .event5{
   position:relative;
-  top: calc(10% - 5px);
+  top: calc(10% + 35px);
   left: 815px;
   width: 20px;
   height: 20px;
@@ -130,7 +130,7 @@ export default {
 }
 .event-modal .event6{
   position:relative;
-  top: 10%;
+  top: calc(10% + 55px);
   left: 830px;
   width: 20px;
   height: 20px;
@@ -140,7 +140,7 @@ export default {
 }
 .event-modal .event7{
   position:relative;
-  top: calc(10% + 20px);
+  top: calc(10% + 75px);
   left: 900px;
   width: 20px;
   height: 20px;
@@ -150,7 +150,7 @@ export default {
 }
 .event-modal .event8{
   position:relative;
-  top: calc(10% + 40px);
+  top: calc(10% + 95px);
   left: 920px;
   width: 20px;
   height: 20px;
