@@ -8,7 +8,14 @@
      </ol>
     <br>
     <h3 class="start_what"><span class="under">SDGsとは？</span></h3>
-    
+    <br>
+    <h2 class="opening-title">SGDs(Sustainable Development Goals(持続可能な開発目標))</h2>
+    <p class="contents">
+        2001年に策定されたミレニアム開発目標(MDGs)の後継として、2015年9月に国連サミットで採択され、国連加盟193か国が2016年から2030年の15年間で達成するために掲げた国際社会の目標。17のゴールと169のターゲットから構成され、地球上の「誰一人取り残さない(leave no one behind)」ことを誓っている。SDGsは発展途上国のみならず、先進国地震が取り組むユニバーサルなものであり、日本としても積極的に取り組んでいる。
+    </p>
+    <div class="logograph">
+        <img class="graphimage" :src="`${prefix}/sdgs.png`">
+    </div>
     </div>
        <div class="nextback">
         <nuxt-link to="/survey"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
@@ -66,19 +73,19 @@ export default {
     color: black;
   }
 
-/*
-.start{
-  font-family: "Noto Sans JP";
-  color: #ffffff;
-  background-color: #000000;
-  background-position: center center;
-  width: 83%;
-  margin: 0 auto;
-  font-size: 30px;
-  border-radius: 3px;
-  text-shadow: 0.5px 0.5px #f6d405;
-  text-align: center;
-}*/
+.opening-title{
+    margin: 0 auto;
+    width: 50%;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contents{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-indent: 1em;
+}
 
 .drawing3{
   display: block;
@@ -97,6 +104,17 @@ export default {
   height: 500px;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+.logograph{
+    text-align: center;
+}
+
+.graphimage{
+    width: 35%;
+    height: 2%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 </style>
