@@ -78,6 +78,7 @@ export default {
     width: 50%;
     font-weight: 800;
     font-size: 20px;
+    color:red;
 }
 
 .contents{
@@ -85,6 +86,7 @@ export default {
     margin: 0 auto;
     font-size: 15px;
     text-indent: 1em;
+    color: black;
 }
 
 .drawing3{
