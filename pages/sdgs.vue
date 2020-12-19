@@ -16,6 +16,7 @@
     <div class="logograph">
         <img class="graphimage" :src="`${prefix}/sdgs.png`">
     </div>
+
     </div>
        <div class="nextback">
         <nuxt-link to="/survey"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
@@ -118,5 +119,6 @@ export default {
     display: inline-block;
     margin: 0 auto;
 }
+
 
 </style>
