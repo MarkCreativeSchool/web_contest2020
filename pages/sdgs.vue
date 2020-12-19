@@ -8,7 +8,7 @@
      </ol>
     <br>
     <h3 class="start_what"><span class="under">SDGsとは？</span></h3>
-<br>
+    
     </div>
        <div class="nextback">
         <nuxt-link to="/survey"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
