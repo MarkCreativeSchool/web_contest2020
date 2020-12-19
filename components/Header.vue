@@ -14,6 +14,7 @@
               <li><nuxt-link to="/" class="downsub">ホーム</nuxt-link></li>
               <li><nuxt-link to="/what" class="downsub">差別とは？</nuxt-link></li>
               <li><nuxt-link to="/survey" class="downsub">アンケート結果</nuxt-link></li>
+              <li><nuxt-link to="/sdgs" class="downsub">SDGSとの関係</nuxt-link></li>
             </ul>
         </nuxt-link>
         <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link>

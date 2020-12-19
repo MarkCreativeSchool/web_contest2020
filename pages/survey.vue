@@ -76,6 +76,7 @@
 
         <div class="nextback">
          <nuxt-link to="/what"><img class="back" :src="`${prefix}/modoru2.png`"></nuxt-link>
+         <nuxt-link to="/sdgs"><img class="next" :src="`${prefix}/tugi.png`"></nuxt-link>
         </div>
 
   <Footer></Footer>
