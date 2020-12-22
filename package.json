@@ -12,10 +12,12 @@
     "generate-prod": "DEPLOY_ENV=PRODUCTION nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/bulma": "^1.2.1",
     "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^3.0.0-0"
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "chart.js": "^2.9.4",
+    "nuxt": "^2.0.0",
+    "vue-chartjs": "^3.5.1"
   },
   "devDependencies": {}
 }
